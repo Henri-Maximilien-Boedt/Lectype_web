@@ -8,6 +8,7 @@ const SQLiteStore = require('connect-sqlite3')(session);
 const compression = require('compression');
 
 const db = require('./tools/db');
+const { purgeOldEvents } = require('./tools/security-log');
 const securityHeaders = require('./middlewares/security-headers');
 const canonicalHost = require('./middlewares/canonical-host');
 const language = require('./middlewares/language');
@@ -72,6 +73,8 @@ function createApp({ sessionStore, authDelayMs, rateLimits } = {}) {
 
 async function start() {
   await db.ensureSchema();
+  await purgeOldEvents();
+  setInterval(() => purgeOldEvents().catch((error) => console.error(error)), 24 * 3600 * 1000).unref();
   const port = Number(process.env.PORT) || 3000;
   createApp().listen(port, () => console.log(`Lectype web sur http://localhost:${port}`));
 }

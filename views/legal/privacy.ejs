@@ -1,0 +1,11 @@
+<%- include('../partials/head', { title: t('legal.privacyTitle') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="legal">
+  <h1><%= t('legal.privacyTitle') %></h1>
+  <p class="muted"><%= t('legal.updated', { date: updated }) %></p>
+  <% Object.values(sections).forEach(function (entry) { %>
+    <h2><%= entry[0] %></h2>
+    <p><%= entry[1] %></p>
+  <% }) %>
+</main>
+<%- include('../partials/footer') %>

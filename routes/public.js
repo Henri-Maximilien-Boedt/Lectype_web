@@ -1,10 +1,25 @@
 const express = require('express');
-const { LANGUAGES } = require('../tools/i18n');
+const { LANGUAGES, section } = require('../tools/i18n');
+
+const LEGAL_UPDATED = '2026-11-21';
 
 const router = express.Router();
 
 router.get('/', (req, res) => {
   res.render('index');
+});
+
+router.get('/privacy', (req, res) => {
+  res.render('legal/privacy', { sections: section(req.lang, 'legal.privacy'), updated: LEGAL_UPDATED });
+});
+
+router.get('/legal', (req, res) => {
+  res.render('legal/notice', {
+    publisher: process.env.LEGAL_PUBLISHER || null,
+    contact: process.env.LEGAL_CONTACT_EMAIL || null,
+    host: process.env.LEGAL_HOST || null,
+    updated: LEGAL_UPDATED,
+  });
 });
 
 router.post('/language', (req, res) => {

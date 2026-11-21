@@ -16,4 +16,10 @@ async function eventsFor(userID, limit = 50) {
   return result.rows.map((row) => ({ event: row.event, ip: row.ip, createdAt: row.created_at }));
 }
 
-module.exports = { logEvent, eventsFor };
+const RETENTION_DAYS = 180;
+
+async function purgeOldEvents(days = RETENTION_DAYS) {
+  await db.execute({ sql: "DELETE FROM security_events WHERE created_at < datetime('now', ?)", args: [`-${days} days`] });
+}
+
+module.exports = { logEvent, eventsFor, purgeOldEvents, RETENTION_DAYS };

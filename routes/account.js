@@ -137,9 +137,9 @@ function createAccountRoutes(limits) {
     const user = await confirmPassword(req, res);
     if (!user) return renderAccount(req, res, { status: 401, problems: { deletePassword: 'account.problems.password' } });
     if (req.body.confirmDelete !== 'on') return renderAccount(req, res, { status: 400, problems: { confirmDelete: 'account.problems.confirmDelete' } });
-    await logEvent('account.deleted', { userID: user.id, ip: req.ip });
     await devices.removeOtherDevices(req.sessionStore, user.id);
     await users.deleteUser(user.id);
+    await logEvent('account.deleted', { ip: '' });
     mailer.send(emails.accountDeleted(req.lang, user.email, user.firstName));
     await regenerate(req);
     res.locals.currentUser = null;

@@ -383,5 +383,46 @@
       "reauth-failure": "Wrong current password",
       "account-deleted": "Account deleted"
     }
+  },
+  "legal": {
+    "privacyTitle": "Privacy policy",
+    "legalTitle": "Legal notice",
+    "updated": "Last updated: {date}",
+    "privacy": [
+      [
+        "Without an account",
+        "You can use Lectype without an account. Your progress, statistics and settings then stay in your browser (local storage) and are never sent to us."
+      ],
+      [
+        "With an account",
+        "We store your first name, your email address, a hash of your password (bcrypt: the password itself is never stored), your progress (books, stories, lessons), your typing sessions, the list of your logged-in devices (browser and system) and a security log (logins, password changes, with the IP address). This data is only used to run and protect your account."
+      ],
+      [
+        "Emails",
+        "Confirmation and security emails are sent by our provider Brevo. We never send you advertising."
+      ],
+      [
+        "Cookies",
+        "Lectype only uses two necessary cookies: a session cookie (to stay logged in and protect forms) and a language cookie. No advertising or analytics cookies."
+      ],
+      [
+        "Retention",
+        "Your data is kept as long as your account exists. When you delete your account, it is erased immediately, security log included. Sessions expire on their own, after 30 days at most. Security log entries (including failed login attempts) are erased after 6 months."
+      ],
+      [
+        "Your rights",
+        "From “My account”, you can edit your information, export all your data (JSON) and delete your account. For any question, write to the address given in the legal notice. You can also contact the CNIL (French data protection authority)."
+      ],
+      [
+        "Hosting",
+        "The site and its data are hosted in France by the host named in the legal notice."
+      ]
+    ],
+    "publisher": "Publisher",
+    "contact": "Contact",
+    "host": "Host",
+    "missing": "To be completed by the site publisher.",
+    "content": "Content",
+    "contentBody": "The works offered are in the public domain; their source is shown on each book's page. The original stories and the application are protected by copyright."
   }
 }

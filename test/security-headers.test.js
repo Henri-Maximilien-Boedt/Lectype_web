@@ -36,3 +36,13 @@ test('posting without a CSRF token is refused', async () => {
     await server.close();
   }
 });
+
+test('privacy and legal pages exist', async () => {
+  const server = await startTestServer();
+  try {
+    assert.equal((await fetch(`${server.base}/privacy`)).status, 200);
+    assert.equal((await fetch(`${server.base}/legal`)).status, 200);
+  } finally {
+    await server.close();
+  }
+});

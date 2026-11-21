@@ -1,0 +1,15 @@
+<%- include('../partials/head', { title: t('legal.legalTitle') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="legal">
+  <h1><%= t('legal.legalTitle') %></h1>
+  <p class="muted"><%= t('legal.updated', { date: updated }) %></p>
+  <h2><%= t('legal.publisher') %></h2>
+  <p><%= publisher || t('legal.missing') %></p>
+  <h2><%= t('legal.contact') %></h2>
+  <p><% if (contact) { %><a href="mailto:<%= contact %>"><%= contact %></a><% } else { %><%= t('legal.missing') %><% } %></p>
+  <h2><%= t('legal.host') %></h2>
+  <p><%= host || t('legal.missing') %></p>
+  <h2><%= t('legal.content') %></h2>
+  <p><%= t('legal.contentBody') %></p>
+</main>
+<%- include('../partials/footer') %>

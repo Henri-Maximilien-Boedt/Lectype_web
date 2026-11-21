@@ -70,3 +70,4 @@ form.inline { display: inline; }
 .device-list li { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
 .event-list li { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; }
 .badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--accent); color: var(--on-accent); }
+.legal { max-width: 760px; }

@@ -141,7 +141,7 @@ test('deleting the account needs the password and the checkbox, then erases ever
   const deleted = await browser.post('/account/delete', { currentPassword: PASSWORD, confirmDelete: 'on' }, '/account');
   assert.equal(deleted.status, 200);
   assert.match(deleted.text, /data-clear-local/);
-  for (const table of ['users', 'profiles', 'devices', 'email_tokens']) {
+  for (const table of ['users', 'profiles', 'devices', 'email_tokens', 'security_events']) {
     const column = table === 'users' ? 'id' : 'user_id';
     const count = (await db.execute({ sql: `SELECT COUNT(*) AS n FROM ${table} WHERE ${column} = ?`, args: [userID] })).rows[0].n;
     assert.equal(Number(count), 0, table);

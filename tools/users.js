@@ -75,6 +75,7 @@ async function updateEmail(id, email) {
 }
 
 async function deleteUser(id) {
+  await db.execute({ sql: 'DELETE FROM security_events WHERE user_id = ?', args: [id] });
   await db.execute({ sql: 'DELETE FROM users WHERE id = ?', args: [id] });
 }
 

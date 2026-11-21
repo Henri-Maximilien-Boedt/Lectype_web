@@ -383,5 +383,46 @@
       "reauth-failure": "Mot de passe actuel incorrect",
       "account-deleted": "Compte supprimé"
     }
+  },
+  "legal": {
+    "privacyTitle": "Politique de confidentialité",
+    "legalTitle": "Mentions légales",
+    "updated": "Dernière mise à jour : {date}",
+    "privacy": [
+      [
+        "Sans compte",
+        "Tu peux utiliser Lectype sans compte. Ta progression, tes statistiques et tes réglages restent alors dans ton navigateur (stockage local) et ne nous sont jamais envoyés."
+      ],
+      [
+        "Avec un compte",
+        "Nous enregistrons ton prénom, ton adresse e-mail, une empreinte de ton mot de passe (bcrypt : le mot de passe lui-même n'est jamais stocké), ta progression (livres, histoires, leçons), tes séances de frappe, la liste de tes appareils connectés (navigateur et système) et un journal de sécurité (connexions, changements de mot de passe, avec l'adresse IP). Ces données servent uniquement à faire fonctionner ton compte et à le protéger."
+      ],
+      [
+        "E-mails",
+        "Les e-mails de confirmation et de sécurité sont envoyés par notre prestataire Brevo. Nous ne t'envoyons aucune publicité."
+      ],
+      [
+        "Cookies",
+        "Lectype n'utilise que deux cookies nécessaires : un cookie de session (pour rester connecté et protéger les formulaires) et un cookie de langue. Aucun cookie publicitaire ni de mesure d'audience."
+      ],
+      [
+        "Durée de conservation",
+        "Tes données sont gardées tant que ton compte existe. Quand tu supprimes ton compte, elles sont effacées immédiatement, journal de sécurité compris. Les sessions expirent d'elles-mêmes, au plus tard après 30 jours. Les entrées du journal de sécurité (y compris les tentatives de connexion échouées) sont effacées après 6 mois."
+      ],
+      [
+        "Tes droits",
+        "Depuis « Mon compte », tu peux modifier tes informations, exporter toutes tes données (JSON) et supprimer ton compte. Pour toute question, écris-nous à l'adresse indiquée dans les mentions légales. Tu peux aussi saisir la CNIL."
+      ],
+      [
+        "Hébergement",
+        "Le site et ses données sont hébergés en France par l'hébergeur indiqué dans les mentions légales."
+      ]
+    ],
+    "publisher": "Éditeur",
+    "contact": "Contact",
+    "host": "Hébergeur",
+    "missing": "Information à compléter par l'éditeur du site.",
+    "content": "Contenus",
+    "contentBody": "Les œuvres proposées sont dans le domaine public ; leur source est indiquée sur la fiche de chaque livre. Les histoires originales et l'application sont protégées par le droit d'auteur."
   }
 }
