@@ -1,0 +1,25 @@
+<%- include('../partials/head', { title: t('learn.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="learn">
+  <div class="learn-head">
+    <h1><%= t('learn.title') %></h1>
+    <div class="learn-options">
+      <span class="muted"><%= t('learn.keyboard') %> <b id="layout-name"></b></span>
+      <label><%= t('learn.words') %>
+        <select id="word-language">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+      </label>
+    </div>
+  </div>
+  <div class="learn-summary">
+    <p class="learn-count"><b id="done-count">0</b><span id="total-count"></span> <span class="muted"><%= t('learn.lessonsDone') %></span></p>
+    <a class="next-lesson button primary" id="next-lesson" hidden></a>
+    <a class="weak-keys" id="weak-keys" hidden><span class="muted"><%= t('learn.weakKeys') %></span> <span id="weak-list"></span> <b><%= t('learn.practice') %> →</b></a>
+  </div>
+  <div id="stages" class="stages"></div>
+</main>
+<%- include('../partials/learn-strings') %>
+<%- include('../partials/app-scripts', { script: 'learn.js' }) %>
+<%- include('../partials/footer') %>

@@ -1,0 +1,37 @@
+<%- include('../partials/head', { title: t('learn.title') + ' — Lectype' }) %>
+<main id="main" class="typing lesson" data-lesson-id="<%= lessonID %>">
+  <header class="typing-head">
+    <a class="button icon" href="/app/learn" aria-label="<%= t('learn.back') %>" title="<%= t('learn.back') %>">←</a>
+    <div class="typing-title">
+      <strong id="lesson-title"></strong>
+      <span id="lesson-keys" class="muted"></span>
+    </div>
+  </header>
+  <div class="progress chapter-progress"><span class="bar" id="lesson-progress"></span></div>
+  <section class="exercise">
+    <span class="exercise-kind" id="exercise-kind"></span>
+    <p class="exercise-text" id="exercise-text"></p>
+    <p class="exercise-upcoming" id="exercise-upcoming"></p>
+  </section>
+  <div class="metrics" aria-live="polite">
+    <span><b id="wpm">0</b> <%= t('typing.wpm') %></span>
+    <span><b id="accuracy">100 %</b> <%= t('typing.accuracy') %></span>
+    <span id="dead-key" class="dead-key" hidden></span>
+  </div>
+  <div class="keyboard" id="keyboard" aria-hidden="true"></div>
+  <textarea id="typing-input" class="typing-input" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="<%= t('typing.input') %>"></textarea>
+  <div class="overlay" id="intro">
+    <div class="summary-card">
+      <h2 id="intro-title"></h2>
+      <p class="muted"><%= t('learn.newKeys') %></p>
+      <p class="key-chips" id="intro-keys"></p>
+      <p class="muted"><%= t('learn.introHint') %></p>
+      <p class="actions"><button class="button primary" id="start-lesson" type="button"><%= t('learn.startLesson') %></button></p>
+    </div>
+  </div>
+  <div class="overlay" id="summary" hidden></div>
+</main>
+<%- include('../partials/learn-strings') %>
+<%- include('../partials/app-scripts', { script: 'lesson-page.js' }) %>
+</body>
+</html>

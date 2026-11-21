@@ -147,5 +147,72 @@
     "finish": "Terminer",
     "averageSpeed": "vitesse moyenne",
     "restartConfirm": "Recommencer l'histoire ? Ta progression et tes choix seront effacés."
+  },
+  "learn": {
+    "title": "Apprendre",
+    "lessonsDone": "leçons",
+    "next": "Prochaine leçon",
+    "startLesson": "Commencer",
+    "weakKeys": "Tes touches faibles",
+    "practice": "S'entraîner",
+    "keyboard": "Clavier",
+    "words": "Mots",
+    "locked": "Verrouillée",
+    "lessons": {
+      "home-index": "Index",
+      "home-middle": "Majeurs",
+      "home-ring": "Annulaires",
+      "home-pinky": "Auriculaires",
+      "home-center": "Touches du centre",
+      "top-index": "Index",
+      "top-middle": "Majeurs",
+      "top-ring": "Annulaires",
+      "top-pinky": "Auriculaires",
+      "top-center": "Touches du centre",
+      "bottom-index": "Index",
+      "bottom-middle": "Majeurs",
+      "bottom-ring": "Annulaires",
+      "bottom-pinky": "Auriculaires",
+      "bottom-center": "Touches du centre",
+      "extra-letters": "Lettres en plus",
+      "capitals": "Majuscules",
+      "punctuation": "Ponctuation",
+      "accents-direct": "Touches accentuées",
+      "accents-composed": "Touches mortes",
+      "numbers": "Chiffres",
+      "review": "Touches faibles"
+    },
+    "stages": {
+      "homeRow": "Rangée de repos",
+      "topRow": "Rangée du haut",
+      "bottomRow": "Rangée du bas",
+      "capitals": "Majuscules",
+      "punctuation": "Ponctuation",
+      "accents": "Accents",
+      "numbers": "Chiffres"
+    },
+    "stageSubtitles": {
+      "homeRow": "Là où tes doigts se reposent. Tout commence ici.",
+      "topRow": "Monte, puis reviens sur la rangée de repos.",
+      "bottomRow": "Descends, puis reviens sur la rangée de repos.",
+      "capitals": "Tiens Maj avec l'autre main.",
+      "punctuation": "Virgules, points et compagnie.",
+      "accents": "Les lettres spéciales de ta langue.",
+      "numbers": "La rangée au-dessus des lettres."
+    },
+    "exercises": {
+      "discovery": "Découvre les touches",
+      "drill": "Entraînement",
+      "words": "Vrais mots"
+    },
+    "newKeys": "Nouvelles touches",
+    "introHint": "Pose tes doigts sur la rangée de repos. Appuie sur Espace pour commencer.",
+    "lessonComplete": "Leçon terminée",
+    "lessonFailed": "Encore un effort",
+    "failedHint": "Il faut au moins 90 % de précision pour gagner une étoile.",
+    "retry": "Recommencer",
+    "nextLesson": "Leçon suivante",
+    "back": "Retour au parcours",
+    "allDone": "Bravo, tu as terminé tout le parcours !"
   }
 }

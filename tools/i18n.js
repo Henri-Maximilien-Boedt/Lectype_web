@@ -17,10 +17,15 @@ function translate(language, key, values = {}) {
   return String(template).replace(/\{(\w+)\}/g, (match, name) => (name in values ? String(values[name]) : match));
 }
 
+function section(language, key) {
+  const value = lookup(dictionaries[language], key) ?? lookup(dictionaries[DEFAULT_LANGUAGE], key);
+  return value && typeof value === 'object' ? value : {};
+}
+
 function pickLanguage(cookieValue, acceptLanguage) {
   if (LANGUAGES.includes(cookieValue)) return cookieValue;
   const preferred = String(acceptLanguage || '').split(',').map((part) => part.trim().slice(0, 2).toLowerCase());
   return preferred.find((code) => LANGUAGES.includes(code)) || DEFAULT_LANGUAGE;
 }
 
-module.exports = { LANGUAGES, DEFAULT_LANGUAGE, translate, pickLanguage, dictionaries };
+module.exports = { LANGUAGES, DEFAULT_LANGUAGE, translate, section, pickLanguage, dictionaries };

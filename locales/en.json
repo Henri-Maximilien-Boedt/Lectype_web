@@ -147,5 +147,72 @@
     "finish": "Finish",
     "averageSpeed": "average speed",
     "restartConfirm": "Start the story over? Your progress and choices will be erased."
+  },
+  "learn": {
+    "title": "Learn",
+    "lessonsDone": "lessons",
+    "next": "Next lesson",
+    "startLesson": "Start",
+    "weakKeys": "Your weak keys",
+    "practice": "Practice",
+    "keyboard": "Keyboard",
+    "words": "Words",
+    "locked": "Locked",
+    "lessons": {
+      "home-index": "Index fingers",
+      "home-middle": "Middle fingers",
+      "home-ring": "Ring fingers",
+      "home-pinky": "Little fingers",
+      "home-center": "Inner keys",
+      "top-index": "Index fingers",
+      "top-middle": "Middle fingers",
+      "top-ring": "Ring fingers",
+      "top-pinky": "Little fingers",
+      "top-center": "Inner keys",
+      "bottom-index": "Index fingers",
+      "bottom-middle": "Middle fingers",
+      "bottom-ring": "Ring fingers",
+      "bottom-pinky": "Little fingers",
+      "bottom-center": "Inner keys",
+      "extra-letters": "Extra letters",
+      "capitals": "Capital letters",
+      "punctuation": "Punctuation",
+      "accents-direct": "Accented keys",
+      "accents-composed": "Dead keys",
+      "numbers": "Numbers",
+      "review": "Weak keys"
+    },
+    "stages": {
+      "homeRow": "Home row",
+      "topRow": "Top row",
+      "bottomRow": "Bottom row",
+      "capitals": "Capital letters",
+      "punctuation": "Punctuation",
+      "accents": "Accents",
+      "numbers": "Numbers"
+    },
+    "stageSubtitles": {
+      "homeRow": "Where your fingers rest. Everything starts here.",
+      "topRow": "Reach up, then come back to the home row.",
+      "bottomRow": "Reach down, then come back to the home row.",
+      "capitals": "Hold Shift with the other hand.",
+      "punctuation": "Commas, full stops and friends.",
+      "accents": "The special letters of your language.",
+      "numbers": "The row above the letters."
+    },
+    "exercises": {
+      "discovery": "Discover the keys",
+      "drill": "Practice",
+      "words": "Real words"
+    },
+    "newKeys": "New keys",
+    "introHint": "Rest your fingers on the home row. Press Space to start.",
+    "lessonComplete": "Lesson complete",
+    "lessonFailed": "Almost there",
+    "failedHint": "You need at least 90% accuracy to earn a star.",
+    "retry": "Try again",
+    "nextLesson": "Next lesson",
+    "back": "Back to the path",
+    "allDone": "Well done, you finished the whole path!"
   }
 }

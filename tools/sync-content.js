@@ -37,6 +37,39 @@ function buildIndex() {
   return { books: books.length, stories: stories.length };
 }
 
+const WORD_LIMIT = 4000;
+const WORD_LENGTH = { min: 2, max: 9 };
+
+function rankedWords(texts) {
+  const counts = new Map();
+  for (const text of texts) {
+    for (const word of text.toLowerCase().split(/[^\p{L}]+/u)) {
+      const length = [...word].length;
+      if (length >= WORD_LENGTH.min && length <= WORD_LENGTH.max) counts.set(word, (counts.get(word) ?? 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0))
+    .slice(0, WORD_LIMIT)
+    .map(([word]) => word);
+}
+
+function buildWordBanks() {
+  const textsByLanguage = new Map();
+  for (const file of fs.readdirSync(path.join(TARGET, 'books')).filter((name) => name.endsWith('.json'))) {
+    const book = JSON.parse(fs.readFileSync(path.join(TARGET, 'books', file), 'utf8'));
+    const texts = textsByLanguage.get(book.language) ?? [];
+    for (const chapter of book.chapters) texts.push(...chapter.pages.map((page) => page.text));
+    textsByLanguage.set(book.language, texts);
+  }
+  const folder = path.join(TARGET, 'words');
+  fs.mkdirSync(folder, { recursive: true });
+  for (const [language, texts] of textsByLanguage) {
+    fs.writeFileSync(path.join(folder, `${language}.json`), JSON.stringify(rankedWords(texts)) + '\n');
+  }
+  return [...textsByLanguage.keys()];
+}
+
 function main() {
   fs.mkdirSync(TARGET, { recursive: true });
   for (const name of FOLDERS) {
@@ -47,6 +80,7 @@ function main() {
   console.log('Cas de test partagés copiés');
   const counts = buildIndex();
   console.log(`Index : ${counts.books} livres, ${counts.stories} histoires`);
+  console.log(`Mots : ${buildWordBanks().join(', ')}`);
 }
 
 if (require.main === module) {
@@ -58,4 +92,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { buildIndex };
+module.exports = { buildIndex, rankedWords };

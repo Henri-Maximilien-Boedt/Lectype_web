@@ -20,6 +20,7 @@
   --background: #2b2d30; color-scheme: dark;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { margin: 0; }
 body { min-height: 100vh; background: var(--background); background-attachment: fixed; color: var(--text); font: 16px/1.5 var(--body-font); display: flex; flex-direction: column; }
 a { color: inherit; }
