@@ -1,0 +1,14 @@
+<header class="site-header">
+  <a class="brand" href="/"><img src="/img/brand-mark.png" alt="" width="32" height="32"> Lectype</a>
+  <nav aria-label="Navigation">
+    <a href="/app/library"><%= t('nav.library') %></a>
+    <a href="/app/learn"><%= t('nav.learn') %></a>
+    <a href="/app/stories"><%= t('nav.stories') %></a>
+    <% if (currentUser) { %>
+      <a href="/account"><%= t('nav.account') %></a>
+    <% } else { %>
+      <a href="/login"><%= t('nav.login') %></a>
+      <a class="button" href="/signup"><%= t('nav.signup') %></a>
+    <% } %>
+  </nav>
+</header>

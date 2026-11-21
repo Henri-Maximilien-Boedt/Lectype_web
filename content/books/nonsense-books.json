@@ -1,0 +1,3375 @@
+{
+  "id": "nonsense-books",
+  "title": "Nonsense Books",
+  "author": "Edward Lear",
+  "language": "en",
+  "year": 1846,
+  "kind": "poem",
+  "level": "beginner",
+  "cover": "nonsense-books.jpg",
+  "source": {
+    "name": "Standard Ebooks",
+    "url": "https://github.com/standardebooks/edward-lear_nonsense-books",
+    "license": "Domaine public ; édition et couverture Standard Ebooks sous CC0 1.0"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "label": "1",
+      "title": "There was an Old Man with a nose,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man with a nose,\nWho said, “If you choose to suppose\nThat my nose is too long, you are certainly wrong!”\nThat remarkable Man with a nose."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "title": "There was a Young Person of Smyrna,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Person of Smyrna,\nWhose Grandmother threatened to burn her;\nBut she seized on the Cat, and said, “Granny, burn that!\nYou incongruous Old Woman of Smyrna!”"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "title": "There was an Old Man on a hill,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man on a hill,\nWho seldom, if ever, stood still;\nHe ran up and down in his Grandmother’s gown,\nWhich adorned that Old Man on a hill."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "title": "There was an Old Person of Chile,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Chile,\nWhose conduct was painful and silly;\nHe sat on the stairs, eating apples and pears,\nThat imprudent Old Person of Chile."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "title": "There was an Old Man with a gong,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man with a gong,\nWho bumped at it all the day long;\nBut they called out, “Oh, law! you’re a horrid old bore!”\nSo they smashed that Old Man with a gong."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "title": "There was an Old Man of Kilkenny,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Kilkenny,\nWho never had more than a penny;\nHe spent all that money in onions and honey,\nThat wayward Old Man of Kilkenny."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "title": "There was an Old Man of Columbia,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Columbia,\nWho was thirsty, and called out for some beer;\nBut they brought it quite hot, in a small copper pot,\nWhich disgusted that man of Columbia."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "title": "There was an Old Man in a tree,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man in a tree,\nWho was horribly bored by a Bee;\nWhen they said, “Does it buzz?” he replied, “Yes, it does!\nIt’s a regular brute of a Bee.”"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "title": "There was an Old Lady of Chertsey,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Lady of Chertsey,\nWho made a remarkable curtsey;\nShe twirled round and round, till she sank underground,\nWhich distressed all the people of Chertsey."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "title": "There was a Young Lady whose chin",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady whose chin\nResembled the point of a pin;\nSo she had it made sharp, and purchased a harp,\nAnd played several tunes with her chin."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "title": "There was an Old Man with a flute—",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man with a flute—\nA “sarpint” ran into his boot!\nBut he played day and night, till the “sarpint” took flight,\nAnd avoided that Man with a flute."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "label": "12",
+      "title": "There was a Young Lady of Portugal,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Portugal,\nWhose ideas were excessively nautical;\nShe climbed up a tree to examine the sea,\nBut declared she would never leave Portugal."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "label": "13",
+      "title": "There was an Old Person of Ischia,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Ischia,\nWhose conduct grew friskier and friskier;\nHe danced hornpipes and jigs, and ate thousands of figs,\nThat lively Old Person of Ischia"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "label": "14",
+      "title": "There was an Old Man of Vienna,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Vienna,\nWho lived upon Tincture of Senna;\nWhen that did not agree, he took Camomile Tea,\nThat nasty Old Man of Vienna."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "label": "15",
+      "title": "There was an Old Man in a boat,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man in a boat,\nWho said, “I’m afloat! I’m afloat!”\nWhen they said, “No, you ain’t!” he was ready to faint,\nThat unhappy Old Man in a boat."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "label": "16",
+      "title": "There was an Old Person of Buda,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Buda,\nWhose conduct grew ruder and ruder,\nTill at last with a hammer they silenced his clamor.\nBy smashing that Person of Buda."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "label": "17",
+      "title": "There was an Old Man of Moldavia,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Moldavia,\nWho had the most curious behavior;\nFor while he was able, he slept on a table,\nThat funny Old Man of Moldavia."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "label": "18",
+      "title": "There was an Old Person of Hurst,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Hurst,\nWho drank when he was not athirst;\nWhen they said, “You’ll grow fatter!” he answered, “What matter?”\nThat globular Person of Hurst."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "label": "19",
+      "title": "There was an Old Man of Madras,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Madras,\nWho rode on a cream-colored Ass;\nBut the length of its ears so promoted his fears,\nThat it killed that Old Man of Madras."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "label": "20",
+      "title": "There was an Old Person of Dover,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Dover,\nWho rushed through a field of blue clover;\nBut some very large Bees stung his nose and his knees,\nSo he very soon went back to Dover."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "label": "21",
+      "title": "There was an Old Person of Leeds,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Leeds,\nWhose head was infested with beads;\nShe sat on a stool and ate gooseberry-fool,\nWhich agreed with that Person of Leeds."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "label": "22",
+      "title": "There was an Old Person of Cadiz,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Cadiz,\nWho was always polite to all ladies;\nBut in handing his daughter, he fell into the water,\nWhich drowned that Old Person of Cadiz."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "label": "23",
+      "title": "There was an Old Man of the Isles,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the Isles,\nWhose face was pervaded with smiles;\nHe sang “High dum diddle,” and played on the fiddle,\nThat amiable Man of the Isles."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "label": "24",
+      "title": "There was an Old Person of Basing,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Basing,\nWhose presence of mind was amazing;\nHe purchased a steed, which he rode at full speed,\nAnd escaped from the people of Basing."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "label": "25",
+      "title": "There was an Old Man who supposed",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man who supposed\nThat the street door was partially closed;\nBut some very large Rats ate his coats and his hats,\nWhile that futile Old Gentleman dozed."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "label": "26",
+      "title": "There was an Old Person whose habits",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person whose habits\nInduced him to feed upon Rabbits;\nWhen he’d eaten eighteen, he turned perfectly green,\nUpon which he relinquished those habits."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "label": "27",
+      "title": "There was an Old Man of the West,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the West,\nWho wore a pale plum-colored vest;\nWhen they said, “Does it fit?” he replied, “Not a bit!”\nThat uneasy Old Man of the West."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "label": "28",
+      "title": "There was an Old Man of Marseilles,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Marseilles,\nWhose daughters wore bottle-green veils:\nThey caught several Fish, which they put in a dish,\nAnd sent to their Pa at Marseilles."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "label": "29",
+      "title": "There was an Old Man of the Wrekin,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the Wrekin,\nWhose shoes made a horrible creaking;\nBut they said, “Tell us whether your shoes are of leather,\nOr of what, you Old Man of the Wrekin?”"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "label": "30",
+      "title": "There was a Young Lady whose nose",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady whose nose\nWas so long that it reached to her toes;\nSo she hired an Old Lady, whose conduct was steady,\nTo carry that wonderful nose."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "label": "31",
+      "title": "There was a Young Lady of Norway,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Norway,\nWho casually sat in a doorway;\nWhen the door squeezed her flat, she exclaimed, “What of that?”\nThis courageous Young Lady of Norway."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "label": "32",
+      "title": "There was an Old Man of Apulia,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Apulia,\nWhose conduct was very peculiar;\nHe fed twenty sons upon nothing but buns,\nThat whimsical Man of Apulia."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "label": "33",
+      "title": "There was an Old Man of Quebec—",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Quebec—\nA beetle ran over his neck;\nBut he cried, “With a needle I’ll slay you, O beadle!”\nThat angry Old Man of Quebec."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "label": "34",
+      "title": "There was a Young Lady of Bute,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Bute,\nWho played on a silver-gilt flute;\nShe played several jigs to her Uncle’s white Pigs:\nThat amusing Young Lady of Bute."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "label": "35",
+      "title": "There was an Old Person of Philoe,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Philoe,\nWhose conduct was scroobious and wily;\nHe rushed up a Palm when the weather was calm,\nAnd observed all the ruins of Philoe."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "label": "36",
+      "title": "There was an Old Man with a poker,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man with a poker,\nWho painted his face with red ochre.\nWhen they said, “You’re a Guy!” he made no reply,\nBut knocked them all down with his poker."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "label": "37",
+      "title": "There was an Old Person of Prague,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Prague,\nWho was suddenly seized with the plague;\nBut they gave him some butter, which caused him to mutter,\nAnd cured that Old Person of Prague."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "label": "38",
+      "title": "There was an Old Man of Peru,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Peru,\nWho watched his wife making a stew;\nBut once, by mistake, in a stove she did bake\nThat unfortunate Man of Peru."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "label": "39",
+      "title": "There was an Old Man of the North,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the North,\nWho fell into a basin of broth;\nBut a laudable cook fished him out with a hook,\nWhich saved that Old Man of the North."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "label": "40",
+      "title": "There was an Old Person of Troy,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Troy,\nWhose drink was warm brandy and soy,\nWhich he took with a spoon, by the light of the moon,\nIn sight of the city of Troy."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "label": "41",
+      "title": "There was an Old Person of Mold,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Mold,\nWho shrank from sensations of cold;\nSo he purchased some muffs, some furs, and some fluffs,\nAnd wrapped himself well from the cold."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "label": "42",
+      "title": "There was an Old Person of Tring,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Tring,\nWho embellished his nose with a ring;\nHe gazed at the moon every evening in June,\nThat ecstatic Old Person of Tring."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "label": "43",
+      "title": "There was an Old Man of Nepaul,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Nepaul,\nFrom his horse had a terrible fall;\nBut, though split quite in two, with some very strong glue\nThey mended that man of Nepaul."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "label": "44",
+      "title": "There was an Old Man of the Nile,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the Nile,\nWho sharpened his nails with a file,\nTill he cut off his thumbs, and said calmly, “This comes\nOf sharpening one’s nails with a file!”"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "label": "45",
+      "title": "There was an Old Man of th’ Abruzzi,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of th’ Abruzzi,\nSo blind that he couldn’t his foot see;\nWhen they said, “That’s your toe,” he replied, “Is it so?”\nThat doubtful Old Man of th’ Abruzzi."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "label": "46",
+      "title": "There was an Old Man of Calcutta,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Calcutta,\nWho perpetually ate bread and butter;\nTill a great bit of muffin, on which he was stuffing,\nChoked that horrid Old Man of Calcutta."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "label": "47",
+      "title": "There was an Old Person of Rhodes,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Rhodes,\nWho strongly objected to toads;\nHe paid several cousins to catch them by dozens,\nThat futile Old Person of Rhodes."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "label": "48",
+      "title": "There was an Old Man of the South,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the South,\nWho had an immoderate mouth;\nBut in swallowing a dish that was quite full of Fish,\nHe was choked, that Old Man of the South."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "label": "49",
+      "title": "There was an Old Man of Melrose,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Melrose,\nWho walked on the tips of his toes;\nBut they said, “It ain’t pleasant to see you at present,\nYou stupid Old Man of Melrose.”"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "label": "50",
+      "title": "There was an Old Man of the Dee,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the Dee,\nWho was sadly annoyed by a Flea;\nWhen he said, “I will scratch it!” they gave him a hatchet,\nWhich grieved that Old Man of the Dee."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "label": "51",
+      "title": "There was a Young Lady of Lucca,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Lucca,\nWhose lovers completely forsook her;\nShe ran up a tree, and said “Fiddle-de-dee!”\nWhich embarrassed the people of Lucca."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "label": "52",
+      "title": "There was an Old Man of Coblenz,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Coblenz,\nThe length of whose legs was immense;\nHe went with one prance from Turkey to France,\nThat surprising Old Man of Coblenz."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "label": "53",
+      "title": "There was an Old Man of Bohemia,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Bohemia,\nWhose daughter was christened Euphemia;\nBut one day, to his grief, she married a thief,\nWhich grieved that Old Man of Bohemia."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "label": "54",
+      "title": "There was an Old Man of Corfu,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Corfu,\nWho never knew what he should do;\nSo he rushed up and down, till the sun made him brown,\nThat bewildered Old Man of Corfu."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "label": "55",
+      "title": "There was an Old Man of Vesuvius,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Vesuvius,\nWho studied the works of Vitruvius;\nWhen the flames burnt his book, to drinking he took,\nThat morbid Old Man of Vesuvius."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "label": "56",
+      "title": "There was an Old Man of Dundee,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Dundee,\nWho frequented the top of a tree;\nWhen disturbed by the Crows, he abruptly arose,\nAnd exclaimed, “I’ll return to Dundee!”"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "label": "57",
+      "title": "There was an Old Lady whose folly",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Lady whose folly\nInduced her to sit in a holly;\nWhereon, by a thorn her dress being torn,\nShe quickly became melancholy."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "label": "58",
+      "title": "There was an Old Man on some rocks,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man on some rocks,\nWho shut his Wife up in a box:\nWhen she said, “Let me out,” he exclaimed, “Without doubt\nYou will pass all your life in that box.”"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "label": "59",
+      "title": "There was an Old Person of Rheims,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Rheims,\nWho was troubled with horrible dreams;\nSo to keep him awake they fed him with cake,\nWhich amused that Old Person of Rheims."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "label": "60",
+      "title": "There was an Old Man of Leghorn,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Leghorn,\nThe smallest that ever was born;\nBut quickly snapt up he was once by a Puppy,\nWho devoured that Old Man of Leghorn."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "label": "61",
+      "title": "There was an Old Man in a pew,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man in a pew,\nWhose waistcoat was spotted with blue;\nBut he tore it in pieces, to give to his Nieces,\nThat cheerful Old Man in a pew."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "label": "62",
+      "title": "There was an Old Man of Jamaica,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Jamaica,\nWho suddenly married a Quaker;\nBut she cried out, “Oh, lack! I have married a black!”\nWhich distressed that Old Man of Jamaica."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "label": "63",
+      "title": "There was an Old Man who said, “How",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man who said, “How\nShall I flee from this horrible Cow?\nI will sit on this stile, and continue to smile,\nWhich may soften the heart of that Cow.”"
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "label": "64",
+      "title": "There was a Young Lady of Troy,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Troy,\nWhom several large flies did annoy;\nSome she killed with a thump, some she drowned at the pump,\nAnd some she took with her to Troy."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "label": "65",
+      "title": "There was a Young Lady of Hull,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Hull,\nWho was chased by a virulent Bull;\nBut she seized on a spade, and called out, “Who’s afraid?”\nWhich distracted that virulent Bull."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "label": "66",
+      "title": "There was an Old Person of Dutton,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Dutton,\nWhose head was as small as a button;\nSo to make it look big he purchased a wig,\nAnd rapidly rushed about Dutton."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "label": "67",
+      "title": "There was an Old Man who said, “Hush!",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man who said, “Hush!\nI perceive a young bird in this bush!”\nWhen they said, “Is it small?” he replied, “Not at all;\nIt is four times as big as the bush!”"
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "label": "68",
+      "title": "There was a Young Lady of Russia,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Russia,\nWho screamed so that no one could hush her;\nHer screams were extreme—no one heard such a scream\nAs was screamed by that Lady of Russia."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "label": "69",
+      "title": "There was a Young Lady of Tyre,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Tyre,\nWho swept the loud chords of a lyre;\nAt the sound of each sweep she enraptured the deep,\nAnd enchanted the city of Tyre."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "label": "70",
+      "title": "There was an Old Person of Bangor,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Bangor,\nWhose face was distorted with anger;\nHe tore off his boots, and subsisted on roots,\nThat borascible Person of Bangor."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "label": "71",
+      "title": "There was an Old Man of the East,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the East,\nWho gave all his children a feast;\nBut they all ate so much, and their conduct was such,\nThat it killed that Old Man of the East."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "label": "72",
+      "title": "There was an Old Man of the Coast,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the Coast,\nWho placidly sat on a post;\nBut when it was cold he relinquished his hold,\nAnd called for some hot buttered toast."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "label": "73",
+      "title": "There was an Old Man of Kamschatka,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Kamschatka,\nWho possessed a remarkably fat Cur;\nHis gait and his waddle were held as a model\nTo all the fat dogs in Kamschatka."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "label": "74",
+      "title": "There was an Old Person of Gretna,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Gretna,\nWho rushed down the crater of Etna;\nWhen they said, “Is it hot?” he replied, “No, it’s not!”\nThat mendacious Old Person of Gretna."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "label": "75",
+      "title": "There was an Old Man with a beard,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man with a beard,\nWho sat on a Horse when he reared;\nBut they said, “Never mind! you will fall off behind,\nYou propitious Old Man with a beard!”"
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "label": "76",
+      "title": "There was an Old Man of Berlin,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Berlin,\nWhose form was uncommonly thin;\nTill he once, by mistake, was mixed up in a cake,\nSo they baked that Old Man of Berlin."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "label": "77",
+      "title": "There was an Old Man of the West,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the West,\nWho never could get any rest;\nSo they set him to spin on his nose and his chin,\nWhich cured that Old Man of the West."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "label": "78",
+      "title": "There was an Old Person of Cheadle",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Cheadle\nWas put in the stocks by the Beadle\nFor stealing some pigs, some coats, and some wigs,\nThat horrible person of Cheadle."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "label": "79",
+      "title": "There was an Old Person of Anerley,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Anerley,\nWhose conduct was strange and unmannerly;\nHe rushed down the Strand with a Pig in each hand,\nBut returned in the evening to Anerley."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "label": "80",
+      "title": "There was a Young Lady of Wales,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Wales,\nWho caught a large Fish without scales;\nWhen she lifted her hook, she exclaimed, “Only look!”\nThat ecstatic Young Lady of Wales."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "label": "81",
+      "title": "There was a Young Lady of Welling,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Welling,\nWhose praise all the world was a-telling;\nShe played on the harp, and caught several Carp,\nThat accomplished Young Lady of Welling."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "label": "82",
+      "title": "There was an Old Person of Tartary,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Tartary,\nWho divided his jugular artery;\nBut he screeched to his Wife, and she said, “Oh, my life!\nYour death will be felt by all Tartary!”"
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "label": "83",
+      "title": "There was an Old Man of Whitehaven,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Whitehaven,\nWho danced a quadrille with a Raven;\nBut they said, “It’s absurd to encourage this bird!”\nSo they smashed that Old Man of Whitehaven."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "label": "84",
+      "title": "There was a Young Lady of Sweden,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Sweden,\nWho went by the slow train to Weedon;\nWhen they cried, “Weedon Station!” she made no observation,\nBut thought she should go back to Sweden."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "label": "85",
+      "title": "There was an Old Person of Chester,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Chester,\nWhom several small children did pester;\nThey threw some large stones, which broke most of his bones,\nAnd displeased that Old Person of Chester."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "label": "86",
+      "title": "There was an Old Man of the Cape,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the Cape,\nWho possessed a large Barbary Ape;\nTill the Ape, one dark night, set the house all alight,\nWhich burned that Old Man of the Cape."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "label": "87",
+      "title": "There was an Old Person of Burton,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Burton,\nWhose answers were rather uncertain;\nWhen they said, “How d’ ye do?” he replied, “Who are you?”\nThat distressing Old Person of Burton."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "label": "88",
+      "title": "There was an Old Person of Ems",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Ems\nWho casually fell in the Thames;\nAnd when he was found, they said he was drowned,\nThat unlucky Old Person of Ems."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "label": "89",
+      "title": "There was a Young Girl of Majorca,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Girl of Majorca,\nWhose Aunt was a very fast walker;\nShe walked seventy miles, and leaped fifteen stiles,\nWhich astonished that Girl of Majorca."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "label": "90",
+      "title": "There was a Young Lady of Poole,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Poole,\nWhose soup was excessively cool;\nSo she put it to boil by the aid of some oil,\nThat ingenious Young Lady of Poole."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "label": "91",
+      "title": "There was an Old Lady of Prague,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Lady of Prague,\nWhose language was horribly vague;\nWhen they said, “Are these caps?” she answered, “Perhaps!”\nThat oracular Lady of Prague."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "label": "92",
+      "title": "There was a Young Lady of Parma,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Parma,\nWhose conduct grew calmer and calmer:\nWhen they said, “Are you dumb?” she merely said, “Hum!”\nThat provoking Young Lady of Parma."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "label": "93",
+      "title": "There was an Old Person of Sparta,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Sparta,\nWho had twenty-five sons and one “darter;”\nHe fed them on Snails, and weighed them in scales,\nThat wonderful Person of Sparta."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "label": "94",
+      "title": "There was an Old Man on whose nose",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man on whose nose\nMost birds of the air could repose;\nBut they all flew away at the closing of day,\nWhich relieved that Old Man and his nose."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "label": "95",
+      "title": "There was a Young Lady of Turkey,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Turkey,\nWho wept when the weather was murky;\nWhen the day turned out fine, she ceased to repine,\nThat capricious Young Lady of Turkey."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "label": "96",
+      "title": "There was an Old Man of Aôsta",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Aôsta\nWho possessed a large Cow, but he lost her;\nBut they said, “Don’t you see she has run up a tree,\nYou invidious Old Man of Aôsta?”"
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "label": "97",
+      "title": "There was a Young Person of Crete,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Person of Crete,\nWhose toilette was far from complete;\nShe dressed in a sack spickle-speckled with black,\nThat ombliferous Person of Crete."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "label": "98",
+      "title": "There was a Young Lady of Clare,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Clare,\nWho was madly pursued by a Bear;\nWhen she found she was tired, she abruptly expired,\nThat unfortunate Lady of Clare."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "label": "99",
+      "title": "There was a Young Lady of Dorking,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Dorking,\nWho bought a large bonnet for walking;\nBut its color and size so bedazzled her eyes,\nThat she very soon went back to Dorking."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "label": "100",
+      "title": "There was an Old Man of Cape Horn,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Cape Horn,\nWho wished he had never been born;\nSo he sat on a Chair till he died of despair,\nThat dolorous Man of Cape Horn."
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "label": "101",
+      "title": "There was an old Person of Cromer,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old Person of Cromer,\nWho stood on one leg to read Homer;\nWhen he found he grew stiff, he jumped over the cliff,\nWhich concluded that Person of Cromer."
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "label": "102",
+      "title": "There was an Old Man of the Hague,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of the Hague,\nWhose ideas were excessively vague;\nHe built a balloon to examine the moon,\nThat deluded Old Man of the Hague."
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "label": "103",
+      "title": "There was an Old Person of Spain,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Spain,\nWho hated all trouble and pain;\nSo he sat on a chair with his feet in the air,\nThat umbrageous Old Person of Spain."
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "label": "104",
+      "title": "There was an Old Man who said, “Well!",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man who said, “Well!\nWill nobody answer this bell?\nI have pulled day and night, till my hair has grown white,\nBut nobody answers this bell!”"
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "label": "105",
+      "title": "There was an Old Man with an Owl,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man with an Owl,\nWho continued to bother and howl;\nHe sat on a rail, and imbibed bitter ale,\nWhich refreshed that Old Man and his Owl."
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "label": "106",
+      "title": "There was an Old Man in a casement,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man in a casement,\nWho held up his hands in amazement;\nWhen they said, “Sir, you’ll fall!” he replied, “Not at all!”\nThat incipient Old Man in a casement."
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "label": "107",
+      "title": "There was an Old Person of Ewell,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Person of Ewell,\nWho chiefly subsisted on gruel;\nBut to make it more nice, he inserted some Mice,\nWhich refreshed that Old Person of Ewell."
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "label": "108",
+      "title": "There was an Old Man of Peru.",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man of Peru.\nWho never knew what he should do;\nSo he tore off his hair, and behaved like a bear,\nThat intrinsic Old Man of Peru."
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "label": "109",
+      "title": "There was an Old Man with a beard,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man with a beard,\nWho said, “It is just as I feared!—\nTwo Owls and a Hen, four Larks and a Wren,\nHave all built their nests in my beard.”"
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "label": "110",
+      "title": "There was a Young Lady whose eyes",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady whose eyes\nWere unique as to color and size;\nWhen she opened them wide, people all turned aside,\nAnd started away in surprise."
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "label": "111",
+      "title": "There was a Young Lady of Ryde,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady of Ryde,\nWhose shoestrings were seldom untied;\nShe purchased some clogs, and some small spotty Dogs,\nAnd frequently walked about Ryde."
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "label": "112",
+      "title": "There was a Young Lady whose bonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a Young Lady whose bonnet\nCame untied when the birds sat upon it;\nBut she said, “I don’t care! all the birds in the air\nAre welcome to sit on my bonnet!”"
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "label": "113",
+      "title": "The Owl and the Pussycat",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Owl and the Pussycat went to sea\nIn a beautiful pea-green boat:\nThey took some honey, and plenty of money\nWrapped up in a five-pound note.\nThe Owl looked up to the stars above,\nAnd sang to a small guitar,\n“O lovely Pussy, O Pussy, my love,\nWhat a beautiful Pussy you are,\nYou are,\nYou are!\nWhat a beautiful Pussy you are!”\n\nPussy said to the Owl, “You elegant fowl,\nHow charmingly sweet you sing!\nOh! let us be married; too long we have tarried:\nBut what shall we do for a ring?”\nThey sailed away, for a year and a day,\nTo the land where the bong-tree grows;\nAnd there in a wood a Piggy-wig stood,\nWith a ring at the end of his nose,\nHis nose,\nHis nose,\nWith a ring at the end of his nose."
+        },
+        {
+          "number": 2,
+          "text": "“Dear Pig, are you willing to sell for one shilling\nYour ring?” Said the Piggy, “I will.”\nSo they took it away, and were married next day\nBy the Turkey who lives on the hill.\n\nThey dined on mince and slices of quince,\nWhich they ate with a runcible spoon;\nAnd hand in hand, on the edge of the sand,\nThey danced by the light of the moon,\nThe moon,\nThe moon,\nThey danced by the light of the moon."
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "label": "114",
+      "title": "The Duck and the Kangaroo",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Said the Duck to the Kangaroo,\n“Good gracious! how you hop\nOver the fields, and the water too,\nAs if you never would stop!\nMy life is a bore in this nasty pond;\nAnd I long to go out in the world beyond:\nI wish I could hop like you,”\nSaid the Duck to the Kangaroo.\n\n“Please give me a ride on your back,”\nSaid the Duck to the Kangaroo:\n“I would sit quite still, and say nothing but ‘Quack’\nThe whole of the long day through;\nAnd we’d go the Dee, and the Jelly Bo Lee,\nOver the land, and over the sea:\nPlease take me a ride! oh, do!”\nSaid the Duck to the Kangaroo."
+        },
+        {
+          "number": 2,
+          "text": "Said the Kangaroo to the Duck,\n“This requires some little reflection.\nPerhaps, on the whole, it might bring me luck;\nAnd there seems but one objection;\nWhich is, if you’ll let me speak so bold,\nYour feet are unpleasantly wet and cold,\nAnd would probably give me the roo—\nMatiz,” said the Kangaroo.\n\nSaid the Duck, “As I sat on the rocks,\nI have thought over that completely;\nAnd I bought four pairs of worsted socks,\nWhich fit my web-feet neatly;\nAnd, to keep out the cold, I’ve bought a cloak;\nAnd every day a cigar I’ll smoke;\nAll to follow my own dear true\nLove of a Kangaroo.”"
+        },
+        {
+          "number": 3,
+          "text": "Said the Kangaroo, “I’m ready,\nAll in the moonlight pale;\nBut to balance me well, dear Duck, sit steady,\nAnd quite at the end of my tail.”\n\nSo away they went with a hop and a bound;\nAnd they hopped the whole world three times round.\nAnd who so happy, oh! who,\nAs the Duck and the Kangaroo?"
+        }
+      ]
+    },
+    {
+      "number": 115,
+      "label": "115",
+      "title": "The Daddy Long-Legs and the Fly",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Once Mr. Daddy Long-legs,\nDressed in brown and gray,\nWalked about upon the sands\nUpon a summer’s day:\nAnd there among the pebbles,\nWhen the wind was rather cold,\nHe met with Mr. Floppy Fly,\nAll dressed in blue and gold;\nAnd, as it was too soon to dine,\nThey drank some periwinkle-wine,\nAnd played an hour or two, or more,\nAt battlecock and shuttledore."
+        },
+        {
+          "number": 2,
+          "text": "Said Mr. Daddy Long-legs\nTo Mr. Floppy Fly,\n“Why do you never come to court?\nI wish you’d tell me why.\nAll gold and shine, in dress so fine,\nYou’d quite delight the court.\nWhy do you never go at all?\nI really think you ought.\nAnd, if you went, you’d see such sights!\nSuch rugs and jugs and candle-lights!\nAnd, more than all, the king and queen—\nOne in red, and one in green.”"
+        },
+        {
+          "number": 3,
+          "text": "“O Mr. Daddy Long-legs!”\nSaid Mr. Floppy Fly,\n“It’s true I never go to court;\nAnd I will tell you why.\nIf I had six long legs like yours,\nAt once I’d go to court;\nBut, oh! I can’t, because my legs\nAre so extremely short.\nAnd I’m afraid the king and queen\n(One in red, and one in green)\nWould say aloud, ‘You are not fit,\nYou Fly, to come to court a bit!’ ”"
+        },
+        {
+          "number": 4,
+          "text": "“Oh, Mr. Daddy Long-legs!”\nSaid Mr. Floppy Fly,\n“I wish you’d sing one little song,\nOne mumbian melody.\nYou used to sing so awful well\nIn former days gone by;\nBut now you never sing at all:\nI wish you’d tell me why:\nFor, if you would, the silvery sound\nWould please the shrimps and cockles round,\nAnd all the crabs would gladly come\nTo hear you sing, ‘Ah, Hum di Hum!’ ”"
+        },
+        {
+          "number": 5,
+          "text": "Said Mr. Daddy Long-legs,\n“I can never sing again;\nAnd, if you wish, I’ll tell you why,\nAlthough it gives me pain.\nFor years I cannot hum a bit,\nOr sing the smallest song;\nAnd this the dreadful reason is—\nMy legs are grown too long!\nMy six long legs, all here and there,\nOppress my bosom with despair;\nAnd, if I stand or lie or sit,\nI cannot sing one single bit!”"
+        },
+        {
+          "number": 6,
+          "text": "So Mr. Daddy Long-legs\nAnd Mr. Floppy Fly\nSat down in silence by the sea,\nAnd gazed upon the sky.\nThey said, “This is a dreadful thing!\nThe world has all gone wrong,\nSince one has legs too short by half,\nThe other much too long.\nOne never more can go to court,\nBecause his legs have grown too short;\nThe other cannot sing a song,\nBecause his legs have grown too long!”"
+        },
+        {
+          "number": 7,
+          "text": "Then Mr. Daddy Long-legs\nAnd Mr. Floppy Fly\nRushed downward to the foamy sea\nWith one sponge-taneous cry:\nAnd there they found a little boat,\nWhose sails were pink and gray;\nAnd off they sailed among the waves,\nFar and far away:\nThey sailed across the silent main,\nAnd reached the great Gromboolian Plain;\nAnd there they play forevermore\nAt battlecock and shuttledore."
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "label": "116",
+      "title": "The Jumblies",
+      "pages": [
+        {
+          "number": 1,
+          "text": "They went to sea in a sieve, they did;\nIn a sieve they went to sea:\nIn spite of all their friends could say,\nOn a winter’s morn, on a stormy day,\nIn a sieve they went to sea.\nAnd when the sieve turned round and round,\nAnd everyone cried, “You’ll all be drowned!”\nThey called aloud, “Our sieve ain’t big;\nBut we don’t care a button, we don’t care a fig:\nIn a sieve we’ll go to sea!”\nFar and few, far and few,\nAre the lands where the Jumblies live:\nTheir heads are green, and their hands are blue\nAnd they went to sea in a sieve."
+        },
+        {
+          "number": 2,
+          "text": "They sailed away in a sieve, they did,\nIn a sieve they sailed so fast,\nWith only a beautiful pea-green veil\nTied with a ribbon, by way of a sail,\nTo a small tobacco-pipe mast.\nAnd everyone said who saw them go,\n“Oh! won’t they be soon upset, you know?\nFor the sky is dark, and the voyage is long;\nAnd, happen what may, it’s extremely wrong\nIn a sieve to sail so fast.”\nFar and few, far and few,\nAre the lands where the Jumblies live:\nTheir heads are green, and their hands are blue;\nAnd they went to sea in a sieve."
+        },
+        {
+          "number": 3,
+          "text": "The water it soon came in, it did;\nThe water it soon came in:\nSo, to keep them dry, they wrapped their feet\nIn a pinky paper all folded neat;\nAnd they fastened it down with a pin.\nAnd they passed the night in a crockery-jar;\nAnd each of them said, “How wise we are!\nThough the sky be dark, and the voyage be long,\nYet we never can think we were rash or wrong,\nWhile round in our sieve we spin.”\nFar and few, far and few,\nAre the lands where the Jumblies live:\nTheir heads are green, and their hands are blue;\nAnd they went to sea in a sieve."
+        },
+        {
+          "number": 4,
+          "text": "And all night long they sailed away;\nAnd when the sun went down,\nThey whistled and warbled a moony song\nTo the echoing sound of a coppery gong,\nIn the shade of the mountains brown.\n“O Timballoo! How happy we are\nWhen we live in a sieve and a crockery-jar!\nAnd all night long, in the moonlight pale,\nWe sail away with a pea-green sail\nIn the shade of the mountains brown.”\nFar and few, far and few,\nAre the lands where the Jumblies live:\nTheir heads are green, and their hands are blue;\nAnd they went to sea in a sieve."
+        },
+        {
+          "number": 5,
+          "text": "They sailed to the Western Sea, they did—\nTo a land all covered with trees:\nAnd they bought an owl, and a useful cart,\nAnd a pound of rice, and a cranberry-tart,\nAnd a hive of silvery bees;\nAnd they bought a pig, and some green jackdaws,\nAnd a lovely monkey with lollipop paws,\nAnd forty bottles of ring-bo-ree,\nAnd no end of Stilton cheese.\nFar and few, far and few,\nAre the lands where the Jumblies live:\nTheir heads are green, and their hands are blue;\nAnd they went to sea in a sieve."
+        },
+        {
+          "number": 6,
+          "text": "And in twenty years they all came back—\nIn twenty years or more;\nAnd everyone said, “How tall they’ve grown!\nFor they’ve been to the Lakes, and the Torrible Zone,\nAnd the hills of the Chankly Bore.”\nAnd they drank their health, and gave them a feast\nOf dumplings made of beautiful yeast;\nAnd everyone said, “If we only live,\nWe, too, will go to sea in a sieve,\nTo the hills of the Chankly Bore.”\nFar and few, far and few,\nAre the lands where the Jumblies live:\nTheir heads are green, and their hands are blue;\nAnd they went to sea in a sieve."
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "label": "117",
+      "title": "The Nutcrackers and the Sugar-Tongs",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Nutcrackers sat by a plate on the table;\nThe Sugar-tongs sat by a plate at his side;\nAnd the Nutcrackers said, “Don’t you wish we were able\nAlong the blue hills and green meadows to ride?\nMust we drag on this stupid existence forever,\nSo idle and weary, so full of remorse,\nWhile everyone else takes his pleasure, and never\nSeems happy unless he is riding a horse?"
+        },
+        {
+          "number": 2,
+          "text": "“Don’t you think we could ride without being instructed,\nWithout any saddle or bridle or spur?\nOur legs are so long, and so aptly constructed,\nI’m sure that an accident could not occur.\nLet us all of a sudden hop down from the table,\nAnd hustle downstairs, and each jump on a horse!\nShall we try? Shall we go? Do you think we are able?”\nThe Sugar-tongs answered distinctly, “Of course!”"
+        },
+        {
+          "number": 3,
+          "text": "So down the long staircase they hopped in a minute;\nThe Sugar-tongs snapped, and the Crackers said “Crack!”\nThe stable was open; the horses were in it:\nEach took out a pony, and jumped on his back.\nThe Cat in a fright scrambled out of the doorway;\nThe Mice tumbled out of a bundle of hay;\nThe brown and white Rats, and the black ones from Norway,\nScreamed out, “They are taking the horses away!”"
+        },
+        {
+          "number": 4,
+          "text": "The whole of the household was filled with amazement:\nThe Cups and the Saucers danced madly about;\nThe Plates and the Dishes looked out of the casement;\nThe Saltcellar stood on his head with a shout;\nThe Spoons, with a clatter, looked out of the lattice;\nThe Mustard-pot climbed up the gooseberry-pies;\nThe Soup-ladle peeped through a heap of veal-patties,\nAnd squeaked with a ladle-like scream of surprise."
+        },
+        {
+          "number": 5,
+          "text": "The Frying-pan said, “It’s an awful delusion!”\nThe Teakettle hissed, and grew black in the face;\nAnd they all rushed downstairs in the wildest confusion\nTo see the great Nutcracker-Sugar-tong race.\nAnd out of the stable, with screamings and laughter\n(Their ponies were cream-colored, speckled with brown),\nThe Nutcrackers first, and the Sugar-tongs after;\nRode all round the yard, and then all round the town."
+        },
+        {
+          "number": 6,
+          "text": "They rode through the street, and they rode by the station;\nThey galloped away to the beautiful shore;\nIn silence they rode, and “made no observation,”\nSave this: “We will never go back any more!”\nAnd still you might hear, till they rode out of hearing,\nThe Sugar-tongs snap, and the Crackers say “Crack!”\nTill, far in the distance their forms disappearing,\nThey faded away; and they never came back!"
+        }
+      ]
+    },
+    {
+      "number": 118,
+      "label": "118",
+      "title": "Calico Pie",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Calico pie,\nThe little birds fly\nDown to the calico-tree:\nTheir wings were blue,\nAnd they sang “Tilly-loo!”\nTill away they flew;\nAnd they never came back to me!\nThey never came back,\nThey never came back,\nThey never came back to me!\n\nCalico jam,\nThe little Fish swam\nOver the Syllabub Sea.\nHe took off his hat\nTo the Sole and the Sprat,\nAnd the Willeby-wat:\n\nBut he never came back to me;\nHe never came back,\nHe never came back,\nHe never came back to me.\n\nCalico ban,\nThe little Mice ran\nTo be ready in time for tea;\nFlippity flup,\nThey drank it all up,\nAnd danced in the cup:\nBut they never came back to me;\nThey never came back,\nThey never came back,\nThey never came back to me"
+        },
+        {
+          "number": 2,
+          "text": "Calico drum,\nThe Grasshoppers come,\nThe Butterfly, Beetle, and Bee,\nOver the ground,\nAround and round,\nWith a hop and a bound;\n\nBut they never came back,\nThey never came back,\nThey never came back.\nThey never came back to me."
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "label": "119",
+      "title": "Mr. and Mrs. Spikky Sparrow",
+      "pages": [
+        {
+          "number": 1,
+          "text": "On a little piece of wood\nMr. Spikky Sparrow stood:\nMrs. Sparrow sat close by,\nA-making of an insect-pie\nFor her little children five,\nIn the nest and all alive;\nSinging with a cheerful smile,\nTo amuse them all the while,\n“Twikky wikky wikky wee,\nWikky bikky twikky tee,\nSpikky bikky bee!”\n\nMrs. Spikky Sparrow said,\n“Spikky, darling! in my head\nMany thoughts of trouble come,\nLike to flies upon a plum.\nAll last night, among the trees,\nI heard you cough, I heard you sneeze;\nAnd thought I, ‘It’s come to that\nBecause he does not wear a hat!’\nChippy wippy sikky tee,\nBikky wikky tikky mee,\nSpikky chippy wee!"
+        },
+        {
+          "number": 2,
+          "text": "“Not that you are growing old;\nBut the nights are growing cold.\nNo one stays out all night long\nWithout a hat: I’m sure it’s wrong!”\nMr. Spikky said, “How kind,\nDear, you are, to speak your mind!\nAll your life I wish you luck!\nYou are, you are, a lovely duck!\nWitchy witchy witchy wee,\nTwitchy witchy witchy bee,\nTikky tikky tee!\n\n“I was also sad, and thinking,\nWhen one day I saw you winking,\nAnd I heard you sniffle-snuffle,\nAnd I saw your feathers ruffle:\nTo myself I sadly said,\n‘She’s neuralgia in her head!\nThat dear head has nothing on it!\nOught she not to wear a bonnet?’\nWitchy kitchy kitchy wee,\nSpikky wikky mikky bee,\nChippy wippy chee!"
+        },
+        {
+          "number": 3,
+          "text": "“Let us both fly up to town:\nThere I’ll buy you such a gown!\nWhich, completely in the fashion,\nYou shall tie a sky-blue sash on;\nAnd a pair of slippers neat\nTo fit your darling little feet,\nSo that you will look and feel\nQuite galloobious and genteel.\nJikky wikky bikky see,\nChicky bikky wikky bee,\nTwicky witchy wee!”\n\nSo they both to London went,\nAlighting on the Monument;\nWhence they flew down swiftly—pop!\nInto Moses’ wholesale shop:\nThere they bought a hat and bonnet,\nAnd a gown with spots upon it,\nA satin sash of Cloxam blue,\nAnd a pair of slippers too.\nZikky wikky mikky bee,\nWitchy witchy mitchy kee,\nSikky tikky wee!"
+        },
+        {
+          "number": 4,
+          "text": "Then, when so completely dressed,\nBack they flew, and reached their nest.\nTheir children cried, “O ma and pa!\nHow truly beautiful you are!”\nSaid they, “We trust that cold or pain\nWe shall never feel again;\nWhile, perched on tree or house or steeple,\nWe now shall look like other people.\nWitchy witchy witchy wee,\nTwikky mikky bikky bee,\nZikky sikky tee!”"
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "label": "120",
+      "title": "The Broom, the Shovel, the Poker, and the Tongs",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Broom and the Shovel, the Poker and Tongs,\nThey all took a drive in the Park;\nAnd they each sang a song, ding-a-dong, ding-a-dong!\nBefore they went back in the dark.\nMr. Poker he sat quite upright in the coach;\nMr. Tongs made a clatter and clash;\nMiss Shovel was dressed all in black (with a brooch);\nMrs. Broom was in blue (with a sash).\nDing-a-dong, ding-a-dong!\nAnd they all sang a song."
+        },
+        {
+          "number": 2,
+          "text": "“O Shovely so lovely!” the Poker he sang,\n“You have perfectly conquered my heart.\nDing-a-dong, ding-a-dong! If you’re pleased with my song,\nI will feed you with cold apple-tart.\nWhen you scrape up the coals with a delicate sound,\nYou enrapture my life with delight,\nYour nose is so shiny, your head is so round,\nAnd your shape is so slender and bright!\nDing-a-dong, ding-a-dong!\nAin’t you pleased with my song?”"
+        },
+        {
+          "number": 3,
+          "text": "“Alas! Mrs. Broom,” sighed the Tongs in his song,\n“Oh! is it because I’m so thin,\nAnd my legs are so long—ding-a-dong, ding-a-dong!—\nThat you don’t care about me a pin?\nAh! fairest of creatures, when sweeping the room,\nAh! why don’t you heed my complaint?\nMust you needs be so cruel, you beautiful Broom,\nBecause you are covered with paint?\nDing-a-dong, ding-a-dong!\nYou are certainly wrong.”"
+        },
+        {
+          "number": 4,
+          "text": "Mrs. Broom and Miss Shovel together they sang,\n“What nonsense you’re singing today!”\nSaid the Shovel, “I’ll certainly hit you a bang!”\nSaid the Broom, “And I’ll sweep you away!”\nSo the coachman drove homeward as fast as he could,\nPerceiving their anger with pain;\nBut they put on the kettle, and little by little\nThey all became happy again.\nDing-a-dong, ding-a-dong!\nThere’s an end of my song."
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "label": "121",
+      "title": "The Table and the Chair",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Said the Table to the Chair,\n“You can hardly be aware\nHow I suffer from the heat\nAnd from chilblains on my feet.\nIf we took a little walk,\nWe might have a little talk;\nPray let us take the air,”\nSaid the Table to the Chair.\n\nSaid the Chair unto the Table,\n“Now, you know we are not able:\nHow foolishly you talk,\nWhen you know we cannot walk!”\nSaid the Table with a sigh,\n“It can do no harm to try.\nI’ve as many legs as you:\nWhy can’t we walk on two?”\n\nSo they both went slowly down,\nAnd walked about the town\nWith a cheerful bumpy sound\nAs they toddled round and round;\nAnd everybody cried,\nAs they hastened to their side,\n“See! the Table and the Chair\nHave come out to take the air!”"
+        },
+        {
+          "number": 2,
+          "text": "But in going down an alley,\nTo a castle in a valley,\nThey completely lost their way,\nAnd wandered all the day;\nTill, to see them safely back,\nThey paid a Ducky-quack,\nAnd a Beetle, and a Mouse,\nWho took them to their house.\n\nThen they whispered to each other,\n“O delightful little brother,\nWhat a lovely walk we’ve taken!\nLet us dine on beans and bacon.”\nSo the Ducky and the leetle\nBrowny-Mousy and the Beetle\nDined, and danced upon their heads\nTill they toddled to their beds."
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "label": "122",
+      "title": "The Story of the Four Little Children Who Went Round the World",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Once upon a time, a long while ago, there were four little people whose names were\nand they all thought they should like to see the world. So they bought a large boat to sail quite round the world by sea, and then they were to come back on the other side by land. The boat was painted blue with green spots, and the sail was yellow with red stripes: and, when they set off, they only took a small Cat to steer and look after the boat, besides an elderly Quangle-Wangle, who had to cook the dinner and make the tea; for which purposes they took a large kettle."
+        },
+        {
+          "number": 2,
+          "text": "For the first ten days they sailed on beautifully, and found plenty to eat, as there were lots of fish; and they had only to take them out of the sea with a long spoon, when the Quangle-Wangle instantly cooked them; and the Pussycat was fed with the bones, with which she expressed herself pleased, on the whole: so that all the party were very happy."
+        },
+        {
+          "number": 3,
+          "text": "During the daytime, Violet chiefly occupied herself in putting salt water into a churn; while her three brothers churned it violently, in the hope that it would turn into butter, which it seldom if ever did; and in the evening they all retired into the teakettle, where they all managed to sleep very comfortably, while Pussy and the Quangle-Wangle managed the boat."
+        },
+        {
+          "number": 4,
+          "text": "After a time, they saw some land at a distance; and, when they came to it, they found it was an island made of water quite surrounded by earth. Besides that, it was bordered by evanescent isthmuses, with a great gulf-stream running about all over it; so that it was perfectly beautiful, and contained only a single tree, 503 feet high."
+        },
+        {
+          "number": 5,
+          "text": "When they had landed, they walked about, but found, to their great surprise, that the island was quite full of veal-cutlets and chocolate-drops, and nothing else. So they all climbed up the single high tree to discover, if possible, if there were any people; but having remained on the top of the tree for a week, and not seeing anybody, they naturally concluded that there were no inhabitants; and accordingly, when they came down, they loaded the boat with two thousand veal-cutlets and a million of chocolate-drops; and these afforded them sustenance for more than a month, during which time they pursued their voyage with the utmost delight and apathy."
+        },
+        {
+          "number": 6,
+          "text": "After this they came to a shore where there were no less than sixty-five great red parrots with blue tails, sitting on a rail all of a row, and all fast asleep. And I am sorry to say that the Pussycat and the Quangle-Wangle crept softly, and bit off the tail-feathers of all the sixty-five parrots; for which Violet reproved them both severely.\nNotwithstanding which, she proceeded to insert all the feathers—two hundred and sixty in number—in her bonnet; thereby causing it to have a lovely and glittering appearance, highly prepossessing and efficacious."
+        },
+        {
+          "number": 7,
+          "text": "The next thing that happened to them was in a narrow part of the sea, which was so entirely full of fishes that the boat could go on no farther: so they remained there about six weeks, till they had eaten nearly all the fishes, which were soles, and all ready-cooked, and covered with shrimp-sauce, so that there was no trouble whatever."
+        },
+        {
+          "number": 8,
+          "text": "And as the few fishes who remained uneaten complained of the cold, as well as of the difficulty they had in getting any sleep on account of the extreme noise made by the arctic bears and the tropical turnspits, which frequented the neighborhood in great numbers, Violet most amiably knitted a small woollen frock for several of the fishes, and Slingsby administered some opium-drops to them; through which kindness they became quite warm, and slept soundly."
+        },
+        {
+          "number": 9,
+          "text": "Then they came to a country which was wholly covered with immense orange-trees of a vast size, and quite full of fruit. So they all landed, taking with them the teakettle, intending to gather some of the oranges, and place them in it. But, while they were busy about this, a most dreadfully high wind rose, and blew out most of the parrot-tail feathers from Violet’s bonnet."
+        },
+        {
+          "number": 10,
+          "text": "That, however, was nothing compared with the calamity of the oranges falling down on their heads by millions and millions, which thumped and bumped and bumped and thumped them all so seriously, that they were obliged to run as hard as they could for their lives; besides that the sound of the oranges rattling on the teakettle was of the most fearful and amazing nature.\nNevertheless, they got safely to the boat, although considerably vexed and hurt; and the Quangle-Wangle’s right foot was so knocked about, that he had to sit with his head in his slipper for at least a week."
+        },
+        {
+          "number": 11,
+          "text": "This event made them all for a time rather melancholy: and perhaps they might never have become less so, had not Lionel, with a most praiseworthy devotion and perseverance, continued to stand on one leg, and whistle to them in a loud and lively manner; which diverted the whole party so extremely that they gradually recovered their spirits, and agreed that whenever they should reach home, they would subscribe towards a testimonial to Lionel, entirely made of gingerbread and raspberries, as an earnest token of their sincere and grateful infection."
+        },
+        {
+          "number": 12,
+          "text": "After sailing on calmly for several more days, they came to another country, where they were much pleased and surprised to see a countless multitude of white Mice with red eyes, all sitting in a great circle, slowly eating custard-pudding with the most satisfactory and polite demeanor."
+        },
+        {
+          "number": 13,
+          "text": "And as the four travellers were rather hungry, being tired of eating nothing but soles and oranges for so long a period, they held a council as to the propriety of asking the Mice for some of their pudding in a humble and affecting manner, by which they could hardly be otherwise than gratified. It was agreed, therefore, that Guy should go and ask the Mice, which he immediately did; and the result was, that they gave a walnut-shell only half full of custard diluted with water. Now, this displeased Guy, who said, “Out of such a lot of pudding as you have got, I must say, you might have spared a somewhat larger quantity.”"
+        },
+        {
+          "number": 14,
+          "text": "But no sooner had he finished speaking than the Mice turned round at once, and sneezed at him in an appalling and vindictive manner (and it is impossible to imagine a more scroobious and unpleasant sound than that caused by the simultaneous sneezing of many millions of angry Mice); so that Guy rushed back to the boat, having first shied his cap into the middle of the custard-pudding, by which means he completely spoiled the Mice’s dinner."
+        },
+        {
+          "number": 15,
+          "text": "By and by the four children came to a country where there were no houses, but only an incredibly innumerable number of large bottles without corks, and of a dazzling and sweetly susceptible blue color. Each of these blue bottles contained a Bluebottle-Fly; and all these interesting animals live continually together in the most copious and rural harmony: nor perhaps in many parts of the world is such perfect and abject happiness to be found."
+        },
+        {
+          "number": 16,
+          "text": "Violet and Slingsby and Guy and Lionel were greatly struck with this singular and instructive settlement; and, having previously asked permission of the Bluebottle-Flies (which was most courteously granted), the boat was drawn up to the shore, and they proceeded to make tea in front of the bottles: but as they had no tea-leaves, they merely placed some pebbles in the hot water; and the Quangle-Wangle played some tunes over it on an accordion, by which, of course, tea was made directly, and of the very best quality."
+        },
+        {
+          "number": 17,
+          "text": "The four children then entered into conversation with the Bluebottle-Flies, who discoursed in a placid and genteel manner, though with a slightly buzzing accent, chiefly owing to the fact that they each held a small clothes-brush between their teeth, which naturally occasioned a fizzy, extraneous utterance.\n“Why,” said Violet, “would you kindly inform us, do you reside in bottles; and, if in bottles at all, why not, rather, in green or purple, or, indeed, in yellow bottles?”"
+        },
+        {
+          "number": 18,
+          "text": "To which questions a very aged Bluebottle-Fly answered, “We found the bottles here all ready to live in; that is to say, our great-great-great-great-great-grandfathers did: so we occupied them at once. And, when the winter comes on, we turn the bottles upside down, and consequently rarely feel the cold at all; and you know very well that this could not be the case with bottles of any other color than blue.”\n“Of course it could not,” said Slingsby. “But, if we may take the liberty of inquiring, on what do you chiefly subsist?”\n“Mainly on oyster-patties,” said the Bluebottle-Fly; “and, when these are scarce, on raspberry vinegar and Russian leather boiled down to a jelly.”"
+        },
+        {
+          "number": 19,
+          "text": "“How delicious!” said Guy.\nTo which Lionel added, “Huzz!” And all the Bluebottle-Flies said, “Buzz!”\nAt this time, an elderly Fly said it was the hour for the evening-song to be sung; and, on a signal being given, all the Bluebottle-Flies began to buzz at once in a sumptuous and sonorous manner, the melodious and mucilaginous sounds echoing all over the waters, and resounding across the tumultuous tops of the transitory titmice upon the intervening and verdant mountains with a serene and sickly suavity only known to the truly virtuous."
+        },
+        {
+          "number": 20,
+          "text": "The Moon was shining slobaciously from the star-bespangled sky, while her light irrigated the smooth and shiny sides and wings and backs of the Bluebottle-Flies with a peculiar and trivial splendor, while all Nature cheerfully responded to the cerulean and conspicuous circumstances."
+        },
+        {
+          "number": 21,
+          "text": "In many long-after years, the four little travellers looked back to that evening as one of the happiest in all their lives; and it was already past midnight when—the sail of the boat having been set up by the Quangle-Wangle, the teakettle and churn placed in their respective positions, and the Pussycat stationed at the helm—the children each took a last and affectionate farewell of the Bluebottle-Flies, who walked down in a body to the water’s edge to see the travellers embark."
+        },
+        {
+          "number": 22,
+          "text": "As a token of parting respect and esteem, Violet made a courtesy quite down to the ground, and stuck one of her few remaining parrot-tail feathers into the back hair of the most pleasing of the Bluebottle-Flies; while Slingsby, Guy, and Lionel offered them three small boxes, containing, respectively, black pins, dried figs, and Epsom salts; and thus they left that happy shore forever."
+        },
+        {
+          "number": 23,
+          "text": "Overcome by their feelings, the four little travellers instantly jumped into the teakettle, and fell fast asleep. But all along the shore, for many hours, there was distinctly heard a sound of severely-suppressed sobs, and of a vague multitude of living creatures using their pocket-handkerchiefs in a subdued simultaneous snuffle, lingering sadly along the walloping waves as the boat sailed farther and farther away from the Land of the Happy Bluebottle-Flies."
+        },
+        {
+          "number": 24,
+          "text": "Nothing particular occurred for some days after these events, except that, as the travellers were passing a low tract of sand, they perceived an unusual and gratifying spectacle; namely, a large number of Crabs and Crawfish—perhaps six or seven hundred—sitting by the waterside, and endeavoring to disentangle a vast heap of pale pink worsted, which they moistened at intervals with a fluid composed of lavender-water and white-wine negus.\n“Can we be of any service to you, O crusty Crabbies?” said the four children.\n“Thank you kindly,” said the Crabs consecutively. “We are trying to make some worsted mittens, but do not know how.”"
+        },
+        {
+          "number": 25,
+          "text": "On which Violet, who was perfectly acquainted with the art of mitten-making, said to the Crabs, “Do your claws unscrew, or are they fixtures?”\n“They are all made to unscrew,” said the Crabs; and forthwith they deposited a great pile of claws close to the boat, with which Violet uncombed all the pale pink worsted, and then made the loveliest mittens with it you can imagine. These the Crabs, having resumed and screwed on their claws, placed cheerfully upon their wrists, and walked away rapidly on their hind-legs, warbling songs with a silvery voice and in a minor key."
+        },
+        {
+          "number": 26,
+          "text": "After this, the four little people sailed on again till they came to a vast and wide plain of astonishing dimensions, on which nothing whatever could be discovered at first; but, as the travellers walked onward, there appeared in the extreme and dim distance a single object, which on a nearer approach, and on an accurately cutaneous inspection, seemed to be somebody in a large white wig, sitting on an armchair made of sponge-cakes and oyster-shells."
+        },
+        {
+          "number": 27,
+          "text": "“It does not quite look like a human being,” said Violet doubtfully; nor could they make out what it really was, till the Quangle-Wangle (who had previously been round the world) exclaimed softly in a loud voice, “It is the cooperative Cauliflower!”\nAnd so, in truth, it was: and they soon found that what they had taken for an immense wig was in reality the top of the Cauliflower; and that he had no feet at all, being able to walk tolerably well with a fluctuating and graceful movement on a single cabbage-stalk—an accomplishment which naturally saved him the expense of stockings and shoes."
+        },
+        {
+          "number": 28,
+          "text": "Presently, while the whole party from the boat was gazing at him with mingled affection and disgust, he suddenly arose, and, in a somewhat plumdomphious manner, hurried off towards the setting sun—his steps supported by two superincumbent confidential Cucumbers, and a large number of Waterwagtails proceeding in advance of him by three and three in a row—till he finally disappeared on the brink of the western sky in a crystal cloud of sudorific sand.\nSo remarkable a sight, of course, impressed the four children very deeply; and they returned immediately to their boat with a strong sense of undeveloped asthma and a great appetite."
+        },
+        {
+          "number": 29,
+          "text": "Shortly after this, the travellers were obliged to sail directly below some high overhanging rocks, from the top of one of which a particularly odious little boy, dressed in rose-colored knickerbockers, and with a pewter plate upon his head, threw an enormous pumpkin at the boat, by which it was instantly upset."
+        },
+        {
+          "number": 30,
+          "text": "But this upsetting was of no consequence, because all the party knew how to swim very well: and, in fact, they preferred swimming about till after the moon rose; when, the water growing chilly, they sponge-taneously entered the boat. Meanwhile the Quangle-Wangle threw back the pumpkin with immense force, so that it hit the rocks where the malicious little boy in rose-colored knickerbockers was sitting; when, being quite full of lucifer-matches, the pumpkin exploded surreptitiously into a thousand bits; whereon the rocks instantly took fire, and the odious little boy became unpleasantly hotter and hotter and hotter, till his knickerbockers were turned quite green, and his nose was burnt off."
+        },
+        {
+          "number": 31,
+          "text": "Two or three days after this had happened, they came to another place, where they found nothing at all except some wide and deep pits full of mulberry-jam. This is the property of the tiny, yellow-nosed Apes who abound in these districts, and who store up the mulberry-jam for their food in winter, when they mix it with pellucid pale periwinkle-soup, and serve it out in wedgewood china-bowls, which grow freely all over that part of the country."
+        },
+        {
+          "number": 32,
+          "text": "Only one of the yellow-nosed Apes was on the spot, and he was fast asleep; yet the four travellers and the Quangle-Wangle and Pussy were so terrified by the violence and sanguinary sound of his snoring, that they merely took a small cupful of the jam, and returned to re-embark in their boat without delay."
+        },
+        {
+          "number": 33,
+          "text": "What was their horror on seeing the boat (including the churn and the teakettle) in the mouth of an enormous Seeze Pyder, an aquatic and ferocious creature truly dreadful to behold, and, happily, only met with in those excessive longitudes! In a moment, the beautiful boat was bitten into fifty-five thousand million hundred billion bits; and it instantly became quite clear that Violet, Slingsby, Guy, and Lionel could no longer preliminate their voyage by sea."
+        },
+        {
+          "number": 34,
+          "text": "The four travellers were therefore obliged to resolve on pursuing their wanderings by land: and, very fortunately, there happened to pass by at that moment an elderly Rhinoceros, on which they seized; and, all four mounting on his back—the Quangle-Wangle sitting on his horn, and holding on by his ears, and the Pussycat swinging at the end of his tail—they set off, having only four small beans and three pounds of mashed potatoes to last through their whole journey."
+        },
+        {
+          "number": 35,
+          "text": "They were, however, able to catch numbers of the chickens and turkeys and other birds who incessantly alighted on the head of the Rhinoceros for the purpose of gathering the seeds of the rhododendron-plants which grew there; and these creatures they cooked in the most translucent and satisfactory manner by means of a fire lighted on the end of the Rhinoceros’s back. A crowd of Kangaroos and gigantic Cranes accompanied them, from feelings of curiosity and complacency; so that they were never at a loss for company, and went onward, as it were, in a sort of profuse and triumphant procession."
+        },
+        {
+          "number": 36,
+          "text": "Thus in less than eighteen weeks they all arrived safely at home, where they were received by their admiring relatives with joy tempered with contempt, and where they finally resolved to carry out the rest of their travelling-plans at some more favorable opportunity.\nAs for the Rhinoceros, in token of their grateful adherence, they had him killed and stuffed directly, and then set him up outside the door of their father’s house as a diaphanous doorscraper."
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "label": "123",
+      "title": "The History of the Seven Families of the Lake Pipple-Popple",
+      "pages": [
+        {
+          "number": 1,
+          "text": "In former days—that is to say, once upon a time—there lived in the Land of Gramble-Blamble seven families. They lived by the side of the great Lake Pipple-Popple (one of the seven families, indeed, lived in the lake), and on the outskirts of the city of Tosh, which, excepting when it was quite dark, they could see plainly. The names of all these places you have probably heard of; and you have only not to look in your geography-books to find out all about them.\nNow, the seven families who lived on the borders of the great Lake Pipple-Popple were as follows in the next chapter.\nThere was a family of two old Parrots and seven young Parrots."
+        },
+        {
+          "number": 2,
+          "text": "There was a family of two old Storks and seven young Storks.\nThere was a family of two old Geese and seven young Geese.\nThere was a family of two old Owls and seven young Owls.\nThere was a family of two old Guinea Pigs and seven young Guinea Pigs.\nThere was a family of two old Cats and seven young Cats.\nAnd there was a family of two old Fishes and seven young Fishes.\nThe Parrots lived upon the Soffsky-Poffsky trees, which were beautiful to behold, and covered with blue leaves; and they fed upon fruit, artichokes, and striped beetles."
+        },
+        {
+          "number": 3,
+          "text": "The Storks walked in and out of the Lake Pipple-Popple, and ate frogs for breakfast, and buttered toast for tea; but on account of the extreme length of their legs they could not sit down, and so they walked about continually.\nThe Geese, having webs to their feet, caught quantities of flies, which they ate for dinner.\nThe Owls anxiously looked after mice, which they caught, and made into sago-puddings.\nThe Guinea Pigs toddled about the gardens, and ate lettuces and Cheshire cheese.\nThe Cats sat still in the sunshine, and fed upon sponge biscuits.\nThe Fishes lived in the lake, and fed chiefly on boiled periwinkles.\nAnd all these seven families lived together in the utmost fun and felicity."
+        },
+        {
+          "number": 4,
+          "text": "One day all the seven fathers and the seven mothers of the seven families agreed that they would send their children out to see the world.\nSo they called them all together, and gave them each eight shillings and some good advice, some chocolate-drops, and a small green morocco pocketbook to set down their expenses in.\nThey then particularly entreated them not to quarrel; and all the parents sent off their children with a parting injunction.\n“If,” said the old Parrots, “you find a cherry, do not fight about who should have it.”\n“And,” said the old Storks, “if you find a frog, divide it carefully into seven bits, but on no account quarrel about it.”"
+        },
+        {
+          "number": 5,
+          "text": "And the old Geese said to the seven young Geese, “Whatever you do, be sure you do not touch a plum-pudding flea.”\nAnd the old Owls said, “If you find a mouse, tear him up into seven slices, and eat him cheerfully, but without quarrelling.”\nAnd the old Guinea Pigs said, “Have a care that you eat your lettuces, should you find any, not greedily, but calmly.”\nAnd the old Cats said, “Be particularly careful not to meddle with a clangle-wangle if you should see one.”\nAnd the old Fishes said, “Above all things, avoid eating a blue boss-woss; for they do not agree with fishes, and give them a pain in their toes.”"
+        },
+        {
+          "number": 6,
+          "text": "So all the children of each family thanked their parents; and, making in all forty-nine polite bows, they went into the wide world."
+        },
+        {
+          "number": 7,
+          "text": "The seven young Parrots had not gone far, when they saw a tree with a single cherry on it, which the oldest Parrot picked instantly; but the other six, being extremely hungry, tried to get it also. On which all the seven began to fight; and they\nscuffled,\nand ruffled,\nand shuffled,\nand puffled,\nand muffled,\nand buffled,\nand duffled,\nand fluffled,\nand guffled,\nand bruffled, and\nscreamed, and shrieked, and squealed,\nand squeaked, and clawed, and snapped, and bit, and bumped, and thumped, and dumped, and flumped each other, till they were all torn into little bits; and at last there was nothing left to record this painful incident except the cherry and seven small green feathers."
+        },
+        {
+          "number": 8,
+          "text": "And that was the vicious and voluble end of the seven young Parrots.\nWhen the seven young Storks set out, they walked or flew for fourteen weeks in a straight line, and for six weeks more in a crooked one; and after that they ran as hard as they could for one hundred and eight miles; and after that they stood still, and made a himmeltanious chatter-clatter-blattery noise with their bills.\nAbout the same time they perceived a large frog, spotted with green, and with a sky-blue stripe under each ear."
+        },
+        {
+          "number": 9,
+          "text": "So, being hungry, they immediately flew at him, and were going to divide him into seven pieces, when they began to quarrel as to which of his legs should be taken off first. One said this, and another said that; and while they were all quarrelling, the frog hopped away. And when they saw that he was gone, they began to\nchatter-clatter,\nblatter-platter,\npatter-blatter,\nmatter-clatter,\nflatter-quatter,\nmore violently than ever; and after they had fought for a week, they pecked each other all to little pieces, so that at last nothing was left of any of them except their bills.\n\nAnd that was the end of the seven young Storks."
+        },
+        {
+          "number": 10,
+          "text": "When the seven young Geese began to travel, they went over a large plain, on which there was but one tree, and that was, a very bad one.\nSo four of them went up to the top of it, and looked about them; while the other three waddled up and down, and repeated poetry, and their last six lessons in arithmetic, geography, and cookery.\nPresently they perceived, a long way off, an object of the most interesting and obese appearance, having a perfectly round body exactly resembling a boiled plum-pudding, with two little wings, and a beak, and three feathers growing out of his head, and only one leg."
+        },
+        {
+          "number": 11,
+          "text": "So, after a time, all the seven young Geese said to each other, “Beyond all doubt this beast must be a Plum-pudding Flea!”\nOn which they incautiously began to sing aloud,\n\n“Plum-pudding Flea,\nPlum-pudding Flea,\nWherever you be,\nOh! come to our tree,\nAnd listen, oh! listen, oh! listen to me!”\n\nAnd no sooner had they sung this verse than the Plum-pudding Flea began to hop and skip on his one leg with the most dreadful velocity, and came straight to the tree, where he stopped, and looked about him in a vacant and voluminous manner."
+        },
+        {
+          "number": 12,
+          "text": "On which the seven young Geese were greatly alarmed, and all of a tremble-bemble: so one of them put out his long neck, and just touched him with the tip of his bill; but no sooner had he done this than the Plum-pudding Flea skipped and hopped about more and more, and higher and higher; after which he opened his mouth, and, to the great surprise and indignation of the seven Geese, began to bark so loudly and furiously and terribly, that they were totally unable to bear the noise; and by degrees every one of them suddenly tumbled down quite dead.\nSo that was the end of the seven young Geese."
+        },
+        {
+          "number": 13,
+          "text": "When the seven young Owls set out, they sat every now and then on the branches of old trees, and never went far at one time.\nAnd one night, when it was quite dark, they thought they heard a mouse; but, as the gas-lamps were not lighted, they could not see him.\nSo they called out, “Is that a mouse?”\nOn which a mouse answered, “Squeaky-peeky-weeky! yes, it is!”\nAnd immediately all the young Owls threw themselves off the tree, meaning to alight on the ground; but they did not perceive that there was a large well below them, into which they all fell superficially, and were every one of them drowned in less than half a minute.\nSo that was the end of the seven young Owls."
+        },
+        {
+          "number": 14,
+          "text": "The seven young Guinea Pigs went into a garden full of gooseberry-bushes and tiggory-trees, under one of which they fell asleep. When they awoke, they saw a large lettuce, which had grown out of the ground while they had been sleeping, and which had an immense number of green leaves. At which they all exclaimed—\n\n“Lettuce! O lettuce\nLet us, O let us,\nO lettuce-leaves,\nO let us leave this tree, and eat\nLettuce, O let us, lettuce-leaves!”"
+        },
+        {
+          "number": 15,
+          "text": "And instantly the seven young Guinea Pigs rushed with such extreme force against the lettuce-plant, and hit their heads so vividly against its stalk, that the concussion brought on directly an incipient transitional inflammation of their noses, which grew worse and worse and worse and worse, till it incidentally killed them all seven.\nAnd that was the end of the seven young Guinea Pigs.\nThe seven young Cats set off on their travels with great delight and rapacity. But, on coming to the top of a high hill, they perceived at a long distance off a Clangle-Wangle (or, as it is more properly written, Clangel-Wangel); and, in spite of the warning they had had, they ran straight up to it."
+        },
+        {
+          "number": 16,
+          "text": "(Now, the Clangle-Wangle is a most dangerous and delusive beast, and by no means commonly to be met with. They live in the water as well as on land, using their long tail as a sail when in the former element. Their speed is extreme; but their habits of life are domestic and superfluous, and their general demeanor pensive and pellucid. On summer evenings, they may sometimes be observed near the Lake Pipple-Popple, standing on their heads, and humming their national melodies. They subsist entirely on vegetables, excepting when they eat veal or mutton or pork or beef or fish or saltpetre.)"
+        },
+        {
+          "number": 17,
+          "text": "The moment the Clangle-Wangle saw the seven young Cats approach, he ran away; and as he ran straight on for four months, and the Cats, though they continued to run, could never overtake him, they all gradually died of fatigue and exhaustion, and never afterwards recovered.\nAnd this was the end of the seven young Cats."
+        },
+        {
+          "number": 18,
+          "text": "The seven young Fishes swam across the Lake Pipple-Popple, and into the river, and into the ocean; where, most unhappily for them, they saw, on the fifteenth day of their travels, a bright-blue Boss-Woss, and instantly swam after him. But the Blue Boss-Woss plunged into a\nperpendicular,\nspicular,\norbicular,\nquadrangular,\ncircular depth of soft mud; where, in fact, his house was.\n\nAnd the seven young Fishes, swimming with great and uncomfortable velocity, plunged also into the mud quite against their will, and, not being accustomed to it, were all suffocated in a very short period.\nAnd that was the end of the seven young Fishes."
+        },
+        {
+          "number": 19,
+          "text": "After it was known that the\nseven young Parrots,\nand the seven young Storks,\nand the seven young Geese,\nand the seven young Owls,\nand the seven young Guinea Pigs,\nand the seven young Cats,\nand the seven young Fishes,"
+        },
+        {
+          "number": 20,
+          "text": "were all dead, then the Frog, and the Plum-pudding Flea, and the Mouse, and the Clangle-Wangle, and the Blue Boss-Woss, all met together to rejoice over their good fortune. And they collected the seven feathers of the seven young Parrots, and the seven bills of the seven young Storks, and the lettuce, and the cherry; and having placed the latter on the lettuce, and the other objects in a circular arrangement at their base, they danced a hornpipe round all these memorials until they were quite tired; after which they gave a tea-party, and a garden-party, and a ball, and a concert, and then returned to their respective homes full of joy and respect, sympathy, satisfaction, and disgust."
+        },
+        {
+          "number": 21,
+          "text": "But when the two old Parrots,\nand the two old Storks,\nand the two old Geese,\nand the two old Owls,\nand the two old Guinea Pigs,\nand the two old Cats,\nand the two old Fishes,"
+        },
+        {
+          "number": 22,
+          "text": "became aware, by reading in the newspapers, of the calamitous extinction of the whole of their families, they refused all further sustenance; and, sending out to various shops, they purchased great quantities of Cayenne pepper and brandy and vinegar and blue sealing-wax, besides seven immense glass bottles with airtight stoppers. And, having done this, they ate a light supper of brown-bread and Jerusalem artichokes, and took an affecting and formal leave of the whole of their acquaintance, which was very numerous and distinguished and select and responsible and ridiculous."
+        },
+        {
+          "number": 23,
+          "text": "And after this they filled the bottles with the ingredients for pickling, and each couple jumped into a separate bottle; by which effort, of course, they all died immediately, and became thoroughly pickled in a few minutes; having previously made their wills (by the assistance of the most eminent lawyers of the district), in which they left strict orders that the stoppers of the seven bottles should be carefully sealed up with the blue sealing-wax they had purchased; and that they themselves, in the bottles, should be presented to the principal museum of the city of Tosh, to be labelled with parchment or any other anti-congenial succedaneum,"
+        },
+        {
+          "number": 24,
+          "text": "and to be placed on a marble table with silver-gilt legs, for the daily inspection and contemplation, and for the perpetual benefit, of the pusillanimous public.\nAnd if you ever happen to go to Gramble-Blamble, and visit that museum in the city of Tosh, look for them on the ninety-eighth table in the four hundred and twenty-seventh room of the right-hand corridor of the left wing of the central quadrangle of that magnificent building; for, if you do not, you certainly will not see them."
+        }
+      ]
+    },
+    {
+      "number": 124,
+      "label": "124",
+      "title": "To Make an Amblongus Pie",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Take 4 pounds (say 4½ pounds) of fresh Amblongusses, and put them in a small pipkin.\nCover them with water, and boil them for 8 hours incessantly; after which add 2 pints of new milk, and proceed to boil for 4 hours more.\nWhen you have ascertained that the Amblongusses are quite soft, take them out, and place them in a wide pan, taking care to shake them well previously.\nGrate some nutmeg over the surface, and cover them carefully with powdered gingerbread, curry-powder, and a sufficient quantity of Cayenne pepper."
+        },
+        {
+          "number": 2,
+          "text": "Remove the pan into the next room, and place it on the floor. Bring it back again, and let it simmer for three-quarters of an hour. Shake the pan violently till all the Amblongusses have become of a pale purple color.\nThen, having prepared the paste, insert the whole carefully; adding at the same time a small pigeon, 2 slices of beef, 4 cauliflowers, and any number of oysters.\nWatch patiently till the crust begins to rise, and add a pinch of salt from time to time.\nServe up in a clean dish, and throw the whole out of window as fast as possible."
+        }
+      ]
+    },
+    {
+      "number": 125,
+      "label": "125",
+      "title": "To Make Crumbobblious Cutlets",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Procure some strips of beef, and, having cut them into the smallest possible slices, proceed to cut them still smaller—eight, or perhaps nine times.\nWhen the whole is thus minced, brush it up hastily with a new clothes-brush, and stir round rapidly and capriciously with a salt-spoon or a soup-ladle.\nPlace the whole in a saucepan, and remove it to a sunny place—say the roof of the house, if free from sparrows or other birds—and leave it there for about a week.\nAt the end of that time add a little lavender, some oil of almonds, and a few herring-bones; and then cover the whole with 4 gallons of clarified Crumbobblious sauce, when it will be ready for use."
+        },
+        {
+          "number": 2,
+          "text": "Cut it into the shape of ordinary cutlets, and serve up in a clean tablecloth or dinner-napkin."
+        }
+      ]
+    },
+    {
+      "number": 126,
+      "label": "126",
+      "title": "To Make Gosky Patties",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Take a pig three or four years of age, and tie him by the off hind-leg to a post. Place 5 pounds of currants, 3 of sugar, 2 pecks of peas, 18 roast chestnuts, a candle, and 6 bushels of turnips, within his reach: if he eats these, constantly provide him with more.\nThen procure some cream, some slices of Cheshire cheese, 4 quires of foolscap paper, and a packet of black pins. Work the whole into a paste, and spread it out to dry on a sheet of clean brown waterproof linen.\nWhen the paste is perfectly dry, but not before, proceed to beat the pig violently with the handle of a large broom. If he squeals, beat him again."
+        },
+        {
+          "number": 2,
+          "text": "Visit the paste and beat the pig alternately for some days, and ascertain if, at the end of that period, the whole is about to turn into Gosky Patties.\nIf it does not then, it never will; and in that case the pig may be let loose, and the whole process may be considered as finished."
+        }
+      ]
+    },
+    {
+      "number": 127,
+      "label": "127",
+      "title": "There was a young person of Bantry,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person of Bantry,\nWho frequently slept in the pantry;\nWhen disturbed by the mice, she appeased them with rice,\nThat judicious young person of Bantry."
+        }
+      ]
+    },
+    {
+      "number": 128,
+      "label": "128",
+      "title": "There was an Old Man at a Junction,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an Old Man at a Junction,\nWhose feelings were wrung with compunction\nWhen they said, “The Train’s gone!” he exclaimed, “How forlorn!”\nBut remained on the rails of the Junction."
+        }
+      ]
+    },
+    {
+      "number": 129,
+      "label": "129",
+      "title": "There was an old person of Minety,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Minety,\nWho purchased five hundred and ninety\nLarge apples and pears, which he threw unawares\nAt the heads of the people of Minety."
+        }
+      ]
+    },
+    {
+      "number": 130,
+      "label": "130",
+      "title": "There was an old man of Thermopylae,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Thermopylae,\nWho never did anything properly;\nBut they said, “If you choose to boil eggs in your shoes,\nYou shall never remain in Thermopylae.”"
+        }
+      ]
+    },
+    {
+      "number": 131,
+      "label": "131",
+      "title": "There was an old person of Deal,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Deal,\nWho in walking used only his heel;\nWhen they said, “Tell us why?” he made no reply,\nThat mysterious old person of Deal."
+        }
+      ]
+    },
+    {
+      "number": 132,
+      "label": "132",
+      "title": "There was an old man on the Humber,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man on the Humber,\nWho dined on a cake of Burnt Umber;\nWhen he said, “It’s enough!” they only said, “Stuff!\nYou amazing old man on the Humber!”"
+        }
+      ]
+    },
+    {
+      "number": 133,
+      "label": "133",
+      "title": "There was an old man in a barge,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man in a barge,\nWhose nose was exceedingly large;\nBut in fishing by night, it supported a light,\nWhich helped that old man in a barge."
+        }
+      ]
+    },
+    {
+      "number": 134,
+      "label": "134",
+      "title": "There was an old man of Dunrose;",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Dunrose;\nA parrot seized hold of his nose.\nWhen he grew melancholy, they said, “His name’s Polly,”\nWhich soothed that old man of Dunrose."
+        }
+      ]
+    },
+    {
+      "number": 135,
+      "label": "135",
+      "title": "There was an old man of Toulouse",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Toulouse\nWho purchased a new pair of shoes;\nWhen they asked, “Are they pleasant?” he said, “Not at present!”\nThat turbid old man of Toulouse."
+        }
+      ]
+    },
+    {
+      "number": 136,
+      "label": "136",
+      "title": "There was an old person of Bree,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Bree,\nWho frequented the depths of the sea;\nShe nurs’d the small fishes, and washed all the dishes,\nAnd swam back again into Bree."
+        }
+      ]
+    },
+    {
+      "number": 137,
+      "label": "137",
+      "title": "There was an old person of Bromley,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Bromley,\nWhose ways were not cheerful or comely;\nHe sat in the dust, eating spiders and crust,\nThat unpleasing old person of Bromley."
+        }
+      ]
+    },
+    {
+      "number": 138,
+      "label": "138",
+      "title": "There was an old person of Shields,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Shields,\nWho frequented the vallies and fields;\nAll the mice and the cats, and the snakes and the rats,\nFollowed after that person of Shields."
+        }
+      ]
+    },
+    {
+      "number": 139,
+      "label": "139",
+      "title": "There was an old man of Dunluce,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Dunluce,\nWho went out to sea on a goose:\nWhen he’d gone out a mile, he observ’d with a smile,\n“It is time to return to Dunluce.”"
+        }
+      ]
+    },
+    {
+      "number": 140,
+      "label": "140",
+      "title": "There was an old man of Dee-side",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Dee-side\nWhose hat was exceedingly wide,\nBut he said, “Do not fail, if it happen to hail,\nTo come under my hat at Dee-side!”"
+        }
+      ]
+    },
+    {
+      "number": 141,
+      "label": "141",
+      "title": "There was an old person in black,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person in black,\nA Grasshopper jumped on his back;\nWhen it chirped in his ear, he was smitten with fear,\nThat helpless old person in black."
+        }
+      ]
+    },
+    {
+      "number": 142,
+      "label": "142",
+      "title": "There was an old man of the Dargle",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of the Dargle\nWho purchased six barrels of Gargle;\nFor he said, “I’ll sit still, and will roll them down hill,\nFor the fish in the depths of the Dargle.”"
+        }
+      ]
+    },
+    {
+      "number": 143,
+      "label": "143",
+      "title": "There was an old person of Pinner,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Pinner,\nAs thin as a lath, if not thinner;\nThey dressed him in white, and roll’d him up tight,\nThat elastic old person of Pinner."
+        }
+      ]
+    },
+    {
+      "number": 144,
+      "label": "144",
+      "title": "There was an old person of China,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of China,\nWhose daughters were Jiska and Dinah,\nAmelia and Fluffy, Olivia and Chuffy,\nAnd all of them settled in China."
+        }
+      ]
+    },
+    {
+      "number": 145,
+      "label": "145",
+      "title": "There was an old man in a Marsh,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man in a Marsh,\nWhose manners were futile and harsh;\nHe sat on a log, and sang songs to a frog,\nThat instructive old man in a Marsh."
+        }
+      ]
+    },
+    {
+      "number": 146,
+      "label": "146",
+      "title": "There was an old person of Brill,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Brill,\nWho purchased a shirt with a frill;\nBut they said, “Don’t you wish, you mayn’t look like a fish,\nYou obsequious old person of Brill?”"
+        }
+      ]
+    },
+    {
+      "number": 147,
+      "label": "147",
+      "title": "There was an old person of Wick,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Wick,\nWho said, “Tick-a-Tick, Tick-a-Tick;\nChickabee, Chickabaw.” And he said nothing more,\nThat laconic old person of Wick."
+        }
+      ]
+    },
+    {
+      "number": 148,
+      "label": "148",
+      "title": "There was an old man at a Station,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man at a Station,\nWho made a promiscuous oration;\nBut they said, “Take some snuff!—You have talk’d quite enough,\nYou afflicting old man at a Station!”"
+        }
+      ]
+    },
+    {
+      "number": 149,
+      "label": "149",
+      "title": "There was an old man of Three Bridges,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Three Bridges,\nWhose mind was distracted by midges,\nHe sat on a wheel, eating underdone veal,\nWhich relieved that old man of Three Bridges."
+        }
+      ]
+    },
+    {
+      "number": 150,
+      "label": "150",
+      "title": "There was an old man of Hong Kong,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Hong Kong,\nWho never did anything wrong;\nHe lay on his back, with his head in a sack,\nThat innocuous old man of Hong Kong."
+        }
+      ]
+    },
+    {
+      "number": 151,
+      "label": "151",
+      "title": "There was a young person in green,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person in green,\nWho seldom was fit to be seen;\nShe wore a long shawl, over bonnet and all,\nWhich enveloped that person in green."
+        }
+      ]
+    },
+    {
+      "number": 152,
+      "label": "152",
+      "title": "There was an old person of Fife,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Fife,\nWho was greatly disgusted with life;\nThey sang him a ballad, and fed him on salad,\nWhich cured that old person of Fife."
+        }
+      ]
+    },
+    {
+      "number": 153,
+      "label": "153",
+      "title": "There was an old man who screamed out",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man who screamed out\nWhenever they knocked him about:\nSo they took off his boots, and fed him with fruits,\nAnd continued to knock him about."
+        }
+      ]
+    },
+    {
+      "number": 154,
+      "label": "154",
+      "title": "There was a young lady in white,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young lady in white,\nWho looked out at the depths of the night;\nBut the birds of the air, filled her heart with despair,\nAnd oppressed that young lady in white."
+        }
+      ]
+    },
+    {
+      "number": 155,
+      "label": "155",
+      "title": "There was an old person of Slough,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Slough,\nWho danced at the end of a bough;\nBut they said, “If you sneeze, you might damage the trees,\nYou imprudent old person of Slough.”"
+        }
+      ]
+    },
+    {
+      "number": 156,
+      "label": "156",
+      "title": "There was an old person of Down,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Down,\nWhose face was adorned with a frown;\nWhen he opened the door, for one minute or more,\nHe alarmed all the people of Down."
+        }
+      ]
+    },
+    {
+      "number": 157,
+      "label": "157",
+      "title": "There was a young person in red,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person in red,\nWho carefully covered her head,\nWith a bonnet of leather, and three lines of feather,\nBesides some long ribbons of red."
+        }
+      ]
+    },
+    {
+      "number": 158,
+      "label": "158",
+      "title": "There was an old person of Hove,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Hove,\nWho frequented the depths of a grove;\nWhere he studied his books, with the wrens and the rooks,\nThat tranquil old person of Hove."
+        }
+      ]
+    },
+    {
+      "number": 159,
+      "label": "159",
+      "title": "There was a young person in pink,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person in pink,\nWho called out for something to drink;\nBut they said, “O my daughter, there’s nothing but water!”\nWhich vexed that young person in pink."
+        }
+      ]
+    },
+    {
+      "number": 160,
+      "label": "160",
+      "title": "There was an old lady of France,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old lady of France,\nWho taught little ducklings to dance;\nWhen she said, “Tick-a-tack!” they only said, “Quack!”\nWhich grieved that old lady of France."
+        }
+      ]
+    },
+    {
+      "number": 161,
+      "label": "161",
+      "title": "There was an old person of Putney,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Putney,\nWhose food was roast spiders and chutney,\nWhich he took with his tea, within sight of the sea,\nThat romantic old person of Putney."
+        }
+      ]
+    },
+    {
+      "number": 162,
+      "label": "162",
+      "title": "There was an old person of Loo,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Loo,\nWho said, “What on earth shall I do?”\nWhen they said, “Go away!” she continued to stay,\nThat vexatious old person of Loo."
+        }
+      ]
+    },
+    {
+      "number": 163,
+      "label": "163",
+      "title": "There was an old person of Woking,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Woking,\nWhose mind was perverse and provoking;\nHe sat on a rail, with his head in a pail,\nThat illusive old person of Woking."
+        }
+      ]
+    },
+    {
+      "number": 164,
+      "label": "164",
+      "title": "There was an old person of Dean",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Dean\nWho dined on one pea, and one bean;\nFor he said, “More than that, would make me too fat,”\nThat cautious old person of Dean."
+        }
+      ]
+    },
+    {
+      "number": 165,
+      "label": "165",
+      "title": "There was a young lady in blue,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young lady in blue,\nWho said, “Is it you? Is it you?”\nWhen they said, “Yes, it is,” she replied only, “Whizz!”\nThat ungracious young lady in blue."
+        }
+      ]
+    },
+    {
+      "number": 166,
+      "label": "166",
+      "title": "There was an old Man in a Garden,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old Man in a Garden,\nWho always begged everyone’s pardon;\nWhen they asked him, “What for?” he replied, “You’re a bore!\nAnd I trust you’ll go out of my garden.”"
+        }
+      ]
+    },
+    {
+      "number": 167,
+      "label": "167",
+      "title": "There was an old person of Pisa,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Pisa,\nWhose daughters did nothing to please her;\nShe dressed them in gray, and banged them all day,\nRound the walls of the city of Pisa."
+        }
+      ]
+    },
+    {
+      "number": 168,
+      "label": "168",
+      "title": "There was an old person of Florence,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Florence,\nWho held mutton chops in abhorrence;\nHe purchased a Bustard, and fried him in Mustard,\nWhich choked that old person of Florence."
+        }
+      ]
+    },
+    {
+      "number": 169,
+      "label": "169",
+      "title": "There was an old person of Sheen,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Sheen,\nWhose expression was calm and serene;\nHe sat in the water, and drank bottled porter,\nThat placid old person of Sheen."
+        }
+      ]
+    },
+    {
+      "number": 170,
+      "label": "170",
+      "title": "There was an old person of Ware,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Ware,\nWho rode on the back of a bear;\nWhen they ask’d, “Does it trot?” he said, “Certainly not!\nHe’s a Moppsikon Floppsikon bear!”"
+        }
+      ]
+    },
+    {
+      "number": 171,
+      "label": "171",
+      "title": "There was a young person of Janina,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person of Janina,\nWhose uncle was always a fanning her;\nWhen he fanned off her head, she smiled sweetly, and said,\n“You propitious old person of Janina!”"
+        }
+      ]
+    },
+    {
+      "number": 172,
+      "label": "172",
+      "title": "There was an old man of Cashmere,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Cashmere,\nWhose movements were scroobious and queer;\nBeing slender and tall, he looked over a wall,\nAnd perceived two fat ducks of Cashmere."
+        }
+      ]
+    },
+    {
+      "number": 173,
+      "label": "173",
+      "title": "There was an old person of Cassel,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Cassel,\nWhose nose finished off in a tassel;\nBut they call’d out, “Oh well! don’t it look like a bell!”\nWhich perplexed that old person of Cassel."
+        }
+      ]
+    },
+    {
+      "number": 174,
+      "label": "174",
+      "title": "There was an old person of Pett,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Pett,\nWho was partly consumed by regret;\nHe sat in a cart, and ate cold apple tart,\nWhich relieved that old person of Pett."
+        }
+      ]
+    },
+    {
+      "number": 175,
+      "label": "175",
+      "title": "There was an old man of Spithead,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Spithead,\nWho opened the window, and said—\n“Fil-jomble, fil-jumble, fil-rumble-come-tumble!”\nThat doubtful old man of Spithead."
+        }
+      ]
+    },
+    {
+      "number": 176,
+      "label": "176",
+      "title": "There was an old man on the Border,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man on the Border,\nWho lived in the utmost disorder;\nHe danced with the cat, and made tea in his hat,\nWhich vexed all the folks on the Border."
+        }
+      ]
+    },
+    {
+      "number": 177,
+      "label": "177",
+      "title": "There was an old man of Dumbree,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Dumbree,\nWho taught little owls to drink tea;\nFor he said, “To eat mice is not proper or nice,”\nThat amiable man of Dumbree."
+        }
+      ]
+    },
+    {
+      "number": 178,
+      "label": "178",
+      "title": "There was an old person of Filey,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Filey,\nOf whom his acquaintance spoke highly;\nHe danced perfectly well, to the sound of a bell,\nAnd delighted the people of Filey."
+        }
+      ]
+    },
+    {
+      "number": 179,
+      "label": "179",
+      "title": "There was an old man whose remorse",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man whose remorse\nInduced him to drink Caper Sauce;\nFor they said, “If mixed up with some cold claret-cup,\nIt will certainly soothe your remorse!”"
+        }
+      ]
+    },
+    {
+      "number": 180,
+      "label": "180",
+      "title": "There was an old man of Ibreem,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Ibreem,\nWho suddenly threaten’d to scream;\nBut they said, “If you do, we will thump you quite blue,\nYou disgusting old man of Ibreem!”"
+        }
+      ]
+    },
+    {
+      "number": 181,
+      "label": "181",
+      "title": "There was an old person of Wilts,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Wilts,\nWho constantly walked upon stilts;\nHe wreathed them with lilies and daffy-down-dillies,\nThat elegant person of Wilts."
+        }
+      ]
+    },
+    {
+      "number": 182,
+      "label": "182",
+      "title": "There was an old person of Grange,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Grange,\nWhose manners were scroobious and strange;\nHe sailed to St. Blubb in a waterproof tub,\nThat aquatic old person of Grange."
+        }
+      ]
+    },
+    {
+      "number": 183,
+      "label": "183",
+      "title": "There was an old person of Newry,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Newry,\nWhose manners were tinctured with fury;\nHe tore all the rugs, and broke all the jugs,\nWithin twenty miles’ distance of Newry."
+        }
+      ]
+    },
+    {
+      "number": 184,
+      "label": "184",
+      "title": "There was an old man of Dumblane,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Dumblane,\nWho greatly resembled a crane;\nBut they said, “Is it wrong, since your legs are so long,\nTo request you won’t stay in Dumblane?”"
+        }
+      ]
+    },
+    {
+      "number": 185,
+      "label": "185",
+      "title": "There was an old man of Port Grigor,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Port Grigor,\nWhose actions were noted for vigour;\nHe stood on his head till his waistcoat turned red,\nThat eclectic old man of Port Grigor."
+        }
+      ]
+    },
+    {
+      "number": 186,
+      "label": "186",
+      "title": "There was an old man of El Hums,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of El Hums,\nWho lived upon nothing but crumbs,\nWhich he picked off the ground, with the other birds round,\nIn the roads and the lanes of El Hums."
+        }
+      ]
+    },
+    {
+      "number": 187,
+      "label": "187",
+      "title": "There was an old man of West Dumpet,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of West Dumpet,\nWho possessed a large nose like a trumpet;\nWhen he blew it aloud, it astonished the crowd,\nAnd was heard through the whole of West Dumpet."
+        }
+      ]
+    },
+    {
+      "number": 188,
+      "label": "188",
+      "title": "There was an old person of Sark,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Sark,\nWho made an unpleasant remark;\nBut they said, “Don’t you see what a brute you must be,\nYou obnoxious old person of Sark!”"
+        }
+      ]
+    },
+    {
+      "number": 189,
+      "label": "189",
+      "title": "There was an old man whose despair",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man whose despair\nInduced him to purchase a hare:\nWhereon one fine day he rode wholly away,\nWhich partly assuaged his despair."
+        }
+      ]
+    },
+    {
+      "number": 190,
+      "label": "190",
+      "title": "There was an old person of Barnes,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Barnes,\nWhose garments were covered with darns;\nBut they said, “Without doubt, you will soon wear them out,\nYou luminous person of Barnes!”"
+        }
+      ]
+    },
+    {
+      "number": 191,
+      "label": "191",
+      "title": "There was an old person of Nice,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Nice,\nWhose associates were usually Geese.\nThey walked out together in all sorts of weather,\nThat affable person of Nice!"
+        }
+      ]
+    },
+    {
+      "number": 192,
+      "label": "192",
+      "title": "There was a young lady of Greenwich,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young lady of Greenwich,\nWhose garments were border’d with Spinach;\nBut a large spotty Calf bit her shawl quite in half,\nWhich alarmed that young lady of Greenwich."
+        }
+      ]
+    },
+    {
+      "number": 193,
+      "label": "193",
+      "title": "There was an old person of Cannes,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Cannes,\nWho purchased three fowls and a fan;\nThose she placed on a stool, and to make them feel cool\nShe constantly fanned them at Cannes."
+        }
+      ]
+    },
+    {
+      "number": 194,
+      "label": "194",
+      "title": "There was an old person of Ickley,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Ickley,\nWho could not abide to ride quickly;\nHe rode to Karnak on a tortoise’s back,\nThat moony old person of Ickley."
+        }
+      ]
+    },
+    {
+      "number": 195,
+      "label": "195",
+      "title": "There was an old person of Hyde,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Hyde,\nWho walked by the shore with his bride,\nTill a Crab who came near fill’d their bosoms with fear,\nAnd they said, “Would we’d never left Hyde!”"
+        }
+      ]
+    },
+    {
+      "number": 196,
+      "label": "196",
+      "title": "There was an old person in gray,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person in gray,\nWhose feelings were tinged with dismay;\nShe purchased two parrots, and fed them with carrots,\nWhich pleased that old person in gray."
+        }
+      ]
+    },
+    {
+      "number": 197,
+      "label": "197",
+      "title": "There was an old man of Ancona,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Ancona,\nWho found a small dog with no owner,\nWhich he took up and down all the streets of the town,\nThat anxious old man of Ancona."
+        }
+      ]
+    },
+    {
+      "number": 198,
+      "label": "198",
+      "title": "There was an old person of Sestri,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Sestri,\nWho sat himself down in the vestry;\nWhen they said, “You are wrong!” he merely said “Bong!”\nThat repulsive old person of Sestri."
+        }
+      ]
+    },
+    {
+      "number": 199,
+      "label": "199",
+      "title": "There was an old person of Blythe,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Blythe,\nWho cut up his meat with a scythe;\nWhen they said, “Well! I never!” he cried, “Scythes forever!”\nThat lively old person of Blythe."
+        }
+      ]
+    },
+    {
+      "number": 200,
+      "label": "200",
+      "title": "There was a young person of Ayr,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person of Ayr,\nWhose head was remarkably square:\nOn the top, in fine weather, she wore a gold feather;\nWhich dazzled the people of Ayr."
+        }
+      ]
+    },
+    {
+      "number": 201,
+      "label": "201",
+      "title": "There was an old person of Rimini,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Rimini,\nWho said, “Gracious! Goodness! O Gimini!”\nWhen they said, “Please be still!” she ran down a hill,\nAnd was never more heard of at Rimini."
+        }
+      ]
+    },
+    {
+      "number": 202,
+      "label": "202",
+      "title": "There is a young lady, whose nose,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There is a young lady, whose nose,\nContinually prospers and grows;\nWhen it grew out of sight, she exclaimed in a fright,\n“Oh! Farewell to the end of my nose!”"
+        }
+      ]
+    },
+    {
+      "number": 203,
+      "label": "203",
+      "title": "There was an old person of Ealing,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Ealing,\nWho was wholly devoid of good feeling;\nHe drove a small gig, with three Owls and a Pig,\nWhich distressed all the people of Ealing."
+        }
+      ]
+    },
+    {
+      "number": 204,
+      "label": "204",
+      "title": "There was an old man of Thames Ditton,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Thames Ditton,\nWho called out for something to sit on;\nBut they brought him a hat, and said, “Sit upon that,\nYou abruptious old man of Thames Ditton!”"
+        }
+      ]
+    },
+    {
+      "number": 205,
+      "label": "205",
+      "title": "There was an old person of Bray,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Bray,\nWho sang through the whole of the day\nTo his ducks and his pigs, whom he fed upon figs,\nThat valuable person of Bray."
+        }
+      ]
+    },
+    {
+      "number": 206,
+      "label": "206",
+      "title": "There was a young person whose history",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person whose history\nWas always considered a mystery;\nShe sat in a ditch, although no one knew which,\nAnd composed a small treatise on history."
+        }
+      ]
+    },
+    {
+      "number": 207,
+      "label": "207",
+      "title": "There was an old person of Bow,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Bow,\nWhom nobody happened to know;\nSo they gave him some soap, and said coldly, “We hope\nYou will go back directly to Bow!”"
+        }
+      ]
+    },
+    {
+      "number": 208,
+      "label": "208",
+      "title": "There was an old person of Rye,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Rye,\nWho went up to town on a fly;\nBut they said, “If you cough, you are safe to fall off!\nYou abstemious old person of Rye!”"
+        }
+      ]
+    },
+    {
+      "number": 209,
+      "label": "209",
+      "title": "There was an old person of Crowle,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Crowle,\nWho lived in the nest of an owl;\nWhen they screamed in the nest, he screamed out with the rest,\nThat depressing old person of Crowle."
+        }
+      ]
+    },
+    {
+      "number": 210,
+      "label": "210",
+      "title": "There was an old Lady of Winchelsea,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old Lady of Winchelsea,\nWho said, “If you needle or pin shall see\nOn the floor of my room, sweep it up with the broom!”\nThat exhaustive old Lady of Winchelsea!"
+        }
+      ]
+    },
+    {
+      "number": 211,
+      "label": "211",
+      "title": "There was an old man in a tree,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man in a tree,\nWhose whiskers were lovely to see;\nBut the birds of the air pluck’d them perfectly bare,\nTo make themselves nests in that tree."
+        }
+      ]
+    },
+    {
+      "number": 212,
+      "label": "212",
+      "title": "There was a young lady of Corsica,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young lady of Corsica,\nWho purchased a little brown saucy-cur;\nWhich she fed upon ham, and hot raspberry jam,\nThat expensive young lady of Corsica."
+        }
+      ]
+    },
+    {
+      "number": 213,
+      "label": "213",
+      "title": "There was a young lady of Firle,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young lady of Firle,\nWhose hair was addicted to curl;\nIt curled up a tree, and all over the sea,\nThat expansive young lady of Firle."
+        }
+      ]
+    },
+    {
+      "number": 214,
+      "label": "214",
+      "title": "There was an old person of Stroud,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Stroud,\nWho was horribly jammed in a crowd;\nSome she slew with a kick, some she scrunched with a stick,\nThat impulsive old person of Stroud."
+        }
+      ]
+    },
+    {
+      "number": 215,
+      "label": "215",
+      "title": "There was an old man of Boulak,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Boulak,\nWho sat on a Crocodile’s back;\nBut they said, “Towr’ds the night he may probably bite,\nWhich might vex you, old man of Boulak!”"
+        }
+      ]
+    },
+    {
+      "number": 216,
+      "label": "216",
+      "title": "There was an old person of Skye,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Skye,\nWho waltz’d with a Bluebottle fly:\nThey buzz’d a sweet tune, to the light of the moon,\nAnd entranced all the people of Skye."
+        }
+      ]
+    },
+    {
+      "number": 217,
+      "label": "217",
+      "title": "There was an old man of Blackheath,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Blackheath,\nWhose head was adorned with a wreath\nOf lobsters and spice, pickled onions and mice,\nThat uncommon old man of Blackheath."
+        }
+      ]
+    },
+    {
+      "number": 218,
+      "label": "218",
+      "title": "There was an old man, who when little",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man, who when little\nFell casually into a kettle;\nBut, growing too stout, he could never get out,\nSo he passed all his life in that kettle."
+        }
+      ]
+    },
+    {
+      "number": 219,
+      "label": "219",
+      "title": "There was an old person of Dundalk,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Dundalk,\nWho tried to teach fishes to walk;\nWhen they tumbled down dead, he grew weary, and said,\n“I had better go back to Dundalk!”"
+        }
+      ]
+    },
+    {
+      "number": 220,
+      "label": "220",
+      "title": "There was an old person of Shoreham,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Shoreham,\nWhose habits were marked by decorum;\nHe bought an Umbrella, and sat in the cellar,\nWhich pleased all the people of Shoreham."
+        }
+      ]
+    },
+    {
+      "number": 221,
+      "label": "221",
+      "title": "There was an old person of Bar,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Bar,\nWho passed all her life in a jar,\nWhich she painted pea-green, to appear more serene,\nThat placid old person of Bar."
+        }
+      ]
+    },
+    {
+      "number": 222,
+      "label": "222",
+      "title": "There was a young person of Kew,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a young person of Kew,\nWhose virtues and vices were few;\nBut with blamable haste she devoured some hot paste,\nWhich destroyed that young person of Kew."
+        }
+      ]
+    },
+    {
+      "number": 223,
+      "label": "223",
+      "title": "There was an old person of Jodd,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Jodd,\nWhose ways were perplexing and odd;\nShe purchased a whistle, and sat on a thistle,\nAnd squeaked to the people of Jodd."
+        }
+      ]
+    },
+    {
+      "number": 224,
+      "label": "224",
+      "title": "There was an old person of Bude,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Bude,\nWhose deportment was vicious and crude;\nHe wore a large ruff of pale straw-colored stuff,\nWhich perplexed all the people of Bude."
+        }
+      ]
+    },
+    {
+      "number": 225,
+      "label": "225",
+      "title": "There was an old person of Brigg,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old person of Brigg,\nWho purchased no end of a wig;\nSo that only his nose, and the end of his toes,\nCould be seen when he walked about Brigg."
+        }
+      ]
+    },
+    {
+      "number": 226,
+      "label": "226",
+      "title": "There was an old man of Messina,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was an old man of Messina,\nWhose daughter was named Opsibeena;\nShe wore a small wig, and rode out on a pig,\nTo the perfect delight of Messina."
+        }
+      ]
+    },
+    {
+      "number": 227,
+      "label": "227",
+      "title": "The Absolutely Abstemious Ass,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Absolutely Abstemious Ass,\nwho resided in a Barrel, and only lived on\nSoda Water and Pickled Cucumbers."
+        }
+      ]
+    },
+    {
+      "number": 228,
+      "label": "228",
+      "title": "The Bountiful Beetle,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Bountiful Beetle,\nwho always carried a Green Umbrella when it didn’t rain,\nand left it at home when it did."
+        }
+      ]
+    },
+    {
+      "number": 229,
+      "label": "229",
+      "title": "The Comfortable Confidential Cow,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Comfortable Confidential Cow,\nwho sat in her Red Morocco Arm Chair and\ntoasted her own Bread at the parlour Fire."
+        }
+      ]
+    },
+    {
+      "number": 230,
+      "label": "230",
+      "title": "The Dolomphious Duck,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Dolomphious Duck,\nwho caught Spotted Frogs for her dinner\nwith a Runcible Spoon."
+        }
+      ]
+    },
+    {
+      "number": 231,
+      "label": "231",
+      "title": "The Enthusiastic Elephant,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Enthusiastic Elephant,\nwho ferried himself across the water with the\nKitchen Poker and a New pair of Earrings."
+        }
+      ]
+    },
+    {
+      "number": 232,
+      "label": "232",
+      "title": "The Fizzgiggious Fish,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Fizzgiggious Fish,\nwho always walked about upon Stilts,\nbecause he had no legs."
+        }
+      ]
+    },
+    {
+      "number": 233,
+      "label": "233",
+      "title": "The Good-natured Grey Gull,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Good-natured Grey Gull,\nwho carried the Old Owl, and his Crimson Carpetbag,\nacross the river, because he could not swim."
+        }
+      ]
+    },
+    {
+      "number": 234,
+      "label": "234",
+      "title": "The Hasty Higgeldipiggledy Hen,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Hasty Higgeldipiggledy Hen,\nwho went to market in a Blue Bonnet and Shawl,\nand bought a Fish for her Supper."
+        }
+      ]
+    },
+    {
+      "number": 235,
+      "label": "235",
+      "title": "The Inventive Indian,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Inventive Indian,\nwho caught a Remarkable Rabbit in a\nStupendous Silver Spoon."
+        }
+      ]
+    },
+    {
+      "number": 236,
+      "label": "236",
+      "title": "The Judicious Jubilant Jay,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Judicious Jubilant Jay,\nwho did up her Back Hair every morning with a Wreath of Roses,\nThree feathers, and a Gold Pin."
+        }
+      ]
+    },
+    {
+      "number": 237,
+      "label": "237",
+      "title": "The Kicking Kangaroo,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Kicking Kangaroo,\nwho wore a Pale Pink Muslin dress\nwith Blue spots."
+        }
+      ]
+    },
+    {
+      "number": 238,
+      "label": "238",
+      "title": "The Lively Learned Lobster,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Lively Learned Lobster,\nwho mended his own Clothes with\na Needle and Thread."
+        }
+      ]
+    },
+    {
+      "number": 239,
+      "label": "239",
+      "title": "The Melodious Meritorious Mouse,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Melodious Meritorious Mouse,\nwho played a merry minuet on the\nPianoforte."
+        }
+      ]
+    },
+    {
+      "number": 240,
+      "label": "240",
+      "title": "The Nutritious Newt,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Nutritious Newt,\nwho purchased a Round Plum-pudding\nfor his granddaughter."
+        }
+      ]
+    },
+    {
+      "number": 241,
+      "label": "241",
+      "title": "The Obsequious Ornamental Ostrich,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Obsequious Ornamental Ostrich,\nwho wore Boots to keep his\nfeet quite dry."
+        }
+      ]
+    },
+    {
+      "number": 242,
+      "label": "242",
+      "title": "The Perpendicular Purple Polly,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Perpendicular Purple Polly,\nwho read the Newspaper and ate Parsnip Pie\nwith his Spectacles."
+        }
+      ]
+    },
+    {
+      "number": 243,
+      "label": "243",
+      "title": "The Queer Querulous Quail,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Queer Querulous Quail,\nwho smoked a Pipe of tobacco on the top of\na Tin Teakettle."
+        }
+      ]
+    },
+    {
+      "number": 244,
+      "label": "244",
+      "title": "The Rural Runcible Raven,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Rural Runcible Raven,\nwho wore a White Wig and flew away\nwith the Carpet Broom."
+        }
+      ]
+    },
+    {
+      "number": 245,
+      "label": "245",
+      "title": "The Scroobious Snake,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Scroobious Snake,\nwho always wore a Hat on his Head, for\nfear he should bite anybody."
+        }
+      ]
+    },
+    {
+      "number": 246,
+      "label": "246",
+      "title": "The Tumultuous Tom-tommy Tortoise,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Tumultuous Tom-tommy Tortoise,\nwho beat a Drum all day long in the\nmiddle of the wilderness."
+        }
+      ]
+    },
+    {
+      "number": 247,
+      "label": "247",
+      "title": "The Umbrageous Umbrella-maker,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Umbrageous Umbrella-maker,\nwhose Face nobody ever saw, because it was\nalways covered by his Umbrella."
+        }
+      ]
+    },
+    {
+      "number": 248,
+      "label": "248",
+      "title": "The Visibly Vicious Vulture,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Visibly Vicious Vulture,\nwho wrote some Verses to a Veal-cutlet in a\nVolume bound in Vellum."
+        }
+      ]
+    },
+    {
+      "number": 249,
+      "label": "249",
+      "title": "The Worrying Whizzing Wasp,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Worrying Whizzing Wasp,\nwho stood on a Table, and played sweetly on a\nFlute with a Morning Cap."
+        }
+      ]
+    },
+    {
+      "number": 250,
+      "label": "250",
+      "title": "The Excellent Double-extra XX",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Excellent Double-extra XX\nimbibing King Xerxes, who lived a\nlong while ago."
+        }
+      ]
+    },
+    {
+      "number": 251,
+      "label": "251",
+      "title": "The Yonghy-Bonghy-Bò,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Yonghy-Bonghy-Bò,\nwhose Head was ever so much bigger than his\nBody, and whose Hat was rather small."
+        }
+      ]
+    },
+    {
+      "number": 252,
+      "label": "252",
+      "title": "The Zigzag Zealous Zebra,",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Zigzag Zealous Zebra,\nwho carried five Monkeys on his back all\nthe way to Jellibolee."
+        }
+      ]
+    },
+    {
+      "number": 253,
+      "label": "253",
+      "title": "The Dong with a Luminous Nose",
+      "pages": [
+        {
+          "number": 1,
+          "text": "When awful darkness and silence reign\nOver the great Gromboolian plain,\nThrough the long, long wintry nights;\nWhen the angry breakers roar\nAs they beat on the rocky shore;\nWhen Storm-clouds brood on the towering heights\nOf the Hills of the Chankly Bore—\n\nThen, through the vast and gloomy dark\nThere moves what seems a fiery spark—\nA lonely spark with silvery rays\nPiercing the coal-black night—\nA Meteor strange and bright:\nHither and thither the vision strays,\nA single lurid light."
+        },
+        {
+          "number": 2,
+          "text": "Slowly it wanders, pauses, creeps—\nAnon it sparkles, flashes, and leaps;\nAnd ever as onward it gleaming goes\nA light on the Bong-tree stems it throws.\nAnd those who watch at that midnight hour\nFrom Hall or Terrace or lofty Tower,\nCry, as the wild light passes along—\n“The Dong! the Dong!\nThe wandering Dong through the forest goes!\nThe Dong! the Dong!\nThe Dong with a luminous Nose!”"
+        },
+        {
+          "number": 3,
+          "text": "Long years ago\nThe Dong was happy and gay,\nTill he fell in love with a Jumbly Girl\nWho came to those shores one day.\nFor the Jumblies came in a sieve, they did—\nLanding at eve near the Zemmery Fidd\nWhere the Oblong Oysters grow,\nAnd the rocks are smooth and gray.\nAnd all the woods and the valleys rang\nWith the Chorus they daily and nightly sang—\n“Far and few, far and few,\nAre the lands where the Jumblies live;\nTheir heads are green, and their hands are blue,\nAnd they went to sea in a sieve.”"
+        },
+        {
+          "number": 4,
+          "text": "Happily, happily passed those days!\nWhile the cheerful Jumblies staid;\nThey danced in circlets all night long,\nTo the plaintive pipe of the lively Dong,\nIn moonlight, shine, or shade.\nFor day and night he was always there\nBy the side of the Jumbly Girl so fair,\nWith her sky-blue hands and her sea-green hair;\nTill the morning came of that hateful day\nWhen the Jumblies sailed in their sieve away,\nAnd the Dong was left on the cruel shore\nGazing, gazing for evermore—\nEver keeping his weary eyes on\nThat pea-green sail on the far horizon—\nSinging the Jumbly Chorus still\nAs he sat all day on the grassy hill—\n“Far and few, far and few,\nAre the lands where the Jumblies live;"
+        },
+        {
+          "number": 5,
+          "text": "Their heads are green, and their hands are blue,\nAnd they went to sea in a sieve.”\n\nBut when the sun was low in the West,\nThe Dong arose and said—\n“What little sense I once possessed\nHas quite gone out of my head!”\nAnd since that day he wanders still\nBy lake and forest, marsh and hill,\nSinging, “O somewhere, in valley or plain,\nMight I find my Jumbly Girl again!\nForever I’ll seek by lake and shore\nTill I find my Jumbly Girl once more!”"
+        },
+        {
+          "number": 6,
+          "text": "Playing a pipe with silvery squeaks,\nSince then his Jumbly Girl he seeks;\nAnd because by night he could not see,\nHe gathered the bark of the Twangum Tree\nOn the flowery plain that grows.\nAnd he wove him a wondrous Nose—\nA Nose as strange as a Nose could be!\nOf vast proportions and painted red,\nAnd tied with cords to the back of his head.\nIn a hollow rounded space it ended\nWith a luminous Lamp within suspended,\nAll fenced about\nWith a bandage stout\nTo prevent the wind from blowing it out;\nAnd with holes all round to send the light\nIn gleaming rays on the dismal night"
+        },
+        {
+          "number": 7,
+          "text": "And now each night, and all night long,\nOver those plains still roams the Dong;\nAnd above the wail of the Chimp and Snipe\nYou may hear the squeak of his plaintive pipe,\nWhile ever he seeks, but seeks in vain,\nTo meet with his Jumbly Girl again;\nLonely and wild, all night he goes—\nThe Dong with a luminous Nose!\nAnd all who watch at the midnight hour,\nFrom Hall or Terrace or lofty Tower,\nCry, as they trace the Meteor bright,\nMoving along through the dreary night—\n“This is the hour when forth he goes,\nThe Dong with a luminous Nose!\nYonder, over the plain he goes—\nHe goes!\nHe goes—\nThe Dong with a luminous Nose!”"
+        }
+      ]
+    },
+    {
+      "number": 254,
+      "label": "254",
+      "title": "The Two Old Bachelors",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Two old Bachelors were living in one house;\nOne caught a Muffin, the other caught a Mouse.\nSaid he who caught the Muffin to him who caught the Mouse—\n“This happens just in time! For we’ve nothing in the house,\nSave a tiny slice of lemon and a teaspoonful of honey,\nAnd what to do for dinner—since we haven’t any money?\nAnd what can we expect if we haven’t any dinner,\nBut to lose our teeth and eyelashes and keep on growing thinner?”\n\nSaid he who caught the Mouse to him who caught the Muffin—\n“We might cook this little Mouse, if we only had some Stuffin’!\nIf we had but Sage and Onion we could do extremely well;\nBut how to get that Stuffin’ it is difficult to tell!”"
+        },
+        {
+          "number": 2,
+          "text": "Those two old Bachelors ran quickly to the town\nAnd asked for Sage and Onion as they wandered up and down;\nThey borrowed two large Onions, but no Sage was to be found\nIn the Shops, or in the Market, or in all the Gardens round.\n\nBut someone said, “A hill there is, a little to the north,\nAnd to its purpledicular top a narrow way leads forth;\nAnd there among the rugged rocks abides an ancient Sage—\nAn earnest Man, who reads all day a most perplexing page.\nClimb up, and seize him by the toes—all studious as he sits—\nAnd pull him down, and chop him into endless little bits!\nThen mix him with your Onion (cut up likewise into Scraps)—\nWhen your Stuffin’ will be ready, and very good—perhaps.”"
+        },
+        {
+          "number": 3,
+          "text": "Those two old Bachelors without loss of time\nThe nearly purpledicular crags at once began to climb;\nAnd at the top, among the rocks, all seated in a nook,\nThey saw that Sage a-reading of a most enormous book.\n\n“You earnest Sage!” aloud they cried, “your book you’ve read enough in!\nWe wish to chop you into bits to mix you into Stuffin’!”"
+        },
+        {
+          "number": 4,
+          "text": "But that old Sage looked calmly up, and with his awful book,\nAt those two Bachelors’ bald heads a certain aim he took;\nAnd over Crag and precipice they rolled promiscuous down—\nAt once they rolled, and never stopped in lane or field or town;\nAnd when they reached their house, they found (besides their want of Stuffin’),\nThe Mouse had fled—and, previously, had eaten up the Muffin.\n\nThey left their home in silence by the once convivial door;\nAnd from that hour those Bachelors were never heard of more."
+        }
+      ]
+    },
+    {
+      "number": 255,
+      "label": "255",
+      "title": "The Pelican Chorus",
+      "pages": [
+        {
+          "number": 1,
+          "text": "King and Queen of the Pelicans we;\nNo other Birds so grand we see!\nNone but we have feet like fins!\nWith lovely leathery throats and chins!\nPloffskin, Pluffskin, Pelican jee!\nWe think no Birds so happy as we!\nPlumpskin, Ploshkin, Pelican Jill!\nWe think so then, and we thought so still"
+        },
+        {
+          "number": 2,
+          "text": "We live on the Nile. The Nile we love.\nBy night we sleep on the cliffs above;\nBy day we fish, and at eve we stand\nOn long bare islands of yellow sand.\nAnd when the sun sinks slowly down,\nAnd the great rock walls grow dark and brown,\nWhere the purple river rolls fast and dim\nAnd the Ivory Ibis starlike skim,\nWing to wing we dance around,\nStamping our feet with a flumpy sound,\nOpening our mouths as Pelicans ought;\nAnd this is the song we nightly snort—\nPloffskin, Pluffskin, Pelican jee!\nWe think no Birds so happy as we!\nPlumpskin, Ploshkin, Pelican jill!\nWe think so then, and we thought so still!"
+        },
+        {
+          "number": 3,
+          "text": "Last year came out our Daughter Dell,\nAnd all the Birds received her well.\nTo do her honor a feast we made\nFor every bird that can swim or wade—\nHerons and Gulls, and Cormorants black,\nCranes, and Flamingoes with scarlet back,\nPlovers and Storks, and Geese in clouds,\nSwans and Dilberry Ducks in crowds:\nThousands of Birds in wondrous flight!\nThey ate and drank and danced all night,\nAnd echoing back from the rocks you heard\nMultitude-echoes from Bird and Bird—\nPloffskin, Pluffskin, Pelican jee!\nWe think no Birds so happy as we!\nPlumpskin, Ploshkin, Pelican jill!\nWe think so then, and we thought so still!"
+        },
+        {
+          "number": 4,
+          "text": "Yes, they came; and among the rest\nThe King of the Cranes all grandly dressed.\nSuch a lovely tail! Its feathers float\nBetween the ends of his blue dress-coat;\nWith pea-green trousers all so neat,\nAnd a delicate frill to hide his feet\n(For though no one speaks of it, everyone knows\nHe has got no webs between his toes)."
+        },
+        {
+          "number": 5,
+          "text": "As soon as he saw our Daughter Dell,\nIn violent love that Crane King fell—\nOn seeing her waddling form so fair,\nWith a wreath of shrimps in her short white hair.\nAnd before the end of the next long day\nOur Dell had given her heart away;\nFor the King of the Cranes had won that heart\nWith a Crocodile’s egg and a large fish-tart.\nShe vowed to marry the King of the Cranes,\nLeaving the Nile for stranger plains;\nAnd away they flew in a gathering crowd\nOf endless birds in a lengthening cloud.\nPloffskin, Pluffskin, Pelican jee!\nWe think no Birds so happy as we!\nPlumpskin, Ploshkin, Pelican jill!\nWe think so then, and we thought so still!"
+        },
+        {
+          "number": 6,
+          "text": "And far away in the twilight sky\nWe heard them singing a lessening cry—\nFarther and farther, till out of sight,\nAnd we stood alone in the silent night!\nOften since, in the nights of June,\nWe sit on the sand and watch the moon—\nShe has gone to the great Gromboolian Plain,\nAnd we probably never shall meet again!\nOft, in the long still nights of June,\nWe sit on the rocks and watch the moon—\nShe dwells by the streams of the Chankly Bore.\nAnd we probably never shall see her more.\nPloffskin, Pluffskin, Pelican jee!\nWe think no Birds so happy as we!\nPlumpskin, Ploshkin, Pelican jill!\nWe think so then, and we thought so still!"
+        },
+        {
+          "number": 7,
+          "text": "Note.—The Air of this and the following Song by Edward Lear; the Arrangement for the Piano by Professor Pomè, of San Remo, Italy."
+        }
+      ]
+    },
+    {
+      "number": 256,
+      "label": "256",
+      "title": "The Courtship of the Yonghy-Bonghy-Bò",
+      "pages": [
+        {
+          "number": 1,
+          "text": "On the Coast of Coromandel\nWhere the early pumpkins blow,\nIn the middle of the woods\nLived the Yonghy-Bonghy-Bò.\nTwo old chairs, and half a candle,\nOne old jug without a handle—\nThese were all his worldly goods:\nIn the middle of the woods,\nThese were all the worldly goods\nOf the Yonghy-Bonghy-Bò,\nOf the Yonghy-Bonghy Bò.\n\nOnce, among the Bong-trees walking\nWhere the early pumpkins blow,\nTo a little heap of stones\nCame the Yonghy-Bonghy-Bò.\nThere he heard a Lady talking,\nTo some milk-white Hens of Dorking—\n“ ’Tis the Lady Jingly Jones!\nOn that little heap of stones\nSits the Lady Jingly Jones!”\nSaid the Yonghy-Bonghy-Bò,\nSaid the Yonghy-Bonghy-Bò."
+        },
+        {
+          "number": 2,
+          "text": "“Lady Jingly! Lady Jingly!\nSitting where the pumpkins blow,\nWill you come and be my wife?”\nSaid the Yonghy-Bonghy-Bò.\n“I am tired of living singly—\nOn this coast so wild and shingly—\nI’m a-weary of my life;\nIf you’ll come and be my wife,\nQuite serene would be my life!”\nSaid the Yonghy-Bonghy-Bò,\nSaid the Yonghy-Bonghy-Bò.\n\n“On this Coast of Coromandel\nShrimps and watercresses grow,\nPrawns are plentiful and cheap,”\nSaid the Yonghy-Bonghy-Bò.\n“You shall have my chairs and candle,\nAnd my jug without a handle!\nGaze upon the rolling deep\n(Fish is plentiful and cheap);\nAs the sea, my love is deep!”\nSaid the Yonghy-Bonghy-Bò,\nSaid the Yonghy-Bonghy-Bò."
+        },
+        {
+          "number": 3,
+          "text": "Lady Jingly answered sadly,\nAnd her tears began to flow—\n“Your proposal comes too late,\nMr. Yonghy-Bonghy-Bò!\nI would be your wife most gladly!”\n(Here she twirled her fingers madly,)\n“But in England I’ve a mate!\nYes! you’ve asked me far too late,\nFor in England I’ve a mate,\nMr. Yonghy-Bonghy-Bò!\nMr. Yonghy-Bonghy-Bò!\n\n“Mr. Jones (his name is Handel—\nHandel Jones, Esquire, & Co.)\nDorking fowls delights to send,\nMr. Yonghy-Bonghy-Bò!\nKeep, oh, keep your chairs and candle,\nAnd your jug without a handle—\nI can merely be your friend!\nShould my Jones more Dorkings send,\nI will give you three, my friend!\nMr. Yonghy-Bongy-Bò!\nMr. Yonghy-Bonghy-Bò!"
+        },
+        {
+          "number": 4,
+          "text": "“Though you’ve such a tiny body,\nAnd your head so large doth grow—\nThough your hat may blow away,\nMr. Yonghy-Bonghy-Bò!\nThough you’re such a Hoddy Doddy,\nYet I wish that I could modi—\nfy the words I needs must say!\nWill you please to go away?\nThat is all I have to say,\nMr. Yongby-Bonghy-Bò!\nMr. Yonghy-Bonghy-Bò!”\n\nDown the slippery slopes of Myrtle,\nWhere the early pumpkins blow,\nTo the calm and silent sea\nFled the Yonghy-Bonghy-Bò.\nThere, beyond the Bay of Gurtle,\nLay a large and lively Turtle.\n“You’re the Cove,” he said, “for me;\nOn your back beyond the sea,\nTurtle, you shall carry me!”\nSaid the Yonghy-Bonghy-Bò,\nSaid the Yonghy-Bonghy-Bò."
+        },
+        {
+          "number": 5,
+          "text": "Through the silent-roaring ocean\nDid the Turtle swiftly go;\nHolding fast upon his shell\nRode the Yonghy-Bonghy-Bò.\nWith a sad primaeval motion\nTowards the sunset isles of Boshen\nStill the Turtle bore him well.\nHolding fast upon his shell,\n“Lady Jingly Jones, farewell!”\nSang the Yonghy-Bonghy-Bò,\nSang the Yonghy-Bonghy-Bò.\n\nFrom the Coast of Coromandel\nDid that Lady never go;\nOn that heap of stones she mourns\nFor the Yonghy-Bonghy-Bò.\nOn that Coast of Coromandel,\nIn his jug without a handle\nStill she weeps, and daily moans;\nOn that little heap of stones\nTo her Dorking Hens she moans,\nFor the Yonghy-Bonghy-Bò,\nFor the Yonghy-Bonghy-Bò."
+        }
+      ]
+    },
+    {
+      "number": 257,
+      "label": "257",
+      "title": "The Pobble Who Has No Toes",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Pobble who has no toes\nHad once as many as we;\nWhen they said, “Some day you may lose them all;”\nHe replied, “Fish fiddle de-dee!”\nAnd his Aunt Jobiska made him drink\nLavender water tinged with pink;\nFor she said, “The World in general knows\nThere’s nothing so good for a Pobble’s toes!”\n\nThe Pobble who has no toes,\nSwam across the Bristol Channel;\nBut before he set out he wrapped his nose\nIn a piece of scarlet flannel.\nFor his Aunt Jobiska said, “No harm\nCan come to his toes if his nose is warm;\nAnd it’s perfectly known that a Pobble’s toes\nAre safe—provided he minds his nose.”"
+        },
+        {
+          "number": 2,
+          "text": "The Pobble swam fast and well,\nAnd when boats or ships came near him,\nHe tinkledy-binkledy-winkled a bell\nSo that all the world could hear him.\nAnd all the Sailors and Admirals cried,\nWhen they saw him nearing the further side—\n“He has gone to fish, for his Aunt Jobiska’s\nRuncible Cat with crimson whiskers!”\n\nBut before he touched the shore—\nThe shore of the Bristol Channel,\nA sea-green Porpoise carried away\nHis wrapper of scarlet flannel.\nAnd when he came to observe his feet,\nFormerly garnished with toes so neat,\nHis face at once became forlorn\nOn perceiving that all his toes were gone!"
+        },
+        {
+          "number": 3,
+          "text": "And nobody ever knew,\nFrom that dark day to the present,\nWhoso had taken the Pobble’s toes,\nIn a manner so far from pleasant.\nWhether the shrimps or crawfish gray,\nOr crafty Mermaids stole them away,\nNobody knew; and nobody knows\nHow the Pobble was robbed of his twice five toes!\n\nThe Pobble who has no toes\nWas placed in a friendly Bark,\nAnd they rowed him back, and carried him up\nTo his Aunt Jobiska’s Park.\nAnd she made him a feast, at his earnest wish,\nOf eggs and buttercups fried with fish;\nAnd she said, “It’s a fact the whole world knows,\nThat Pobbles are happier without their toes.”"
+        }
+      ]
+    },
+    {
+      "number": 258,
+      "label": "258",
+      "title": "The New Vestments",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There lived an old man in the Kingdom of Tess,\nWho invented a purely original dress;\nAnd when it was perfectly made and complete,\nHe opened the door and walked into the street."
+        },
+        {
+          "number": 2,
+          "text": "By way of a hat he’d a loaf of Brown Bread,\nIn the middle of which he inserted his head;\nHis Shirt was made up of no end of dead Mice,\nThe warmth of whose skins was quite fluffy and nice;\nHis Drawers were of Rabbit-skins, so were his Shoes;\nHis Stockings were skins, but it is not known whose;\nHis Waistcoat and Trousers were made of Pork Chops;\nHis Buttons were Jujubes and Chocolate Drops;\nHis Coat was all Pancakes, with Jam for a border,\nAnd a girdle of Biscuits to keep it in order;\nAnd he wore over all, as a screen from bad weather,\nA Cloak of green Cabbage-leaves stitched all together."
+        },
+        {
+          "number": 3,
+          "text": "He had walked a short way, when he heard a great noise,\nOf all sorts of Beasticles, Birdlings, and Boys;\nAnd from every long street and dark lane in the town\nBeasts, Birdies, and Boys in a tumult rushed down.\nTwo Cows and a Calf ate his Cabbage-leaf Cloak;\nFour Apes seized his Girdle, which vanished like smoke;\nThree Kids ate up half of his Pancaky Coat,\nAnd the tails were devour’d by an ancient He Goat;\nAn army of Dogs in a twinkling tore up his\nPork Waistcoat and Trousers to give to their Puppies;\nAnd while they were growling, and mumbling the Chops,\nTen Boys prigged the Jujubes and Chocolate Drops.\nHe tried to run back to his house, but in vain,"
+        },
+        {
+          "number": 4,
+          "text": "For scores of fat Pigs came again and again:\nThey rushed out of stables and hovels and doors;\nThey tore off his stockings, his shoes, and his drawers;\nAnd now from the housetops with screechings descend\nStriped, spotted, white, black, and gray Cats without end:\nThey jumped on his shoulders and knocked off his hat,\nWhen Crows, Ducks, and Hens made a mincemeat of that;\nThey speedily flew at his sleeves in a trice,\nAnd utterly tore up his Shirt of dead Mice;\nThey swallowed the last of his Shirt with a squall—\nWhereon he ran home with no clothes on at all.\n\nAnd he said to himself, as he bolted the door,\n“I will not wear a similar dress any more,\nAny more, any more, any more, never more!”"
+        }
+      ]
+    },
+    {
+      "number": 259,
+      "label": "259",
+      "title": "Mr. and Mrs. Discobbolos",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Mr. and Mrs. Discobbolos\nClimbed to the top of a wall.\nAnd they sat to watch the sunset sky,\nAnd to hear the Nupiter Piffkin cry,\nAnd the Biscuit Buffalo call.\nThey took up a roll and some Camomile tea,\nAnd both were as happy as happy could be,\nTill Mrs. Discobbolos said—\n“Oh! W! X! Y! Z!\nIt has just come into my head,\nSuppose we should happen to fall!!!!!\nDarling Mr. Discobbolos!"
+        },
+        {
+          "number": 2,
+          "text": "“Suppose we should fall down flumpetty,\nJust like pieces of stone,\nOn to the thorns, or into the moat,\nWhat would become of your new green coat?\nAnd might you not break a bone?\nIt never occurred to me before,\nThat perhaps we shall never go down any more!”\nAnd Mrs. Discobbolos said,\n“Oh! W! X! Y! Z!\nWhat put it into your head\nTo climb up this wall, my own\nDarling Mr. Discobbolos?”"
+        },
+        {
+          "number": 3,
+          "text": "Mr. Discobbolos answered,\n“At first it gave me pain,\nAnd I felt my ears turn perfectly pink\nWhen your exclamation made me think\nWe might never get down again!\nBut now I believe it is wiser far\nTo remain forever just where we are.”\nAnd Mr. Discobbolos said,\n“Oh! W! X! Y! Z!\nIt has just come into my head\nWe shall never go down again,\nDearest Mrs. Discobbolos!”"
+        },
+        {
+          "number": 4,
+          "text": "So Mr. and Mrs. Discobbolos\nStood up and began to sing—\n“Far away from hurry and strife\nHere we will pass the rest of life,\nDing a dong, ding dong, ding!\nWe want no knives nor forks nor chairs,\nNo tables nor carpets nor household cares;\nFrom worry of life we’ve fled;\nOh! W! X! Y! Z!\nThere is no more trouble ahead,\nSorrow or any such thing,\nFor Mr. and Mrs. Discobbolos!”"
+        }
+      ]
+    },
+    {
+      "number": 260,
+      "label": "260",
+      "title": "The Quangle Wangle’s Hat",
+      "pages": [
+        {
+          "number": 1,
+          "text": "On the top of the Crumpetty Tree\nThe Quangle Wangle sat,\nBut his face you could not see,\nOn account of his Beaver Hat.\nFor his Hat was a hundred and two feet wide,\nWith ribbons and bibbons on every side,\nAnd bells, and buttons, and loops, and lace,\nSo that nobody ever could see the face\nOf the Quangle Wangle Quee.\n\nThe Quangle Wangle said\nTo himself on the Crumpetty Tree,\n“Jam, and jelly, and bread\nAre the best of food for me!\nBut the longer I live on this Crumpetty Tree\nThe plainer than ever it seems to me\nThat very few people come this way\nAnd that life on the whole is far from gay!”\nSaid the Quangle Wangle Quee."
+        },
+        {
+          "number": 2,
+          "text": "But there came to the Crumpetty Tree\nMr. and Mrs. Canary;\nAnd they said, “Did ever you see\nAny spot so charmingly airy?\nMay we build a nest on your lovely Hat?\nMr. Quangle Wangle, grant us that!\nO please let us come and build a nest\nOf whatever material suits you best,\nMr. Quangle Wangle Quee!”\n\nAnd besides, to the Crumpetty Tree\nCame the Stork, the Duck, and the Owl;\nThe Snail and the Bumblebee,\nThe Frog and the Fimble Fowl\n(The Fimble Fowl, with a Corkscrew leg);\nAnd all of them said, “We humbly beg\nWe may build our homes on your lovely Hat—\nMr. Quangle Wangle, grant us that!\nMr. Quangle Wangle Quee!”"
+        },
+        {
+          "number": 3,
+          "text": "And the Golden Grouse came there,\nAnd the Pobble who has no toes,\nAnd the small Olympian bear,\nAnd the Dong with a luminous nose.\nAnd the Blue Baboon who played the flute,\nAnd the Orient Calf from the Land of Tute,\nAnd the Attery Squash, and the Bisky Bat—\nAll came and built on the lovely Hat\nOf the Quangle Wangle Quee.\n\nAnd the Quangle Wangle said\nTo himself on the Crumpetty Tree,\n“When all these creatures move\nWhat a wonderful noise there’ll be!”\nAnd at night by the light of the Mulberry moon\nThey danced to the Flute of the Blue Baboon,\nOn the broad green leaves of the Crumpetty Tree,\nAnd all were as happy as happy could be,\nWith the Quangle Wangle Quee."
+        }
+      ]
+    },
+    {
+      "number": 261,
+      "label": "261",
+      "title": "The Cummerbund",
+      "pages": [
+        {
+          "number": 1,
+          "text": "She sat upon her Dobie,\nTo watch the Evening Star,\nAnd all the Punkahs, as they passed,\nCried, “My! how fair you are!”\nAround her bower, with quivering leaves,\nThe tall Kamsamahs grew,\nAnd Kitmutgars in wild festoons\nHung down from Tchokis blue.\n\nBelow her home the river rolled\nWith soft meloobious sound,\nWhere golden-finned Chuprassies swam,\nIn myriads circling round.\nAbove, on tallest trees remote\nGreen Ayahs perched alone,\nAnd all night long the Mussak moan’d\nIts melancholy tone."
+        },
+        {
+          "number": 2,
+          "text": "And where the purple Nullahs threw\nTheir branches far and wide,\nAnd silvery Goreewallahs flew\nIn silence, side by side,\nThe little Bheesties’ twittering cry\nRose on the flagrant air,\nAnd oft the angry Jampan howled\nDeep in his hateful lair.\n\nShe sat upon her Dobie,\nShe heard the Nimmak hum,\nWhen all at once a cry arose,\n“The Cummerbund is come!”\nIn vain she fled: with open jaws\nThe angry monster followed,\nAnd so (before assistance came)\nThat Lady Fair was swollowed."
+        },
+        {
+          "number": 3,
+          "text": "They sought in vain for even a bone\nRespectfully to bury;\nThey said, “Hers was a dreadful fate!”\n(And Echo answered, “Very.”)\nThey nailed her Dobie to the wall,\nWhere last her form was seen,\nAnd underneath they wrote these words,\nIn yellow, blue, and green:\n\n“Beware, ye Fair! Ye Fair, beware!\nNor sit out late at night,\nLest horrid Cummerbunds should come,\nAnd swollow you outright.”\n\nNote.—First published in Times of India, Bombay, July, 1874."
+        }
+      ]
+    },
+    {
+      "number": 262,
+      "label": "262",
+      "title": "The Akond of Swat",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Note.—For the existence of this potentate see Indian newspapers, passim. The proper way to read the verses is to make an immense emphasis on the monosyllabic rhymes, which indeed ought to be shouted out by a chorus."
+        }
+      ]
+    }
+  ]
+}

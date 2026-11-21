@@ -1,0 +1,12 @@
+<%- include('partials/head', { title: t('home.title') }) %>
+<%- include('partials/header') %>
+<main id="main" class="home">
+  <h1><%= t('home.headline') %></h1>
+  <p class="lead"><%= t('home.intro') %></p>
+  <p class="actions">
+    <a class="button primary" href="/app/library"><%= t('home.start') %></a>
+    <a class="button" href="/app/learn"><%= t('home.learn') %></a>
+  </p>
+  <p class="note"><%= t('home.free') %></p>
+</main>
+<%- include('partials/footer') %>

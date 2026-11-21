@@ -1,0 +1,1930 @@
+{
+  "id": "keats-poems",
+  "title": "Poems",
+  "author": "John Keats",
+  "language": "en",
+  "year": 1820,
+  "kind": "poem",
+  "level": "advanced",
+  "cover": "keats-poems.jpg",
+  "source": {
+    "name": "Standard Ebooks",
+    "url": "https://github.com/standardebooks/john-keats_poetry",
+    "license": "Domaine public ; édition et couverture Standard Ebooks sous CC0 1.0"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "label": "1",
+      "title": "Imitation of Spenser",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Now Morning from her orient chamber came,\nAnd her first footsteps touch’d a verdant hill;\nCrowning its lawny crest with amber flame,\nSilv’ring the untainted gushes of its rill;\nWhich, pure from mossy beds, did down distil,\nAnd after parting beds of simple flowers,\nBy many streams a little lake did fill,\nWhich round its marge reflected woven bowers,\nAnd, in its middle space, a sky that never lowers."
+        },
+        {
+          "number": 2,
+          "text": "There the kingfisher saw his plumage bright,\nVying with fish of brilliant dye below;\nWhose silken fins, and golden scales’ light\nCast upward, through the waves, a ruby glow:\nThere saw the swan his neck of arched snow,\nAnd oar’d himself along with majesty;\nSparkled his jetty eyes; his feet did show\nBeneath the waves like Afric’s ebony,\nAnd on his back a fay reclined voluptuously."
+        },
+        {
+          "number": 3,
+          "text": "Ah! could I tell the wonders of an isle\nThat in that fairest lake had placed been,\nI could e’en Dido of her grief beguile;\nOr rob from aged Lear his bitter teen:\nFor sure so fair a place was never seen,\nOf all that ever charm’d romantic eye:\nIt seem’d an emerald in the silver sheen\nOf the bright waters; or as when on high,\nThrough clouds of fleecy white, laughs the cœrulean sky."
+        },
+        {
+          "number": 4,
+          "text": "And all around it dipp’d luxuriously\nSlopings of verdure through the glossy tide,\nWhich, as it were in gentle amity,\nRippled delighted up the flowery side;\nAs if to glean the ruddy tears, it tried,\nWhich fell profusely from the rose-tree stem!\nHaply it was the workings of its pride,\nIn strife to throw upon the shore a gem\nOutvying all the buds in Flora’s diadem."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "title": "On Death",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Can death be sleep, when life is but a dream,\nAnd scenes of bliss pass as a phantom by?\nThe transient pleasures as a vision seem,\nAnd yet we think the greatest pain’s to die.\n\nHow strange it is that man on earth should roam,\nAnd lead a life of woe, but not forsake\nHis rugged path; nor dare he view alone\nHis future doom, which is but to awake."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "title": "To Byron",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Byron! how sweetly sad thy melody!\nAttuning still the soul to tenderness,\nAs if soft Pity, with unusual stress,\nHad touch’d her plaintive lute, and thou, being by,\nHadst caught the tones, nor suffer’d them to die.\nO’ershadowing sorrow doth not make thee less\nDelightful: thou thy griefs dost dress\nWith a bright halo, shining beamily,\nAs when a cloud the golden moon doth veil,\nIts sides are ting’d with a resplendent glow,\nThrough the dark robe oft amber rays prevail,\nAnd like fair veins in sable marble flow;\nStill warble, dying swan! still tell the tale,\nThe enchanting tale, the tale of pleasing woe."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "title": "To Chatterton",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O Chatterton! how very sad thy fate!\nDear child of sorrow—son of misery!\nHow soon the film of death obscur’d that eye,\nWhence Genius mildly flash’d, and high debate.\nHow soon that voice, majestic and elate,\nMelted in dying numbers! Oh! how nigh\nWas night to thy fair morning. Thou didst die\nA half-blown flow’ret which cold blasts amate.\nBut this is past: thou art among the stars\nOf highest Heaven: to the rolling spheres\nThou sweetly singest: nought thy hymning mars,\nAbove the ingrate world and human fears.\nOn earth the good man base detraction bars\nFrom thy fair name, and waters it with tears."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "title": "Written on the Day That Mr. Leigh Hunt Left Prison",
+      "pages": [
+        {
+          "number": 1,
+          "text": "What though, for showing truth to flatter’d state,\nKind Hunt was shut in prison, yet has he,\nIn his immortal spirit, been as free\nAs the sky-searching lark, and as elate.\nMinion of grandeur! think you he did wait?\nThink you he nought but prison-walls did see,\nTill, so unwilling, thou unturn’dst the key?\nAh, no! far happier, nobler was his fate!\nIn Spenser’s halls he strayed, and bowers fair,\nCulling enchanted flowers; and he flew\nWith daring Milton through the fields of air:\nTo regions of his own his genius true\nTook happy flights. Who shall his fame impair\nWhen thou art dead, and all thy wretched crew?"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "title": "To Hope",
+      "pages": [
+        {
+          "number": 1,
+          "text": "When by my solitary hearth I sit,\nAnd hateful thoughts enwrap my soul in gloom;\nWhen no fair dreams before my “mind’s eye” flit,\nAnd the bare heath of life presents no bloom;\nSweet Hope, ethereal balm upon me shed,\nAnd wave thy silver pinions o’er my head.\n\nWhene’er I wander, at the fall of night,\nWhere woven boughs shut out the moon’s bright ray,\nShould sad Despondency my musings fright,\nAnd frown, to drive fair Cheerfulness away,\nPeep with the moonbeams through the leafy roof,\nAnd keep that fiend Despondence far aloof."
+        },
+        {
+          "number": 2,
+          "text": "Should Disappointment, parent of Despair,\nStrive for her son to seize my careless heart;\nWhen, like a cloud, he sits upon the air,\nPreparing on his spell-bound prey to dart:\nChase him away, sweet Hope, with visage bright,\nAnd fright him as the morning frightens night!\n\nWhene’er the fate of those I hold most dear\nTells to my fearful breast a tale of sorrow,\nO bright-eyed Hope, my morbid fancy cheer;\nLet me awhile thy sweetest comforts borrow:\nThy heaven-born radiance around me shed,\nAnd wave thy silver pinions o’er my head!"
+        },
+        {
+          "number": 3,
+          "text": "Should e’er unhappy love my bosom pain,\nFrom cruel parents, or relentless fair;\nO let me think it is not quite in vain\nTo sigh out sonnets to the midnight air!\nSweet Hope, ethereal balm upon me shed,\nAnd wave thy silver pinions o’er my head.\n\nIn the long vista of the years to roll,\nLet me not see our country’s honour fade:\nO let me see our land retain her soul,\nHer pride, her freedom; and not freedom’s shade.\nFrom thy bright eyes unusual brightness shed—\nBeneath thy pinions canopy my head!"
+        },
+        {
+          "number": 4,
+          "text": "Let me not see the patriot’s high bequest,\nGreat Liberty! how great in plain attire!\nWith the base purple of a court oppress’d,\nBowing her head, and ready to expire:\nBut let me see thee stoop from heaven on wings\nThat fill the skies with silver glitterings!\n\nAnd as, in sparkling majesty, a star\nGilds the bright summit of some gloomy cloud\nBrightening the half-veil’d face of heaven afar:\nSo, when dark thoughts my boding spirit shroud,\nSweet Hope, celestial influence round me shed,\nWaving thy silver pinions o’er my head."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "title": "Ode to Apollo",
+      "pages": [
+        {
+          "number": 1,
+          "text": "In thy western halls of gold\nWhen thou sittest in thy state,\nBards, that erst sublimely told\nHeroic deeds, and sang of fate,\nWith fervour seize their adamantine lyres,\nWhose chords are solid rays, and twinkle radiant fires.\n\nHere Homer with his nervous arms\nStrikes the twanging harp of war,\nAnd even the western splendor warms,\nWhile the trumpets sound afar:\nBut, what creates the most intense surprise,\nHis soul looks out through renovated eyes.\n\nThen, through thy Temple wide, melodious swells\nThe sweet majestic tone of Maro’s lyre:\nThe soul delighted on each accent dwells,—\nEnraptur’d dwells,—not daring to respire,\nThe while he tells of grief around a funeral pyre."
+        },
+        {
+          "number": 2,
+          "text": "’Tis awful silence then again;\nExpectant stand the spheres;\nBreathless the laurell’d peers,\nNor move, till ends the lofty strain,\nNor move till Milton’s tuneful thunders cease,\nAnd leave once more the ravish’d heavens in peace.\n\nThou biddest Shakspeare wave his hand,\nAnd quickly forward spring\nThe Passions—a terrific band—\nAnd each vibrates the string\nThat with its tyrant temper best accords,\nWhile from their Master’s lips pour forth the inspiring words.\n\nA silver trumpet Spenser blows,\nAnd, as its martial notes to silence flee,\nFrom a virgin chorus flows\nA hymn in praise of spotless Chastity.\n’Tis still! Wild warblings from the Æolian lyre\nEnchantment softly breathe, and tremblingly expire."
+        },
+        {
+          "number": 3,
+          "text": "Next thy Tasso’s ardent numbers\nFloat along the pleasèd air,\nCalling youth from idle slumbers,\nRousing them from Pleasure’s lair:—\nThen o’er the strings his fingers gently move,\nAnd melt the soul to pity and to love.\n\nBut when Thou joinest with the Nine,\nAnd all the powers of song combine,\nWe listen here on earth:\nThe dying tones that fill the air,\nAnd charm the ear of evening fair,\nFrom thee, Great God of Bards, receive their heavenly birth."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "title": "To Some Ladies",
+      "pages": [
+        {
+          "number": 1,
+          "text": "What though, while the wonders of nature exploring,\nI cannot your light, mazy footsteps attend;\nNor listen to accents, that almost adoring,\nBless Cynthia’s face, the enthusiast’s friend:\n\nYet over the steep, whence the mountain-stream rushes,\nWith you, kindest friends, in idea I rove;\nMark the clear tumbling crystal, its passionate gushes,\nIts spray that the wild flower kindly bedews.\n\nWhy linger you so, the wild labyrinth strolling?\nWhy breathless, unable your bliss to declare?\nAh! you list to the nightingale’s tender condoling,\nResponsive to sylphs, in the moon-beamy air."
+        },
+        {
+          "number": 2,
+          "text": "’Tis morn, and the flowers with dew are yet drooping,\nI see you are treading the verge of the sea:\nAnd now! ah, I see it—you just now are stooping\nTo pick up the keepsake intended for me.\n\nIf a cherub, on pinions of silver descending,\nHad brought me a gem from the fretwork of heaven;\nAnd smiles, with his star-cheering voice sweetly blending,\nThe blessings of Tighe had melodiously given;\n\nIt had not created a warmer emotion\nThan the present, fair nymphs, I was blest with from you;\nThan the shell, from the bright golden sands of the ocean,\nWhich the emerald waves at your feet gladly threw."
+        },
+        {
+          "number": 3,
+          "text": "For, indeed, ’tis a sweet and peculiar pleasure,\n(And blissful is he who such happiness finds,)\nTo possess but a span of the hour of leisure,\nIn elegant, pure, and aerial minds."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "title": "On Receiving a Curious Shell and a Copy of Verses from the Same Ladies",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Hast thou from the caves of Golconda, a gem\nPure as the ice-drop that froze on the mountain?\nBright as the humming-bird’s green diadem,\nWhen it flutters in sunbeams that shine through a fountain?\n\nHast thou a goblet for dark sparkling wine?\nThat goblet right heavy, and massy, and gold?\nAnd splendidly mark’d with the story divine\nOf Armida the fair, and Rinaldo the bold?\n\nHast thou a steed with a mane richly flowing?\nHast thou a sword that thine enemy’s smart is?\nHast thou a trumpet rich melodies blowing?\nAnd wear’st thou the shield of the fam’d Britomartis?"
+        },
+        {
+          "number": 2,
+          "text": "What is it that hangs from thy shoulder, so brave,\nEmbroidered with many a spring peering flower?\nIs it a scarf that thy fair lady gave?\nAnd hastest thou now to that fair lady’s bower?\n\nAh! courteous Sir Knight, with large joy thou art crown’d;\nFull many the glories that brighten thy youth!\nI will tell thee my blisses, which richly abound\nIn magical powers to bless, and to soothe.\n\nOn this scroll thou seest written in characters fair\nA sun-beamy tale of a wreath, and a chain:\nAnd, warrior, it nurtures the property rare\nOf charming my mind from the trammels of pain."
+        },
+        {
+          "number": 3,
+          "text": "This canopy mark: ’tis the work of a fay;\nBeneath its rich shade did King Oberon languish,\nWhen lovely Titania was far, far away,\nAnd cruelly left him to sorrow, and anguish.\n\nThere, oft would he bring from his soft-sighing lute\nWild strains to which, spell-bound, the nightingales listen’d;\nThe wondering spirits of heaven were mute,\nAnd tears ’mong the dewdrops of morning oft glistened.\n\nIn this little dome, all those melodies strange,\nSoft, plaintive, and melting, for ever will sigh;\nNor e’er will the notes from their tenderness change;\nNor e’er will the music of Oberon die."
+        },
+        {
+          "number": 4,
+          "text": "So, when I am in a voluptuous vein,\nI pillow my head on the sweets of the rose,\nAnd list to the tale of the wreath, and the chain,\nTill its echoes depart; then I sink to repose.\n\nAdieu, valiant Eric! with joy thou art crown’d;\nFull many the glories that brighten thy youth,\nI too have my blisses, which richly abound\nIn magical powers, to bless and to soothe."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "title": "Stanzas to Miss Wylie",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O come, Georgiana! the rose is full blown,\nThe riches of Flora are lavishly strown,\nThe air is all softness, and crystal the streams;\nThe West is resplendently clothed in beams.\n\nO come! let us haste to the freshening shades,\nThe quaintly carv’d seats, and the opening glades;\nWhere the faeries are chanting their evening hymns,\nAnd the last sun-beam the sylph lightly swims.\n\nAnd when thou art weary, I’ll find thee a bed\nOf mosses and flowers to pillow thy head:\nAnd there Georgiana I’ll sit at thy feet,\nWhile my story of love I enraptur’d repeat."
+        },
+        {
+          "number": 2,
+          "text": "So fondly I’ll breathe, and so softly I’ll sigh,\nThou wilt think that some amorous zephyr is nigh;\nYet no—as I breathe I will press thy fair knee,\nAnd then thou wilt know that the sigh comes from me.\n\nAh! why, dearest girl, should we lose all these blisses?\nThat mortal’s a fool who such happiness misses:\nSo smile acquiescence, and give me thy hand,\nWith love-looking eyes, and with voice sweetly bland."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "title": "“Woman! When I Behold Thee Flippant, Vain”",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Woman! when I behold thee flippant, vain,\nInconstant, childish, proud, and full of fancies;\nWithout that modest softening that enhances\nThe downcast eye, repentant of the pain\nThat its mild light creates to heal again:\nE’en then, elate, my spirit leaps, and prances,\nE’en then my soul with exultation dances\nFor that to love, so long, I’ve dormant lain:\nBut when I see thee meek, and kind, and tender,\nHeavens! how desperately do I adore\nThy winning graces;—to be thy defender\nI hotly burn—to be a Calidore—\nA very Red Cross Knight—a stout Leander—\nMight I be lov’d by thee like these of yore."
+        },
+        {
+          "number": 2,
+          "text": "Light feet, dark violet eyes, and parted hair;\nSoft dimpled hands, white neck, and creamy breast,\nAre things on which the dazzled senses rest\nTill the fond, fixèd eyes forget they stare.\nFrom such fine pictures, Heavens! I cannot dare\nTo turn my admiration, though unpossess’d\nThey be of what is worthy,—though not drest\nIn lovely modesty, and virtues rare.\nYet these I leave as thoughtless as a lark;\nThese lures I straight forget,—e’en ere I dine,\nOr thrice my palate moisten: but when I mark\nSuch charms with mild intelligences shine,\nMy ear is open like a greedy shark,\nTo catch the tunings of a voice divine."
+        },
+        {
+          "number": 3,
+          "text": "Ah! who can e’er forget so fair a being?\nWho can forget her half-retiring sweets?\nGod! she is like a milk-white lamb that bleats\nFor man’s protection. Surely the All-seeing,\nWho joys to see us with his gifts agreeing,\nWill never give him pinions, who intreats\nSuch innocence to ruin,—who vilely cheats\nA dove-like bosom. In truth there is no freeing\nOne’s thoughts from such a beauty; when I hear\nA lay that once I saw her hand awake,\nHer form seems floating palpable, and near:\nHad I e’er seen her from an arbour take\nA dewy flower, oft would that hand appear,\nAnd o’er my eyes the trembling moisture shake."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "label": "12",
+      "title": "To ⸻",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Had I a man’s fair form, then might my sighs\nBe echoed swiftly through that ivory shell\nThine ear, and find thy gentle heart; so well\nWould passion arm me for the enterprise:\nBut ah! I am no knight whose foeman dies;\nNo cuirass glistens on my bosom’s swell;\nI am no happy shepherd of the dell\nWhose lips have trembled with a maiden’s eyes.\nYet must I dote upon thee,—call thee sweet,\nSweeter by far than Hybla’s honied roses\nWhen steep’d in dew rich to intoxication.\nAh! I will taste that dew, for me ’tis meet,\nAnd when the moon her pallid face discloses,\nI’ll gather some by spells, and incantation."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "label": "13",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Happy is England! I could be content\nTo see no other verdure than its own;\nTo feel no other breezes than are blown\nThrough its tall woods with high romances blent:\nYet do I sometimes feel a languishment\nFor skies Italian, and an inward groan\nTo sit upon an Alp as on a throne,\nAnd half forget what world or worldling meant.\nHappy is England, sweet her artless daughters;\nEnough their simple loveliness for me,\nEnough their whitest arms in silence clinging:\nYet do I often warmly burn to see\nBeauties of deeper glance, and hear their singing,\nAnd float with them about the summer waters."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "label": "14",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "How many bards gild the lapses of time!\nA few of them have ever been the food\nOf my delighted fancy,—I could brood\nOver their beauties, earthly, or sublime:\nAnd often, when I sit me down to rhyme,\nThese will in throngs before my mind intrude:\nBut no confusion, no disturbance rude\nDo they occasion; ’tis a pleasing chime.\nSo the unnumber’d sounds that evening store;\nThe songs of birds—the whisp’ring of the leaves—\nThe voice of waters—the great bell that heaves\nWith solemn sound,—and thousand others more,\nThat distance of recognizance bereaves,\nMake pleasing music, and not wild uproar."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "label": "15",
+      "title": "On First Looking Into Chapman’s Homer",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Much have I travell’d in the realms of gold,\nAnd many goodly states and kingdoms seen;\nRound many western islands have I been\nWhich bards in fealty to Apollo hold.\nOft of one wide expanse had I been told\nThat deep-brow’d Homer ruled as his demesne:\nYet did I never breathe its pure serene\nTill I heard Chapman speak out loud and bold:\nThen felt I like some watcher of the skies\nWhen a new planet swims into his ken;\nOr like stout Cortez when with eagle eyes\nHe star’d at the Pacific—and all his men\nLook’d at each other with a wild surmise—\nSilent, upon a peak in Darien."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "label": "16",
+      "title": "Epistle to George Felton Mathew",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Sweet are the pleasures that to verse belong,\nAnd doubly sweet a brotherhood in song;\nNor can remembrance, Mathew! bring to view\nA fate more pleasing, a delight more true\nThan that in which the brother Poets joy’d,\nWho, with combinèd powers, their wit employ’d\nTo raise a trophy to the drama’s muses.\nThe thought of this great partnership diffuses\nOver the genius-loving heart, a feeling\nOf all that’s high, and great, and good, and healing."
+        },
+        {
+          "number": 2,
+          "text": "Too partial friend! fain would I follow thee\nPast each horizon of fine poesy;\nFain would I echo back each pleasant note\nAs o’er Sicilian seas, clear anthems float\n’Mong the light skimming gondolas far parted,\nJust when the sun his farewell beam has darted:\nBut ’tis impossible; far different cares\nBeckon me sternly from soft “Lydian airs,”\nAnd hold my faculties so long in thrall,\nThat I am oft in doubt whether at all\nI shall again see Phœbus in the morning:\nOr flush’d Aurora in the roseate dawning!\nOr a white Naiad in a rippling stream;\nOr a rapt seraph in a moonlight beam;\nOr again witness what with thee I’ve seen,\nThe dew by fairy feet swept from the green,"
+        },
+        {
+          "number": 3,
+          "text": "After a night of some quaint jubilee\nWhich every elf and fay had come to see:\nWhen bright processions took their airy march\nBeneath the curvèd moon’s triumphal arch."
+        },
+        {
+          "number": 4,
+          "text": "But might I now each passing moment give\nTo the coy Muse, with me she would not live\nIn this dark city, nor would condescend\n’Mid contradictions her delights to lend.\nShould e’er the fine-eyed maid to me be kind,\nAh! surely it must be whene’er I find\nSome flowery spot, sequester’d, wild, romantic,\nThat often must have seen a poet frantic;\nWhere oaks, that erst the Druid knew, are growing,\nAnd flowers, the glory of one day, are blowing;\nWhere the dark-leav’d laburnum’s drooping clusters\nReflect athwart the stream their yellow lustres,\nAnd intertwined the cassia’s arms unite,\nWith its own drooping buds, but very white.\nWhere on one side are covert branches hung,"
+        },
+        {
+          "number": 5,
+          "text": "’Mong which the nightingales have always sung\nIn leafy quiet: where to pry, aloof\nAtween the pillars of the sylvan roof,\nWould be to find where violet beds were nestling,\nAnd where the bee with cowslip bells was wrestling.\nThere must be too a ruin dark and gloomy,\nTo say “Joy not too much in all that’s bloomy.”"
+        },
+        {
+          "number": 6,
+          "text": "Yet this is vain—O Mathew, lend thy aid\nTo find a place where I may greet the maid—\nWhere we may soft humanity put on,\nAnd sit, and rhyme and think on Chatterton;\nAnd that warm-hearted Shakspeare sent to meet him\nFour laurell’d spirits, heavenward to entreat him.\nWith reverence would we speak of all the sages\nWho have left streaks of light athwart their ages:\nAnd thou shouldst moralize on Milton’s blindness,\nAnd mourn the fearful dearth of human kindness\nTo those who strove with the bright golden wing\nOf genius, to flap away each sting\nThrown by the pitiless world. We next could tell\nOf those who in the cause of freedom fell;\nOf our own Alfred, of Helvetian Tell;"
+        },
+        {
+          "number": 7,
+          "text": "Of him whose name to ev’ry heart’s a solace,\nHigh-minded and unbending William Wallace.\nWhile to the rugged north our musing turns,\nWe well might drop a tear for him, and Burns."
+        },
+        {
+          "number": 8,
+          "text": "Felton! without incitements such as these.\nHow vain for me the niggard Muse to tease:\nFor thee, she will thy every dwelling grace,\nAnd make “a sunshine in a shady place:”\nFor thou wast once a flow’ret blooming wild,\nClose to the source, bright, pure, and undefil’d,\nWhence gush the streams of song: in happy hour\nCame chaste Diana from her shady bower,\nJust as the sun was from the east uprising;\nAnd, as for him some gift she was devising,\nBeheld thee, pluck’d thee, cast thee in the stream\nTo meet her glorious brother’s greeting beam.\nI marvel much that thou hast never told\nHow, from a flower, into a fish of gold\nApollo chang’d thee: how thou next didst seem"
+        },
+        {
+          "number": 9,
+          "text": "A black-ey’d swan upon the widening stream;\nAnd when thou first didst in that mirror trace\nThe placid features of a human face:\nThat thou hast never told thy travels strange,\nAnd all the wonders of the mazy range\nO’er pebbly crystal, and o’er golden sands;\nKissing thy daily food from Naiads’ pearly hands."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "label": "17",
+      "title": "Specimen of an Induction to a Poem",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Lo! I must tell a tale of chivalry;\nFor large white plumes are dancing in mine eye.\nNot like the formal crest of latter days:\nBut bending in a thousand graceful ways;\nSo graceful, that it seems no mortal hand,\nOr e’en the touch of Archimago’s wand,\nCould charm them into such an attitude.\nWe must think rather, that in playful mood,\nSome mountain breeze had turned its chief delight,\nTo show this wonder of its gentle might.\nLo! I must tell a tale of chivalry;\nFor while I muse, the lance points slantingly\nAthwart the morning air; some lady sweet,\nWho cannot feel for cold her tender feet,\nFrom the worn top of some old battlement\nHails it with tears, her stout defender sent:"
+        },
+        {
+          "number": 2,
+          "text": "And from her own pure self no joy dissembling,\nWraps round her ample robe with happy trembling.\nSometimes, when the good Knight his rest would take,\nIt is reflected, clearly, in a lake,\nWith the young ashen boughs, ’gainst which it rests,\nAnd th’ half-seen mossiness of linnets’ nests.\nAh! shall I ever tell its cruelty,\nWhen the fire flashes from a warrior’s eye,\nAnd his tremendous hand is grasping it,\nAnd his dark brow for very wrath is knit?\nOr when his spirit, with more calm intent,\nLeaps to the honours of a tournament,\nAnd makes the gazers round about the ring\nStare at the grandeur of the balancing?\nNo, no! this is far off:—then how shall I\nRevive the dying tones of minstrelsy,"
+        },
+        {
+          "number": 3,
+          "text": "Which linger yet about long gothic arches,\nIn dark green ivy, and among wild larches?\nHow sing the splendour of the revelries,\nWhen butts of wine are drunk off to the lees?\nAnd that bright lance, against the fretted wall,\nBeneath the shade of stately banneral,\nIs slung with shining cuirass, sword, and shield?\nWhere ye may see a spur in bloody field.\nLight-footed damsels move with gentle paces\nRound the wide hall, and show their happy faces;\nOr stand in courtly talk by fives and sevens:\nLike those fair stars that twinkle in the heavens.\nYet must I tell a tale of chivalry:\nOr wherefore comes that knight so proudly by?\nWherefore more proudly does the gentle knight"
+        },
+        {
+          "number": 4,
+          "text": "Rein in the swelling of his ample might?\nSpenser! thy brows are archèd, open, kind,\nAnd come like a clear sunrise to my mind;\nAnd always does my heart with pleasure dance,\nWhen I think on thy noble countenance;\nWhere never yet was ought more earthly seen\nThan the pure freshness of thy laurels green.\nTherefore, great bard, I not so fearfully\nCall on thy gentle spirit to hover nigh\nMy daring steps: or if thy tender care,\nThus startled unaware,\nBe jealous that the foot of other wight\nShould madly follow that bright path of light\nTrac’d by thy lov’d Libertas; he will speak,\nAnd tell thee that my prayer is very meek;\nThat I will follow with due reverence,"
+        },
+        {
+          "number": 5,
+          "text": "And start with awe at mine own strange pretence.\nHim thou wilt hear; so I will rest in hope\nTo see wide plains, fair trees, and lawny slope:\nThe morn, the eve, the light, the shade, the flowers;\nClear streams, smooth lakes, and overlooking towers."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "label": "18",
+      "title": "To ⸻",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Hadst thou liv’d in days of old,\nO what wonders had been told\nOf thy lively countenance,\nAnd thy humid eyes that dance\nIn the midst of their own brightness;\nIn the very fane of lightness.\nOver which thine eyebrows, leaning,\nPicture out each lovely meaning:\nIn a dainty bend they lie,\nLike to streaks across the sky,\nOr the feathers from a crow,\nFallen on a bed of snow.\nOf thy dark hair, that extends\nInto many graceful bends:\nAs the leaves of Hellebore\nTurn to whence they sprung before.\nAnd behind each ample curl\nPeeps the richness of a pearl."
+        },
+        {
+          "number": 2,
+          "text": "Downward too flows many a tress\nWith a glossy waviness;\nFull, and round like globes that rise\nFrom the censer to the skies\nThrough sunny air. Add, too, the sweetness\nOf thy honied voice; the neatness\nOf thine ankle lightly turn’d:\nWith those beauties scarce discern’d,\nKept with such sweet privacy,\nThat they seldom meet the eye\nOf the little loves that fly\nRound about with eager pry.\nSaving when, with freshening lave,\nThou dipp’st them in the taintless wave;\nLike twin water-lilies, born\nIn the coolness of the morn.\nO, if thou hadst breathèd then,\nNow the Muses had been ten.\nCouldst thou wish for lineage higher\nThan twin-sister of Thalia?\nAt least for ever, evermore"
+        },
+        {
+          "number": 3,
+          "text": "Will I call the Graces four."
+        },
+        {
+          "number": 4,
+          "text": "Hadst thou liv’d when chivalry\nLifted up her lance on high,\nTell me what thou wouldst have been?\nAh! I see the silver sheen\nOf thy broider’d, floating vest\nCov’ring half thine ivory breast:\nWhich, O heavens! I should see,\nBut that cruel destiny\nHas plac’d a golden cuirass there;\nKeeping secret what is fair.\nLike sunbeams in a cloudlet nested\nThy locks in knightly casque are rested:\nO’er which bend four milky plumes\nLike the gentle lily’s blooms\nSpringing from a costly vase.\nSee with what a stately pace\nComes thine alabaster steed;\nServant of heroic deed!\nO’er his loins his trappings glow\nLike the northern lights on snow.\nMount his back! thy sword unsheath!\nSign of the enchanter’s death;"
+        },
+        {
+          "number": 5,
+          "text": "Bane of every wicked spell;\nSilencer of dragon’s yell.\nAlas! thou this wilt never do:\nThou art an enchantress too,\nAnd wilt surely never spill\nBlood of those whose eyes can kill."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "label": "19",
+      "title": "To G. A. W.",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Nymph of the downward smile and sidelong glance,\nIn what diviner moments of the day\nArt thou most lovely? When gone far astray\nInto the labyrinths of sweet utterance?\nOr when serenely wand’ring in a trance\nOf sober thought? Or when starting away,\nWith careless robe, to meet the morning ray,\nThou spar’st the flowers in thy mazy dance?\nHaply ’tis when thy ruby lips part sweetly,\nAnd so remain, because thou listenest:\nBut thou to please wert nurtured so completely\nThat I can never tell what mood is best.\nI shall as soon pronounce which Grace more neatly\nTrips it before Apollo than the rest."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "label": "20",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "As from the darkening gloom a silver dove\nUpsoars, and darts into the eastern light,\nOn pinions that nought moves but pure delight,\nSo fled thy soul into the realms above,\nRegions of peace and everlasting love;\nWhere happy spirits, crown’d with circlets bright\nOf starry beam, and gloriously bedight,\nTaste the high joy none but the blest can prove.\nThere thou or joinest the immortal quire\nIn melodies that even heaven fair\nFill with superior bliss, or, at desire,\nOf the omnipotent Father, cleav’st the air\nOn holy message sent—What pleasure’s higher?\nWherefore does any grief our joy impair?"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "label": "21",
+      "title": "On a Picture of Leander",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Come hither, all sweet maidens soberly,\nDown-looking aye, and with a chasten’d light\nHid in the fringes of your eyelids white,\nAnd meekly let your fair hands joined be,\nAs if so gentle that ye could not see,\nUntouch’d, a victim of your beauty bright,\nSinking away to his young spirit’s night,\nSinking bewilder’d ’mid the dreary sea:\n’Tis young Leander toiling to his death;\nNigh swooning, he doth purse his weary lips\nFor Hero’s cheek, and smiles against her smile.\nO horrid dream! see how his body dips\nDead-heavy; arms and shoulders gleam awhile:\nHe’s gone; up bubbles all his amorous breath!"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "label": "22",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Oh! how I love, on a fair summer’s eve,\nWhen streams of light pour down the golden west,\nAnd on the balmy zephyrs tranquil rest\nThe silver clouds, far—far away to leave\nAll meaner thoughts, and take a sweet reprieve\nFrom little cares; to find, with easy quest,\nA fragrant wild, with Nature’s beauty drest,\nAnd there into delight my soul deceive,\nThere warm my breast with patriotic lore,\nMusing on Milton’s fate—on Sydney’s bier—\nTill their stern forms before my mind arise:\nPerhaps on wings of Poesy upsoar,\nFull often dropping a delicious tear,\nWhen some melodious sorrow spells mine eyes."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "label": "23",
+      "title": "Sonnet to Solitude",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O Solitude! if I must with thee dwell,\nLet it not be among the jumbled heap\nOf murky buildings; climb with me the steep,—\nNature’s observatory,—whence the dell,\nIts flowery slopes, its river’s crystal swell,\nMay seem a span; let me thy vigils keep\n’Mongst boughs pavilion’d, where the deer’s swift leap\nStartles the wild bee from the foxglove bell.\nBut though I’ll gladly trace these scenes with thee,\nYet the sweet converse of an innocent mind,\nWhose words are images of thoughts refin’d,\nIs my soul’s pleasure; and it sure must be\nAlmost the highest bliss of human-kind,\nWhen to thy haunts two kindred spirits flee."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "label": "24",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "To one who has been long in city pent,\n’Tis very sweet to look into the fair\nAnd open face of heaven,—to breathe a prayer\nFull in the smile of the blue firmament.\nWho is more happy, when, with hearts content,\nFatigued he sinks into some pleasant lair\nOf wavy grass, and reads a debonair\nAnd gentle tale of love and languishment?\nReturning home at evening, with an ear\nCatching the notes of Philomel,—an eye\nWatching the sailing cloudlet’s bright career,\nHe mourns that day so soon has glided by:\nE’en like the passage of an angel’s tear\nThat falls through the clear ether silently."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "label": "25",
+      "title": "To a Young Lady Who Sent Me a Laurel Crown",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Fresh morning gusts have blown away all fear\nFrom my glad bosom,—now from gloominess\nI mount for ever—not an atom less\nThan the proud laurel shall content my bier.\nNo! by the eternal stars! or why sit here\nIn the Sun’s eye, and ’gainst my temples press\nApollo’s very leaves, woven to bless\nBy thy white fingers and thy spirit clear.\nLo! who dares say, “Do this?” Who dares call down\nMy will from its high purpose? Who say, “Stand,”\nOr “Go?” This mighty moment I would frown\nOn abject Caesars—not the stoutest band\nOf mailèd heroes should tear off my crown:\nYet would I kneel and kiss thy gentle hand!"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "label": "26",
+      "title": "To a Friend Who Sent Me Some Roses",
+      "pages": [
+        {
+          "number": 1,
+          "text": "As late I rambled in the happy fields,\nWhat time the skylark shakes the tremulous dew\nFrom his lush clover covert; when anew\nAdventurous knights take up their dinted shields:\nI saw the sweetest flower wild nature yields,\nA fresh-blown musk-rose; ’twas the first that threw\nIts sweets upon the summer: graceful it grew\nAs is the wand that Queen Titania wields.\nAnd, as I feasted on its fragrancy,\nI thought the garden-rose it far excell’d:\nBut when, O Wells! thy roses came to me,\nMy sense with their deliciousness was spell’d:\nSoft voices had they, that with tender plea\nWhisper’d of peace, and truth, and friendliness unquell’d."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "label": "27",
+      "title": "To My Brother George",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Many the wonders I this day have seen:\nThe sun, when first he kist away the tears\nThat fill’d the eyes of morn;—the laurell’d peers\nWho from the feathery gold of evening lean;—\nThe ocean with its vastness, its blue green,\nIts ships, its rocks, its caves, its hopes, its fears,—\nIts voice mysterious, which whoso hears\nMust think on what will be, and what has been.\nE’en now, dear George, while this for you I write,\nCynthia is from her silken curtains peeping\nSo scantly, that it seems her bridal night,\nAnd she her half-discover’d revels keeping.\nBut what, without the social thought of thee,\nWould be the wonders of the sky and sea?"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "label": "28",
+      "title": "Epistle to Charles Cowden Clarke",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Oft have you seen a swan superbly frowning,\nAnd with proud breast his own white shadow crowning;\nHe slants his neck beneath the waters bright\nSo silently, it seems a beam of light\nCome from the galaxy: anon he sports,—\nWith outspread wings the Naiad Zephyr courts,\nOr ruffles all the surface of the lake\nIn striving from its crystal face to take\nSome diamond water-drops, and them to treasure\nIn milky nest, and sip them off at leisure.\nBut not a moment can he there insure them,\nNor to such downy rest can he allure them;\nFor down they rush as though they would be free,\nAnd drop like hours into eternity.\nJust like that bird am I in loss of time,\nWhene’er I venture on the stream of rhyme;"
+        },
+        {
+          "number": 2,
+          "text": "With shatter’d boat, oar snapt, and canvas rent,\nI slowly sail, scarce knowing my intent;\nStill scooping up the water with my fingers,\nIn which a trembling diamond never lingers."
+        },
+        {
+          "number": 3,
+          "text": "By this, friend Charles, you may full plainly see\nWhy I have never penn’d a line to thee:\nBecause my thoughts were never free, and clear,\nAnd little fit to please a classic ear;\nBecause my wine was of too poor a savour\nFor one whose palate gladdens in the flavour\nOf sparkling Helicon:—small good it were\nTo take him to a desert rude, and bare,\nWho had on Baiæ’s shore reclin’d at ease,\nWhile Tasso’s page was floating in a breeze\nThat gave soft music from Armida’s bowers,\nMingled with fragrance from her rarest flowers:\nSmall good to one who had by Mulla’s stream\nFondled the maidens with the breasts of cream;\nWho had beheld Belphœbe in a brook,\nAnd lovely Una in a leafy nook,"
+        },
+        {
+          "number": 4,
+          "text": "And Archimago leaning o’er his book:\nWho had of all that’s sweet tasted, and seen,\nFrom silv’ry ripple, up to beauty’s queen;\nFrom the sequester’d haunts of gay Titania,\nTo the blue dwelling of divine Urania:\nOne, who of late had ta’en sweet forest walks\nWith him who elegantly chats and talks—\nThe wrong’d Libertas,—who has told you stories\nOf laurel chaplets, and Apollo’s glories;\nOf troops chivalrous prancing through a city,\nAnd tearful ladies made for love, and pity:\nWith many else which I have never known.\nThus have I thought; and days on days have flown\nSlowly, or rapidly—unwilling stilly\nFor you to try my dull, unlearned quill.\nNor should I now, but that I’ve known you long;"
+        },
+        {
+          "number": 5,
+          "text": "That you first taught me all the sweets of song:\nThe grand, the sweet, the terse, the free, the fine:\nWhat swell’d with pathos, and what right divine:\nSpenserian vowels that elope with ease,\nAnd float along like birds o’er summer seas:\nMiltonian storms, and more, Miltonian tenderness:\nMichael in arms, and more, meek Eve’s fair slenderness.\nWho read for me the sonnet swelling loudly\nUp to its climax, and then dying proudly?\nWho found for me the grandeur of the ode,\nGrowing, like Atlas, stronger from its load?\nWho let me taste that more than cordial dram,\nThe sharp, the rapier-pointed epigram?\nShow’d me that epic was of all the king,\nRound, vast, and spanning all, like Saturn’s ring?"
+        },
+        {
+          "number": 6,
+          "text": "You too upheld the veil from Clio’s beauty,\nAnd pointed out the patriot’s stern duty;\nThe might of Alfred, and the shaft of Tell;\nThe hand of Brutus, that so grandly fell\nUpon a tyrant’s head. Ah! had I never seen,\nOr known your kindness, what might I have been?\nWhat my enjoyments in my youthful years,\nBereft of all that now my life endears?\nAnd can I e’er these benefits forget?\nAnd can I e’er repay the friendly debt?\nNo, doubly no;—yet should these rhymings please,\nI shall roll on the grass with twofold ease;\nFor I have long time been my fancy feeding\nWith hopes that you would one day think the reading\nOf my rough verses not an hour misspent;\nShould it e’er be so, what a rich content!"
+        },
+        {
+          "number": 7,
+          "text": "Some weeks have pass’d since last I saw the spires\nIn lucent Thames reflected:—warm desires\nTo see the sun o’er-peep the eastern dimness\nAnd morning shadows streaking into slimness,\nAcross the lawny fields, and pebbly water;\nTo mark the time as they grow broad, and shorter;\nTo feel the air that plays about the hills,\nAnd sips its freshness from the little rills;\nTo see high, golden corn wave in the light\nWhen Cynthia smiles upon a summer’s night,\nAnd peers among the cloudlet’s jet and white,\nAs though she were reclining in a bed\nOf bean blossoms, in heaven freshly shed.\nNo sooner had I stepp’d into these pleasures,\nThan I began to think of rhymes and measures;"
+        },
+        {
+          "number": 8,
+          "text": "The air that floated by me seem’d to say\n“Write! thou wilt never have a better day.”\nAnd so I did. When many lines I’d written,\nThough with their grace I was not oversmitten,\nYet, as my hand was warm, I thought I’d better\nTrust to my feelings, and write you a letter.\nSuch an attempt required an inspiration\nOf a peculiar sort,—a consummation;—\nWhich, had I felt, these scribblings might have been\nVerses from which the soul would never wean;\nBut many days have past since last my heart\nWas warm’d luxuriously by divine Mozart;\nBy Arne delighted, or by Handel madden’d;\nOr by the song of Erin pierc’d and sadden’d:\nWhat time you were before the music sitting,"
+        },
+        {
+          "number": 9,
+          "text": "And the rich notes to each sensation fitting.\nSince I have walk’d with you through shady lanes\nThat freshly terminate in open plains,\nAnd revell’d in a chat that ceasèd not\nWhen at night-fall among your books we got:\nNo, nor when supper came, nor after that,—\nNor when reluctantly I took my hat;\nNo, nor till cordially you shook my hand\nMid-way between our homes:—your accents bland\nStill sounded in my ears, when I no more\nCould hear your footsteps touch the grav’ly floor.\nSometimes I lost them, and then found again;\nYou changed the foot-path for the grassy plain.\nIn those still moments I have wish’d you joys\nThat well you know to honour:—“Life’s very toys"
+        },
+        {
+          "number": 10,
+          "text": "With him,” said I, “will take a pleasant charm;\nIt cannot be that ought will work him harm.”\nThese thoughts now come o’er me with all their might:—\nAgain I shake your hand—friend Charles, good night."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "label": "29",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Keen, fitful gusts are whisp’ring here and there\nAmong the bushes half leafless, and dry;\nThe stars look very cold about the sky,\nAnd I have many miles on foot to fare.\nYet feel I little of the cool bleak air,\nOr of the dead leaves rustling drearily,\nOr of those silver lamps that burn on high,\nOr of the distance from home’s pleasant lair:\nFor I am brimful of the friendliness\nThat in a little cottage I have found;\nOf fair-hair’d Milton’s eloquent distress,\nAnd all his love for gentle Lycid drown’d;\nOf lovely Laura in her light green dress,\nAnd faithful Petrarch gloriously crown’d."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "label": "30",
+      "title": "On Leaving Some Friends at an Early Hour",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Give me a golden pen, and let me lean\nOn heap’d-up flowers, in regions clear and far;\nBring me a tablet whiter than a star,\nOr hand of hymning angel, when ’tis seen\nThe silver strings of heavenly harp atween:\nAnd let there glide by many a pearly car,\nPink robes, and wavy hair, and diamond jar,\nAnd half-discover’d wings, and glances keen.\nThe while let music wander round my ears,\nAnd as it reaches each delicious ending,\nLet me write down a line of glorious tone,\nAnd full of many wonders of the spheres:\nFor what a height my spirit is contending!\n’Tis not content so soon to be alone."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "label": "31",
+      "title": "To My Brothers",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Small, busy flames play through the fresh-laid coals,\nAnd their faint cracklings o’er our silence creep\nLike whispers of the household gods that keep\nA gentle empire o’er fraternal souls.\nAnd while, for rhymes, I search around the poles,\nYour eyes are fix’d, as in poetic sleep,\nUpon the lore so voluble and deep,\nThat aye at fall of night our care condoles.\nThis is your birth-day, Tom, and I rejoice\nThat thus it passes smoothly, quietly:\nMany such eves of gently whisp’ring noise\nMay we together pass, and calmly try\nWhat are this world’s true joys,—ere the great Voice,\nFrom its fair face, shall bid our spirits fly."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "label": "32",
+      "title": "Addressed to Benjamin Robert Haydon",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Great spirits now on earth are sojourning;\nHe of the cloud, the cataract, the lake,\nWho on Helvellyn’s summit, wide awake,\nCatches his freshness from Archangel’s wing:\nHe of the rose, the violet, the spring,\nThe social smile, the chain for Freedom’s sake:\nAnd lo!—whose steadfastness would never take\nA meaner sound than Raphael’s whispering.\nAnd other spirits there are standing apart\nUpon the forehead of the age to come;\nThese, these will give the world another heart,\nAnd other pulses. Hear ye not the hum\nOf mighty workings in the human mart?\nListen awhile ye nations, and be dumb."
+        },
+        {
+          "number": 2,
+          "text": "Highmindedness, a jealousy for good,\nA loving-kindness for the great man’s fame,\nDwells here and there with people of no name,\nIn noisome alley, and in pathless wood:\nAnd where we think the truth least understood,\nOft may be found a “singleness of aim,”\nThat ought to frighten into hooded shame\nA money-mong’ring, pitiable brood.\nHow glorious this affection for the cause\nOf steadfast genius, toiling gallantly!\nWhat when a stout unbending champion awes\nEnvy, and Malice to their native sty?\nUnnumber’d souls breathe out a still applause,\nProud to behold him in his country’s eye."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "label": "33",
+      "title": "Written in Disgust of Vulgar Superstition",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The church bells toll a melancholy round,\nCalling the people to some other prayers,\nSome other gloominess, more dreadful cares,\nMore hearkening to the sermon’s horrid sound.\nSurely the mind of man is closely bound\nIn some black spell; seeing that each one tears\nHimself from fireside joys, and Lydian airs,\nAnd converse high of those with glory crown’d.\nStill, still they toll, and I should feel a damp—\nA chill as from a tomb, did I not know\nThat they are dying like an outburnt lamp;\nThat ’tis their sighing, wailing ere they go\nInto oblivion;—that fresh flowers will grow,\nAnd many glories of immortal stamp."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "label": "34",
+      "title": "To Kosciusko",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Good Kosciusko, thy great name alone\nIs a full harvest whence to reap high feeling;\nIt comes upon us like the glorious pealing\nOf the wide spheres—an everlasting tone.\nAnd now it tells me, that in worlds unknown,\nThe names of heroes, burst from clouds concealing,\nAre changed to harmonies, for ever stealing\nThrough cloudless blue, and round each silver throne.\nIt tells me too, that on a happy day,\nWhen some good spirit walks upon the earth,\nThy name with Alfred’s, and the great of yore,\nGently commingling, gives tremendous birth\nTo a loud hymn, that sounds far, far away\nTo where the great God lives for evermore."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "label": "35",
+      "title": "On the Grasshopper and Cricket",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The poetry of earth is never dead:\nWhen all the birds are faint with the hot sun,\nAnd hide in cooling trees; a voice will run\nFrom hedge to hedge about the new-mown mead;\nThat is the Grasshopper’s—he takes the lead\nIn summer luxury,—he has never done\nWith his delights; for when tired out with fun,\nHe rests at ease beneath some pleasant weed.\nThe poetry of earth is ceasing never:\nOn a lone winter evening, when the frost\nHas wrought a silence, from the stove there shrills\nThe Cricket’s song, in warmth increasing ever,\nAnd seems to one, in drowsiness half lost,\nThe Grasshopper’s among some grassy hills."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "label": "36",
+      "title": "Hymn to Apollo",
+      "pages": [
+        {
+          "number": 1,
+          "text": "God of the golden bow,\nAnd of the golden lyre,\nAnd of the golden hair,\nAnd of the golden fire,\nCharioteer\nOf the patient year,\nWhere—where slept thine ire,\nWhen like a blank idiot I put on thy wreath,\nThy laurel, thy glory,\nThe light of thy story,\nOr was I a worm—too low crawling, for death?\nO Delphic Apollo!\n\nThe Thunderer grasp’d and grasp’d,\nThe Thunderer frown’d and frown’d;\nThe eagle’s feathery mane\nFor wrath became stiffen’d—the sound\nOf breeding thunder\nWent drowsily under,\nMuttering to be unbound.\nO why didst thou pity, and for a worm\nWhy touch thy soft lute\nTill the thunder was mute,\nWhy was not I crush’d—such a pitiful germ?\nO Delphic Apollo!"
+        },
+        {
+          "number": 2,
+          "text": "The Pleiades were up,\nWatching the silent air;\nThe seeds and roots in the Earth\nWere swelling for summer fare;\nThe Ocean, its neighbour,\nWas at its old labour,\nWhen, who—who did dare\nTo tie, like a madman, thy plant round his brow,\nAnd grin and look proudly,\nAnd blaspheme so loudly,\nAnd live for that honour, to stoop to thee now?\nO Delphic Apollo?"
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "label": "37",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "After dark vapours have oppress’d our plains\nFor a long dreary season, comes a day\nBorn of the gentle South, and clears away\nFrom the sick heavens all unseemly stains.\nThe anxious month, relieved its pains,\nTakes as a long-lost right the feel of May;\nThe eyelids with the passing coolness play,\nLike rose leaves with the drip of summer rains.\nAnd calmest thoughts come round us; as, of leaves\nBudding,—fruit ripening in stillness,—Autumn suns\nSmiling at eve upon the quiet sheaves,—\nSweet Sappho’s cheek,—a sleeping infant’s breath,—\nThe gradual sand that through an hour-glass runs,—\nA woodland rivulet,—a Poet’s death."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "label": "38",
+      "title": "Written on the Blank Space at the End of Chaucer’s Tale of The Floure and the Lefe",
+      "pages": [
+        {
+          "number": 1,
+          "text": "This pleasant tale is like a little copse:\nThe honied lines so freshly interlace,\nTo keep the reader in so sweet a place,\nSo that he here and there full-hearted stops;\nAnd oftentimes he feels the dewy drops\nCome cool and suddenly against his face,\nAnd, by the wandering melody, may trace\nWhich way the tender-legged linnet hops.\nOh! what a power has white simplicity!\nWhat mighty power has this gentle story!\nI, that do ever feel athirst for glory,\nCould at this moment be content to lie\nMeekly upon the grass, as those whose sobbings\nWere heard of none beside the mournful robins."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "label": "39",
+      "title": "To Haydon",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Haydon! forgive me that I cannot speak\nDefinitively of these mighty things;\nForgive me, that I have not Eagle’s wings—\nThat what I want I know not where to seek:\nAnd think that I would not be over meek,\nIn rolling out upfollow’d thunderings,\nEven to the steep of Heliconian springs,\nWere I of ample strength for such a freak—\nThink too, that all those numbers should be thine;\nWhose else? In this who touch thy vesture’s hem?\nFor when men star’d at what was most divine\nWith browless idiotism—o’erwise phlegm—\nThou hadst beheld the Hesperean shine\nOf their star in the East, and gone to worship them."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "label": "40",
+      "title": "On Seeing the Elgin Marbles",
+      "pages": [
+        {
+          "number": 1,
+          "text": "My spirit is too weak—mortality\nWeighs heavily on me like unwilling sleep,\nAnd each imagin’d pinnacle and steep\nOf godlike hardship tells me I must die\nLike a sick Eagle looking at the sky.\nYet ’tis a gentle luxury to weep\nThat I have not the cloudy winds to keep,\nFresh for the opening of the morning’s eye.\nSuch dim-conceivèd glories of the brain\nBring round the heart an indescribable feud;\nSo do these wonders a most dizzy pain,\nThat mingles Grecian grandeur with the rude\nWasting of old Time—with a billowy main—\nA sun—a shadow of a magnitude."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "label": "41",
+      "title": "On Leigh Hunt’s Poem, The Story of Rimini",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Who loves to peer up at the morning sun,\nWith half-shut eyes and comfortable cheek,\nLet him, with this sweet tale, full often seek\nFor meadows where the little rivers run;\nWho loves to linger with that brightest one\nOf Heaven—Hesperus—let him lowly speak\nThese numbers to the night, and starlight meek,\nOr moon, if that her hunting be begun.\nHe who knows these delights, and too is prone\nTo moralize upon a smile or tear,\nWill find at once a region of his own,\nA bower for his spirit, and will steer\nTo alleys, where the fir-tree drops its cone,\nWhere robins hop, and fallen leaves are sear."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "label": "42",
+      "title": "To Leigh Hunt, Esq.",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Glory and loveliness have pass’d away;\nFor if we wander ont in early morn,\nNo wreathèd incense do we see upborne\nInto the east, to meet the smiling day:\nNo crowd of nymphs soft-voic’d and young, and gay,\nIn woven baskets bringing ears of corn,\nRoses, and pinks, and violets, to adorn\nThe shrine of Flora in her early May.\nBut there are left delights as high as these,\nAnd I shall ever bless my destiny,\nThat in a time, when under pleasant trees\nPan is no longer sought, I feel a free,\nA leafy luxury, seeing I could please\nWith these poor offerings, a man like thee."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "label": "43",
+      "title": "On the Sea",
+      "pages": [
+        {
+          "number": 1,
+          "text": "It keeps eternal whisperings around\nDesolate shores, and with its mighty swell\nGluts twice ten thousand caverns, till the spell\nOf Hecate leaves them their old shadowy sound.\nOften ’tis in such gentle temper found,\nThat scarcely will the very smallest shell\nBe mov’d for days from where it sometime fell,\nWhen last the winds of Heaven were unbound.\nO ye! who have your eyeballs vex’d and tir’d,\nFeast them upon the wideness of the Sea;\nO ye! whose ears are dinn’d with uproar rude,\nOr fed too much with cloying melody,—\nSit ye near some old cavern’s mouth, and brood\nUntil ye start, as if the sea-nymphs quired!"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "label": "44",
+      "title": "On Oxford",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Gothic looks solemn,\nThe plain Doric column\nSupports an old Bishop and Crozier;\nThe mouldering arch,\nShaded o’er by a larch,\nStands next door to Wilson the Hosier.\n\nVice,—that is, by turns,—\nO’er pale faces mourns\nThe black tassell’d trencher and common hat;\nThe charity boy sings,\nThe Steeple-bell rings\nAnd as for the Chancellor—dominat.\n\nThere are plenty of trees,\nAnd plenty of ease,\nAnd plenty of fat deer for Parsons;\nAnd when it is venison,\nShort is the benison,—\nThen each on a leg or thigh fastens."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "label": "45",
+      "title": "On ⸻",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Think not of it, sweet one, so;—\nGive it not a tear;\nSigh thou mayst, and bid it go\nAny—any where.\n\nDo not look so sad, sweet one,—\nSad and fadingly;\nShed one drop, then it is gone,\nOh! ’twas born to die!\n\nStill so pale? then dearest weep;\nWeep, I’ll count the tears,\nFor each will I invent a bliss\nFor thee in after years.\n\nBrighter has it left thine eyes\nThan a sunny rill;\nAnd thy whispering melodies\nAre more tender still.\n\nYet—as all things mourn awhile\nAt fleeting blisses;\nE’en let us too; but be our dirge\nA dirge of kisses."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "label": "46",
+      "title": "Lines",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Unfelt, unheard, unseen,\nI’ve left my little queen,\nHer languid arms in silver slumber lying:\nAh! through their nestling touch,\nWho—who could tell how much\nThere is for madness—cruel, or complying?\n\nThose faery lids how sleek!\nThose lips how moist!—they speak,\nIn ripest quiet, shadows of sweet sounds:\nInto my fancy’s ear\nMelting a burden dear,\nHow “Love doth know no fulness, and no bounds.”\n\nTrue!—tender monitors!\nI bend unto your laws:\nThis sweetest day for dalliance was born!\nSo, without more ado,\nI’ll feel my heaven anew,\nFor all the blushing of the hasty morn."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "label": "47",
+      "title": "Stanzas",
+      "pages": [
+        {
+          "number": 1,
+          "text": "In a drear-nighted December\nToo happy, happy tree,\nThy branches ne’er remember\nTheir green felicity:\nThe north cannot undo them,\nWith a sleety whistle through them\nNor frozen thawings glue them\nFrom budding at the prime.\n\nIn a drear-nighted December,\nToo happy, happy brook,\nThy bubblings ne’er remember\nApollo’s summer look;\nBut with a sweet forgetting,\nThey stay their crystal fretting,\nNever, never petting\nAbout the frozen time.\n\nAh! would ’twere so with many\nA gentle girl and boy!\nBut were there ever any\nWrith’d not at passèd joy?\nTo know the change and feel it,\nWhen there is none to heal it,\nNor numbèd sense to steal it,\nWas never said in rhyme."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "label": "48",
+      "title": "To a Cat",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Cat! who hast pass’d thy grand climacteric,\nHow many mice and rats hast in thy days\nDestroy’d?—How many tit-bits stolen? Gaze\nWith those bright languid segments green, and prick\nThose velvet ears—but pr’ythee do not stick\nThy latent talons in me—and upraise\nThy gentle mew—and tell me all thy frays\nOf fish and mice, and rats and tender chick:\nNay, look not down, nor lick thy dainty wrists\nFor all the wheezy asthma,—and for all\nThy tail’s tip is nick’d off—and though the fists\nOf many a maid has given thee many a maul,\nStill is that fur as soft as when the lists\nIn youth thou enter’dst on glass-bottled wall."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "label": "49",
+      "title": "Sharing Eve’s Apple",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O blush not so! O blush not so!\nOr I shall think you knowing;\nAnd if you smile the blushing while,\nThen maidenheads are going.\n\nThere’s a blush for won’t, and a blush for shan’t,\nAnd a blush for having done it:\nThere’s a blush for thought and a blush for nought,\nAnd a blush for just begun it.\n\nO sigh not so! O sigh not so!\nFor it sounds of Eve’s sweet Pippin;\nBy these loosen’d lips you have tasted the pips\nAnd fought in an amorous nipping.\n\nWill you play once more at nice-cut-core,\nFor it only will last our youth out,\nAnd we have the prime of the kissing time,\nWe have not one sweet tooth out."
+        },
+        {
+          "number": 2,
+          "text": "There’s a sigh for yes, and a sigh for no,\nAnd a sigh for I can’t bear it!\nO what can be done, shall we stay or run?\nO cut the sweet apple and share it!"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "label": "50",
+      "title": "What the Thrush Said",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O thou whose face hath felt the Winter’s wind,\nWhose eye has seen the snow-clouds hung in mist,\nAnd the black elm tops ’mong the freezing stars,\nTo thee the spring will be a harvest-time.\nO thou, whose only book has been the light\nOf supreme darkness which thou feddest on\nNight after night when Phœbus was away,\nTo thee the Spring shall be a triple morn.\nO fret not after knowledge—I have none,\nAnd yet my song comes native with the warmth.\nO fret not after knowledge—I have none,\nAnd yet the Evening listens. He who saddens\nAt thought of idleness cannot be idle,\nAnd he’s awake who thinks himself asleep."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "label": "51",
+      "title": "Robin Hood",
+      "pages": [
+        {
+          "number": 1,
+          "text": "No! those days are gone away,\nAnd their hours are old and gray,\nAnd their minutes buried all\nUnder the down-trodden pall\nOf the leaves of many years:\nMany times have Winter’s shears,\nFrozen North, and chilling East,\nSounded tempests to the feast\nOf the forest’s whispering fleeces,\nSince men knew nor rent nor leases.\n\nNo, the bugle sounds no more,\nAnd the twanging bow no more;\nSilent is the ivory shrill\nPast the heath and up the hill;\nThere is no mid-forest laugh,\nWhere lone Echo gives the half\nTo some wight, amaz’d to hear\nJesting, deep in forest drear."
+        },
+        {
+          "number": 2,
+          "text": "On the fairest time of June\nYou may go, with sun or moon,\nOr the seven stars to light you,\nOr the polar ray to right you;\nBut you never may behold\nLittle John, or Robin bold;\nNever one, of all the clan,\nThrumming on an empty can\nSome old hunting ditty, while\nHe doth his green way beguile\nTo fair hostess Merriment,\nDown beside the pasture Trent;\nFor he left the merry tale,\nMessenger for spicy ale."
+        },
+        {
+          "number": 3,
+          "text": "Gone, the merry morris din;\nGone, the song of Gamelyn;\nGone, the tough-belted outlaw\nIdling in the “grenè shawe;”\nAll are gone away and past!\nAnd if Robin should be cast\nSudden from his turfèd grave,\nAnd if Marian should have\nOnce again her forest days,\nShe would weep, and he would craze:\nHe would swear, for all his oaks,\nFall’n beneath the dock-yard strokes,\nHave rotted on the briny seas;\nShe would weep that her wild bees\nSang not to her—strange! that honey\nCan’t be got without hard money!"
+        },
+        {
+          "number": 4,
+          "text": "So it is; yet let us sing\nHonour to the old bow-string!\nHonour to the bugle horn!\nHonour to the woods unshorn!\nHonour to the Lincoln green!\nHonour to the archer keen!\nHonour to tight little John,\nAnd the horse he rode upon!\nHonour to bold Robin Hood,\nSleeping in the underwood!\nHonour to Maid Marian,\nAnd to all the Sherwood clan!\nThough their days have hurried by,\nLet us two a burden try."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "label": "52",
+      "title": "Lines on the Mermaid Tavern",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Souls of Poets dead and gone,\nWhat Elysium have ye known,\nHappy field or mossy cavern,\nChoicer than the Mermaid Tavern?\nHave ye tippled drink more fine\nThan mine host’s Canary wine?\nOr are fruits of Paradise\nSweeter than those dainty pies\nOf venison? O generous food!\nDrest as though bold Robin Hood\nWould, with his maid Marian,\nSup and bowse from horn and can.\n\nI have heard that on a day\nMine host’s sign-board flew away,\nNobody knew whither, till\nAn astrologer’s old quill\nTo a sheepskin gave the story,\nSaid he saw you in your glory,\nUnderneath a new-old sign\nSipping beverage divine,\nAnd pledging with contented smack\nThe Mermaid in the Zodiac."
+        },
+        {
+          "number": 2,
+          "text": "Souls of Poets dead and gone,\nWhat Elysium have ye known,\nHappy field or mossy cavern,\nChoicer than the Mermaid Tavern?"
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "label": "53",
+      "title": "A Song of Opposites",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Welcome joy, and welcome sorrow,\nLethe’s weed and Hermes’ feather;\nCome to-day, and come to-morrow,\nI do love you both together!\nI love to mark sad faces in fair weather;\nAnd hear a merry laugh amid the thunder;\nFair and foul I love together.\nMeadows sweet where flames are under,\nAnd a giggle at a wonder;\nVisage sage at pantomime;\nFuneral, and steeple-chime;\nInfant playing with a skull;\nMorning fair, and shipwreck’d hull;\nNightshade with the woodbine kissing;\nSerpents in red roses hissing;\nCleopatra regal-dress’d\nWith the aspic at her breast;\nDancing music, music sad,\nBoth together, sane and mad;\nMuses bright, and muses pale;\nSombre Saturn, Momus hale;—\nLaugh and sigh, and laugh again;"
+        },
+        {
+          "number": 2,
+          "text": "Oh, the sweetness of the pain!\nMuses bright and muses pale,\nBare your faces of the veil;\nLet me see; and let me write\nOf the day, and of the night—\nBoth together:—let me slake\nAll my thirst for sweet heart-ache!\nLet my bower be of yew,\nInterwreath’d with myrtles new:\nPines and lime-trees full in bloom,\nAnd my couch a low grass-tomb."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "label": "54",
+      "title": "On Seeing a Lock of Milton’s Hair",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Chief of organic numbers!\nOld Scholar of the Spheres!\nThy spirit never slumbers,\nBut rolls about our ears,\nFor ever and for ever!\nO what a mad endeavour\nWorketh he,\nWho to thy sacred and ennobled hearse\nWould offer a burnt sacrifice of verse\nAnd melody."
+        },
+        {
+          "number": 2,
+          "text": "How heavenward thou soundest,\nLive Temple of sweet noise,\nAnd Discord unconfoundest,\nGiving Delight new joys,\nAnd Pleasure nobler pinions!\nO, where are thy dominions?\nLend thine ear\nTo a young Delian oath,—ay, by thy soul,\nBy all that from thy mortal lips did roll,\nAnd by the kernel of thine earthly love,\nBeauty, in things on earth, and things above,\nI swear!\nWhen every childish fashion\nHas vanish’d from my rhyme,\nWill I, grey-gone in passion,\nLeave to an after-time,\nHymning and harmony\nOf thee, and of thy works, and of thy life;\nBut vain is now the burning and the strife,\nPangs are in vain, until I grow high-rife\nWith old Philosophy,\nAnd mad with glimpses of futurity!"
+        },
+        {
+          "number": 3,
+          "text": "For many years my offering must be hush’d;\nWhen I do speak, I’ll think upon this hour,\nBecause I feel my forehead hot and flush’d.\nEven at the simplest vassal of thy power,—\nA lock of thy bright hair—\nSudden it came.\nAnd I was startled, when I caught thy name\nCoupled so unaware;\nYet, at the moment, temperate was my blood.\nI thought I had beheld it from the flood."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "label": "55",
+      "title": "“Where’s the Poet? Show Him! Show Him”",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Where’s the Poet? Show him! show him,\nMuses nine! that I may know him!\n’Tis the man who with a man\nIs an equal, be he King,\nOr poorest of the beggar-clan,\nOr any other wondrous thing\nA man may be ’twixt ape and Plato;\n’Tis the man who with a bird,\nWren, or Eagle, finds his way to\nAll its instincts; he hath heard\nThe Lion’s roaring, and can tell\nWhat his horny throat expresseth,\nAnd to him the Tiger’s yell\nComes articulate and presseth\nOn his ear like mother-tongue."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "label": "56",
+      "title": "A Draught of Sunshine",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Hence Burgundy, Claret, and Port,\nAway with old Hock and Madeira,\nToo earthly ye are for my sport;\nThere’s a beverage brighter and clearer.\nInstead of a pitiful rummer,\nMy wine overbrims a whole summer;\nMy bowl is the sky,\nAnd I drink at my eye,\nTill I feel in the brain\nA Delphian pain—\nThen follow, my Caius! then follow:\nOn the green of the hill\nWe will drink our fill\nOf golden sunshine,\nTill our brains intertwine\nWith the glory and grace of Apollo!\nGod of the Meridian,\nAnd of the East and West,\nTo thee my soul is flown,\nAnd my body is earthward press’d.—\nIt is an awful mission,\nA terrible division;\nAnd leaves a gulf austere\nTo be fill’d with worldly fear.\nAye, when the soul is fled"
+        },
+        {
+          "number": 2,
+          "text": "To high above our head,\nAffrighted do we gaze\nAfter its airy maze,\nAs doth a mother wild,\nWhen her young infant child\nIs in an eagle’s claws—\nAnd is not this the cause\nOf madness?—God of Song,\nThou bearest me along\nThrough sights I scarce can bear:\nO let me, let me share\nWith the hot lyre and thee,\nThe staid Philosophy.\nTemper my lonely hours,\nAnd let me see thy bowers\nMore unalarm’d!"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "label": "57",
+      "title": "Song",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Hush, hush! tread softly! hush, hush, my dear!\nAll the house is asleep, but we know very well\nThat the jealous, the jealous old bald-pate may hear,\nThough you’ve padded his night-cap—O sweet Isabel!\nThough your feet are more light than a Faery’s feet,\nWho dances on bubbles where brooklets meet—\nHush, hush! soft tiptoe! hush, hush, my dear!\nFor less than a nothing the jealous can hear."
+        },
+        {
+          "number": 2,
+          "text": "No leaf doth tremble, no ripple is there\nOn the river,—all’s still, and the night’s sleepy eye\nCloses up, and forgets all its Lethean care,\nCharm’d to death by the drone of the humming May-fly;\nAnd the Moon, whether prudish or complaisant,\nHas fled to her bower, well knowing I want\nNo light in the dusk, no torch in the gloom,\nBut my Isabel’s eyes, and her lips pulp’d with bloom."
+        },
+        {
+          "number": 3,
+          "text": "Lift the latch! ah gently! ah tenderly—sweet!\nWe are dead if that latchet gives one little clink!\nWell done—now those lips, and a flowery seat—\nThe old man may sleep, and the planets may wink;\nThe shut rose shall dream of our loves and awake\nFull-blown, and such warmth for the morning take,\nThe stock-dove shall hatch her soft brace and shall coo,\nWhile I kiss to the melody, aching all through."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "label": "58",
+      "title": "Extracts from an Opera",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O! were I one of the Olympian twelve,\nTheir godships should pass this into a law,—\nThat when a man doth set himself in toil\nAfter some beauty veiled far away,\nEach step he took should make his lady’s hand\nMore soft, more white, and her fair cheek more fair:\nAnd for each briar-berry he might eat,\nA kiss should bud upon the tree of love,\nAnd pulp and ripen richer every hour,\nTo melt away upon the traveller’s lips.\n\nThe sun, with his great eye,\nSees not so much as I;\nAnd the moon, all silver-proud,\nMight as well be in a cloud.\n\nAnd O the spring—the spring!\nI lead the life of a King!\nCouch’d in the teeming grass,\nI spy each pretty lass."
+        },
+        {
+          "number": 2,
+          "text": "I look where no one dares,\nAnd I stare where no one stares,\nAnd when the night is nigh,\nLambs bleat my lullaby.\n\nWhen wedding fiddles are a-playing,\nHuzza for folly O!\nAnd when maidens go a-Maying,\nHuzza, etc.\nWhen a milk-pail is upset,\nHuzza, etc.\nAnd the clothes left in the wet,\nHuzza, etc.\nWhen the barrel’s set abroach,\nHuzza, etc.\nWhen Kate Eyebrow keeps a coach,\nHuzza, etc.\nWhen the pig is over-roasted,\nHuzza, etc.\nAnd the cheese is over-toasted.\nHuzza, etc.\nWhen Sir Snap is with his lawyer.\nHuzza, etc.\nAnd Miss Chip has kiss’d the sawyer;\nHuzza, etc."
+        },
+        {
+          "number": 3,
+          "text": "Oh, I am frighten’d with most hateful thoughts!\nPerhaps her voice is not a nightingale’s,\nPerhaps her teeth are not the fairest pearl;\nHer eye-lashes may be, for aught I know,\nNot longer than the May-fly’s small fanhorns;\nThere may not be one dimple on her hand;\nAnd freckles many; ah! a careless nurse,\nIn haste to teach the little thing to walk,\nMay have crumpt up a pair of Dian’s legs,\nAnd warpt the ivory of a Juno’s neck.\n\nThe stranger lighted from his steed,\nAnd ere he spake a word,\nHe seiz’d my lady’s lily hand,\nAnd kiss’d it all unheard.\n\nThe stranger walk’d into the hall,\nAnd ere he spake a word,\nHe kiss’d my lady’s cherry lips,\nAnd kiss’d ’em all unheard."
+        },
+        {
+          "number": 4,
+          "text": "The stranger walk’d into the bower,—\nBut my lady first did go,—\nAy hand in hand into the bower,\nWhere my Lord’s roses blow.\n\nMy lady’s maid had a silken scarf,\nAnd a golden ring had she,\nAnd a kiss from the stranger, as off he went\nAgain on his palfrey.\n\nAsleep! O sleep a little while, white pearl\nAnd let me kneel, and let me pray to thee,\nAnd let me call Heaven’s blessing on thine eyes,\nAnd let me breathe into the happy air,\nThat doth enfold and touch thee all about,\nVows or my slavery, my giving up,\nMy sudden adoration, my great love!"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "label": "59",
+      "title": "Faery Songs",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Shed no tear! O shed no tear!\nThe flower will bloom another year.\nWeep no more! O weep no more!\nYoung buds sleep in the root’s white core.\nDry your eyes! O dry your eyes,\nFor I was taught in Paradise\nTo ease my breast of melodies—\nShed no tear.\n\nOverhead! look overhead\n’Mong the blossoms white and red—\nLook up, look up—I flutter now\nOn this flush pomegranate bough.\nSee me! ’tis this silvery bill\nEver cures the good man’s ill.\nShed no tear! O shed no tear!\nThe flower will bloom another year.\nAdieu, Adieu—I fly, adieu,\nI vanish in the heaven’s blue—\nAdieu, Adieu!"
+        },
+        {
+          "number": 2,
+          "text": "Ah! woe is me! poor silver-wing!\nThat I must chant thy lady’s dirge,\nAnd death to this fair haunt of spring,\nOf melody, and streams of flowery verge,—\nPoor silver-wing! ah! woe is me!\nThat I must see\nThese blossoms snow upon thy lady’s pall!\nGo, pretty page! and in her ear\nWhisper that the hour is near!\nSoftly tell her not to fear\nSuch calm favonian burial!\nGo, pretty page! and soothly tell,—\nThe blossoms hang by a melting spell,\nAnd fall they must, ere a star wink thrice\nUpon her closed eyes,\nThat now in vain are weeping their last tears,\nAt sweet life leaving, and those arbours green,—\nRich dowry from the Spirit of the Spheres,—\nAlas! poor Queen!"
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "label": "60",
+      "title": "On Sitting Down to Read King Lear Once Again",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O golden-tongued Romance, with serene lute!\nFair plumèd Syren, Queen of far away!\nLeave melodizing on this wintry day,\nShut up thine olden pages, and be mute:\nAdieu! for once again the fierce dispute,\nBetwixt damnation and impassion’d clay,\nMust I burn through; once more humbly assay\nThe bitter sweet of this Shakespearean fruit:\nChief Poet! and ye clouds of Albion,\nBegetters of our deep eternal theme!\nWhen through the old oak forest I am gone,\nLet me not wander in a barren dream,\nBut when I am consumèd in the Fire,\nGive me new Phœnix-wings to fly at my desire."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "label": "61",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "When I have fears that I may cease to be\nBefore my pen has glean’d my teeming brain,\nBefore high pilèd books, in charactry,\nHold like rich garners the full-ripen’d grain;\nWhen I behold, upon the night’s starr’d face,\nHuge cloudy symbols of a high romance,\nAnd think that I may never live to trace\nTheir shadows, with the magic hand of chance;\nAnd when I feel, fair creature of an hour!\nThat I shall never look upon thee more,\nNever have relish in the faery power\nOf unreflecting love;—then on the shore\nOf the wide world I stand alone, and think\nTill Love and Fame to nothingness do sink."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "label": "62",
+      "title": "To a Lady Seen for a Few Moments at Vauxhall",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Time’s sea hath been five years at its slow ebb,\nLong hours have to and fro let creep the sand,\nSince I was tangled in thy beauty’s web,\nAnd snared by the ungloving of thine hand.\nAnd yet I never look on midnight sky,\nBut I behold thine eyes’ well-memoried light;\nI cannot look upon the rose’s dye,\nBut to thy cheek my soul doth take its flight;\nI cannot look on any budding flower,\nBut my fond ear, in fancy at thy lips\nAnd hearkening for a love-sound, doth devour\nIts sweets in the wrong sense:—Thou dost eclipse\nEvery delight with sweet remembering,\nAnd grief unto my darling joys dost bring."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "label": "63",
+      "title": "To Spenser",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Spenser! a jealous honourer of thine,\nA forester deep in thy midmost trees,\nDid last eve ask my promise to refine\nSome English that might strive thine ear to please.\nBut Elfin Poet, ’tis impossible\nFor an inhabitant of wintry earth\nTo rise like Phœbus with a golden quill\nFire-wing’d and make a morning in his mirth.\nIt is impossible to escape from toil\nO’ the sudden and receive thy spiriting:\nThe flower must drink the nature of the soil\nBefore it can put forth its blossoming:\nBe with me in the summer days, and I\nWill for thine honour and his pleasure try."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "label": "64",
+      "title": "To the Nile",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Son of the old moon-mountains African!\nChief of the Pyramid and Crocodile!\nWe call thee fruitful, and that very while\nA desert fills our seeing’s inward span;\nNurse of swart nations since the world began,\nArt thou so fruitful? or dost thou beguile\nSuch men to honour thee, who, worn with toil,\nRest for a space ’twixt Cairo and Decan?\nO may dark fancies err! They surely do;\n’Tis ignorance that makes a barren waste\nOf all beyond itself. Thou dost bedew\nGreen rushes like our rivers, and dost taste\nThe pleasant sun-rise. Green isles hast thou too,\nAnd to the sea as happily dost haste."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "label": "65",
+      "title": "Written in Answer to a Sonnet Ending Thus",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Blue! ’Tis the life of heaven,—the domain\nOf Cynthia,—the wide palace of the sun,—\nThe tent of Hesperus, and all his train,—\nThe bosomer of clouds, gold, gray, and dun.\nBlue! ’Tis the life of waters—ocean\nAnd all its vassal streams, pools numberless,\nMay rage, and foam, and fret, but never can\nSubside, if not to dark blue nativeness.\nBlue! Gentle cousin of the forest-green,\nMarried to green in all the sweetest flowers,—\nForget-me-not,—the blue bell,—and, that queen\nOf secrecy, the violet: what strange powers\nHast thou, as a mere shadow! But how great,\nWhen in an Eye thou art, alive with fate!"
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "label": "66",
+      "title": "To Homer",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Standing aloof in giant ignorance,\nOf thee I hear and of the Cyclades,\nAs one who sits ashore and longs perchance\nTo visit dolphin-coral in deep seas.\nSo thou wast blind!—but then the veil was rent,\nFor Jove uncurtain’d Heaven to let thee live,\nAnd Neptune made for thee a spumy tent,\nAnd Pan made sing for thee his forest-hive;\nAy on the shores of darkness there is light,\nAnd precipices show untrodden green;\nThere is a budding morrow in midnight;\nThere is a triple sight in blindness keen:\nSuch seeing hadst thou, as it once befell\nTo Dian, Queen of Earth, and Heaven, and Hell."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "label": "67",
+      "title": "To John Hamilton Reynolds",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O that a week could be an age, and we\nFelt parting and warm meeting every week;\nThen one poor year a thousand years would be,\nThe flush of welcome ever on the cheek:\nSo could we live long life in little space,\nSo time itself would be annihilate.\nSo a day’s journey in oblivious haze\nTo serve our joys would lengthen and dilate.\nO to arrive each Monday morn from Ind!\nTo land each Tuesday from the rich Levant!\nIn little time a host of joys to bind,\nAnd keep our souls in one eternal pant!\nThis morn, my friend, and yester-evening taught\nMe how to harbor such a happy thought."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "label": "68",
+      "title": "The Human Seasons",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Four Seasons fill the measure of the year;\nThere are four seasons in the mind of man:\nHe has his lusty Spring, when fancy clear\nTakes in all beauty with an easy span:\nHe has his Summer, when luxuriously\nSpring’s honied cud of youthful thought he loves\nTo ruminate, and by such dreaming high\nIs nearest unto heaven: quiet coves\nHis soul has in its Autumn, when his wings\nHe furleth close; contented so to look\nOn mists in idleness—to let fair things\nPass by unheeded as a threshold brook.\nHe has his Winter too of pale misfeature,\nOr else he would forego his mortal nature."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "label": "69",
+      "title": "The Devon Maid",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Where be ye going, you Devon Maid?\nAnd what have ye there in the Basket?\nYe tight little fairy just fresh from the dairy,\nWill ye give me some cream if I ask it?\n\nI love your Meads, and I love your flowers,\nAnd I love your junkets mainly,\nBut ’hind the door I love kissing more,\nO look not so disdainly.\n\nI love your hills, and I love your dales,\nAnd I love your flocks a-bleating—\nBut O, on the heather to lie together,\nWith both our hearts a-beating!\n\nI’ll put your Basket all safe in a nook,\nYour shawl I hang up on the willow,\nAnd we will sigh in the daisy’s eye\nAnd kiss on a grass green pillow."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "label": "70",
+      "title": "Epistle to John Hamilton Reynolds",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Dear Reynolds! As last night I lay in bed,\nThere came before my eyes that wonted thread\nOf shapes, and shadows, and remembrances,\nThat every other minute vex and please:\nThings all disjointed come from north and south,—\nTwo Witch’s eyes above a Cherub’s mouth,\nVoltaire with casque and shield and habergeon,\nAnd Alexander with his nightcap on;\nOld Socrates a-tying his cravat,\nAnd Hazlitt playing with Miss Edgeworth’s cat;\nAnd Junius Brutus, pretty well so so,\nMaking the best of ’s way towards Soho."
+        },
+        {
+          "number": 2,
+          "text": "Few are there who escape these visitings,—\nPerhaps one or two whose lives have patent wings,\nAnd thro’ whose curtains peeps no hellish nose,\nNo wild-boar tushes, and no Mermaid’s toes;\nBut flowers bursting out with lusty pride,\nAnd young Æolian harps personify’d;\nSome Titian colours touch’d into real life,—\nThe sacrifice goes on; the pontiff knife\nGleams in the Sun, the milk-white heifer lows,\nThe pipes go shrilly, the libation flows:\nA white sail shows above the green-head cliff,\nMoves round the point, and throws her anchor stiff;\nThe mariners join hymn with those on land."
+        },
+        {
+          "number": 3,
+          "text": "You know the Enchanted Castle,—it doth stand\nUpon a rock, on the border of a Lake,\nNested in trees, which all do seem to shake\nFrom some old magic-like Urganda’s sword.\nO Phœbus! that I had thy sacred word\nTo show this Castle, in fair dreaming wise,\nUnto my friend, while sick and ill he lies!\n\nYou know it well enough, where it doth seem\nA mossy place, a Merlin’s Hall, a dream;\nYou know the clear Lake, and the little Isles,\nThe mountains blue, and cold near neighbour rills,\nAll which elsewhere are but half animate;\nThere do they look alive to love and hate,\nTo smiles and frowns; they seem a lifted mound\nAbove some giant, pulsing underground."
+        },
+        {
+          "number": 4,
+          "text": "Part of the building was a chosen See,\nBuilt by a banish’d Santon of Chaldee;\nThe other part, two thousand years from him,\nWas built by Cuthbert de Saint Aldebrim;\nThen there’s a little wing, far from the Sun,\nBuilt by a Lapland Witch turn’d maudlin Nun;\nAnd many other juts of aged stone\nFounded with many a mason-devil’s groan.\n\nThe doors all look as if they op’d themselves:\nThe windows as if latch’d by Fays and Elves,\nAnd from them comes a silver flash of light,\nAs from the westward of a Summer’s night;\nOr like a beauteous woman’s large blue eyes\nGone mad through olden songs and poesies."
+        },
+        {
+          "number": 5,
+          "text": "See! what is coming from the distance dim!\nA golden Galley all in silken trim!\nThree rows of oars are lightning, moment whiles\nInto the verd’rous bosoms of those isles;\nTowards the shade, under the Castle wall,\nIt comes in silence,—now ’tis hidden all.\nThe Clarion sounds, and from a Postern-gate\nAn echo of sweet music doth create\nA fear in the poor Herdsman who doth bring\nHis beasts to trouble the enchanted spring,—\nHe tells of the sweet music, and the spot,\nTo all his friends, and they believe him not."
+        },
+        {
+          "number": 6,
+          "text": "O that our dreamings all, of sleep or wake,\nWould all their colours from the sunset take:\nFrom something of material sublime,\nRather than shadow our own soul’s day-time\nIn the dark void of night. For in the world\nWe jostle,—but my flag is not unfurl’d\nOn the Admiral-staff—and so philosophise\nI dare not yet! O, never will the prize,\nHigh reason, and the love of good and ill,\nBe my award! Things cannot to the will\nBe settled, but they tease us out of thought;\nOr is it imagination brought\nBeyond its proper bound, yet still confin’d,\nLost in a sort of Purgatory blind,\nCannot refer to any standard law\nOf either earth or heaven? It is a flaw\nIn happiness, to see beyond our bourn.—"
+        },
+        {
+          "number": 7,
+          "text": "It forces us in summer skies to mourn,\nIt spoils the singing of the Nightingale."
+        },
+        {
+          "number": 8,
+          "text": "Dear Reynolds! I have a mysterious tale,\nAnd cannot speak it: the first page I read\nUpon a Lampit rock of green sea-weed\nAmong the breakers; ’twas a quiet eve,\nThe rocks were silent, the wide sea did weave\nAn untumultuous fringe of silver foam\nAlong the flat brown sand; I was at home\nAnd should have been most happy,—but I saw\nToo far into the sea, where every maw\nThe greater on the less feeds evermore.—\nBut I saw too distinct into the core\nOf an eternal fierce destruction,\nAnd so from happiness I far was gone.\nStill am I sick of it, and though to-day,\nI’ve gather’d young spring-leaves, and flowers gay\nOf periwinkle and wild strawberry,\nStill do I that most fierce destruction see,"
+        },
+        {
+          "number": 9,
+          "text": "The Shark at savage prey,—the Hawk at pounce,—\nThe gentle Robin, like a Pard or Ounce,\nRavening a worm,—Away, ye horrid moods!\nMoods of one’s mind! You know I hate them well.\nYou know I’d sooner be a clapping Bell\nTo some Kamschatkan Missionary Church,\nThan with these horrid moods be left i’ the lurch."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "label": "71",
+      "title": "At Teignmouth",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Here all the summer could I stay,\nFor there’s Bishop’s teign\nAnd King’s teign\nAnd Coomb at the clear teign head—\nWhere close by the stream\nYou may have your cream\nAll spread upon barley bread.\n\nThere’s arch Brook\nAnd there’s larch Brook\nBoth turning many a mill;\nAnd cooling the drouth\nOf the salmon’s mouth\nAnd fattening his silver gill.\n\nThere is Wild wood,\nA Mild hood\nTo the sheep on the lea o’ the down,\nWhere the golden furze\nWith its green, thin spurs,\nDoth catch at the maiden’s gown.\n\nThere is Newton marsh\nWith its spear grass harsh,—\nA pleasant summer level\nWhere the maidens sweet\nOf the Market Street,\nDo meet in the dusk to revel."
+        },
+        {
+          "number": 2,
+          "text": "There’s the Barton rich\nWith dyke and ditch\nAnd hedge for the thrush to live in;\nAnd the hollow tree\nFor the buzzing bee,\nAnd a bank for the wasp to hive in.\n\nAnd O, and O\nThe daisies blow\nAnd the primroses are waken’d,\nAnd the violets white\nSit in silver light,\nAnd the green bud’s as long as the spike end.\n\nThen who would go\nInto dark Soho,\nAnd chatter with dank’d hair’d critics,\nWhen he can stay\nFor the new-mown hay,\nAnd startle the dappled crickets?"
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "label": "72",
+      "title": "Fragment of an Ode to Maia",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Mother of Hermes! and still youthful Maia!\nMay I sing to thee\nAs thou wast hymned on the shores of Baiae?\nOr may I woo thee\nIn earlier Sicilian? or thy smiles\nSeek as they once were sought, in Grecian isles,\nBy bards who died content on pleasant sward,\nLeaving great verse unto a little clan?\nO, give me their old vigour, and unheard\nSave of the quiet Primrose, and the span\nOf heaven and few ears,\nRounded by thee, my song should die away\nContent as theirs,\nRich in the simple worship of a day."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "label": "73",
+      "title": "An Extempore",
+      "pages": [
+        {
+          "number": 1,
+          "text": "When they were come into the Faery’s Court\nThey rang—no one at home—all gone to sport\nAnd dance and kiss and love as faeries do\nFor Faeries be as humans lovers true.\nAmid the woods they were so lone and wild,\nWhere even the Robin feels himself exil’d,\nAnd where the very brooks, as if afraid,\nHurry along to some less magic shade.\n“No one at home!” the fretful Princess cry’d;\n“And all for nothing such a dreary ride,\nAnd all for nothing my new diamond cross;\nNo one to see my Persian feathers toss,\nNo one to see my Ape, my Dwarf, my Fool,\nOr how I pace my Otaheitan mule.\nApe, Dwarf, and Fool, why stand you gaping there,\nBurst the door open, quick—or I declare"
+        },
+        {
+          "number": 2,
+          "text": "I’ll switch you soundly and in pieces tear.”\nThe Dwarf began to tremble, and the Ape\nStar’d at the Fool, the Fool was all agape,\nThe Princess grasp’d her switch, but just in time\nThe dwarf with piteous face began to rhyme.\n“O mighty Princess, did you ne’er hear tell\nWhat your poor servants know but too too well?\nKnow you the three great crimes in Faeryland?\nThe first, alas! poor Dwarf, I understand,\nI made a whipstock of a faery’s wand;\nThe next is snoring in their company;\nThe next, the last, the direst of the three,\nIs making free when they are not at home.\nI was a Prince—a baby prince—my doom,\nYou see, I made a whipstock of a wand,\nMy top has henceforth slept in faery land."
+        },
+        {
+          "number": 3,
+          "text": "He was a Prince, the Fool, a grown-up Prince,\nBut he has never been a King’s son since\nHe fell a snoring at a faery Ball.\nYon poor Ape was a Prince, and he poor thing\nPicklock’d a faery’s boudoir—now no king\nBut ape—so pray your highness stay awhile,\n’Tis sooth indeed, we know it to our sorrow—\nPersist and you may be an ape to-morrow.”\nWhile the Dwarf spake, the Princess, all for spite,\nPeel’d the brown hazel twig to lily white,\nClench’d her small teeth, and held her lips apart,\nTry’d to look unconcern’d with beating heart.\nThey saw her highness had made up her mind,\nA-quavering like the reeds before the wind—\nAnd they had had it, but O happy chance!\nThe Ape for very fear began to dance"
+        },
+        {
+          "number": 4,
+          "text": "And grinn’d as all his ugliness did ache—\nShe staid her vixen fingers for his sake,\nHe was so very ugly: then she took\nHer pocket-mirror and began to look\nFirst at herself and then at him, and then\nShe smil’d at her own beauteous face again.\nYet for all this—for all her pretty face—\nShe took it in her head to see the place.\nWomen gain little from experience\nEither in Lovers, husbands, or expense.\nThe more their beauty the more fortune too—\nBeauty before the wide world never knew—\nSo each fair reasons—though it oft miscarries.\nShe thought her pretty face would please the faeries.\n“My darling Ape, I wont whip you to-day,\nGive me the Picklock sirrah and go play.”"
+        },
+        {
+          "number": 5,
+          "text": "They all three wept but counsel was as vain\nAs crying cup biddy to drops of rain.\nYet lingering by did the sad Ape forth draw\nThe Picklock from the Pocket in his Jaw.\nThe Princess took it, and dismounting straight\nTripp’d in blue silver’d slippers to the gate\nAnd touch’d the wards, the Door full courteous\nOpened—she enter’d with her servants three.\nAgain it clos’d and there was nothing seen\nBut the Mule grazing on the herbage green."
+        },
+        {
+          "number": 6,
+          "text": "The Mule no sooner saw himself alone\nThan he prick’d up his Ears—and said “well done;\nAt least unhappy Prince I may be free—\nNo more a Princess shall side-saddle me.\nO King of Otaheite—though a Mule,\n‘Aye, every inch a King’—though ‘Fortune’s Fool,’\nWell done—for by what Mr. Dwarfy said\nI would not give a sixpence for her head.”\nEven as he spake he trotted in high glee\nTo the knotty side of an old Pollard tree,\nAnd rubb’d his sides against the mossed bark\nTill his Girths burst and left him naked stark\nExcept his Bridle—how get rid of that\nBuckled and tied with many a twist and plait.\nAt last it struck him to pretend to sleep,\nAnd then the thievish Monkeys down would creep"
+        },
+        {
+          "number": 7,
+          "text": "And filch the unpleasant trammels quite away.\nNo sooner thought of than adown he lay,\nShamm’d a good snore—the Monkey-men descended\nAnd whom they thought to injure they befriended.\nThey hung his Bridle on a topmost bough\nAnd off he went run, trot, or anyhow—"
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "label": "74",
+      "title": "Spenserian Stanzas on Charles Armitage Brown",
+      "pages": [
+        {
+          "number": 1,
+          "text": "He is to weet a melancholy Carle:\nThin in the waist, with bushy head of hair,\nAs hath the seeded thistle when in parle\nIt holds the Zephyr, ere it sendeth fair\nIts light balloons into the summer air;\nThere to his beard had not begun to bloom,\nNo brush had touch’d his chin, or razor sheer;\nNo care had touched his cheek with mortal doom,\nBut new he was, and bright, as scarf from Persian loom."
+        },
+        {
+          "number": 2,
+          "text": "Ne cared he for wine, or half-and-half;\nNe cared he for fish, or flesh, or fowl;\nAnd sauces held he worthless as the chaff;\nHe’s deigned the swineherd at the wassail bowl;\nNe with lewd ribbalds sat he cheek by jowl;\nNe with sly Lemans in the scorner’s chair;\nBut after water-brooks this Pilgrim’s soul\nPanted, and all his food was woodland air;\nThough he would oft-times feast on gilliflowers rare."
+        },
+        {
+          "number": 3,
+          "text": "The slang of cities in no wise he knew;\nTipping the wink to him was heathen Greek;\nHe sipp’d no “olden Tom,” or “ruin blue,”\nOr Nantz, or cherry-brandy, drunk full meek\nBy many a Damsel hoarse, and rouge of cheek;\nNor did he know each aged Watchman’s beat,\nNor in obscured purlieus would he seek\nFor curled Jewesses, with ankles neat,\nWho, as they walk abroad, make tinkling with their feet."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "label": "75",
+      "title": "Two or Three Posies",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Two or three Posies\nWith two or three simples—\nTwo or three Noses\nWith two or three pimples—\nTwo or three wise men\nAnd two or three ninny’s—\nTwo or three purses\nAnd two or three guineas—\nTwo or three raps\nAt two or three doors—\nTwo or three naps\nOf two or three hours—\nTwo or three Cats\nAnd two or three mice—\nTwo or three sprats\nAt a very great price—\nTwo or three sandies\nAnd two or three tabbies—\nTwo or three dandies\nAnd two Mrs. ⸺mum!\nTwo or three Smiles\nAnd two or three frowns—\nTwo or three Miles\nTo two or three towns—\nTwo or three pegs\nFor two or three bonnets—\nTwo or three dove eggs\nTo hatch into sonnets—"
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "label": "76",
+      "title": "Acrostic",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Give me your patience, sister, while I frame\nExact in capitals your golden name;\nOr sue the fair Apollo and he will\nRouse from his heavy slumber and instill\nGreat love in me for thee and Poesy.\nImagine not that greatest mastery\nAnd kingdom over all the Realms of verse,\nNears more to heaven in aught, than when we nurse\nAnd surety give to love and Brotherhood.\n\nAnthropophagi in Othello’s mood;\nUlysses storm’d and his enchanted belt\nGlow with the Muse, but they are never felt\nUnbosom’d so and so eternal made,\nSuch tender incense in their laurel shade\nTo all the regent sisters of the Nine\nAs this poor offering to you, sister mine."
+        },
+        {
+          "number": 2,
+          "text": "Kind sister! ay, this third name says you are;\nEnchanted has it been the Lord knows where;\nAnd may it taste to you like good old wine,\nTake you to real happiness and give\nSons, daughters and a home like honied hive."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "label": "77",
+      "title": "A Song About Myself",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There was a naughty Boy,\nA naughty boy was he,\nHe would not stop at home,\nHe could not quiet be—\nHe took\nIn his Knapsack\nA Book\nFull of vowels;\nAnd a shirt\nWith some towels—\nA slight cap\nFor night cap—\nA hair brush,\nComb ditto,\nNew Stockings,\nFor old ones\nWould split O!\nThis Knapsack,\nTight at ’s back,\nHe rivetted close\nAnd follow’d his Nose\nTo the North,\nTo the North,\nAnd follow’d his nose\nTo the North."
+        },
+        {
+          "number": 2,
+          "text": "There was a naughty boy\nAnd a naughty boy was he,\nFor nothing would he do\nBut scribble poetry—\nHe took\nAn inkstand\nIn his hand,\nAnd a Pen\nBig as ten\nIn the other,\nAnd away\nIn a Pother\nHe ran\nTo the mountains,\nAnd fountains\nAnd ghostes,\nAnd Postes,\nAnd witches,\nAnd ditches,\nAnd wrote\nIn his coat,\nWhen the weather\nWas cool,\nFear of gout,\nAnd without\nWhen the weather\nWas warm—\nOch the charm\nWhen we choose\nTo follow one’s nose\nTo the north,\nTo the north,\nTo follow one’s nose\nTo the north."
+        },
+        {
+          "number": 3,
+          "text": "There was a naughty boy\nAnd a naughty boy was he,\nHe kept little fishes\nIn washing tubs three\nIn spite\nOf the might\nOf the Maid,\nNor afraid\nOf his Granny—good—\nHe often would,\nHurly burly,\nGet up early,\nAnd go\nBy hook or crook\nTo the brook,\nAnd bring home\nMiller’s thumb,\nTittlebat\nNot over fat,\nMinnows small\nAs the stall\nOf a glove,\nNot above\nThe size\nOf a nice\nLittle Baby’s\nLittle fingers—\nO, he made,\n’Twas his trade,\nOf Fish a pretty Kettle\nA Kettle—\nA Kettle\nOf Fish, a pretty Kettle,\nA Kettle!"
+        },
+        {
+          "number": 4,
+          "text": "There was a naughty Boy,\nAnd a naughty Boy was he,\nHe ran away to Scotland\nThe people for to see—\nThen he found\nThat the ground\nWas as hard,\nThat a yard\nWas as long,\nThat a song\nWas as merry,\nThat a cherry\nWas as red—\nThat lead\nWas as weighty,\nThat fourscore\nWas as eighty,\nThat a door\nWas as wooden\nAs in England—\nSo he stood in his shoes\nAnd he wonder’d,\nHe wonder’d,\nHe stood in his shoes\nAnd he wonder’d."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "label": "78",
+      "title": "On Visiting the Tomb of Burns",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The Town, the churchyard, and the setting sun,\nThe Clouds, the trees, the rounded hills all seem,\nThough beautiful, cold—strange—as in a dream,\nI dreamed long ago, now new begun.\nThe short lived, paly Summer is but won\nFrom Winter’s ague, for one hour’s gleam;\nThough sapphire-warm, their Stars do never beam:\nAll is cold Beauty; pain is never done:\nFor who has mind to relish, Minos-wise,\nThe Real of Beauty, free from that dead hue\nSickly imagination and sick pride\nCast wan upon it! Burns! with honour due\nI oft have honour’d thee. Great shadow, hide\nThy face; I sin against thy native skies."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "label": "79",
+      "title": "Meg Merrilies",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Old Meg she was a Gipsy,\nAnd liv’d upon the Moors:\nHer bed it was the brown heath turf,\nAnd her house was out of doors.\n\nHer apples were swart blackberries,\nHer currants pods o’ broom;\nHer wine was dew of the wild white rose,\nHer book a churchyard tomb.\n\nHer Brothers were the craggy hills,\nHer Sisters larchen trees—\nAlone with her great family\nShe liv’d as she did please.\n\nNo breakfast had she many a morn,\nNo dinner many a noon,\nAnd ’stead of supper she would stare\nFull hard against the Moon.\n\nBut every morn of woodbine fresh\nShe made her garlanding,\nAnd every night the dark glen Yew\nShe wove, and she would sing."
+        },
+        {
+          "number": 2,
+          "text": "And with her fingers old and brown\nShe plaited Mats o’ Rushes,\nAnd gave them to the Cottagers\nShe met among the Bushes,\n\nOld Meg was brave as Margaret Queen\nAnd tall as Amazon:\nAn old red blanket coat she wore;\nA chip hat had she on.\nGod rest her aged bones somewhere—\nShe died full long agone!"
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "label": "80",
+      "title": "To Ailsa Rock",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Hearken, thou craggy ocean pyramid!\nGive answer from thy voice, the sea-fowls’ screams!\nWhen were thy shoulders mantled in huge streams?\nWhen, from the sun, was thy broad forehead hid?\nHow long is ’t since the mighty power bid\nThee heave to airy sleep from fathom dreams?\nSleep in the lap of thunder or sunbeams,\nOr when gray clouds are thy cold coverlid.\nThou answer’st not; for thou art dead asleep;\nThy life is but two dead eternities—\nThe last in air, the former in the deep;\nFirst with the whales, last with the eagle-skies—\nDrown’d wast thou till an earthquake made thee steep,\nAnother cannot wake thy giant size."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "label": "81",
+      "title": "Written in the Cottage Where Burns Was Born",
+      "pages": [
+        {
+          "number": 1,
+          "text": "This mortal body of a thousand days\nNow fills, O Burns, a space in thine own room,\nWhere thou didst dream alone on budded bays,\nHappy and thoughtless of thy day of doom!\nMy pulse is warm with thine old Barley-bree,\nMy head is light with pledging a great soul,\nMy eyes are wandering, and I cannot see,\nFancy is dead and drunken at its goal;\nYet can I stamp my foot upon thy floor,\nYet can I ope thy window-sash to find\nThe meadow thou hast tramped o’er and o’er,—\nYet can I think of thee till thought is blind,—\nYet can I gulp a bumper to thy name,—\nO smile among the shades, for this is fame!"
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "label": "82",
+      "title": "Lines Written in the Highlands After a Visit to Burns’s Country",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There is a charm in footing slow across a silent plain,\nWhere patriot battle has been fought, where glory had the gain;\nThere is a pleasure on the heath where Druids old have been,\nWhere mantles gray have rustled by and swept the nettles green;\nThere is Joy in every spot made known by times of old,\nNew to the feet, although each tale a hundred times be told;\nThere is a deeper Joy than all, more solemn in the heart,\nMore parching to the tongue than all, of more divine a smart,\nWhen weary steps forget themselves upon a pleasant turf,\nUpon hot sand, or flinty road, or sea-shore iron scurf,\nToward the Castle or the Cot, where long ago was born"
+        },
+        {
+          "number": 2,
+          "text": "One who was great through mortal days, and died of fame unshorn.\nLight heather-bells may tremble then, but they are far away;\nWood-lark may sing from sandy fern,—the Sun may hear his Lay;\nRunnels may kiss the grass on shelves and shallows clear,\nBut their low voices are not heard, though come on travels drear;\nBlood-red the sun may set behind black mountain peaks;\nBlue tides may sluice and drench their time in Caves and weedy creeks;\nEagles may seem to sleep wing-wide upon the Air;\nRing-doves may fly convuls’d across to some high-cedar’d lair;\nBut the forgotten eye is still fast lidded to the ground,\nAs Palmer’s, that with weariness, mid-desert shrine hath found."
+        },
+        {
+          "number": 3,
+          "text": "At such a time the soul’s a child, in childhood is the brain;\nForgotten is the worldly heart—alone, it heats in vain.—\nAye, if a Madman could have leave to pass a healthful day\nTo tell his forehead’s swoon and faint when first began decay,\nHe might make tremble many a one whose spirit had gone forth\nTo find a Bard’s low cradle-place about the silent North.\nScanty the hour and few the steps beyond the bourn of Care,\nBeyond the sweet and bitter world,—beyond it unaware!\nScanty the hour and few the steps, because a longer stay\nWould bar return, and make a man forget his mortal way:\nO horrible! to lose the sight of well remember’d face,"
+        },
+        {
+          "number": 4,
+          "text": "Of Brother’s eyes, of Sister’s brow—constant to every place;\nFilling the Air, as on we move, with Portraiture intense;\nMore warm than those heroic tints that pain a Painter’s sense,\nWhen shapes of old come striding by, and visages of old,\nLocks shining black, hair scanty gray, and passions manifold.\nNo, no, that horror cannot be, for at the cable’s length\nMan feels the gentle anchor pull and gladdens in its strength:—\nOne hour, half-idiot, he stands by mossy water-fall,\nBut in the very next he reads his soul’s Memorial:—\nHe reads it on the mountain’s height, where chance he may sit down\nUpon rough marble diadem—that hill’s eternal Crown."
+        },
+        {
+          "number": 5,
+          "text": "Yet be his Anchor e’er so fast, room is there for a prayer\nThat man may never lose his Mind on Mountains black and bare;\nThat he may stray league after league some great birthplace to find\nAnd keep his vision clear from speck, his inward sight unblind."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "label": "83",
+      "title": "At Fingal’s Cave",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Not Aladdin magian\nEver such a work began;\nNot the wizard of the Dee\nEver such a dream could see;\nNot St. John, in Patmos’ isle,\nIn the passion of his toil,\nWhen he saw the churches seven,\nGolden aisled, built up in heaven,\nGazed at such a rugged wonder,\nAs I stood its roofing under.\nLo! I saw one sleeping there,\nOn the marble cold and bare;\nWhile the surges wash’d his feet,\nAnd his garments white did beat\nDrench’d about the sombre rocks;\nOn his neck his well-grown locks,\nLifted dry above the main,\nWere upon the curl again.\n“What is this? and what art thou?”\nWhisper’d I, and touch’d his brow;\n“What art thou? and what is this?”\nWhisper’d I, and strove to kiss"
+        },
+        {
+          "number": 2,
+          "text": "The spirit’s hand, to wake his eyes;\nUp he started in a trice:\n“I am Lycidas,” said he,\n“Famed in funeral minstrelsy!\nThis was architectured thus\nBy the great Oceanus!—\nHere his mighty waters play\nHollow organs all the day;\nHere, by turns, his dolphins all,\nFinny palmers, great and small,\nCome to pay devotion due,—\nEach a mouth of pearls must strew!\nMany a mortal of these days\nDares to pass our sacred ways;\nDares to touch, audaciously,\nThis cathedral of the sea!\nI have been the pontiff-priest,\nWhere the waters never rest,\nWhere a fledgy sea-bird choir\nSoars for ever! Holy fire\nI have hid from mortal man;\nProteus is my Sacristan!\nBut the dulled eye of mortal"
+        },
+        {
+          "number": 3,
+          "text": "Hath pass’d beyond the rocky portal;\nSo for ever will I leave\nSuch a taint, and soon unweave\nAll the magic of the place.”\nSo saying, with a Spirit’s glance\nHe dived!"
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "label": "84",
+      "title": "Written Upon the Top of Ben Nevis",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Read me a lesson, Muse, and speak it loud\nUpon the top of Nevis, blind in mist!\nI look into the chasms, and a shroud\nVaporous doth hide them,—just so much wist\nMankind do know of hell; I look o’erhead,\nAnd there is sullen mist,—even so much\nMankind can tell of heaven; mist is spread\nBefore the earth, beneath me,—even such,\nEven so vague is man’s sight of himself!\nHere are the craggy stones beneath my feet,—\nThus much I know that, a poor witless elf,\nI tread on them,—that all my eye doth meet\nIs mist and crag, not only on this height,\nBut in the world of thought and mental might!"
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "label": "85",
+      "title": "The Gadfly",
+      "pages": [
+        {
+          "number": 1,
+          "text": "All gentle folks who owe a grudge\nTo any living thing\nOpen your ears and stay your trudge\nWhilst I in dudgeon sing.\n\nThe Gadfly he hath stung me sore—\nO may he ne’er sting you!\nBut we have many a horrid bore,—\nHe may sting black and blue.\n\nHas any here an old gray Mare\nWith three legs all her store,\nO put it to her Buttocks bare\nAnd straight she’ll run on four.\n\nHas any here a Lawyer suit\nOf 1743,\nTake Lawyer’s nose and put it to ’t\nAnd you the end will see.\n\nIs there a Man in Parliament\nDumbfounder’d in his speech,\nO let his neighbour make a rent\nAnd put one in his breech."
+        },
+        {
+          "number": 2,
+          "text": "O Lowther how much better thou\nHadst figur’d t’ other day\nWhen to the folks thou mad’st a bow\nAnd hadst no more to say.\n\nIf lucky Gadfly had but ta’en\nHis seat …\nAnd put thee to a little pain\nTo save thee from a worse.\n\nBetter than Southey it had been,\nBetter than Mr. D⸺\nBetter than Wordsworth, too, I ween,\nBetter than Mr. V⸺.\n\nForgive me, pray, good people all,\nFor deviating so—\nIn spirit sure I had a call—\nAnd now I on will go.\n\nHas any here a daughter fair\nToo fond of reading novels,\nToo apt to fall in love with care\nAnd charming Mister Lovels,\n\nO put a Gadfly to that thing\nShe keeps so white and pert—\nI mean the finger for the ring,\nAnd it will breed a wort."
+        },
+        {
+          "number": 3,
+          "text": "Has any here a pious spouse\nWho seven times a day\nScolds as King David pray’d, to chouse\nAnd have her holy way—\n\nO let a Gadfly’s little sting\nPersuade her sacred tongue\nThat noises are a common thing,\nBut that her bell has rung.\n\nAnd as this is the summum bo-\nnum of all conquering,\nI leave “withouten wordes mo”\nThe Gadfly’s little sting."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "label": "86",
+      "title": "To Thomas Keats",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Ah! ken ye what I met the day\nOut oure the Mountains\nA coming down by craggies gray\nAn mossie fountains—\nAh goud-hair’d Marie yeve I pray\nAne minute’s guessing—\nFor that I met upon the way\nIs past expressing.\nAs I stood where a rocky brig\nA torrent crosses\nI spied upon a misty rig\nA troup o’ Horses—\nAnd as they trotted down the glen\nI sped to meet them\nTo see if I might know the Men\nTo stop and greet them.\nFirst Willie on his sleek mare came\nAt canting gallop,\nHis long hair rustled like a flame\nOn board a shallop,\nThen came his brother Rab and then\nYoung Peggy’s Mither\nAnd Peggy too—adown the glen\nThey went togither—\nI saw her wrappit in her hood\nFrae wind and raining—"
+        },
+        {
+          "number": 2,
+          "text": "Her cheek was flush wi’ timid blood\nTwixt growth and waning—\nShe turn’d her dazed eyes full oft\nFor there her Brithers\nCame riding with her Bridegroom soft\nAnd mony ithers.\nYoung Tarn came up and eyed me quick\nWith reddened cheek—\nBraw Tom was daffed like a chick—\nHe couldna speak—\nAh, Marie, they are all gane hame\nThrough blustering weather\nAn’ every heart is full on flame\nAn’ light as feather.\nAh! Marie, they are all gone hame\nFrae happy wadding,\nWhilst I—Ah is it not a shame?\nSad tears am shedding."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "label": "87",
+      "title": "On Hearing the Bag-Pipe and Seeing “The Stranger” Played at Inverary",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Of late two dainties were before me plac’d\nSweet, holy, pure, sacred and innocent,\nFrom the ninth sphere to me benignly sent\nThat Gods might know my own particular taste:\nFirst the soft Bag-pipe mourn’d with zealous haste,\nThe Stranger next with head on bosom bent\nSigh’d; rueful again the piteous Bag-pipe went,\nAgain the Stranger sighings fresh did waste.\nO Bag-pipe, thou didst steal my heart away—\nO Stranger, thou my nerves from Pipe didst charm—\nO Bag-pipe thou didst re-assert thy sway—\nAgain thou. Stranger, gav’st me fresh alarm—\nAlas! I could not choose. Ah! my poor heart\nMum chance art thou with both oblig’d to part."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "label": "88",
+      "title": "Mrs. Cameron and Ben Nevis",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Upon my life Sir Nevis I am piqued\nThat I have so far panted tugg’d and reek’d\nTo do an honor to your old bald pate\nAnd now am sitting on you just to bait,\nWithout your paying me one compliment.\nAlas, ’tis so with all, when our intent\nIs plain, and in the eye of all Mankind\nWe fair ones show a preference, too blind!\nYou Gentle man immediately turn tail—\nO let me then my hapless fate bewail!\nUngrateful Baldpate have I not disdain’d\nThe pleasant Valleys—have I not madbrain’d\nDeserted all my Pickles and preserves\nMy China closet too—with wretched Nerves\nTo boot—say, wretched ingrate, have I not\nLeft my soft cushion chair and caudle pot?\n’Tis true I had no corns—no! thank the fates"
+        },
+        {
+          "number": 2,
+          "text": "My Shoemaker was always Mr. Bates.\nAnd if not Mr. Bates why I’m not old!\nStill dumb ungrateful Nevis—still so cold!\n\nHere the Lady took some more whisky and was putting even more to her lips when she dashed it to the Ground, for the Mountain began to grumble—which continued for a few minutes before he thus began—"
+        },
+        {
+          "number": 3,
+          "text": "What whining bit of tongue and Mouth thus dares\nDisturb my slumber of a thousand years?\nEven so long my sleep has been secure—\nAnd to be so awak’d I’ll not endure.\nOh pain—for since the Eagle’s earliest scream\nI’ve had a damn’d confounded ugly dream,\nA Nightmare sure. What! Madam, was it you?\nIt cannot be! My old eyes are not true!\nRed-Crag, my Spectacles! Now let me see!\nGood Heavens! Lady, how the gemini\nDid you get here? O, I shall split my sides!\nI shall earthquake—"
+        },
+        {
+          "number": 4,
+          "text": "Sweet Nevis do not quake, for though I love\nYour honest Countenance all things above,\nTruly I should not like to be convey’d\nSo far into your Bosom—gentle Maid\nLoves not too rough a treatment, gentle Sir—\nPray thee be calm and do not quake nor stir\nNo, not a Stone, or I shall go in fits—"
+        },
+        {
+          "number": 5,
+          "text": "I must—I shall—I meet not such tit bits—\nI meet not such sweet creatures every day—\nBy my old nightcap night and day\nI must have one sweet Buss—I must and shall!\nRed Crag!—What! Madam, can you then repent\nOf all the toil and vigour you have spent\nTo see Ben Nevis and to touch his nose?\nRed Crag I say! O I must have them close!\nRed Crag, there lies beneath my farthest toe\nA vein of Sulphur—go, dear Red Crag, go—\nAnd rub your flinty back against it—budge!\nDear Madam, I must kiss you, faith I must!\nI must embrace you with my dearest gust!\nBlock-head, d’ ye hear!—Block-head, I’ll make her feel.\nThere lies beneath my east leg’s northern heel\nA cave of young earth dragons;—well my boy"
+        },
+        {
+          "number": 6,
+          "text": "Go thither quick and so complete my joy.\nTake you a bundle of the largest pines,\nAnd when the sun on fiercest Phosphor shines,\nFire them and ram them in the Dragon’s nest,\nThen will the dragons fry and fizz their best\nUntil ten thousand now no bigger than\nPoor alligators—poor things of one span—\nWill each one swell to twice ten times the size\nOf northern whale—then for the tender prize—\nThe moment then—for then will Red Crag rub\nHis flinty back—and I shall kiss and snub\nAnd press my dainty morsel to my breast.\nBlock-head make haste!"
+        },
+        {
+          "number": 7,
+          "text": "O Muses, weep the rest—\nThe Lady fainted and he thought her dead;\nSo pulled the clouds again about his head\nAnd went to sleep again; soon she was rous’d\nBy her affrighted servants—next day, hous’d\nSafe on the lowly ground she bless’d her fate\nThat fainting fit was not delayed too late.\n\nBut what surprised me above all is how the lady got down again. I felt it horribly. ’Twas the most vile descent—shook me all to pieces."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "label": "89",
+      "title": "Translation from a Sonnet of Ronsard",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Nature withheld Cassandra in the skies,\nFor more adornment, a full thousand years;\nShe took their cream of Beauty’s fairest dyes,\nAnd shaped and tinted her above all Peers:\nMeanwhile Love kept her dearly with his wings,\nAnd underneath their shadow fill’d her eyes\nWith such a richness that the cloudy Kings\nOf high Olympus utter’d slavish sighs.\nWhen from the Heavens I saw her first descend,\nMy heart took fire, and only burning pains,\nThey were my pleasures—they my Life’s sad end;\nLove pour’d her beauty into my warm veins."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "label": "90",
+      "title": "A Prophecy",
+      "pages": [
+        {
+          "number": 1,
+          "text": "’Tis the witching time of night,\nOrbed is the moon and bright,\nAnd the Stars they glisten, glisten,\nSeeming with bright eyes to listen.\nFor what listen they?\nFor a song and for a charm,\nSee they glisten in alarm,\nAnd the Moon is waxing warm\nTo hear what I shall say.\nMoon! keep wide thy golden ears—\nHearken, Stars! and hearken, Spheres!—\nHearken, thou eternal Sky!\nI sing an infant’s Lullaby,\nO pretty lullaby!\nListen, listen, listen, listen,\nGlisten, glisten, glisten, glisten,\nAnd hear my Lullaby!\nThough the Rushes, that will make\nIts cradle, still are in the lake—\nThough the linen that will be\nIts swathe, is on the cotton tree—\nThough the woollen that will keep\nIt warm, is on the silly sheep—"
+        },
+        {
+          "number": 2,
+          "text": "Listen, Starlight, listen, listen,\nGlisten, glisten, glisten, glisten,\nAnd hear my lullaby!\nChild, I see thee! Child, I’ve found thee\nMidst of the quiet all around thee!\nChild, I see thee! Child, I spy thee!\nAnd thy mother sweet is nigh thee!\nChild, I know thee! Child no more,\nBut a Poet evermore!\nSee, see, the Lyre, the Lyre,\nIn a flame of fire,\nUpon the little cradle’s top\nFlaring, flaring, flaring,\nPast the eyesight’s bearing.\nAwake it from its sleep,\nAnd see if it can keep\nIts eyes upon the blaze—\nAmaze, amaze!\nIt stares, it stares, it stares,\nIt dares what no one dares!\nIt lifts its little hand into the flame\nUnharm’d, and on the strings\nPaddles a little tune, and sings,"
+        },
+        {
+          "number": 3,
+          "text": "With dumb endeavour sweetly—\nBard art thou completely!\nLittle child\nO’ th’ western wild,\nBard art thou completely!\nSweetly with dumb endeavour.\nA poet now or never,\nLittle child\nO’ th’ western wild,\nA Poet now or never!"
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "label": "91",
+      "title": "Song",
+      "pages": [
+        {
+          "number": 1,
+          "text": "I had a dove and the sweet dove died;\nAnd I have thought it died of grieving:\nO, what could it grieve for? Its feet were tied,\nWith a silken thread of my own hand’s weaving;\nSweet little red feet! why should you die—\nWhy should you leave me, sweet bird! why?\nYou lived alone in the forest-tree,\nWhy, pretty thing! would you not live with me?\nI kiss’d you oft and gave you white peas;\nWhy not live sweetly, as in the green trees?"
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "label": "92",
+      "title": "Fancy",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Ever let the Fancy roam,\nPleasure never is at home:\nAt a touch sweet Pleasure melteth,\nLike to bubbles when rain pelteth;\nThen let winged Fancy wander\nThrough the thought still spread beyond her:\nOpen wide the mind’s cage-door,\nShe’ll dart forth, and cloudward soar.\nO sweet Fancy! let her loose;\nSummer’s joys are spoilt by use,\nAnd the enjoying of the Spring\nFades as does its blossoming;\nAutumn’s red-lipp’d fruitage too,\nBlushing through the mist and dew,\nCloys with tasting: What do then?\nSit thee by the ingle, when\nThe sear faggot blazes bright,\nSpirit of a winter’s night;\nWhen the soundless earth is muffled,\nAnd the caked snow is shuffled\nFrom the ploughboy’s heavy shoon;"
+        },
+        {
+          "number": 2,
+          "text": "When the Night doth meet the Noon\nIn a dark conspiracy\nTo banish Even from her sky.\nSit thee there, and send abroad,\nWith a mind self-overawed,\nFancy, high-commission’d:—send her!\nShe has vassals to attend her:\nShe will bring, in spite of frost,\nBeauties that the earth hath lost;\nShe will bring thee, all together,\nAll delights of summer weather;\nAll the buds and bells of May,\nFrom dewy sward or thorny spray;\nAll the heaped Autumn’s wealth,\nWith a still, mysterious stealth:\nShe will mix these pleasures up\nLike three fit wines in a cup,\nAnd thou shalt quaff it:—thou shalt hear\nDistant harvest-carols clear;\nRustle of the reaped corn;\nSweet birds antheming the morn:\nAnd, in the same moment—hark!"
+        },
+        {
+          "number": 3,
+          "text": "’Tis the early April lark,\nOr the rooks, with busy caw,\nForaging for sticks and straw.\nThou shalt, at one glance, behold\nThe daisy and the marigold;\nWhite-plumed lilies, and the first\nHedge-grown primrose that hath burst;\nShaded hyacinth, alway\nSapphire queen of the mid-May;\nAnd every leaf, and every flower\nPearled with the self-same shower.\nThou shalt see the field-mouse peep\nMeagre from its celled sleep;\nAnd the snake all winter-thin\nCast on sunny bank its skin;\nFreckled nest-eggs thou shalt see\nHatching in the hawthorn-tree,\nWhen the hen-bird’s wing doth rest\nQuiet on her mossy nest;\nThen the hurry and alarm\nWhen the bee-hive casts its swarm;\nAcorns ripe down-pattering"
+        },
+        {
+          "number": 4,
+          "text": "While the autumn breezes sing."
+        },
+        {
+          "number": 5,
+          "text": "Oh, sweet Fancy! let her loose;\nEverything is spoilt by use;\nWhere’s the cheek that doth not fade,\nToo much gazed at? Where’s the maid\nWhose lip mature is ever new?\nWheres the eye, however blue,\nDoes not weary? Where’s the face\nOne would meet in every place?\nWhere’s the voice, however soft,\nOne would hear so very oft?\nAt a touch sweet Pleasure melteth\nLike to bubbles when rain pelteth.\nLet, then, winged Fancy find\nThee a mistress to thy mind:\nDulcet-eyed as Ceres’ daughter\nEre the God of Torment taught her\nHow to frown and how to chide;\nWith a waist and with a side\nWhite as Hebe’s, when her zone\nSlipt its golden clasp, and down\nFell her kirtle to her feet,\nWhile she held the goblet sweet,"
+        },
+        {
+          "number": 6,
+          "text": "And Jove grew languid.—Break the mesh\nOf the Fancy’s silken leash;\nQuickly break her prison-string.\nAnd such joys as these she’ll bring.—\nLet the winged Fancy roam,\nPleasure never is at home."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "label": "93",
+      "title": "Ode",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Bards of Passion and of Mirth,\nYe have left your souls on earth!\nHave ye souls in heaven too,\nDouble-lived in regions new?\nYes, and those of heaven commune\nWith the spheres of sun and moon;\nWith the noise of fountains wond’rous\nAnd the parle of voices thund’rous;\nWith the whisper of heaven’s trees\nAnd one another, in soft ease\nSeated on Elysian lawns\nBrowsed by none but Dian’s fawns;\nUnderneath large blue-bells tented,\nWhere the daisies are rose-scented,\nAnd the rose herself has got\nPerfume which on earth is not;\nWhere the nightingale doth sing\nNot a senseless, tranced thing,\nBut divine melodious truth;\nPhilosophic numbers smooth;\nTales and golden histories\nOf heaven and its mysteries."
+        },
+        {
+          "number": 2,
+          "text": "Thus ye live on high, and then,\nOn the earth ye live again;\nAnd the souls ye left behind you\nTeach us, here, the way to find you,\nWhere your other souls are joying,\nNever slumber’d, never cloying.\nHere, your earth-born souls still speak\nTo mortals, of their little week;\nOf their sorrows and delights;\nOf their passions and their spites;\nOf their glory and their shame;\nWhat doth strengthen and what maim.\nThus ye teach us, every day,\nWisdom, though fled far away.\n\nBards of Passion and of Mirth,\nYe have left your souls on earth!\nYe have souls in heaven too,\nDouble-lived in regions new!"
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "label": "94",
+      "title": "Modern Love",
+      "pages": [
+        {
+          "number": 1,
+          "text": "And what is love? It is a doll dress’d up\nFor idleness to cosset, nurse, and dandle;\nA thing of soft misnomers, so divine\nThat silly youth doth think to make itself\nDivine by loving, and so goes on\nYawning and doting a whole summer long,\nTill Miss’s comb is made a pearl tiara,\nAnd common Wellingtons turn Romeo boots;\nThen Cleopatra lives at number seven,\nAnd Antony resides in Brunswick Square.\nFools! if some passions high have warm’d the world,\nIf Queens and Soldiers have play’d deep for hearts,\nIt is no reason why such agonies\nShould be more common than the growth of weeds.\nFools! make me whole again that weighty pearl\nThe Queen of Egypt melted, and I’ll say"
+        },
+        {
+          "number": 2,
+          "text": "That ye may love in spite of beaver hats."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "label": "95",
+      "title": "Fragment of “The Castle Builder”",
+      "pages": [
+        {
+          "number": 1,
+          "text": "To-night I’ll have my friar—let me think\nAbout my room—I’ll have it in the pink;\nIt should be rich and sombre, and the moon,\nJust in its mid-life in the midst of June\nShould look thro’ four large windows and display\nClear, but for gold-fish vases in the way,\nTheir glassy diamonding on Turkish floor;\nThe tapers keep aside, an hour and more,\nTo see what else the moon alone can show;\nWhile the night-breeze doth softly let us know\nMy terrace is well bower’d with oranges.\nUpon the floor the dullest spirit sees\nA guitar-ribband and a lady’s glove\nBeside a crumple-leaved tale of love;\nA tambour-frame, with Venus sleeping there,\nAll finish’d but some ringlets of her hair;"
+        },
+        {
+          "number": 2,
+          "text": "A viol, bow-strings torn, cross-wise upon\nA glorious folio of Anacreon;\nA skull upon a mat of roses lying,\nInk’d purple with a song concerning dying;\nAn hour-glass on the turn, amid the trails\nOf passion-flower;—just in time there sails\nA cloud across the moon,—the lights bring in!\nAnd see what more my phantasy can win.\nIt is a gorgeous room, but somewhat sad;\nThe draperies are so, as though they had\nBeen made for Cleopatra’s winding-sheet;\nAnd opposite the steadfast eye doth meet\nA spacious looking-glass, upon whose face,\nIn letters raven-sombre, you may trace\nOld “Mene, Mene, Tekel Upharsin.”\nGreek busts and statuary have ever been\nHeld, by the finest spirits, fitter far,"
+        },
+        {
+          "number": 3,
+          "text": "Than vase grotesque and Siamesian jar;\nTherefore ’tis sure a want of Attic taste\nThat I should rather love a Gothic waste\nOf eyesight on cinque-coloured potter’s clay,\nThan on the marble fairness of old Greece.\nMy table-coverlits of Jason’s fleece\nAnd black Numidian sheep-wool should be wrought,\nGold, black, and heavy, from the Lama brought.\nMy ebon sofas should delicious be\nWith down from Leda’s cygnet progeny.\nMy pictures all Salvator’s, save a few\nOf Titian’s portraiture, and one, though new,\nOf Haydon’s in its fresh magnificence.\nMy wine—O good! ’tis here at my desire,\nAnd I must sit to supper with my friar."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "label": "96",
+      "title": "Song",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Spirit here that reignest!\nSpirit here that painest!\nSpirit here that burnest!\nSpirit here that mournest!\nSpirit, I bow\nMy forehead low,\nEnshaded with thy pinions.\nSpirit, I look\nAll passion-struck\nInto thy pale dominions.\n\nSpirit here that laughest!\nSpirit here that quaffest!\nSpirit here that dancest!\nNoble soul that prancest!\nSpirit, with thee\nI join in the glee\nA-nudging the elbow of Momus.\nSpirit, I flush\nWith a Bacchanal blush\nJust fresh from the Banquet of Comus."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "label": "97",
+      "title": "Spenserian Stanza",
+      "pages": [
+        {
+          "number": 1,
+          "text": "In after-time, a sage of mickle lore\nYclep’d Typographus, the Giant took,\nAnd did refit his limbs as heretofore,\nAnd made him read in many a learned book,\nAnd into many a lively legend look;\nThereby in goodly themes so training him,\nThat all his brutishness he quite forsook,\nWhen, meeting Artegall and Talus grim,\nThe one he struck stone-blind, the other’s eyes wox dim."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "label": "98",
+      "title": "The Eve of St. Mark",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Upon a Sabbath-day it fell;\nTwice holy was the Sabbath-bell,\nThat call’d the folk to evening prayer;\nThe city streets were clean and fair\nFrom wholesome drench of April rains;\nAnd, on the western window panes,\nThe chilly sunset faintly told\nOf unmatured green valleys cold,\nOf the green thorny bloomless hedge,\nOf rivers new with spring-tide sedge,\nOf primroses by shelter’d rills,\nAnd daisies on the aguish hills.\nTwice holy was the Sabbath-bell:\nThe silent streets were crowded well\nWith staid and pious companies,\nWarm from their fireside orat’ries;\nAnd moving, with demurest air,\nTo even-song, and vesper prayer.\nEach arched porch, and entry low,\nWas fill’d with patient folk and slow,"
+        },
+        {
+          "number": 2,
+          "text": "With whispers hush, and shuffling feet,\nWhile play’d the organ loud and sweet.\n\nThe bells had ceased, the prayers begun,\nAnd Bertha had not yet half done\nA curious volume, patch’d and torn,\nThat all day long, from earliest morn,\nHad taken captive her two eyes,\nAmong its golden broideries;\nPerplex’d her with a thousand things,—\nThe stars of Heaven, and angels’ wings,\nMartyrs in a fiery blaze,\nAzure saints and silver rays,\nMoses’ breastplate and the seven\nCandlesticks John saw in Heaven,\nThe winged Lion of Saint Mark,\nAnd the Covenantal Ark,\nWith its many mysteries,\nCherubim and golden mice."
+        },
+        {
+          "number": 3,
+          "text": "Bertha was a maiden fair,\nDwelling in th’ old Minster-square;\nFrom her fireside she could see,\nSidelong, its rich antiquity,\nFar as the Bishop’s garden wall;\nWhere sycamores and elm-trees tall,\nFull-leaved, the forest had outstript,\nBy no sharp north-wind ever nipt,\nSo shelter’d by the mighty pile.\nBertha arose, and read awhile,\nWith forehead ’gainst the window-pane.\nAgain she tried, and then again,\nUntil the dusk eve left her dark\nUpon the legend of St. Mark.\nFrom plaited lawn-frill, fine and thin,\nShe lifted up her soft warm chin,\nWith aching neck and swimming eyes,\nAnd dazed with saintly imag’ries."
+        },
+        {
+          "number": 4,
+          "text": "All was gloom, and silent all,\nSave now and then the still foot-fall\nOf one returning homewards late,\nPast the echoing minster-gate.\nThe clamorous daws, that all the day\nAbove tree-tops and towers play,\nPair by pair had gone to rest,\nEach in its ancient belfry-nest,\nWhere asleep they fall betimes,\nTo music and the drowsy chimes."
+        },
+        {
+          "number": 5,
+          "text": "All was silent, all was gloom,\nAbroad and in the homely room:\nDown she sat, poor cheated soul!\nAnd struck a lamp from the dismal coal;\nLean’d forward, with bright drooping hair\nAnd slant book, full against the glare.\nHer shadow, in uneasy guise,\nHover’d about, a giant size,\nOn ceiling-beam and old oak chair,\nThe parrot’s cage, and panel-square;\nAnd the warm angled winter-screen,\nOn which were many monsters seen,\nCall’d doves of Siam, Lima mice,\nAnd legless birds of Paradise,\nMacaw, and tender Avadavat,\nAnd silken-furr’d Angora cat.\nUntired she read, her shadow still\nGlower’d about, as it would fill\nThe room with wildest forms and shades,\nAs though some ghostly queen of spades"
+        },
+        {
+          "number": 6,
+          "text": "Had come to mock behind her back,\nAnd dance, and ruffle her garments black.\nUntired she read the legend page,\nOf holy Mark, from youth to age,\nOn land, on sea, in pagan chains,\nRejoicing for his many pains.\nSometimes the learned eremite,\nWith golden star, or dagger bright,\nReferr’d to pious poesies\nWritten in smallest crow-quill size\nBeneath the text; and thus the rhyme\nWas parcell’d out from time to time:\n⸺“Als writith he of swevenis,\nMen han beforne they wake in bliss,\nWhanne that hir friendes thinke him bound\nIn crimped shroude farre under grounde;\nAnd how a litling child mote be\nA saint er its nativitie,\nGif that the modre (God her blesse!)\nKepen in solitarinesse,"
+        },
+        {
+          "number": 7,
+          "text": "And kissen devoute the holy croce,\nOf Goddes love, and Sathan’s force,—\nHe writith; and thinges many mo\nOf swiche thinges I may not show.\nBot I must tellen verilie\nSomdel of Saintè Cicilie,\nAnd chieflie what he auctorethe\nOf Saintè Markis life and dethe:”\n\nAt length her constant eyelids come\nUpon the fervent martyrdom;\nThen lastly to his holy shrine,\nExalt amid the tapers’ shine\nAt Venice,⸺"
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "label": "99",
+      "title": "Ode on Indolence",
+      "pages": [
+        {
+          "number": 1,
+          "text": "One morn before me were three figures seen,\nWith bowed necks, and joined hands, side-faced;\nAnd one behind the other stepp’d serene,\nIn placid sandals, and in white robes graced;\nThey pass’d, like figures on a marble urn,\nWhen shifted round to see the other side;\nThey came again; as when the urn once more\nIs shifted round, the first seen shades return;\nAnd they were strange to me, as may betide\nWith vases, to one deep in Phidian lore."
+        },
+        {
+          "number": 2,
+          "text": "How is it, Shadows! that I knew ye not?\nHow came ye muffled in so hush a mask?\nWas it a silent deep-disguised plot\nTo steal away, and leave without a task\nMy idle days? Ripe was the drowsy hour;\nThe blissful cloud of summer-indolence\nBenumb’d my eyes; my pulse grew less and less;\nPain had no sting, and pleasure’s wreath no flower:\nO, why did ye not melt, and leave my sense\nUnhaunted quite of all but—nothingness?"
+        },
+        {
+          "number": 3,
+          "text": "A third time pass’d they by, and, passing, turn’d\nEach one the face a moment whiles to me;\nThen faded, and to follow them I burn’d\nAnd ached for wings, because I knew the three;\nThe first was a fair Maid, and Love her name;\nThe second was Ambition, pale of cheek,\nAnd ever watchful with fatigued eye;\nThe last, whom I love more, the more of blame\nIs heap’d upon her, maiden most unmeek,—\nI knew to be my demon Poesy."
+        },
+        {
+          "number": 4,
+          "text": "They faded, and, forsooth! I wanted wings:\nO folly! What is Love? and where is it?\nAnd for that poor Ambition! it springs\nFrom a man’s little heart’s short fever-fit;\nFor Poesy!—no,—she has not a joy,—\nAt least for me,—so sweet as drowsy noons,\nAnd evenings steep’d in honied indolence;\nO, for an age so shelter’d from annoy,\nThat I may never know how change the moons,\nOr hear the voice of busy common-sense!"
+        },
+        {
+          "number": 5,
+          "text": "And once more came they by;—alas! wherefore?\nMy sleep had been embroider’d with dim dreams;\nMy soul had been a lawn besprinkled o’er\nWith flowers, and stirring shades, and baffled beams:\nThe morn was clouded, but no shower fell,\nThough in her lids hung the sweet tears of May;\nThe open casement press’d a new-leaved vine,\nLet in the budding warmth and throstle’s lay;\nO Shadows! ’twas a time to bid farewell!\nUpon your skirts had fallen no tears of mine."
+        },
+        {
+          "number": 6,
+          "text": "So, ye three Ghosts, adieu! Ye cannot raise\nMy head cool-bedded in the flowery grass;\nFor I would not be dieted with praise,\nA pet-lamb in a sentimental farce!\nFade softly from my eyes and be once more\nIn masque-like figures on the dreamy urn;\nFarewell! I yet have visions for the night,\nAnd for the day faint visions there is store;\nVanish, ye Phantoms! from my idle spright,\nInto the clouds, and nevermore return!"
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "label": "100",
+      "title": "Ode on a Grecian Urn",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Thou still unravish’d bride of quietness,\nThou foster-child of Silence and slow Time,\nSylvan historian, who canst thus express\nA flowery tale more sweetly than our rhyme:\nWhat leaf-fringed legend haunts about thy shape\nOf deities or mortals, or of both,\nIn Tempe or the dales of Arcady?\nWhat men or gods are these? what maidens loth?\nWhat mad pursuit? What struggle to escape?\nWhat pipes and timbrels? What wild ecstasy?"
+        },
+        {
+          "number": 2,
+          "text": "Heard melodies are sweet, but those unheard\nAre sweeter; therefore, ye soft pipes, play on;\nNot to the sensual ear, but, more endear’d\nPipe to the spirit ditties of no tone:\nFair youth, beneath the trees, thou canst not leave\nThy song, nor ever can those trees be bare;\nBold Lover, never, never canst thou kiss,\nThough winning near the goal—yet, do not grieve;\nShe cannot fade, though thou hast not thy bliss,\nFor ever wilt thou love, and she be fair!"
+        },
+        {
+          "number": 3,
+          "text": "Ah, happy, happy boughs! that cannot shed\nYour leaves, nor ever bid the Spring adieu;\nAnd, happy melodist, unwearied,\nFor ever piping songs for ever new:\nMore happy love! more happy, happy love!\nFor ever warm and still to be enjoy’d,\nFor ever panting, and for ever young;\nAll breathing human passion far above,\nThat leaves a heart high-sorrowful and cloy’d,\nA burning forehead, and a parching tongue."
+        },
+        {
+          "number": 4,
+          "text": "Who are these coming to the sacrifice?\nTo what green altar, O mysterious priest,\nLead’st thou that heifer lowing at the skies,\nAnd all her silken flanks with garlands drest?\nWhat little town by river or sea shore,\nOr mountain-built with peaceful citadel,\nIs emptied of this folk, this pious morn?\nAnd, little town, thy streets for evermore\nWill silent be; and not a soul to tell\nWhy thou art desolate, can e’er return."
+        },
+        {
+          "number": 5,
+          "text": "O Attic shade! Fair attitude! with brede\nOf marble men and maidens overwrought,\nWith forest branches and the trodden weed;\nThou, silent form, dost tease us out of thought\nAs doth eternity: Cold Pastoral!\nWhen old age shall this generation waste,\nThou shalt remain, in midst of other woe\nThan ours, a friend to man, to whom thou say’st,\n“Beauty is truth, truth beauty,”—that is all\nYe know on earth, and all ye need to know."
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "label": "101",
+      "title": "Ode on Melancholy",
+      "pages": [
+        {
+          "number": 1,
+          "text": "No, no! go not to Lethe, neither twist\nWolf’s-bane, tight-rooted, for its poisonous wine;\nNor suffer thy pale forehead to be kiss’d\nBy nightshade, ruby grape of Proserpine;\nMake not your rosary of yew-berries,\nNor let the beetle, or the death-moth be\nYour mournful Psyche, nor the downy owl\nA partner in your sorrow’s mysteries;\nFor shade to shade will come too drowsily,\nAnd drown the wakeful anguish of the soul."
+        },
+        {
+          "number": 2,
+          "text": "But when the melancholy fit shall fall\nSudden from heaven like a weeping cloud,\nThat fosters the droop-headed flowers all,\nAnd hides the green hills in an April shroud;\nThen glut thy sorrow on a morning rose,\nOr on the rainbow of the salt-sand wave,\nOr on the wealth of globed peonies;\nOr if thy mistress some rich anger shows,\nEmprison her soft hand, and let her rave,\nAnd feed deep, deep upon her peerless eyes."
+        },
+        {
+          "number": 3,
+          "text": "She dwells with Beauty—Beauty that must die;\nAnd Joy, whose hand is ever at his lips\nBidding adieu; and aching Pleasure nigh,\nTurning to poison while the bee-mouth sips:\nAye, in the very temple of Delight\nVeil’d Melancholy has her sovran shrine,\nThough seen of none save him whose strenuous tongue\nCan burst Joy’s grape against his palate fine;\nHis soul shall taste the sadness of her might,\nAnd be among her cloudy trophies hung."
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "label": "102",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Why did I laugh to-night? No voice will tell;\nNo God, no Demon of severe response,\nDeigns to reply from Heaven or from Hell:\nThen to my human heart I turn at once.\nHeart! Thou and I are here sad and alone;\nI say, why did I laugh? O mortal pain!\nO Darkness! Darkness! ever must I moan,\nTo question Heaven and Hell and Heart in vain.\nWhy did I laugh? I know this Being’s lease,\nMy fancy to its utmost blisses spreads;\nYet would I on this very midnight cease,\nAnd the world’s gaudy ensigns see in shreds;\nVerse, Fame, and Beauty are intense indeed,\nBut Death intenser—Death is Life’s high meed."
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "label": "103",
+      "title": "A Dream, After Reading Dante’s Episode of “Paolo and Francesca”",
+      "pages": [
+        {
+          "number": 1,
+          "text": "As Hermes once rook to his feathers light,\nWhen lulled Argus, baffled, swoon’d and slept\nSo on a Delphic reed, my idle spright\nSo play’d, so charm’d, so conquer’d, so bereft\nThe dragon-world in all its hundred eyes;\nAnd seeing it asleep, so fled away—\nNot to pure Ida with its snow-cold skies,\nNor unto Tempe where Jove grieved a day;\nBut to that second circle of sad hell,\nWhere ’mid the gust, the whirlwind, and the flaw\nOf rain and hail-stones, lovers need not tell\nTheir sorrows. Pale were the sweet lips I saw,\nPale were the lips I kiss’d, and fair the form\nI floated with, about that melancholy storm."
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "label": "104",
+      "title": "Ode to Fanny",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Physician Nature! let my spirit blood!\nO ease my heart of verse and let me rest;\nThrow me upon thy Tripod, till the flood\nOf stifling numbers ebbs from my full breast.\nA theme! a theme! great Nature! give a theme;\nLet me begin my dream.\nI come—I see thee, as thou standest there;\nBeckon me not into the wintry air.\n\nAh! dearest love, sweet home of all my fears,\nAnd hopes, and joys, and panting miseries,—\nTo-night, if I may guess, thy beauty wears\nA smile of such delight,\nAs brilliant and as bright,\nAs when with ravish’d, aching, vassal eyes,\nLost in soft amaze,\nI gaze, I gaze!"
+        },
+        {
+          "number": 2,
+          "text": "Who now, with greedy looks, eats up my feast?\nWhat stare outfaces now my silver moon!\nAh! keep that hand unravished at the least;\nLet, let the amorous burn—\nBut, pr’ythee, do not turn\nThe current of your heart from me so soon.\nO! save, in charity,\nThe quickest pulse for me.\n\nSave it for me, sweet love! though music breathe\nVoluptuous visions into the warm air,\nThough swimming through the dance’s dangerous wreath;\nBe like an April day\nSmiling and cold and gay,\nA temperate lily, temperate as fair;\nThen, Heaven! there will be\nA warmer June for me."
+        },
+        {
+          "number": 3,
+          "text": "Why, this—you’ll say, my Fanny! is not true:\nPut your soft hand upon your snowy side,\nWhere the heart beats: confess—’tis nothing new—\nMust not a woman be\nA feather on the sea,\nSway’d to and fro by every wind and tide?\nOf as uncertain speed\nAs blow-ball from the mead?\n\nI know it—and to know it is despair\nTo one who loves you as I love, sweet Fanny!\nWhose heart goes fluttering for you everywhere,\nNor, when away you roam,\nDare keep its wretched home:\nLove, love alone, has pains severe and many:\nThen, loveliest! keep me free\nFrom torturing jealousy."
+        },
+        {
+          "number": 4,
+          "text": "Ah! if you prize my subdued soul above\nThe poor, the fading, brief pride of an hour;\nLet none profane my Holy See of love,\nOr with a rude hand break\nThe sacramental cake:\nLet none else touch the just new-budded flower;\nIf not—may my eyes close,\nLove! on their last repose."
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "label": "105",
+      "title": "La Belle Dame Sans Merci",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Ah, what can ail thee, wretched wight,\nAlone and palely loitering?\nThe sedge is wither’d from the lake,\nAnd no birds sing.\n\nAh, what can ail thee, wretched wight,\nSo haggard and so woe-begone?\nThe squirrel’s granary is full,\nAnd the harvest’s done.\n\nI see a lily on thy brow,\nWith anguish moist and fever dew;\nAnd on thy cheek a fading rose\nFast withereth too.\n\nI met a lady in the meads,\nFull beautiful—a faery’s child;\nHer hair was long, her foot was light,\nAnd her eyes were wild.\n\nI set her on my pacing steed,\nAnd nothing else saw all day long,\nFor sideways would she lean, and sing\nA faery’s song."
+        },
+        {
+          "number": 2,
+          "text": "I made a garland for her head,\nAnd bracelets too, and fragrant zone;\nShe look’d at me as she did love,\nAnd made sweet moan.\n\nShe found me roots of relish sweet,\nAnd honey wild, and manna dew;\nAnd sure in language strange she said—\n“I love thee true.”\n\nShe took me to her elfin grot,\nAnd there she gazed, and sighed deep,\nAnd there I shut her wild wild eyes\nSo kiss’d to sleep.\n\nAnd there we slumber’d on the moss,\nAnd there I dream’d—Ah! woe betide!\nThe latest dream I ever dream’d\nOn the cold hill side.\n\nI saw pale kings, and princes too,\nPale warriors, death-pale were they all;\nThey cried—“La Belle Dame sans Merci\nHath thee in thrall!”"
+        },
+        {
+          "number": 3,
+          "text": "I saw their starved lips in the gloam,\nWith horrid warning gaped wide,\nAnd I awoke, and found me here\nOn the cold hill side.\n\nAnd this is why I sojourn here,\nAlone and palely loitering,\nThough the sedge is wither’d from the lake,\nAnd no birds sing."
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "label": "106",
+      "title": "Chorus of Fairies",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Happy, happy glowing fire!\nFragrant air! delicious light!\nLet me to my glooms retire!\nI to green-weed rivers bright!\n\nHappy, happy glowing fire!\nDazzling bowers of soft retire,\nEver let my nourish’d wing,\nLike a bat’s, still wandering,\nFaintly fan your fiery spaces,\nSpirit sole in deadly places.\nIn unhaunted roar and blaze,\nOpen eyes that never daze,\nLet me see the myriad shapes\nOf men, and beasts, and fish, and apes,\nPortray’d in many a fiery den,\nAnd wrought by spumy bitumen.\nOn the deep intenser roof,\nArched every way, aloof,\nLet me breathe upon my skies,\nAnd anger their live tapestries;\nFree from cold, and every care,\nOf chilly rain, and shivering air."
+        },
+        {
+          "number": 2,
+          "text": "Spright of Fire! away! away!\nOr your very roundelay\nWill sear my plumage newly budded\nFrom its quilled sheath, and studded\nWith the self-same dews that fell\nOn the May-grown Asphodel.\nSpright of Fire—away! away!\n\nSpright of Fire—away! away!\nZephyr, blue-eyed Faery, turn,\nAnd see my cool sedge-shaded urn,\nWhere it rests its mossy brim\n’Mid water-mint and cresses dim;\nAnd the flowers, in sweet troubles,\nLift their eyes above the bubbles,\nLike our Queen, when she would please\nTo sleep, and Oberon will tease.\nLove me, blue-eyed Faery! true,\nSoothly I am sick for you."
+        },
+        {
+          "number": 3,
+          "text": "Gentle Breama! by the first\nViolet young nature nurst,\nI will bathe myself with thee,\nSo you sometime follow me\nTo my home, far, far, in west,\nFar beyond the search and quest\nOf the golden-browed sun.\nCome with me, o’er tops of trees,\nTo my fragrant palaces,\nWhere they ever floating are\nBeneath the cherish of a star\nCall’d Vesper, who with silver veil\nEver hides his brilliance pale,\nEver gently-drowsed doth keep\nTwilight for the Fays to sleep.\nFear not that your watery hair\nWill thirst in drouthy ringlets there;\nClouds of stored summer rains\nThou shalt taste, before the stains\nOf the mountain soil they take,\nAnd too unlucent for thee make.\nI love thee, crystal Faery, true!"
+        },
+        {
+          "number": 4,
+          "text": "Sooth I am as sick for you!\n\nOut, ye aguish Faeries, out!\nChilly lovers, what a rout\nKeep ye with your frozen breath,\nColder than the mortal death.\nAdder-eyed Dusketha, speak,\nShall we leave them, and go seek\nIn the earth’s wide entrails old\nCouches warm as theirs is cold?\nO for a fiery gloom and thee,\nDusketha, so enchantingly\nFreckle-wing’d and lizard-sided!"
+        },
+        {
+          "number": 5,
+          "text": "By thee, Spright, will I be guided!\nI care not for cold or heat;\nFrost and flame, or sparks, or sleet,\nTo my essence are the same;—\nBut I honour more the flame.\nSpright of fire, I follow thee\nWheresoever it may be;\nTo the torrid spouts and fountains,\nUnderneath earth-quaked mountains;\nOr, at thy supreme desire,\nTouch the very pulse of fire\nWith my bare unlidded eyes.\n\nSweet Dusketha! paradise!\nOff, ye icy Spirits, fly!\nFrosty creatures of the sky!\n\nBreathe upon them, fiery Spright!\nAway! away to our delight!\n\nGo, feed on icicles, while we\nBedded in tongued flames will be.\n\nLead me to these fev’rous glooms,\nSpright of Fire!"
+        },
+        {
+          "number": 6,
+          "text": "Me to the blooms,\nBlue eyed Zephyr of those flowers\nFar in the west where the May-cloud lowers:\nAnd the beams of still Vesper, where winds are all whist,\nAre shed thro’ the rain and the milder mist,\nAnd twilight your floating bowers."
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "label": "107",
+      "title": "To Sleep",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O soft embalmer of the still midnight,\nShutting, with careful fingers and benign,\nOur gloom-pleased eyes, embower’d from the light,\nEnshaded in forgetfulness divine:\nO soothest Sleep! if so it please thee, close,\nIn midst of this thine hymn, my willing eyes,\nOr wait the amen, ere thy poppy throws\nAround my bed its dewy charities;\nThen save me, or the passed day will shine\nUpon my pillow, breeding many woes;\nSave me from curious conscience, that still lords\nIts strength for darkness, burrowing like a mole;\nTurn the key deftly in the oiled wards,\nAnd seal the hushed casket of my soul."
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "label": "108",
+      "title": "Another on Fame",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Fame, like a wayward girl, will still be coy\nTo those who woo her with too slavish knees,\nBut makes surrender to some thoughtless boy,\nAnd dotes the more upon a heart at ease;\nShe is a Gipsy,—will not speak to those\nWho have not learnt to be content without her;\nA Jilt, whose ear was never whisper’d close,\nWho thinks they scandal her who talk about her;\nA very Gipsy is she, Nilus-born,\nSister-in-law to jealous Potiphar;\nYe lovesick Bards! repay her scorn for scorn;\nYe Artists lovelorn! madmen that ye are!\nMake your best bow to her and bid adieu,\nThen, if she likes it, she will follow you."
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "label": "109",
+      "title": "On Fame",
+      "pages": [
+        {
+          "number": 1,
+          "text": "How fever’d is that man, who cannot look\nUpon his mortal days with temperate blood,\nWho vexes all the leaves of his life’s book,\nAnd robs his fair name of its maidenhood:\nIt is as if the rose should pluck herself,\nOr the ripe plum finger its misty bloom;\nAs if a Naiad, like a meddling elf,\nShould darken her pure grot with muddy gloom.\nBut the rose leaves herself upon the brier,\nFor winds to kiss and grateful bees to feed,\nAnd the ripe plum still wears its dim attire,\nThe undisturbed lake has crystal space:\nWhy then should man, teasing the world for grace,\nSpoil his salvation for a fierce miscreed?"
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "label": "110",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "If by dull rhymes our English must be chain’d,\nAnd, like Andromeda, the Sonnet sweet\nFetter’d, in spite of pained loveliness;\nLet us find out, if we must be constrain’d,\nSandals more interwoven and complete\nTo fit the naked foot of poesy;\nLet us inspect the lyre, and weigh the stress\nOf every chord, and see what may be gain’d\nBy ear industrious, and attention meet;\nMisers of sound and syllable, no less\nThan Midas of his coinage, let us be\nJealous of dead leaves in the bay-wreath crown:\nSo, if we may not let the Muse be free,\nShe will be bound with garlands of her own."
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "label": "111",
+      "title": "Ode to Psyche",
+      "pages": [
+        {
+          "number": 1,
+          "text": "O Goddess! hear these tuneless numbers, wrung\nBy sweet enforcement and remembrance dear,\nAnd pardon that thy secrets should be sung\nEven into thine own soft-conched ear:\nSurely I dreamt to-day, or did I see\nThe winged Psyche with awaken’d eyes?\nI wander’d in a forest thoughtlessly,\nAnd, on the sudden, fainting with surprise,\nSaw two fair creatures, couched side by side\nIn deepest grass, beneath the whisp’ring roof\nOf leaves and trembled blossoms, where there ran\nA brooklet, scarce espied:"
+        },
+        {
+          "number": 2,
+          "text": "’Mid hush’d, cool-rooted flowers fragrant eyed,\nBlue, silver-white, and budded Tyrian,\nThey lay calm-breathing on the bedded grass;\nTheir arms embraced, and their pinions too;\nTheir lips touch’d not, but had not bade adieu,\nAs if disjoined by soft-handed slumber,\nAnd ready still past kisses to outnumber\nAt tender eye-dawn of aurorean love:\nThe winged boy I knew;\nBut who wast thou, O happy, happy dove?\nHis Psyche true!"
+        },
+        {
+          "number": 3,
+          "text": "O latest-born and loveliest vision far\nOf all Olympus’ faded hierarchy!\nFairer than Phœbe’s sapphire-region’d star,\nOr Vesper, amorous glow-worm of the sky;\nFairer than these, though temple thou hast none,\nNor altar heap’d with flowers;\nNor virgin-choir to make delicious moan\nUpon the midnight hours;\nNo voice, no lute, no pipe, no incense sweet\nFrom chain-swung censer teeming;\nNo shrine, no grove, no oracle, no heat\nOf pale-mouth’d prophet dreaming."
+        },
+        {
+          "number": 4,
+          "text": "O brightest! though too late for antique vows,\nToo, too late for the fond believing lyre,\nWhen holy were the haunted forest boughs,\nHoly the air, the water, and the fire;\nYet even in these days so far retired\nFrom happy pieties, thy lucent fans,\nFluttering among the faint Olympians,\nI see, and sing, by my own eyes inspired.\nSo let me be thy choir, and make a moan\nUpon the midnight hours;\nThy voice, thy lute, thy pipe, thy incense sweet\nFrom swinged censer teeming;\nThy shrine, thy grove, thy oracle, thy heat\nOf pale-mouth’d prophet dreaming."
+        },
+        {
+          "number": 5,
+          "text": "Yes, I will be thy priest, and build a fane\nIn some untrodden region of my mind,\nWhere branched thoughts, new-grown with pleasant pain,\nInstead of pines shall murmur in the wind:\nFar, far around shall those dark-cluster’d trees\nFledge the wild-ridged mountains steep by steep;\nAnd there by zephyrs, streams, and birds, and bees,\nThe moss-lain Dryads shall be lulled to sleep,\nAnd in the midst of this wide quietness\nA rosy sanctuary will I dress\nWith the wreath’d trellis of a working brain,\nWith buds, and bells, and stars without a name,\nWith all the gardener Fancy e’er could feign,\nWho breeding flowers, will never breed the same:\nAnd there shall be for thee all soft delight"
+        },
+        {
+          "number": 6,
+          "text": "That shadowy thought can win,\nA bright torch, and a casement ope at night,\nTo let the warm Love in!"
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "label": "112",
+      "title": "Ode to a Nightingale",
+      "pages": [
+        {
+          "number": 1,
+          "text": "My heart aches, and a drowsy numbness pains\nMy sense, as though of hemlock I had drunk,\nOr emptied some dull opiate to the drains\nOne minute past, and Lethe-wards had sunk:\n’Tis not through envy of thy happy lot,\nBut being too happy in thine happiness,—\nThat thou, light-winged Dryad of the trees,\nIn some melodious plot\nOf beechen green, and shadows numberless,\nSingest of summer in full-throated ease."
+        },
+        {
+          "number": 2,
+          "text": "O for a draught of vintage! that hath been\nCool’d a long age in the deep-delved earth,\nTasting of Flora and the country-green,\nDance, and Provençal song, and sunburnt mirth!\nO for a beaker full of the warm South,\nFull of the true, the blushful Hippocrene,\nWith beaded bubbles winking at the brim,\nAnd purple-stained mouth;\nThat I might drink, and leave the world unseen,\nAnd with thee fade away into the forest dim:"
+        },
+        {
+          "number": 3,
+          "text": "Fade far away, dissolve, and quite forget\nWhat thou among the leaves hast never known,\nThe weariness, the fever, and the fret\nHere, where men sit and hear each other groan;\nWhere palsy shakes a few, sad, last gray hairs,\nWhere youth grows pale, and spectre-thin, and dies;\nWhere but to think is to be full of sorrow\nAnd leaden-eyed despairs,\nWhere Beauty cannot keep her lustrous eyes,\nOr new Love pine at them beyond to-morrow."
+        },
+        {
+          "number": 4,
+          "text": "Away! away! for I will fly to thee,\nNot charioted by Bacchus and his pards,\nBut on the viewless wings of Poesy,\nThough the dull brain perplexes and retards:\nAlready with thee! tender is the night,\nAnd haply the Queen-Moon is on her throne,\nCluster’d around by all her starry Fays;\nBut here there is no light,\nSave what from heaven is with the breezes blown\nThrough verdurous glooms and winding mossy ways."
+        },
+        {
+          "number": 5,
+          "text": "I cannot see what flowers are at my feet,\nNor what soft incense hangs upon the boughs,\nBut, in embalmed darkness, guess each sweet\nWherewith the seasonable month endows\nThe grass, the thicket, and the fruit-tree wild;\nWhite hawthorn, and the pastoral eglantine;\nFast fading violets cover’d up in leaves;\nAnd mid-May’s eldest child,\nThe coming musk-rose, full of dewy wine,\nThe murmurous haunt of flies on summer eves."
+        },
+        {
+          "number": 6,
+          "text": "Darkling I listen; and, for many a time\nI have been half in love with easeful Death,\nCall’d him soft names in many a mused rhyme,\nTo take into the air my quiet breath;\nNow more than ever seems it rich to die,\nTo cease upon the midnight with no pain,\nWhile thou art pouring forth thy soul abroad\nIn such an ecstasy!\nStill wouldst thou sing, and I have ears in vain—\nTo thy high requiem become a sod."
+        },
+        {
+          "number": 7,
+          "text": "Thou wast not born for death, immortal Bird!\nNo hungry generations tread thee down;\nThe voice I hear this passing night was heard\nIn ancient days by emperor and clown:\nPerhaps the self-same song that found a path\nThrough the sad heart of Ruth, when, sick for home,\nShe stood in tears amid the alien corn;\nThe same that oft-times hath\nCharm’d magic casements, opening on the foam\nOf perilous seas, in faery lands forlorn."
+        },
+        {
+          "number": 8,
+          "text": "Forlorn! the very word is like a bell\nTo toll me back from thee to my sole self!\nAdieu! the fancy cannot cheat so well\nAs she is famed to do, deceiving elf.\nAdieu! adieu! thy plaintive anthem fades\nPast the near meadows, over the still stream,\nUp the hill-side; and now ’tis buried deep\nIn the next valley-glades:\nWas it a vision, or a waking dream?\nFled is that music:—do I wake or sleep?"
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "label": "113",
+      "title": "A Party of Lovers",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Pensive they sit, and roll their languid eyes,\nNibble their toast, and cool their tea with sighs,\nOr else forget the purpose of the night,\nForget their tea—forget their appetite.\nSee with cross’d arms they sit—ah! happy crew,\nThe fire is going out and no one rings\nFor coals, and therefore no coals Betty brings.\nA fly is in the milk-pot—must he die\nBy a humane society?\nNo, no; there Mr. Werter takes his spoon,\nInserts it, dips the handle, and lo! soon\nThe little straggler, sav’d from perils dark,\nAcross the teaboard draws a long wet mark."
+        },
+        {
+          "number": 2,
+          "text": "Arise! take snuffers by the handle,\nThere’s a large cauliflower in each candle.\nA winding-sheet, ah me! I must away\nTo No. 7, just beyond the circus gay.\n“Alas, my friend! your coat sits very well;\nWhere may your Taylor live?” “I may not tell.\nO pardon me—I’m absent now and then.\nWhere might my Taylor live? I say again\nI cannot tell, let me no more be teaz’d—\nHe lives in Wapping, might live where he pleas’d."
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "label": "114",
+      "title": "To Autumn",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;\nConspiring with him how to load and bless\nWith fruit the vines that round the thatch-eaves run;\nTo bend with apples the moss’d cottage-trees,\nAnd fill all fruit with ripeness to the core;\nTo swell the gourd, and plump the hazel shells\nWith a sweet kernel; to set budding more,\nAnd still more, later flowers for the bees,\nUntil they think warm days will never cease,\nFor Summer has o’er-brimm’d their clammy cells."
+        },
+        {
+          "number": 2,
+          "text": "Who hath not seen thee oft amid thy store?\nSometimes whoever seeks abroad may find\nThee sitting careless on a granary floor,\nThy hair soft-lifted by the winnowing wind;\nOr on a half-reap’d furrow sound asleep,\nDrowsed with the fume of poppies, while thy hook\nSpares the next swath and all its twined flowers:\nAnd sometimes like a gleaner thou dost keep\nSteady thy laden head across a brook;\nOr by a cider-press, with patient look,\nThou watchest the last oozings, hours by hours."
+        },
+        {
+          "number": 3,
+          "text": "Where are the songs of Spring? Ay, where are they?\nThink not of them, thou hast thy music too,—\nWhile barred clouds bloom the soft-dying day,\nAnd touch the stubble-plains with rosy hue;\nThen in a wailful choir the small gnats mourn\nAmong the river-sallows, borne aloft\nOr sinking as the light wind lives or dies;\nAnd full-grown lambs loud bleat from hilly bourn;\nHedge-crickets sing; and now with treble soft\nThe redbreast whistles from a garden-croft,\nAnd gathering swallows twitter in the skies."
+        }
+      ]
+    },
+    {
+      "number": 115,
+      "label": "115",
+      "title": "Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "The day is gone, and all its sweets are gone!\nSweet voice, sweet lips, soft hand, and softer breast,\nWarm breath, light whisper, tender semi-tone,\nBright eyes, accomplish’d shape, and lang’rous waist!\nFaded the flower and all its budded charms,\nFaded the sight of beauty from my eyes,\nFaded the shape of beauty from my arms,\nFaded the voice, warmth, whiteness, paradise!\nVanish’d unseasonably at shut of eve,\nWhen the dusk holiday—or holinight—\nOf fragrant-curtain’d love begins to weave\nThe woof of darkness thick, for hid delight:\nBut, as I’ve read love’s missal through to-day,\nHe’ll let me sleep, seeing I fast and pray."
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "label": "116",
+      "title": "To Fanny",
+      "pages": [
+        {
+          "number": 1,
+          "text": "I cry your mercy—pity—love—aye, love!\nMerciful love that tantalizes not,\nOne-thoughted, never-wandering, guileless love,\nUnmask’d, and being seen—without a blot!\nO! let me have thee whole,—all—all—be mine!\nThat shape, that fairness, that sweet minor zest\nOf love, your kiss,—those hands, those eyes divine,\nThat warm, white, lucent, million-pleasured breast,—\nYourself—your soul—in pity give me all,\nWithhold no atom’s atom, or I die,\nOr living on perhaps, your wretched thrall,\nForget, in the mist of idle misery,\nLife’s purposes—the palate of my mind\nLosing its gust, and my ambition blind!"
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "label": "117",
+      "title": "Lines to Fanny",
+      "pages": [
+        {
+          "number": 1,
+          "text": "What can I do to drive away\nRemembrance from my eyes? for they have seen,\nAye, an hour ago, my brilliant Queen!\nTouch has a memory. O say, love, say,\nWhat can I do to kill it and be free\nIn my old liberty?\nWhen every fair one that I saw was fair,\nEnough to catch me in but half a snare,\nNot keep me there:\nWhen, howe’er poor or parti-colour’d things,\nMy muse had wings,\nAnd ever ready was to take her course\nWhither I bent her force,\nUnintellectual, yet divine to me;—\nDivine, I say!—What sea-bird o’er the sea\nIs a philosopher the while he goes\nWinging along where the great water throes?"
+        },
+        {
+          "number": 2,
+          "text": "How shall I do\nTo get anew\nThose moulted feathers, and so mount once more\nAbove, above\nThe reach of fluttering Love,\nAnd make him cower lowly while I soar?\nShall I gulp wine? No, that is vulgarism,\nA heresy and schism,\nFoisted into the canon law of love;—\nNo,—wine is only sweet to happy men;\nMore dismal cares\nSeize on me unawares,—\nWhere shall I learn to get my piece again?—\nTo banish thoughts of that most hateful land,\nDungeoner of my friends, that wicked strand\nWhere they were wreck’d and live a wrecked life;\nThat monstrous region, whose dull rivers pour,\nEver from their sordid urns unto the shore,\nUnown’d of any weedy-haired gods;\nWhose winds, all zephyrless, hold scourging rods,"
+        },
+        {
+          "number": 3,
+          "text": "Iced in the great lakes, to afflict mankind;\nWhose rank-grown forests, frosted, black, and blind,\nWould fright a Dryad; whose harsh herbaged meads\nMake lean and lank the starved ox while he feeds;\nThere bad flowers have no scent, birds no sweet song,\nAnd great unerring Nature once seems wrong."
+        },
+        {
+          "number": 4,
+          "text": "O, for some sunny spell\nTo dissipate the shadows of this hell!\nSay they are gone,—with the new dawning light\nSteps forth my lady bright!\nO, let me once more rest\nMy soul upon that dazzling breast!\nLet once again these aching arms be placed,\nThe tender gaolers of thy waist!\nAnd let me feel that warm breath here and there\nTo spread a rapture in my very hair,—\nO, the sweetness of the pain!\nGive me those lips again!\nEnough! Enough! it is enough for me\nTo dream of thee!"
+        }
+      ]
+    },
+    {
+      "number": 118,
+      "label": "118",
+      "title": "To George Keats",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Brother, belov’d if health shall smile again,\nUpon this wasted form and fever’d cheek:\nIf e’er returning vigour bid these weak\nAnd languid limbs their gladsome strength regain,\nWell may thy brow the placid glow retain\nOf sweet content and thy pleas’d eye may speak\nThe conscious self applause, but should I seek\nTo utter what this heart can feel,—Ah! vain\nWere the attempt! Yet kindest friends while o’er\nMy couch ye bend, and watch with tenderness\nThe being whom your cares could e’en restore,\nFrom the cold grasp of Death, say can you guess\nThe feelings which these lips can ne’er express?\nFeelings, deep fix’d in grateful memory’s store."
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "label": "119",
+      "title": "The Last Sonnet",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Bright star, would I were steadfast as thou art!\nNot in lone splendour hung aloft the night,\nAnd watching, with eternal lids apart,\nLike Nature’s patient sleepless Eremite,\nThe moving waters at their priestlike task\nOf pure ablution round earth’s human shores\nOr gazing on the new soft fallen mask\nOf snow upon the mountains and the moors:\nNo—yet still steadfast, still unchangeable,\nPillow’d upon my fair love’s ripening breast,\nTo feel for ever its soft fall and swell,\nAwake for ever in a sweet unrest,\nStill, still to hear her tender-taken breath,\nAnd so live ever—or else swoon to death."
+        }
+      ]
+    }
+  ]
+}

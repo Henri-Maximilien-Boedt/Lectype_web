@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <a href="/privacy"><%= t('footer.privacy') %></a>
+  <a href="/legal"><%= t('footer.legal') %></a>
+  <form method="post" action="/language">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <input type="hidden" name="lang" value="<%= lang === 'fr' ? 'en' : 'fr' %>">
+    <button type="submit" class="link"><%= t('footer.language') %></button>
+  </form>
+</footer>
+</body>
+</html>

@@ -1,0 +1,645 @@
+{
+  "id": "oscar-et-la-capsule-silencieuse",
+  "title": "Oscar et la capsule silencieuse",
+  "language": "fr",
+  "audience": "10-15 ans",
+  "duration": "30 à 60 minutes",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Le départ",
+      "place": "cabine d'une navette Terre-Lune",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "La navette quitta la Terre à neuf heures du matin."
+            ],
+            [
+              "Oscar avait le nez collé au hublot.",
+              "Il voyait la ville devenir un point, puis les nuages, puis l'océan tout entier."
+            ],
+            [
+              "Sur sa poitrine, son badge de voyageur portait un mot écrit au feutre noir : copilote."
+            ],
+            [
+              "— Tu n'es pas pilote, lui avait dit sa mère la veille."
+            ],
+            [
+              "— Justement, avait répondu Oscar.",
+              "C'est pour ça que j'ai écrit co."
+            ],
+            [
+              "Elle avait ri, puis elle l'avait serré très fort dans ses bras."
+            ],
+            [
+              "Maintenant, il était seul dans la cabine, et la Terre brillait sous lui comme un caillou bleu."
+            ]
+          ]
+        },
+        {
+          "kind": "choice",
+          "id": "chapter1",
+          "options": [
+            {
+              "text": "Elle est magnifique.",
+              "paragraphs": [
+                [
+                  "Oscar posa la main sur la vitre.",
+                  "Il se dit que c'était la plus belle chose qu'il avait jamais vue.",
+                  "Puis il se rendit compte qu'il retenait son souffle."
+                ]
+              ]
+            },
+            {
+              "text": "Elle est si petite.",
+              "paragraphs": [
+                [
+                  "Oscar fronça les sourcils.",
+                  "Toute sa vie, la Terre lui avait paru immense.",
+                  "Maintenant, il pouvait la cacher derrière son pouce."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "La voix de la navette annonça : \"Arrivée à la station Hautes-Mers dans deux heures.\""
+            ],
+            [
+              "Oscar sortit son carnet et écrivit : \"Premier jour dans l'espace.\"",
+              "Puis il ajouta : \"Ne pas oublier de respirer.\""
+            ]
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-1.jpg"
+    },
+    {
+      "number": 2,
+      "title": "Hautes-Mers",
+      "place": "hall d'arrivée de la station lunaire",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "La station Hautes-Mers tournait autour de la Lune depuis plus de vingt ans."
+            ],
+            [
+              "Dans le hall, des voyageurs traînaient leurs valises, des robots lavaient le sol, et une voix annonçait les départs."
+            ],
+            [
+              "Oscar s'arrêta devant la grande vitre.",
+              "La Lune était là, énorme, grise et silencieuse."
+            ],
+            [
+              "— Tu es Oscar ? demanda une voix derrière lui."
+            ],
+            [
+              "Il se retourna.",
+              "Une femme en veste grise, des gants de pilote à la ceinture, le regardait avec attention."
+            ],
+            [
+              "— Oui, répondit Oscar."
+            ],
+            [
+              "— Je m'appelle Nora Vance.",
+              "Je serai ta pilote jusqu'à Proxima du Centaure."
+            ],
+            [
+              "Son regard descendit vers le badge."
+            ],
+            [
+              "— Copilote ? dit-elle.",
+              "On ne m'avait pas prévenue."
+            ],
+            [
+              "— C'est moi qui l'ai écrit, avoua Oscar."
+            ],
+            [
+              "— Je m'en doutais.",
+              "Sur ma liste, tu es passager."
+            ],
+            [
+              "— Je pourrai quand même voir le cockpit ?"
+            ],
+            [
+              "— Une fois en route, oui, dit Nora.",
+              "Mais tu ne touches à aucun bouton."
+            ],
+            [
+              "Oscar hocha la tête.",
+              "Elle ne souriait pas, mais ses yeux brillaient un peu."
+            ]
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-2.jpg"
+    },
+    {
+      "number": 3,
+      "title": "Le hangar",
+      "place": "hangar du Sillage",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "Le Sillage attendait dans le hangar, posé sur ses trois pattes d'atterrissage."
+            ],
+            [
+              "Il était plus petit qu'Oscar l'avait imaginé.",
+              "Mais ses moteurs paraissaient énormes."
+            ],
+            [
+              "— J'ai dix minutes de vérifications à faire, dit Nora.",
+              "Ne sors pas du hangar.",
+              "Tu peux explorer, si tu restes prudent."
+            ],
+            [
+              "— Je peux aller où ?"
+            ],
+            [
+              "— Voir Jo, notre mécanicien, ou monter dans le cockpit.",
+              "À toi de décider."
+            ],
+            [
+              "Oscar regarda tour à tour la passerelle du cockpit et la porte de la salle des machines."
+            ],
+            [
+              "Il réfléchit un instant.",
+              "Puis il prit sa décision."
+            ]
+          ]
+        },
+        {
+          "kind": "choice",
+          "id": "chapter3",
+          "options": [
+            {
+              "text": "Je vais voir Jo.",
+              "paragraphs": [
+                [
+                  "La salle des machines sentait l'huile chaude.",
+                  "Un homme en combinaison tachée, les cheveux en bataille, était penché sur un moteur."
+                ],
+                [
+                  "— Jo Ketterman, dit-il sans lever la tête.",
+                  "Tu es le gamin qui va à Proxima ?"
+                ],
+                [
+                  "— Oscar.",
+                  "Je suis copilote."
+                ],
+                [
+                  "— Bien sûr que tu l'es, répondit Jo en riant.",
+                  "Alors écoute-moi, copilote.",
+                  "Dans l'espace, la radio peut tomber en panne.",
+                  "Quand ça arrive, on frappe sur le métal."
+                ],
+                [
+                  "— Comment ça ?"
+                ],
+                [
+                  "— Un coup veut dire oui.",
+                  "Deux coups veulent dire non.",
+                  "Trois coups veulent dire au secours.",
+                  "Même sans radio, le métal transmet les sons."
+                ],
+                [
+                  "Oscar répéta dans sa tête : un, deux, trois.",
+                  "Il ne savait pas encore pourquoi, mais il sentait que ce serait utile."
+                ]
+              ],
+              "image": "oscar-et-la-capsule-silencieuse-chapter-3-a.jpg"
+            },
+            {
+              "text": "Je vais voir le cockpit.",
+              "paragraphs": [
+                [
+                  "Oscar grimpa la passerelle.",
+                  "Le cockpit était étroit, avec deux sièges et un tableau de bord couvert de voyants."
+                ],
+                [
+                  "Nora l'avait suivi.",
+                  "Elle montra le hublot, derrière lequel une pièce de métal tournait lentement dans le hangar."
+                ],
+                [
+                  "— Regarde la marque rouge sur cette pièce, dit-elle.",
+                  "Si elle passe vite, un objet est dangereux à approcher."
+                ],
+                [
+                  "— Et si elle passe lentement ?"
+                ],
+                [
+                  "— Alors on a le temps de bien réfléchir."
+                ],
+                [
+                  "Oscar fixa la marque rouge.",
+                  "Il se promit de la regarder à chaque fois qu'il verrait un objet tourner."
+                ]
+              ],
+              "image": "oscar-et-la-capsule-silencieuse-chapter-3-b.jpg"
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "Quelques minutes plus tard, Nora ferma la porte du sas."
+            ],
+            [
+              "— Tout est prêt, dit-elle.",
+              "On décolle dans quinze minutes."
+            ],
+            [
+              "Oscar attacha sa ceinture et serra son carnet contre lui."
+            ]
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-3.jpg"
+    },
+    {
+      "number": 4,
+      "title": "Le saut",
+      "place": "cockpit du Sillage, puis espace profond",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "Le Sillage quitta la station Hautes-Mers à 14 h 07."
+            ],
+            [
+              "Oscar était assis derrière Nora, les mains crispées sur sa ceinture."
+            ],
+            [
+              "— Moteurs prêts, dit Nora.",
+              "Compte à rebours : dix, neuf, huit."
+            ],
+            [
+              "— Il y a un moment où ça fait mal ? demanda Oscar."
+            ],
+            [
+              "— Non.",
+              "Mais il y a un moment où tout paraît bizarre."
+            ],
+            [
+              "Elle continua à compter.",
+              "À zéro, les moteurs vibrèrent pendant 11 secondes.",
+              "Puis le bruit disparut."
+            ],
+            [
+              "Par le hublot, les étoiles s'étirèrent, comme si quelqu'un les avait tirées avec une règle."
+            ],
+            [
+              "Quand elles reprirent leur forme, une petite étoile orange brillait devant eux."
+            ],
+            [
+              "— Proxima du Centaure, murmura Nora.",
+              "Bienvenue."
+            ],
+            [
+              "Oscar ne répondit pas.",
+              "Il n'arrivait plus à parler."
+            ]
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-4.jpg"
+    },
+    {
+      "number": 5,
+      "title": "Le signal",
+      "place": "cockpit, à l'approche de Proxima. Lumière orangée",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "Au bout d'une heure de vol, un voyant s'alluma sur le tableau de bord."
+            ],
+            [
+              "— Qu'est-ce que c'est ? demanda Oscar."
+            ],
+            [
+              "— Une capsule de survie, répondit Nora.",
+              "Elle émet un signal de détresse très faible."
+            ],
+            [
+              "Elle vérifia l'écran du scanner."
+            ],
+            [
+              "— Cabine vide, dit-elle.",
+              "Aucun signe de vie."
+            ],
+            [
+              "— Alors on la laisse ?"
+            ],
+            [
+              "— On la remorque jusqu'à la station.",
+              "Ça évitera qu'elle devienne un danger pour les autres vaisseaux."
+            ],
+            [
+              "Oscar regardait la capsule par le hublot.",
+              "Elle tournait lentement, et la marque rouge sur sa coque passait devant eux toutes les quatre secondes."
+            ],
+            [
+              "Soudain, un bruit résonna contre la coque du Sillage."
+            ],
+            [
+              "Un coup."
+            ],
+            [
+              "Un seul."
+            ],
+            [
+              "— Tu as entendu ? demanda Oscar."
+            ],
+            [
+              "— Entendu quoi ? répondit Nora, les yeux sur ses écrans."
+            ],
+            [
+              "Oscar retint son souffle.",
+              "Il attendit."
+            ],
+            [
+              "Et le coup résonna une deuxième fois."
+            ]
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-5.jpg"
+    },
+    {
+      "number": 6,
+      "title": "La conversation",
+      "place": "sas, puis hublot de la cabine passagers",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "— Nora ! cria Oscar.",
+              "Il y a quelqu'un dans la capsule !"
+            ],
+            [
+              "— Ce n'est pas possible, dit Nora.",
+              "Le scanner n'a rien détecté."
+            ],
+            [
+              "— Alors le scanner se trompe.",
+              "J'ai entendu des coups !"
+            ],
+            [
+              "Nora regarda la caméra extérieure.",
+              "Elle zooma sur le petit hublot de la capsule."
+            ],
+            [
+              "Un visage apparut derrière la vitre.",
+              "C'était une fille d'environ douze ans, les yeux grands ouverts et les lèvres bleuies par le froid."
+            ],
+            [
+              "— Elle est vivante, souffla Nora.",
+              "Elle n'a plus de radio."
+            ],
+            [
+              "— Comment on lui parle ?"
+            ],
+            [
+              "— Je ne sais pas, dit Nora.",
+              "À toi de trouver."
+            ]
+          ]
+        },
+        {
+          "kind": "branch",
+          "on": "chapter3",
+          "cases": [
+            [
+              [
+                "Oscar se souvint de la salle des machines.",
+                "Il s'approcha de la paroi du sas et frappa une fois, doucement."
+              ],
+              [
+                "De l'autre côté de la vitre, la fille leva la main.",
+                "Elle frappa une fois sur sa coque."
+              ],
+              [
+                "— Elle comprend, murmura Oscar.",
+                "Un coup veut dire oui."
+              ],
+              [
+                "— C'est Jo qui t'a appris ça ? demanda Nora."
+              ],
+              [
+                "— Oui.",
+                "Il a dit que ça pourrait servir."
+              ]
+            ],
+            [
+              [
+                "Oscar fixa la marque rouge.",
+                "Elle passait de plus en plus vite devant le hublot."
+              ],
+              [
+                "— Nora, la capsule accélère ! dit-il.",
+                "Si on attend trop, on ne pourra plus l'accrocher."
+              ],
+              [
+                "— Tu as raison, dit Nora, impressionnée.",
+                "Tu as bien observé."
+              ],
+              [
+                "Elle ajusta les commandes.",
+                "Puis, pour la première fois, elle lui sourit."
+              ],
+              [
+                "— Il va falloir la calmer, dit-elle.",
+                "Tu peux le faire ?"
+              ]
+            ]
+          ]
+        },
+        {
+          "kind": "choice",
+          "id": "chapter6",
+          "options": [
+            {
+              "text": "Regarde-moi, on va le faire ensemble.",
+              "paragraphs": [
+                [
+                  "Oscar posa la main sur la vitre.",
+                  "De l'autre côté, la fille posa la sienne."
+                ],
+                [
+                  "— Je m'appelle Oscar, dit-il, même s'il savait qu'elle ne l'entendait pas."
+                ],
+                [
+                  "Il compta lentement avec ses doigts : un, deux, trois.",
+                  "Elle suivit le mouvement de ses lèvres."
+                ],
+                [
+                  "Puis elle écrivit sur la vitre, avec le doigt, quatre lettres : Mira."
+                ],
+                [
+                  "— Enchanté, Mira, dit Oscar.",
+                  "On va te sortir de là."
+                ]
+              ]
+            },
+            {
+              "text": "Au prochain tour, tire la poignée jaune.",
+              "paragraphs": [
+                [
+                  "Oscar montra du doigt la poignée jaune, juste sous le petit hublot de la capsule."
+                ],
+                [
+                  "Mira hocha la tête.",
+                  "Elle attendit que la marque rouge passe devant elle, puis tira de toutes ses forces."
+                ],
+                [
+                  "Un volet s'ouvrit sur le côté de la capsule.",
+                  "Elle leva le pouce, puis fit signe à Oscar d'attendre."
+                ],
+                [
+                  "Elle prit un bout de papier, y écrivit quelque chose, et le colla contre la vitre : \"Je m'appelle Mira.",
+                  "Merci.\""
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-6.jpg"
+    },
+    {
+      "number": 7,
+      "title": "La récupération",
+      "place": "extérieur du Sillage, puis soute de récupération",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "Nora prit les commandes.",
+              "Ses mains glissaient sur les boutons sans la moindre hésitation."
+            ],
+            [
+              "— Oscar, dit-elle, j'ai besoin de toi.",
+              "Je dois accrocher la capsule au bon moment, et je ne peux pas quitter l'écran des yeux."
+            ],
+            [
+              "— Qu'est-ce que je dois faire ?"
+            ],
+            [
+              "— Regarde la marque rouge.",
+              "Quand elle passe devant le hublot, tu me le dis."
+            ],
+            [
+              "— D'accord, répondit Oscar."
+            ],
+            [
+              "Il fixa la capsule.",
+              "La marque rouge apparut, disparut, puis revint."
+            ],
+            [
+              "— Maintenant ! cria-t-il."
+            ],
+            [
+              "— Pas encore, dit Nora.",
+              "Attends le prochain tour."
+            ],
+            [
+              "Oscar serra les poings.",
+              "La marque revint."
+            ],
+            [
+              "— Maintenant !"
+            ],
+            [
+              "Le bras mécanique se referma sur la capsule.",
+              "Elle trembla une dernière fois, puis s'immobilisa."
+            ],
+            [
+              "— Ça y est, souffla Nora.",
+              "On l'a."
+            ],
+            [
+              "Dans la soute, le sas s'ouvrit.",
+              "Mira sortit, enroulée dans une couverture thermique, les yeux rouges de fatigue."
+            ],
+            [
+              "— Merci, dit-elle d'une petite voix.",
+              "Je croyais que personne ne viendrait."
+            ]
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-7.jpg"
+    },
+    {
+      "number": 8,
+      "title": "Le retour",
+      "place": "cabine passagers, puis cockpit",
+      "segments": [
+        {
+          "kind": "passage",
+          "paragraphs": [
+            [
+              "Mira s'endormit dans un fauteuil quelques minutes après avoir bu un bol de soupe."
+            ],
+            [
+              "Nora, assise en face d'Oscar, la regarda avec douceur."
+            ],
+            [
+              "— Comment expliques-tu que le scanner n'ait rien vu ? demanda Oscar."
+            ],
+            [
+              "— Le blindage de la capsule bloque les radiations, répondit Nora.",
+              "Mais il bloque aussi nos scans.",
+              "Sans ton oreille, on serait repartis."
+            ],
+            [
+              "— Je n'ai fait qu'écouter."
+            ],
+            [
+              "— C'est déjà beaucoup, dit Nora."
+            ],
+            [
+              "Elle posa la balise de Proxima sur le sol de la cabine.",
+              "Puis elle ouvrit la porte du cockpit."
+            ],
+            [
+              "— Viens, dit-elle.",
+              "Je te dois une visite."
+            ],
+            [
+              "Oscar s'assit sur le siège du copilote.",
+              "Devant lui, les étoiles brillaient."
+            ],
+            [
+              "— Tu peux garder ton badge, dit Nora.",
+              "Je pense qu'il est enfin vrai."
+            ],
+            [
+              "Oscar sourit, regarda Proxima une dernière fois, et murmura :"
+            ],
+            [
+              "— Merci, Nora."
+            ]
+          ]
+        }
+      ],
+      "image": "oscar-et-la-capsule-silencieuse-chapter-8.jpg"
+    }
+  ],
+  "cover": "oscar-et-la-capsule-silencieuse-cover.jpg"
+}

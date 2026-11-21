@@ -1,0 +1,14 @@
+{
+  "site": { "tagline": "Learn to type by copying real stories.", "skip": "Skip to content" },
+  "nav": { "library": "Library", "learn": "Learn", "stories": "Stories", "stats": "Statistics", "account": "My account", "login": "Log in", "signup": "Sign up", "logout": "Log out", "settings": "Settings" },
+  "home": {
+    "title": "Lectype — learn to type by copying real stories",
+    "headline": "Learn to touch type by copying real books.",
+    "intro": "Fables, tales, novels and interactive stories, an on-screen keyboard that matches yours, and your speed growing page after page.",
+    "start": "Start typing",
+    "learn": "Learn the keys",
+    "free": "Free, no ads."
+  },
+  "footer": { "privacy": "Privacy", "legal": "Legal notice", "language": "Français" },
+  "errors": { "notFound": "This page doesn't exist.", "csrf": "The form has expired. Reload the page and try again.", "server": "Something went wrong. Try again in a moment.", "back": "Back to home", "tooMany": "Too many attempts. Try again in a few minutes." }
+}

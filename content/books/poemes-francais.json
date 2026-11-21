@@ -1,0 +1,161 @@
+{
+  "id": "poemes-francais",
+  "title": "Poèmes choisis",
+  "author": "Anthologie",
+  "language": "fr",
+  "year": null,
+  "kind": "poem",
+  "level": "intermediate",
+  "cover": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://fr.wikisource.org",
+    "license": "Domaine public"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "label": "1",
+      "title": "Demain, dès l’aube…",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Demain, dès l’aube, à l’heure où blanchit la campagne,\nJe partirai. Vois-tu, je sais que tu m’attends.\nJ’irai par la forêt, j’irai par la montagne.\nJe ne puis demeurer loin de toi plus longtemps.\nJe marcherai les yeux fixés sur mes pensées,\nSans rien voir au dehors, sans entendre aucun bruit,\nSeul, inconnu, le dos courbé, les mains croisées,\nTriste, et le jour pour moi sera comme la nuit.\nJe ne regarderai ni l’or du soir qui tombe,\nNi les voiles au loin descendant vers Harfleur,\nEt quand j’arriverai, je mettrai sur ta tombe\nUn bouquet de houx vert et de bruyère en fleur."
+        }
+      ],
+      "author": "Victor Hugo"
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "title": "Chanson d’automne",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Les sanglots longs\nDes violons\nDe l’automne\nBlessent mon cœur\nD’une langueur\nMonotone.\nTout suffocant\nEt blême, quand\nSonne l’heure,\nJe me souviens\nDes jours anciens\nEt je pleure ;\n\nEt je m’en vais\nAu vent mauvais\nQui m’emporte\nDeçà, delà,\nPareil à la\nFeuille morte."
+        }
+      ],
+      "author": "Paul Verlaine"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "title": "Il pleure dans mon cœur",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Il pleure dans mon cœur\nComme il pleut sur la ville,\nQuelle est cette langueur\nQui pénètre mon cœur ?\nÔ bruit doux de la pluie\nPar terre et sur les toits !\nPour un cœur qui s’ennuie,\nÔ le chant de la pluie !\nIl pleure sans raison\nDans ce cœur qui s’écœure.\nQuoi ! nulle trahison ?\nCe deuil est sans raison.\n\nC’est bien la pire peine\nDe ne savoir pourquoi,\nSans amour et sans haine,\nMon cœur a tant de peine !"
+        }
+      ],
+      "author": "Paul Verlaine"
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "title": "Mon rêve familier",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Je fais souvent ce rêve étrange et pénétrant\nD’une femme inconnue, et que j’aime, et qui m’aime,\nEt qui n’est, chaque fois, ni tout à fait la même\nNi tout à fait une autre, et m’aime et me comprend.\nCar elle me comprend, et mon cœur, transparent\nPour elle seule, hélas ! cesse d’être un problème\nPour elle seule, et les moiteurs de mon front blême,\nElle seule les sait rafraîchir, en pleurant.\nEst-elle brune, blonde ou rousse ? — Je l’ignore.\nSon nom ? Je me souviens qu’il est doux et sonore,\nComme ceux des aimés que la Vie exila.\nSon regard est pareil au regard des statues,\nEt, pour sa voix, lointaine, et calme, et grave, elle a\nL’inflexion des voix chères qui se sont tues."
+        }
+      ],
+      "author": "Paul Verlaine"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "title": "Le Dormeur du val",
+      "pages": [
+        {
+          "number": 1,
+          "text": "C’est un trou de verdure où chante une rivière\nAccrochant follement aux herbes des haillons\nD’argent ; où le soleil, de la montagne fière,\nLuit : c’est un petit val qui mousse de rayons.\nUn soldat jeune, bouche ouverte, tête nue,\nEt la nuque baignant dans le frais cresson bleu,\nDort ; il est étendu dans l’herbe, sous la nue,\nPâle dans son lit vert où la lumière pleut.\nLes pieds dans les glaïeuls, il dort. Souriant comme\nSourirait un enfant malade, il fait un somme :\nNature, berce-le chaudement : il a froid.\nLes parfums ne font pas frissonner sa narine ;\nIl dort dans le soleil, la main sur sa poitrine\nTranquille. Il a deux trous rouges au côté droit."
+        }
+      ],
+      "author": "Arthur Rimbaud"
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "title": "Ma Bohème",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Je m’en allais, les poings dans mes poches crevées ;\nMon paletot aussi devenait idéal ;\nJ’allais sous le ciel, Muse ! et j’étais ton féal ;\nOh ! là là ! que d’amours splendides j’ai rêvées !\nMon unique culotte avait un large trou.\n— Petit-Poucet rêveur, j’égrenais dans ma course\nDes rimes. Mon auberge était à la Grande-Ourse.\n— Mes étoiles au ciel avaient un doux frou-frou\nEt je les écoutais, assis au bord des routes,\nCes bons soirs de septembre où je sentais des gouttes\nDe rosée à mon front, comme un vin de vigueur ;\nOù, rimant au milieu des ombres fantastiques.\nComme des lyres, je tirais les élastiques\nDe mes souliers blessés, un pied près de mon cœur !"
+        }
+      ],
+      "author": "Arthur Rimbaud"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "title": "L’Albatros",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Souvent, pour s’amuser, les hommes d’équipage\nPrennent des albatros, vastes oiseaux des mers,\nQui suivent, indolents compagnons de voyage,\nLe navire glissant sur les gouffres amers.\nÀ peine les ont-ils déposés sur les planches,\nQue ces rois de l’azur, maladroits et honteux,\nLaissent piteusement leurs grandes ailes blanches\nComme des avirons traîner à côté d’eux."
+        },
+        {
+          "number": 2,
+          "text": "Ce voyageur ailé, comme il est gauche et veule !\nLui, naguère si beau, qu’il est comique et laid !\nL’un agace son bec avec un brûle-gueule,\nL’autre mime, en boitant, l’infirme qui volait !\nLe Poëte est semblable au prince des nuées\nQui hante la tempête et se rit de l’archer ;\nExilé sur le sol au milieu des huées,\nSes ailes de géant l’empêchent de marcher."
+        }
+      ],
+      "author": "Charles Baudelaire"
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "title": "L’Invitation au voyage",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Mon enfant, ma sœur,\nSonge à la douceur\nD’aller là-bas vivre ensemble !\nAimer à loisir,\nAimer et mourir\nAu pays qui te ressemble !\nLes soleils mouillés\nDe ces ciels brouillés"
+        },
+        {
+          "number": 2,
+          "text": "Pour mon esprit ont les charmes\nSi mystérieux\nDe tes traîtres yeux,\nBrillant à travers leurs larmes.\nLà, tout n’est qu’ordre et beauté,\nLuxe, calme et volupté.\nDes meubles luisants,\nPolis par les ans,\nDécoreraient notre chambre ;\nLes plus rares fleurs\nMêlant leurs odeurs\nAux vagues senteurs de l’ambre,\nLes riches plafonds,\nLes miroirs profonds,\nLa splendeur orientale,\nTout y parlerait\nÀ l’âme en secret\nSa douce langue natale.\nLà, tout n’est qu’ordre et beauté,\nLuxe, calme et volupté.\nVois sur ces canaux\nDormir ces vaisseaux\nDont l’humeur est vagabonde ;\nC’est pour assouvir\nTon moindre désir\nQu’ils viennent du bout du monde."
+        },
+        {
+          "number": 3,
+          "text": "— Les soleils couchants\nRevêtent les champs,\nLes canaux, la ville entière,\nD’hyacinthe et d’or ;\nLe monde s’endort\nDans une chaude lumière.\nLà, tout n’est qu’ordre et beauté,\nLuxe, calme et volupté."
+        }
+      ],
+      "author": "Charles Baudelaire"
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "title": "Mignonne, allons voir si la rose",
+      "pages": [
+        {
+          "number": 1,
+          "text": "À CASSANDRE.\nODE XVII.\n\nMignonne, allons voir si la rose\nQui ce matin avoit desclose\nSa robe de pourpre au Soleil,\nA point perdu ceste vesprée\nLes plis de sa robe pourprée,\nEt son teint au vostre pareil.\nLas ! voyez comme en peu d’espace,\n\nMignonne, elle a dessus la place\nLas, las, ses beautez laissé cheoir !\nO vrayment marastre Nature,\nPuis qu’une telle fleur ne dure\nQue du matin jusques au soir !\nDonc, si vous me croyez mignonne,\nTandis que vostre âge fleuronne\nEn sa plus verte nouveauté,\nCueillez, cueillez vostre jeunesse :\nComme à ceste fleur la vieillesse\nFera ternir vostre beauté."
+        }
+      ],
+      "author": "Pierre de Ronsard"
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "title": "Heureux qui, comme Ulysse…",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Heureux qui, comme Vlyſſe, a fait un beau uoyage,\nOu comme ceſtuy là qui conquit la toiſon,\nEt puis eſt retourné, plein d’uſage & raiſon,\nViure entre ſes parents le reſte de ſon aage !\nQuand reuoiray-ie, helas, de mon petit uillage\nFumer la cheminee : & en quelle ſaiſon\nReuoiray-ie le clos de ma pauure maiſon,\nQui m’eſt une prouince, & beaucoup d’auantage ?\nPlus me plaiſt le ſeiour qu’ont baſty mes ayeux,\nQue des palais Romains le front audacieux :\nPlus que le marbre dur me plaiſt l’ardoiſe fine,\nPlus mon Loyre Gaulois, que le Tybre Latin,\nPlus mon petit Lyré, que le mont Palatin,\nEt plus que l’air marin la doulceur Angeuine."
+        }
+      ],
+      "author": "Joachim du Bellay"
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "title": "El Desdichado",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Je suis le ténébreux, — le veuf, — l’inconsolé,\nLe prince d’Aquitaine à la tour abolie :\nMa seule étoile est morte, — et mon luth constellé\nPorte le Soleil noir de la Mélancolie.\nDans la nuit du tombeau, toi qui m’as consolé,\nRends-moi le Pausilippe et la mer d’Italie,\nLa fleur qui plaisait tant à mon cœur désolé,\nEt la treille où le pampre à la rose s’allie.\nSuis-je Amour ou Phébus ?… Lusignan ou Biron ?\nMon front est rouge encor du baiser de la reine ;\nJ’ai rêvé dans la grotte où nage la syrène…\nEt j’ai deux fois vainqueur traversé l’Achéron :\nModulant tour à tour sur la lyre d’Orphée\nLes soupirs de la sainte et les cris de la fée."
+        }
+      ],
+      "author": "Gérard de Nerval"
+    }
+  ]
+}

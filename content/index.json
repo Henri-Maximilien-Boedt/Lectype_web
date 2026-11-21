@@ -1,0 +1,234 @@
+{
+  "books": [
+    {
+      "id": "a-childs-garden-of-verses",
+      "title": "A Child’s Garden of Verses",
+      "author": "Robert Louis Stevenson",
+      "language": "en",
+      "year": 1885,
+      "kind": "poem",
+      "cover": null,
+      "chapterCount": 64,
+      "pageCount": 94
+    },
+    {
+      "id": "alice-adventures-in-wonderland",
+      "title": "Alice’s Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "language": "en",
+      "year": 1865,
+      "kind": "novel",
+      "cover": "alice-adventures-in-wonderland.jpg",
+      "chapterCount": 12,
+      "pageCount": 254
+    },
+    {
+      "id": "wilde-childrens-stories",
+      "title": "Children’s Stories",
+      "author": "Oscar Wilde",
+      "language": "en",
+      "year": 1888,
+      "kind": "tale",
+      "cover": "wilde-childrens-stories.jpg",
+      "chapterCount": 9,
+      "pageCount": 469
+    },
+    {
+      "id": "contes-perrault",
+      "title": "Contes",
+      "author": "Charles Perrault",
+      "language": "fr",
+      "year": 1697,
+      "kind": "tale",
+      "cover": null,
+      "chapterCount": 10,
+      "pageCount": 217
+    },
+    {
+      "id": "contes-andersen",
+      "title": "Contes d’Andersen",
+      "author": "Hans Christian Andersen",
+      "language": "fr",
+      "year": 1876,
+      "kind": "tale",
+      "cover": null,
+      "chapterCount": 23,
+      "pageCount": 712
+    },
+    {
+      "id": "contes-de-la-becasse",
+      "title": "Contes de la bécasse",
+      "author": "Guy de Maupassant",
+      "language": "fr",
+      "year": 1883,
+      "kind": "story",
+      "cover": null,
+      "chapterCount": 17,
+      "pageCount": 366
+    },
+    {
+      "id": "fables-la-fontaine",
+      "title": "Fables",
+      "author": "Jean de La Fontaine",
+      "language": "fr",
+      "year": 1668,
+      "kind": "fable",
+      "cover": null,
+      "chapterCount": 245,
+      "pageCount": 765
+    },
+    {
+      "id": "household-tales",
+      "title": "Household Tales",
+      "author": "Jacob et Wilhelm Grimm",
+      "language": "en",
+      "year": 1884,
+      "kind": "tale",
+      "cover": "household-tales.jpg",
+      "chapterCount": 60,
+      "pageCount": 1010
+    },
+    {
+      "id": "just-so-stories",
+      "title": "Just So Stories",
+      "author": "Rudyard Kipling",
+      "language": "en",
+      "year": 1902,
+      "kind": "tale",
+      "cover": "just-so-stories.jpg",
+      "chapterCount": 12,
+      "pageCount": 280
+    },
+    {
+      "id": "le-tour-du-monde-en-80-jours",
+      "title": "Le Tour du monde en quatre-vingts jours",
+      "author": "Jules Verne",
+      "language": "fr",
+      "year": 1873,
+      "kind": "novel",
+      "cover": "le-tour-du-monde-en-80-jours.jpg",
+      "chapterCount": 37,
+      "pageCount": 763
+    },
+    {
+      "id": "lettres-de-mon-moulin",
+      "title": "Lettres de mon moulin",
+      "author": "Alphonse Daudet",
+      "language": "fr",
+      "year": 1869,
+      "kind": "story",
+      "cover": null,
+      "chapterCount": 25,
+      "pageCount": 514
+    },
+    {
+      "id": "lyrical-ballads",
+      "title": "Lyrical Ballads",
+      "author": "William Wordsworth et Samuel Taylor Coleridge",
+      "language": "en",
+      "year": 1798,
+      "kind": "poem",
+      "cover": "lyrical-ballads.jpg",
+      "chapterCount": 49,
+      "pageCount": 193
+    },
+    {
+      "id": "nonsense-books",
+      "title": "Nonsense Books",
+      "author": "Edward Lear",
+      "language": "en",
+      "year": 1846,
+      "kind": "poem",
+      "cover": "nonsense-books.jpg",
+      "chapterCount": 262,
+      "pageCount": 381
+    },
+    {
+      "id": "poemes-francais",
+      "title": "Poèmes choisis",
+      "author": "Anthologie",
+      "language": "fr",
+      "year": null,
+      "kind": "poem",
+      "cover": null,
+      "chapterCount": 11,
+      "pageCount": 14
+    },
+    {
+      "id": "keats-poems",
+      "title": "Poems",
+      "author": "John Keats",
+      "language": "en",
+      "year": 1820,
+      "kind": "poem",
+      "cover": "keats-poems.jpg",
+      "chapterCount": 119,
+      "pageCount": 270
+    },
+    {
+      "id": "o-henry-short-fiction",
+      "title": "Short Fiction",
+      "author": "O. Henry",
+      "language": "en",
+      "year": 1906,
+      "kind": "story",
+      "cover": "o-henry-short-fiction.jpg",
+      "chapterCount": 15,
+      "pageCount": 330
+    },
+    {
+      "id": "poe-short-fiction",
+      "title": "Short Fiction",
+      "author": "Edgar Allan Poe",
+      "language": "en",
+      "year": 1845,
+      "kind": "story",
+      "cover": "poe-short-fiction.jpg",
+      "chapterCount": 18,
+      "pageCount": 1012
+    },
+    {
+      "id": "sonnets-from-the-portuguese",
+      "title": "Sonnets from the Portuguese",
+      "author": "Elizabeth Barrett Browning",
+      "language": "en",
+      "year": 1850,
+      "kind": "poem",
+      "cover": "sonnets-from-the-portuguese.jpg",
+      "chapterCount": 44,
+      "pageCount": 44
+    }
+  ],
+  "stories": [
+    {
+      "id": "7-b-en",
+      "title": "7-B",
+      "language": "en",
+      "audience": "Teens and adults",
+      "duration": "About 6 hours",
+      "kind": "original",
+      "cover": "7-b-cover.jpg",
+      "chapterCount": 8
+    },
+    {
+      "id": "7-b-fr",
+      "title": "7-B",
+      "language": "fr",
+      "audience": "Ados et adultes",
+      "duration": "Environ 7 heures",
+      "kind": "original",
+      "cover": "7-b-cover.jpg",
+      "chapterCount": 8
+    },
+    {
+      "id": "oscar-et-la-capsule-silencieuse",
+      "title": "Oscar et la capsule silencieuse",
+      "language": "fr",
+      "audience": "10-15 ans",
+      "duration": "30 à 60 minutes",
+      "kind": "interactive",
+      "cover": "oscar-et-la-capsule-silencieuse-cover.jpg",
+      "chapterCount": 8
+    }
+  ]
+}

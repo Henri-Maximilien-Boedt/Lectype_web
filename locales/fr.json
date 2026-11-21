@@ -1,0 +1,14 @@
+{
+  "site": { "tagline": "Apprendre à taper en recopiant de vraies histoires.", "skip": "Aller au contenu" },
+  "nav": { "library": "Bibliothèque", "learn": "Apprendre", "stories": "Histoires", "stats": "Statistiques", "account": "Mon compte", "login": "Se connecter", "signup": "Créer un compte", "logout": "Se déconnecter", "settings": "Réglages" },
+  "home": {
+    "title": "Lectype — apprendre à taper en recopiant de vraies histoires",
+    "headline": "Apprends à taper avec dix doigts, en recopiant de vrais livres.",
+    "intro": "Des fables, des contes, des romans et des histoires interactives, un clavier à l'écran fidèle au tien, et ta vitesse qui progresse page après page.",
+    "start": "Commencer à taper",
+    "learn": "Apprendre les touches",
+    "free": "Gratuit, sans publicité."
+  },
+  "footer": { "privacy": "Confidentialité", "legal": "Mentions légales", "language": "English" },
+  "errors": { "notFound": "Cette page n'existe pas.", "csrf": "Le formulaire a expiré. Recharge la page et réessaie.", "server": "Une erreur est survenue. Réessaie dans un instant.", "back": "Retour à l'accueil", "tooMany": "Trop de tentatives. Réessaie dans quelques minutes." }
+}
