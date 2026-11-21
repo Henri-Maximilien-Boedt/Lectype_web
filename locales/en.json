@@ -214,5 +214,91 @@
     "nextLesson": "Next lesson",
     "back": "Back to the path",
     "allDone": "Well done, you finished the whole path!"
+  },
+  "auth": {
+    "email": "Email address",
+    "password": "Password",
+    "newPassword": "New password",
+    "confirm": "Confirm password",
+    "firstName": "First name",
+    "passwordHint": "At least 12 characters. A phrase of several words is easy to remember and hard to guess.",
+    "signup": {
+      "title": "Create an account",
+      "intro": "Your account keeps your progress and statistics on all your devices.",
+      "submit": "Create my account",
+      "privacy": "By creating an account, you accept our privacy policy.",
+      "haveAccount": "Already have an account?"
+    },
+    "login": {
+      "title": "Log in",
+      "submit": "Log in",
+      "remember": "Stay logged in on this device (30 days)",
+      "forgot": "Forgot your password?",
+      "noAccount": "No account yet?",
+      "resend": "Resend the confirmation email"
+    },
+    "forgot": {
+      "title": "Forgot password",
+      "intro": "Enter your address: if an account exists, you will receive a link to choose a new password.",
+      "submit": "Send the link"
+    },
+    "reset": {
+      "title": "New password",
+      "submit": "Save the password"
+    },
+    "problems": {
+      "firstName": "Enter your first name (60 characters at most).",
+      "email": "This email address is not valid.",
+      "confirm": "The two passwords do not match.",
+      "login": "Incorrect email address or password.",
+      "notVerified": "Confirm your email address first with the link you received.",
+      "password": {
+        "tooShort": "The password must be at least 12 characters long.",
+        "tooLong": "The password is too long (72 bytes at most).",
+        "tooCommon": "This password is too common. Choose another one.",
+        "personal": "The password must not contain your first name or your address."
+      }
+    },
+    "notices": {
+      "checkEmail": {
+        "title": "Check your email",
+        "body": "If the address {email} can be used, an email has just been sent to it. Click the link inside to continue. Remember to check your spam folder."
+      },
+      "checkEmailReset": {
+        "title": "Check your email",
+        "body": "If an account exists for {email}, a link to change your password has just been sent. It is valid for one hour."
+      },
+      "verified": {
+        "title": "Address confirmed",
+        "body": "Your account is ready. You can now log in."
+      },
+      "linkInvalid": {
+        "title": "Invalid link",
+        "body": "This link has expired or has already been used."
+      },
+      "passwordReset": {
+        "title": "Password changed",
+        "body": "Your new password is saved. All your devices have been logged out."
+      }
+    }
+  },
+  "emails": {
+    "signature": "— Lectype",
+    "verify": {
+      "subject": "Confirm your email address",
+      "body": "Hello {firstName},\n\nTo finish creating your Lectype account, open this link (valid for 24 hours):\n{link}\n\nIf you did not create an account, ignore this email."
+    },
+    "accountExists": {
+      "subject": "Account creation attempt",
+      "body": "Hello,\n\nSomeone tried to create a Lectype account with your address, but you already have one.\n\nLog in: {login}\nForgot your password: {forgot}\n\nIf it wasn't you, ignore this email."
+    },
+    "reset": {
+      "subject": "Change your password",
+      "body": "Hello {firstName},\n\nTo choose a new password, open this link (valid for one hour):\n{link}\n\nIf you didn't ask for anything, ignore this email: your password stays the same."
+    },
+    "passwordChanged": {
+      "subject": "Your password was changed",
+      "body": "Hello {firstName},\n\nThe password of your Lectype account has just been changed and all your devices have been logged out.\n\nIf it wasn't you, change it right away: {forgot}"
+    }
   }
 }

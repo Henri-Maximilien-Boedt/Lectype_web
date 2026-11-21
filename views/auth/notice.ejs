@@ -1,0 +1,8 @@
+<%- include('../partials/head', { title: t('auth.notices.' + key + '.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="auth message">
+  <h1><%= t('auth.notices.' + key + '.title') %></h1>
+  <p><%= t('auth.notices.' + key + '.body', values) %></p>
+  <% if (link) { %><p><a class="button primary" href="<%= link.href %>"><%= t(link.key) %></a></p><% } %>
+</main>
+<%- include('../partials/footer') %>

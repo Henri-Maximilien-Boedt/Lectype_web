@@ -1,0 +1,6 @@
+<label class="field">
+  <span><%= t(label) %></span>
+  <input name="<%= name %>" type="<%= type %>" autocomplete="<%= autocomplete %>"<% if (typeof value !== 'undefined' && value) { %> value="<%= value %>"<% } %><% if (typeof maxlength !== 'undefined') { %> maxlength="<%= maxlength %>"<% } %> required<% if (typeof problem !== 'undefined' && problem) { %> aria-invalid="true" aria-describedby="<%= name %>-problem"<% } %>>
+  <% if (typeof hint !== 'undefined' && hint) { %><small class="muted"><%= t(hint) %></small><% } %>
+  <% if (typeof problem !== 'undefined' && problem) { %><small class="problem" id="<%= name %>-problem"><%= t(problem) %></small><% } %>
+</label>

@@ -214,5 +214,91 @@
     "nextLesson": "Leçon suivante",
     "back": "Retour au parcours",
     "allDone": "Bravo, tu as terminé tout le parcours !"
+  },
+  "auth": {
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "confirm": "Confirme le mot de passe",
+    "firstName": "Prénom",
+    "passwordHint": "Au moins 12 caractères. Une phrase de plusieurs mots est facile à retenir et difficile à deviner.",
+    "signup": {
+      "title": "Créer un compte",
+      "intro": "Ton compte garde ta progression et tes statistiques sur tous tes appareils.",
+      "submit": "Créer mon compte",
+      "privacy": "En créant un compte, tu acceptes notre politique de confidentialité.",
+      "haveAccount": "Déjà un compte ?"
+    },
+    "login": {
+      "title": "Se connecter",
+      "submit": "Se connecter",
+      "remember": "Rester connecté sur cet appareil (30 jours)",
+      "forgot": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "resend": "Renvoyer l'e-mail de confirmation"
+    },
+    "forgot": {
+      "title": "Mot de passe oublié",
+      "intro": "Indique ton adresse : si un compte existe, tu recevras un lien pour choisir un nouveau mot de passe.",
+      "submit": "Envoyer le lien"
+    },
+    "reset": {
+      "title": "Nouveau mot de passe",
+      "submit": "Enregistrer le mot de passe"
+    },
+    "problems": {
+      "firstName": "Indique ton prénom (60 caractères au plus).",
+      "email": "Cette adresse e-mail n'est pas valide.",
+      "confirm": "Les deux mots de passe ne sont pas identiques.",
+      "login": "Adresse e-mail ou mot de passe incorrect.",
+      "notVerified": "Confirme d'abord ton adresse e-mail grâce au lien reçu.",
+      "password": {
+        "tooShort": "Le mot de passe doit faire au moins 12 caractères.",
+        "tooLong": "Le mot de passe est trop long (72 octets au plus).",
+        "tooCommon": "Ce mot de passe est trop courant. Choisis-en un autre.",
+        "personal": "Le mot de passe ne doit pas contenir ton prénom ni ton adresse."
+      }
+    },
+    "notices": {
+      "checkEmail": {
+        "title": "Regarde tes e-mails",
+        "body": "Si l'adresse {email} peut être utilisée, un e-mail vient d'y être envoyé. Clique sur le lien qu'il contient pour continuer. Pense à regarder dans les indésirables."
+      },
+      "checkEmailReset": {
+        "title": "Regarde tes e-mails",
+        "body": "Si un compte existe pour {email}, un lien pour changer de mot de passe vient d'y être envoyé. Il est valable une heure."
+      },
+      "verified": {
+        "title": "Adresse confirmée",
+        "body": "Ton compte est prêt. Tu peux maintenant te connecter."
+      },
+      "linkInvalid": {
+        "title": "Lien invalide",
+        "body": "Ce lien a expiré ou a déjà été utilisé."
+      },
+      "passwordReset": {
+        "title": "Mot de passe changé",
+        "body": "Ton nouveau mot de passe est enregistré. Tous tes appareils ont été déconnectés."
+      }
+    }
+  },
+  "emails": {
+    "signature": "— Lectype",
+    "verify": {
+      "subject": "Confirme ton adresse e-mail",
+      "body": "Bonjour {firstName},\n\nPour terminer la création de ton compte Lectype, ouvre ce lien (valable 24 heures) :\n{link}\n\nSi tu n'as pas créé de compte, ignore cet e-mail."
+    },
+    "accountExists": {
+      "subject": "Tentative de création de compte",
+      "body": "Bonjour,\n\nQuelqu'un a essayé de créer un compte Lectype avec ton adresse, mais tu en as déjà un.\n\nPour te connecter : {login}\nMot de passe oublié : {forgot}\n\nSi ce n'était pas toi, ignore cet e-mail."
+    },
+    "reset": {
+      "subject": "Changer ton mot de passe",
+      "body": "Bonjour {firstName},\n\nPour choisir un nouveau mot de passe, ouvre ce lien (valable une heure) :\n{link}\n\nSi tu n'as rien demandé, ignore cet e-mail : ton mot de passe ne change pas."
+    },
+    "passwordChanged": {
+      "subject": "Ton mot de passe a été changé",
+      "body": "Bonjour {firstName},\n\nLe mot de passe de ton compte Lectype vient d'être changé et tous tes appareils ont été déconnectés.\n\nSi ce n'était pas toi, change-le tout de suite : {forgot}"
+    }
   }
 }

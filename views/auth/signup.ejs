@@ -1,0 +1,17 @@
+<%- include('../partials/head', { title: t('auth.signup.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="auth">
+  <h1><%= t('auth.signup.title') %></h1>
+  <p class="muted"><%= t('auth.signup.intro') %></p>
+  <form method="post" action="/signup" class="auth-form" novalidate>
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <%- include('field', { label: 'auth.firstName', name: 'firstName', type: 'text', autocomplete: 'given-name', value: values.firstName, maxlength: 60, problem: problems.firstName }) %>
+    <%- include('field', { label: 'auth.email', name: 'email', type: 'email', autocomplete: 'email', value: values.email, maxlength: 254, problem: problems.email }) %>
+    <%- include('field', { label: 'auth.password', name: 'password', type: 'password', autocomplete: 'new-password', hint: 'auth.passwordHint', problem: problems.password }) %>
+    <%- include('field', { label: 'auth.confirm', name: 'confirm', type: 'password', autocomplete: 'new-password', problem: problems.confirm }) %>
+    <p class="muted small"><a href="/privacy"><%= t('auth.signup.privacy') %></a></p>
+    <button class="button primary" type="submit"><%= t('auth.signup.submit') %></button>
+  </form>
+  <p><%= t('auth.signup.haveAccount') %> <a href="/login"><%= t('nav.login') %></a></p>
+</main>
+<%- include('../partials/footer') %>

@@ -12,6 +12,9 @@ const securityHeaders = require('./middlewares/security-headers');
 const canonicalHost = require('./middlewares/canonical-host');
 const language = require('./middlewares/language');
 const csrf = require('./middlewares/csrf');
+const currentUser = require('./middlewares/current-user');
+const { createRateLimits } = require('./middlewares/rate-limits');
+const { createAuthRoutes } = require('./routes/auth');
 const publicRoutes = require('./routes/public');
 const appRoutes = require('./routes/app');
 
@@ -23,7 +26,7 @@ function sessionSecret() {
   return crypto.randomBytes(32).toString('hex');
 }
 
-function createApp({ sessionStore } = {}) {
+function createApp({ sessionStore, authDelayMs, rateLimits } = {}) {
   const app = express();
   app.set('trust proxy', 1);
   app.disable('x-powered-by');
@@ -47,13 +50,11 @@ function createApp({ sessionStore } = {}) {
     cookie: { httpOnly: true, secure: isProduction, sameSite: 'lax' },
   }));
   app.use(language);
-  app.use((req, res, next) => {
-    res.locals.currentUser = req.session.user ?? null;
-    next();
-  });
+  app.use(currentUser);
   app.use(csrf);
 
   app.use(publicRoutes);
+  app.use(createAuthRoutes(createRateLimits(rateLimits), { delayStepMs: authDelayMs }));
   app.use('/app', appRoutes);
 
   app.use((req, res) => res.status(404).render('error', { status: 404, messageKey: 'errors.notFound' }));

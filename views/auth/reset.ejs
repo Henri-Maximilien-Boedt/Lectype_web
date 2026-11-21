@@ -1,0 +1,13 @@
+<%- include('../partials/head', { title: t('auth.reset.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="auth">
+  <h1><%= t('auth.reset.title') %></h1>
+  <form method="post" action="/reset" class="auth-form" novalidate>
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <input type="hidden" name="token" value="<%= token %>">
+    <%- include('field', { label: 'auth.newPassword', name: 'password', type: 'password', autocomplete: 'new-password', hint: 'auth.passwordHint', problem: problems.password }) %>
+    <%- include('field', { label: 'auth.confirm', name: 'confirm', type: 'password', autocomplete: 'new-password', problem: problems.confirm }) %>
+    <button class="button primary" type="submit"><%= t('auth.reset.submit') %></button>
+  </form>
+</main>
+<%- include('../partials/footer') %>
