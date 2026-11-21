@@ -71,12 +71,24 @@ function createApp({ sessionStore, authDelayMs, rateLimits } = {}) {
   return app;
 }
 
+const REQUIRED_IN_PRODUCTION = ['SESSION_SECRET', 'BASE_URL', 'CANONICAL_HOST', 'BREVO_API_KEY', 'BREVO_SENDER_EMAIL'];
+
+function checkProductionSettings() {
+  if (!isProduction) return;
+  const missing = REQUIRED_IN_PRODUCTION.filter((name) => !process.env[name]);
+  if (missing.length) throw new Error(`Variables manquantes en production : ${missing.join(', ')}`);
+}
+
 async function start() {
+  checkProductionSettings();
   await db.ensureSchema();
   await purgeOldEvents();
   setInterval(() => purgeOldEvents().catch((error) => console.error(error)), 24 * 3600 * 1000).unref();
   const port = Number(process.env.PORT) || 3000;
-  createApp().listen(port, () => console.log(`Lectype web sur http://localhost:${port}`));
+  const app = createApp();
+  const announce = () => console.log(`Lectype web sur le port ${port}`);
+  if (process.env.IP) app.listen(port, process.env.IP, announce);
+  else app.listen(port, announce);
 }
 
 if (require.main === module) {
