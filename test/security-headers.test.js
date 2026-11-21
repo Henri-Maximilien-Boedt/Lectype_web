@@ -46,3 +46,14 @@ test('privacy and legal pages exist', async () => {
     await server.close();
   }
 });
+
+test('the download page links to the Mac app', async () => {
+  const server = await startTestServer();
+  try {
+    const response = await fetch(`${server.base}/download`);
+    assert.equal(response.status, 200);
+    assert.match(await response.text(), /releases\/latest\/download\/Lectype\.dmg/);
+  } finally {
+    await server.close();
+  }
+});

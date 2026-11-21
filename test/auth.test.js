@@ -171,3 +171,17 @@ test('the login form is rate limited per IP address', async () => {
     await limited.close();
   }
 });
+
+test('login and sign up share one page with two tabs', async () => {
+  const browser = new Browser(server.base);
+  const login = await browser.request('/login');
+  const signup = await browser.request('/signup');
+  for (const page of [login, signup]) {
+    assert.match(page.text, /href="\/login"/);
+    assert.match(page.text, /href="\/signup"/);
+  }
+  assert.match(login.text, /<a href="\/login" aria-current="page">/);
+  assert.match(signup.text, /<a href="\/signup" aria-current="page">/);
+  assert.match(signup.text, /name="firstName"/);
+  assert.doesNotMatch(login.text, /name="firstName"/);
+});

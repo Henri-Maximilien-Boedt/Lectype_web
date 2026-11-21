@@ -1,0 +1,29 @@
+<%- include('partials/head', { title: t('download.title') }) %>
+<%- include('partials/header') %>
+<main id="main" class="download">
+  <h1><%= t('download.title') %></h1>
+  <p class="lead"><%= t('download.intro') %></p>
+  <p class="actions"><a class="button primary" href="<%= downloadURL %>" rel="noopener"><%= t('download.button') %></a></p>
+  <p class="note"><%= t('download.requirements') %></p>
+
+  <section class="download-section">
+    <h2><%= t('download.installTitle') %></h2>
+    <ol class="install-steps">
+      <% Object.values(section('download.steps')).forEach(function (step) { %>
+        <li><%= step %></li>
+      <% }) %>
+    </ol>
+  </section>
+
+  <section class="download-section">
+    <h2><%= t('download.whyTitle') %></h2>
+    <p><%= t('download.why') %></p>
+  </section>
+
+  <section class="download-section">
+    <h2><%= t('download.otherTitle') %></h2>
+    <p><%= t('download.other') %></p>
+    <p><a class="button" href="/app/library"><%= t('download.openWeb') %></a></p>
+  </section>
+</main>
+<%- include('partials/footer') %>

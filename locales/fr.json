@@ -20,12 +20,14 @@
     "intro": "Des fables, des contes, des romans et des histoires interactives, un clavier à l'écran fidèle au tien, et ta vitesse qui progresse page après page.",
     "start": "Commencer à taper",
     "learn": "Apprendre les touches",
-    "free": "Gratuit, sans publicité."
+    "free": "Gratuit, sans publicité.",
+    "mac": "Télécharger pour Mac"
   },
   "footer": {
     "privacy": "Confidentialité",
     "legal": "Mentions légales",
-    "language": "English"
+    "language": "English",
+    "mac": "App Mac"
   },
   "errors": {
     "notFound": "Cette page n'existe pas.",
@@ -292,7 +294,8 @@
         "title": "Compte supprimé",
         "body": "Ton compte et toutes ses données ont été supprimés. Merci d'avoir utilisé Lectype."
       }
-    }
+    },
+    "tabs": "Connexion ou création de compte"
   },
   "emails": {
     "signature": "— Lectype",
@@ -424,5 +427,23 @@
     "missing": "Information à compléter par l'éditeur du site.",
     "content": "Contenus",
     "contentBody": "Les œuvres proposées sont dans le domaine public ; leur source est indiquée sur la fiche de chaque livre. Les histoires originales et l'application sont protégées par le droit d'auteur."
+  },
+  "download": {
+    "title": "Lectype pour Mac",
+    "intro": "L'app Mac de Lectype : les mêmes livres et histoires, un clavier qui suit exactement la disposition de ton Mac, et des sons de machine à écrire.",
+    "button": "Télécharger pour Mac",
+    "requirements": "macOS 26 ou plus récent · Mac avec puce Apple ou Intel · gratuit",
+    "installTitle": "Installer Lectype",
+    "steps": [
+      "Ouvre le fichier Lectype.dmg que tu viens de télécharger.",
+      "Glisse l'icône Lectype sur le dossier Applications.",
+      "Ouvre Lectype depuis le dossier Applications. macOS affiche un message disant qu'il n'a pas pu vérifier l'app : clique sur « Terminé ».",
+      "Ouvre Réglages Système › Confidentialité et sécurité, descends jusqu'à Lectype et clique sur « Ouvrir quand même », puis confirme. Ensuite, Lectype s'ouvre normalement."
+    ],
+    "whyTitle": "Pourquoi ce message ?",
+    "why": "Lectype n'est pas encore vérifiée par Apple (la « notarisation » demande un abonnement payant). macOS demande donc ta confirmation une fois. L'app n'envoie aucune donnée et fonctionne sans connexion.",
+    "otherTitle": "Pas de Mac ?",
+    "other": "La version web marche dans n'importe quel navigateur, sur Windows, Linux ou une tablette.",
+    "openWeb": "Ouvrir la version web"
   }
 }

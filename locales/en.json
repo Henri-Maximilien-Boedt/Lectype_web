@@ -20,12 +20,14 @@
     "intro": "Fables, tales, novels and interactive stories, an on-screen keyboard that matches yours, and your speed growing page after page.",
     "start": "Start typing",
     "learn": "Learn the keys",
-    "free": "Free, no ads."
+    "free": "Free, no ads.",
+    "mac": "Download for Mac"
   },
   "footer": {
     "privacy": "Privacy",
     "legal": "Legal notice",
-    "language": "Français"
+    "language": "Français",
+    "mac": "Mac app"
   },
   "errors": {
     "notFound": "This page doesn't exist.",
@@ -292,7 +294,8 @@
         "title": "Account deleted",
         "body": "Your account and all its data have been deleted. Thank you for using Lectype."
       }
-    }
+    },
+    "tabs": "Log in or create an account"
   },
   "emails": {
     "signature": "— Lectype",
@@ -424,5 +427,23 @@
     "missing": "To be completed by the site publisher.",
     "content": "Content",
     "contentBody": "The works offered are in the public domain; their source is shown on each book's page. The original stories and the application are protected by copyright."
+  },
+  "download": {
+    "title": "Lectype for Mac",
+    "intro": "The Lectype Mac app: the same books and stories, a keyboard that follows your Mac's exact layout, and typewriter sounds.",
+    "button": "Download for Mac",
+    "requirements": "macOS 26 or later · Mac with Apple silicon or Intel · free",
+    "installTitle": "Install Lectype",
+    "steps": [
+      "Open the Lectype.dmg file you just downloaded.",
+      "Drag the Lectype icon onto the Applications folder.",
+      "Open Lectype from the Applications folder. macOS says it could not verify the app: click “Done”.",
+      "Open System Settings › Privacy & Security, scroll down to Lectype, click “Open Anyway” and confirm. From then on, Lectype opens normally."
+    ],
+    "whyTitle": "Why this message?",
+    "why": "Lectype is not yet verified by Apple (“notarization” requires a paid membership), so macOS asks for your confirmation once. The app sends no data and works offline.",
+    "otherTitle": "No Mac?",
+    "other": "The web version works in any browser, on Windows, Linux or a tablet.",
+    "openWeb": "Open the web version"
   }
 }

@@ -71,3 +71,12 @@ form.inline { display: inline; }
 .event-list li { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; }
 .badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--accent); color: var(--on-accent); }
 .legal { max-width: 760px; }
+.access-card { margin-top: 24px; padding: 8px 28px 24px; border-radius: 20px; background: var(--surface); border: 1px solid var(--line); }
+.access-tabs { display: flex; margin: 0 -28px 20px; border-bottom: 1px solid var(--line); }
+.access-tabs a { flex: 1; text-align: center; padding: 14px 8px; text-decoration: none; color: var(--text-2); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.access-tabs a[aria-current="page"] { color: var(--text); font-weight: 600; border-bottom-color: var(--accent); }
+.access-tabs a:hover { color: var(--text); }
+.download { max-width: 760px; }
+.download-section { margin-top: 36px; }
+.install-steps { padding-left: 22px; display: flex; flex-direction: column; gap: 10px; }
+.install-steps li::marker { color: var(--accent); font-weight: 700; }

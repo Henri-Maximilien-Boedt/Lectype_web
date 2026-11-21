@@ -30,7 +30,7 @@ function createAuthRoutes(limits, { delayStepMs = 400 } = {}) {
 
   router.get('/signup', (req, res) => {
     if (res.locals.currentUser) return res.redirect('/app/library');
-    res.render('auth/signup', { values: {}, problems: {} });
+    res.render('auth/access', { tab: 'signup', values: {}, problems: {} });
   });
 
   router.post('/signup', limits.signup, async (req, res) => {
@@ -44,7 +44,7 @@ function createAuthRoutes(limits, { delayStepMs = 400 } = {}) {
     if (weakness) problems.password = `auth.problems.password.${weakness}`;
     else if (password !== text(req.body.confirm, 500)) problems.confirm = 'auth.problems.confirm';
     if (Object.keys(problems).length) {
-      return res.status(400).render('auth/signup', { values: { email: text(req.body.email), firstName: text(req.body.firstName) }, problems });
+      return res.status(400).render('auth/access', { tab: 'signup', values: { email: text(req.body.email), firstName: text(req.body.firstName) }, problems });
     }
     const passwordHash = await hashPassword(password);
     const existing = await users.findByEmail(email);
@@ -86,7 +86,7 @@ function createAuthRoutes(limits, { delayStepMs = 400 } = {}) {
 
   router.get('/login', (req, res) => {
     if (res.locals.currentUser) return res.redirect('/app/library');
-    res.render('auth/login', { values: {}, problem: null });
+    res.render('auth/access', { tab: 'login', values: {}, problem: null });
   });
 
   router.post('/login', limits.login, async (req, res) => {
@@ -100,10 +100,10 @@ function createAuthRoutes(limits, { delayStepMs = 400 } = {}) {
       if (user && !locked) await users.recordFailedLogin(user.id);
       await logEvent(locked ? 'login.locked' : 'login.failure', { userID: user?.id ?? null, ip: req.ip });
       await sleep(Math.min(req.session.failedLogins * delayStepMs, MAXIMUM_DELAY_MS));
-      return res.status(401).render('auth/login', { values: { email: text(req.body.email) }, problem: 'auth.problems.login' });
+      return res.status(401).render('auth/access', { tab: 'login', values: { email: text(req.body.email) }, problem: 'auth.problems.login' });
     }
     if (!user.emailVerifiedAt) {
-      return res.status(403).render('auth/login', { values: { email }, problem: 'auth.problems.notVerified', resend: true });
+      return res.status(403).render('auth/access', { tab: 'login', values: { email }, problem: 'auth.problems.notVerified', resend: true });
     }
     await users.resetFailedLogins(user.id);
     await regenerate(req);

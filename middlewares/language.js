@@ -1,4 +1,4 @@
-const { translate, pickLanguage } = require('../tools/i18n');
+const { translate, section, pickLanguage } = require('../tools/i18n');
 
 function readCookie(req, name) {
   const header = req.headers.cookie || '';
@@ -14,6 +14,7 @@ function language(req, res, next) {
   req.lang = lang;
   res.locals.lang = lang;
   res.locals.t = (key, values) => translate(lang, key, values);
+  res.locals.section = (key) => section(lang, key);
   next();
 }
 

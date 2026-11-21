@@ -2,11 +2,16 @@ const express = require('express');
 const { LANGUAGES, section } = require('../tools/i18n');
 
 const LEGAL_UPDATED = '2026-11-21';
+const DEFAULT_MAC_DOWNLOAD_URL = 'https://github.com/Henri-Maximilien-Boedt/Lectype_web/releases/latest/download/Lectype.dmg';
 
 const router = express.Router();
 
 router.get('/', (req, res) => {
   res.render('index');
+});
+
+router.get('/download', (req, res) => {
+  res.render('download', { downloadURL: process.env.MAC_DOWNLOAD_URL || DEFAULT_MAC_DOWNLOAD_URL });
 });
 
 router.get('/privacy', (req, res) => {
