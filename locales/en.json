@@ -1,6 +1,19 @@
 {
-  "site": { "tagline": "Learn to type by copying real stories.", "skip": "Skip to content" },
-  "nav": { "library": "Library", "learn": "Learn", "stories": "Stories", "stats": "Statistics", "account": "My account", "login": "Log in", "signup": "Sign up", "logout": "Log out", "settings": "Settings" },
+  "site": {
+    "tagline": "Learn to type by copying real stories.",
+    "skip": "Skip to content"
+  },
+  "nav": {
+    "library": "Library",
+    "learn": "Learn",
+    "stories": "Stories",
+    "stats": "Statistics",
+    "account": "My account",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "settings": "Settings"
+  },
   "home": {
     "title": "Lectype — learn to type by copying real stories",
     "headline": "Learn to touch type by copying real books.",
@@ -9,6 +22,62 @@
     "learn": "Learn the keys",
     "free": "Free, no ads."
   },
-  "footer": { "privacy": "Privacy", "legal": "Legal notice", "language": "Français" },
-  "errors": { "notFound": "This page doesn't exist.", "csrf": "The form has expired. Reload the page and try again.", "server": "Something went wrong. Try again in a moment.", "back": "Back to home", "tooMany": "Too many attempts. Try again in a few minutes." }
+  "footer": {
+    "privacy": "Privacy",
+    "legal": "Legal notice",
+    "language": "Français"
+  },
+  "errors": {
+    "notFound": "This page doesn't exist.",
+    "csrf": "The form has expired. Reload the page and try again.",
+    "server": "Something went wrong. Try again in a moment.",
+    "back": "Back to home",
+    "tooMany": "Too many attempts. Try again in a few minutes."
+  },
+  "library": {
+    "title": "Library",
+    "search": "Search titles and authors",
+    "categories": "Categories",
+    "all": "All",
+    "texts": "Texts",
+    "noResults": "No results.",
+    "continue": "Continue reading",
+    "start": "Start",
+    "read": "read"
+  },
+  "kinds": {
+    "novel": "Novels",
+    "tale": "Tales",
+    "fable": "Fables",
+    "story": "Short stories",
+    "poem": "Poems"
+  },
+  "book": {
+    "type": "Type",
+    "read": "Read",
+    "chapters": "Chapters",
+    "texts": "Texts",
+    "pages": "{count} pages",
+    "continue": "Continue"
+  },
+  "typing": {
+    "back": "Back to the book",
+    "previous": "Previous page (Ctrl ←)",
+    "next": "Next page (Ctrl →)",
+    "restart": "Restart page",
+    "wpm": "wpm",
+    "accuracy": "accuracy",
+    "input": "Typing area",
+    "hint": "Type the text. Escape to go back to the book.",
+    "chapter": "Chapter",
+    "page": "Page {page} of {count}",
+    "complete": "Chapter complete",
+    "textComplete": "Text complete",
+    "nextChapter": "Next chapter",
+    "nextText": "Next text",
+    "finish": "Finish",
+    "missed": "Most missed keys",
+    "noMissed": "No missed keys",
+    "theEnd": "The End"
+  }
 }

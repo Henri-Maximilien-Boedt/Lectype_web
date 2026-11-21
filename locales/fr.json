@@ -1,6 +1,19 @@
 {
-  "site": { "tagline": "Apprendre à taper en recopiant de vraies histoires.", "skip": "Aller au contenu" },
-  "nav": { "library": "Bibliothèque", "learn": "Apprendre", "stories": "Histoires", "stats": "Statistiques", "account": "Mon compte", "login": "Se connecter", "signup": "Créer un compte", "logout": "Se déconnecter", "settings": "Réglages" },
+  "site": {
+    "tagline": "Apprendre à taper en recopiant de vraies histoires.",
+    "skip": "Aller au contenu"
+  },
+  "nav": {
+    "library": "Bibliothèque",
+    "learn": "Apprendre",
+    "stories": "Histoires",
+    "stats": "Statistiques",
+    "account": "Mon compte",
+    "login": "Se connecter",
+    "signup": "Créer un compte",
+    "logout": "Se déconnecter",
+    "settings": "Réglages"
+  },
   "home": {
     "title": "Lectype — apprendre à taper en recopiant de vraies histoires",
     "headline": "Apprends à taper avec dix doigts, en recopiant de vrais livres.",
@@ -9,6 +22,62 @@
     "learn": "Apprendre les touches",
     "free": "Gratuit, sans publicité."
   },
-  "footer": { "privacy": "Confidentialité", "legal": "Mentions légales", "language": "English" },
-  "errors": { "notFound": "Cette page n'existe pas.", "csrf": "Le formulaire a expiré. Recharge la page et réessaie.", "server": "Une erreur est survenue. Réessaie dans un instant.", "back": "Retour à l'accueil", "tooMany": "Trop de tentatives. Réessaie dans quelques minutes." }
+  "footer": {
+    "privacy": "Confidentialité",
+    "legal": "Mentions légales",
+    "language": "English"
+  },
+  "errors": {
+    "notFound": "Cette page n'existe pas.",
+    "csrf": "Le formulaire a expiré. Recharge la page et réessaie.",
+    "server": "Une erreur est survenue. Réessaie dans un instant.",
+    "back": "Retour à l'accueil",
+    "tooMany": "Trop de tentatives. Réessaie dans quelques minutes."
+  },
+  "library": {
+    "title": "Bibliothèque",
+    "search": "Rechercher un titre ou un auteur",
+    "categories": "Catégories",
+    "all": "Tout",
+    "texts": "Textes",
+    "noResults": "Aucun résultat.",
+    "continue": "Reprendre la lecture",
+    "start": "Commencer",
+    "read": "lu"
+  },
+  "kinds": {
+    "novel": "Romans",
+    "tale": "Contes",
+    "fable": "Fables",
+    "story": "Nouvelles",
+    "poem": "Poèmes"
+  },
+  "book": {
+    "type": "Taper",
+    "read": "Lire",
+    "chapters": "Chapitres",
+    "texts": "Textes",
+    "pages": "{count} pages",
+    "continue": "Continuer"
+  },
+  "typing": {
+    "back": "Retour au livre",
+    "previous": "Page précédente (Ctrl ←)",
+    "next": "Page suivante (Ctrl →)",
+    "restart": "Recommencer la page",
+    "wpm": "mots/min",
+    "accuracy": "précision",
+    "input": "Zone de frappe",
+    "hint": "Tape le texte. Échap pour revenir au livre.",
+    "chapter": "Chapitre",
+    "page": "Page {page} sur {count}",
+    "complete": "Chapitre terminé",
+    "textComplete": "Texte terminé",
+    "nextChapter": "Chapitre suivant",
+    "nextText": "Texte suivant",
+    "finish": "Terminer",
+    "missed": "Touches les plus ratées",
+    "noMissed": "Aucune touche ratée",
+    "theEnd": "Fin"
+  }
 }

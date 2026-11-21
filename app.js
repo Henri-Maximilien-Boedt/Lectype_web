@@ -13,6 +13,7 @@ const canonicalHost = require('./middlewares/canonical-host');
 const language = require('./middlewares/language');
 const csrf = require('./middlewares/csrf');
 const publicRoutes = require('./routes/public');
+const appRoutes = require('./routes/app');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -53,6 +54,7 @@ function createApp({ sessionStore } = {}) {
   app.use(csrf);
 
   app.use(publicRoutes);
+  app.use('/app', appRoutes);
 
   app.use((req, res) => res.status(404).render('error', { status: 404, messageKey: 'errors.notFound' }));
   app.use((error, req, res, next) => {

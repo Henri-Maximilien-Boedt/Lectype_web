@@ -1,0 +1,36 @@
+<%- include('../partials/head', { title: book.title + ' — Lectype' }) %>
+<main id="main" class="typing" data-book-id="<%= book.id %>"<% if (start) { %> data-start-chapter="<%= start.chapter %>" data-start-page="<%= start.page %>"<% } %>>
+  <header class="typing-head">
+    <a class="button icon" href="/app/book/<%= book.id %>" aria-label="<%= t('typing.back') %>">←</a>
+    <div class="typing-title">
+      <strong><%= book.title %></strong>
+      <span id="chapter-title"></span>
+      <span id="page-label" class="muted"></span>
+    </div>
+    <button class="button icon" id="previous-page" type="button" aria-label="<%= t('typing.previous') %>" title="<%= t('typing.previous') %>">‹</button>
+    <button class="button icon" id="restart-page" type="button" aria-label="<%= t('typing.restart') %>" title="<%= t('typing.restart') %>">↺</button>
+    <button class="button icon" id="next-page" type="button" aria-label="<%= t('typing.next') %>" title="<%= t('typing.next') %>">›</button>
+  </header>
+  <div class="progress chapter-progress"><span class="bar" id="chapter-progress"></span></div>
+  <section class="page-window" id="page-window" aria-live="off">
+    <div class="page-text" id="page-text"></div>
+  </section>
+  <div class="metrics" id="metrics" aria-live="polite">
+    <span><b id="wpm">0</b> <%= t('typing.wpm') %></span>
+    <span><b id="accuracy">100 %</b> <%= t('typing.accuracy') %></span>
+    <span id="elapsed" class="muted">0:00</span>
+    <span id="dead-key" class="dead-key" hidden></span>
+  </div>
+  <div class="keyboard" id="keyboard" aria-hidden="true"></div>
+  <textarea id="typing-input" class="typing-input" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="<%= t('typing.input') %>"></textarea>
+  <div class="overlay" id="summary" hidden></div>
+  <p class="hint muted"><%= t('typing.hint') %></p>
+</main>
+<script type="application/json" id="typing-strings"><%- JSON.stringify({
+  chapter: t('typing.chapter'), page: t('typing.page'), complete: t('typing.complete'), textComplete: t('typing.textComplete'),
+  nextChapter: t('typing.nextChapter'), nextText: t('typing.nextText'), finish: t('typing.finish'), wpm: t('typing.wpm'),
+  accuracy: t('typing.accuracy'), missed: t('typing.missed'), noMissed: t('typing.noMissed'), theEnd: t('typing.theEnd')
+}).replace(/</g, '\\u003c') %></script>
+<%- include('../partials/app-scripts', { script: 'typing-page.js' }) %>
+</body>
+</html>

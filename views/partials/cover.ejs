@@ -1,0 +1,5 @@
+<% if (item.cover) { %>
+  <img class="cover" src="/content/covers/<%= item.cover %>" alt="" loading="lazy">
+<% } else { %>
+  <div class="cover generated kind-<%= item.kind %>" aria-hidden="true"><span><%= item.title %></span></div>
+<% } %>

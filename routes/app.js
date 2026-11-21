@@ -1,0 +1,35 @@
+const express = require('express');
+const content = require('../tools/content');
+
+const router = express.Router();
+
+router.get('/library', (req, res) => {
+  const kind = content.KINDS.includes(req.query.kind) ? req.query.kind : null;
+  const query = typeof req.query.q === 'string' ? req.query.q.slice(0, 80) : '';
+  const shelf = content.index().books.filter((item) => !kind || item.kind === kind);
+  res.render('app/library', {
+    kind, query, kinds: content.KINDS,
+    books: content.searchBooks(shelf, query),
+    texts: query ? content.searchTexts(query) : [],
+    counts: Object.fromEntries(content.KINDS.map((name) => [name, content.index().books.filter((item) => item.kind === name).length])),
+  });
+});
+
+router.get('/book/:id', (req, res, next) => {
+  const book = content.book(req.params.id);
+  if (!book) return next();
+  res.render('app/book', { book });
+});
+
+router.get('/type/:id', (req, res, next) => {
+  const book = content.book(req.params.id);
+  if (!book) return next();
+  const chapter = Number.parseInt(req.query.chapter, 10);
+  const page = Number.parseInt(req.query.page, 10);
+  res.render('app/type', {
+    book,
+    start: Number.isInteger(chapter) && Number.isInteger(page) ? { chapter, page } : null,
+  });
+});
+
+module.exports = router;

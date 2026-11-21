@@ -1,0 +1,41 @@
+<%- include('../partials/head', { title: t('library.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="library">
+  <div class="library-head">
+    <h1><%= kind ? t('kinds.' + kind) : t('library.title') %></h1>
+    <form class="search" method="get" action="/app/library" role="search">
+      <% if (kind) { %><input type="hidden" name="kind" value="<%= kind %>"><% } %>
+      <label class="visually-hidden" for="q"><%= t('library.search') %></label>
+      <input id="q" name="q" type="search" value="<%= query %>" placeholder="<%= t('library.search') %>" maxlength="80">
+    </form>
+  </div>
+  <nav class="filters" aria-label="<%= t('library.categories') %>">
+    <a href="/app/library" class="<%= kind ? '' : 'active' %>"><%= t('library.all') %></a>
+    <% kinds.forEach(function (name) { %>
+      <a href="/app/library?kind=<%= name %>" class="<%= kind === name ? 'active' : '' %>"><%= t('kinds.' + name) %> <small><%= counts[name] %></small></a>
+    <% }) %>
+  </nav>
+  <section id="continue" class="continue" hidden></section>
+  <section class="book-grid">
+    <% books.forEach(function (item) { %>
+      <a class="book-card" href="/app/book/<%= item.id %>" data-book-id="<%= item.id %>" data-pages="<%= item.pageCount %>">
+        <%- include('../partials/cover', { item: item }) %>
+        <span class="lang"><%= item.language.toUpperCase() %></span>
+        <strong><%= item.title %></strong>
+        <span class="author"><%= item.author %></span>
+        <span class="progress"><span class="bar"></span></span>
+      </a>
+    <% }) %>
+  </section>
+  <% if (texts.length) { %>
+    <h2><%= t('library.texts') %></h2>
+    <ul class="text-results">
+      <% texts.forEach(function (match) { %>
+        <li><a href="/app/type/<%= match.bookID %>?chapter=<%= match.chapterNumber %>&page=1"><strong><%= match.title %></strong> <span><%= match.bookTitle %></span></a></li>
+      <% }) %>
+    </ul>
+  <% } %>
+  <% if (!books.length && !texts.length) { %><p class="empty"><%= t('library.noResults') %></p><% } %>
+</main>
+<%- include('../partials/app-scripts', { script: 'library.js' }) %>
+<%- include('../partials/footer') %>
