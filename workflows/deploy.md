@@ -9,7 +9,7 @@
 2. **Code.** En SSH :
 
    ```bash
-   git clone git@github.com:<ton-compte>/Lectype-web.git ~/lectype-web
+   git clone git@github.com:Henri-Maximilien-Boedt/Lectype_web.git ~/lectype-web
    cd ~/lectype-web
    npm install --omit=dev
    ```
