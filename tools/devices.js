@@ -49,4 +49,9 @@ async function removeOtherDevices(store, userID, keptSessionID = null) {
   }
 }
 
-module.exports = { addDevice, findDevice, touchDevice, listDevices, removeDevice, removeOtherDevices };
+async function findDeviceByID(userID, id) {
+  const result = await db.execute({ sql: 'SELECT session_id FROM devices WHERE user_id = ? AND id = ?', args: [userID, id] });
+  return result.rows[0]?.session_id ?? null;
+}
+
+module.exports = { findDeviceByID, addDevice, findDevice, touchDevice, listDevices, removeDevice, removeOtherDevices };

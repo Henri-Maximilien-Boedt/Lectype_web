@@ -66,4 +66,16 @@ async function resetFailedLogins(id) {
   await db.execute({ sql: 'UPDATE users SET failed_logins = 0, locked_until = NULL WHERE id = ?', args: [id] });
 }
 
-module.exports = { findByEmail, findByID, createUser, markVerified, updatePassword, isLocked, recordFailedLogin, resetFailedLogins, LOCK_THRESHOLD };
+async function updateFirstName(id, firstName) {
+  await db.execute({ sql: "UPDATE users SET first_name = ?, updated_at = datetime('now') WHERE id = ?", args: [firstName, id] });
+}
+
+async function updateEmail(id, email) {
+  await db.execute({ sql: "UPDATE users SET email = ?, email_verified_at = datetime('now'), updated_at = datetime('now') WHERE id = ?", args: [email, id] });
+}
+
+async function deleteUser(id) {
+  await db.execute({ sql: 'DELETE FROM users WHERE id = ?', args: [id] });
+}
+
+module.exports = { updateFirstName, updateEmail, deleteUser, findByEmail, findByID, createUser, markVerified, updatePassword, isLocked, recordFailedLogin, resetFailedLogins, LOCK_THRESHOLD };

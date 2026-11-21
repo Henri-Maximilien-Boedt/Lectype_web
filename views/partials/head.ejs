@@ -7,7 +7,10 @@
   <meta name="description" content="<%= t('site.tagline') %>">
   <link rel="stylesheet" href="/css/site.css">
   <link rel="stylesheet" href="/css/app.css">
+  <meta name="csrf-token" content="<%= csrfToken %>">
+  <% if (currentUser) { %><meta name="lectype-user" content="<%= currentUser.id %>"><% } %>
   <script src="/js/theme-boot.js"></script>
+  <script type="module" src="/js/account-sync.js"></script>
 </head>
 <body>
 <a class="skip-link" href="#main"><%= t('site.skip') %></a>

@@ -17,6 +17,8 @@ const { createRateLimits } = require('./middlewares/rate-limits');
 const { createAuthRoutes } = require('./routes/auth');
 const publicRoutes = require('./routes/public');
 const appRoutes = require('./routes/app');
+const apiRoutes = require('./routes/api');
+const { createAccountRoutes } = require('./routes/account');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -54,8 +56,11 @@ function createApp({ sessionStore, authDelayMs, rateLimits } = {}) {
   app.use(csrf);
 
   app.use(publicRoutes);
-  app.use(createAuthRoutes(createRateLimits(rateLimits), { delayStepMs: authDelayMs }));
+  const limits = createRateLimits(rateLimits);
+  app.use(createAuthRoutes(limits, { delayStepMs: authDelayMs }));
   app.use('/app', appRoutes);
+  app.use('/api', apiRoutes);
+  app.use('/account', createAccountRoutes(limits));
 
   app.use((req, res) => res.status(404).render('error', { status: 404, messageKey: 'errors.notFound' }));
   app.use((error, req, res, next) => {

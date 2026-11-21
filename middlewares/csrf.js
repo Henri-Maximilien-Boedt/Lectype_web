@@ -20,6 +20,7 @@ function csrf(req, res, next) {
   if (SAFE_METHODS.has(req.method)) return next();
   const submitted = (req.body && req.body._csrf) || req.get('x-csrf-token');
   if (!tokensMatch(token, submitted)) {
+    if (req.is('application/json')) return res.status(403).json({ error: 'csrf' });
     return res.status(403).render('error', { status: 403, messageKey: 'errors.csrf' });
   }
   return next();

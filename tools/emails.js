@@ -18,5 +18,9 @@ module.exports = {
   accountExists: (lang, to) => compose(lang, 'accountExists', to, { login: `${baseURL()}/login`, forgot: `${baseURL()}/forgot` }),
   reset: (lang, to, firstName, token) => compose(lang, 'reset', to, { firstName, link: link('/reset', token) }),
   passwordChanged: (lang, to, firstName) => compose(lang, 'passwordChanged', to, { firstName, forgot: `${baseURL()}/forgot` }),
+  confirmNewEmail: (lang, to, firstName, token) => compose(lang, 'confirmNewEmail', to, { firstName, link: link('/account/email/confirm', token) }),
+  emailChangeRequested: (lang, to, firstName, newEmail) => compose(lang, 'emailChangeRequested', to, { firstName, newEmail }),
+  emailChanged: (lang, to, firstName, newEmail) => compose(lang, 'emailChanged', to, { firstName, newEmail }),
+  accountDeleted: (lang, to, firstName) => compose(lang, 'accountDeleted', to, { firstName }),
   baseURL,
 };

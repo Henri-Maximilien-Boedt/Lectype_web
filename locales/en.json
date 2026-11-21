@@ -279,6 +279,18 @@
       "passwordReset": {
         "title": "Password changed",
         "body": "Your new password is saved. All your devices have been logged out."
+      },
+      "emailTaken": {
+        "title": "Address already used",
+        "body": "This address is already linked to another account. Your address has not changed."
+      },
+      "emailChanged": {
+        "title": "Address changed",
+        "body": "Your new email address is saved."
+      },
+      "accountDeleted": {
+        "title": "Account deleted",
+        "body": "Your account and all its data have been deleted. Thank you for using Lectype."
       }
     }
   },
@@ -298,7 +310,78 @@
     },
     "passwordChanged": {
       "subject": "Your password was changed",
-      "body": "Hello {firstName},\n\nThe password of your Lectype account has just been changed and all your devices have been logged out.\n\nIf it wasn't you, change it right away: {forgot}"
+      "body": "Hello {firstName},\n\nThe password of your Lectype account has just been changed and your other devices have been logged out.\n\nIf it wasn't you, change it right away: {forgot}"
+    },
+    "confirmNewEmail": {
+      "subject": "Confirm your new address",
+      "body": "Hello {firstName},\n\nTo use this address with your Lectype account, open this link (valid for 24 hours):\n{link}\n\nIf you didn't ask for anything, ignore this email."
+    },
+    "emailChangeRequested": {
+      "subject": "Address change requested",
+      "body": "Hello {firstName},\n\nA change of address to {newEmail} was requested for your Lectype account. It will only happen once confirmed from the new address.\n\nIf it wasn't you, change your password right away."
+    },
+    "emailChanged": {
+      "subject": "Your address was changed",
+      "body": "Hello {firstName},\n\nYour Lectype account address is now {newEmail}. This address is no longer used.\n\nIf it wasn't you, reply to this email to let us know."
+    },
+    "accountDeleted": {
+      "subject": "Your account was deleted",
+      "body": "Hello {firstName},\n\nYour Lectype account and all its data have been deleted."
+    }
+  },
+  "account": {
+    "title": "My account",
+    "profile": "Profile",
+    "since": "member since {date}",
+    "save": "Save",
+    "changeEmail": "Change email address",
+    "changeEmailHint": "A confirmation link will be sent to the new address. Your old address will be notified.",
+    "newEmail": "New email address",
+    "currentPassword": "Current password",
+    "sendConfirmation": "Send the confirmation",
+    "changePassword": "Change password",
+    "savePassword": "Change the password",
+    "devices": "Logged-in devices",
+    "thisDevice": "this device",
+    "unknownDevice": "Unknown device",
+    "lastSeen": "Last active: {date} UTC",
+    "logoutOthers": "Log out all other devices",
+    "activity": "Recent account activity",
+    "data": "Your data",
+    "exportHint": "Download all your account data as JSON: profile, progress, sessions, devices and security log.",
+    "export": "Export my data",
+    "delete": "Delete my account",
+    "deleteHint": "Deletion is immediate and permanent: your account, progress and statistics are erased. Nothing can be recovered.",
+    "deleteConfirm": "I understand that my account and all my data will be permanently deleted.",
+    "deleteButton": "Permanently delete my account",
+    "problems": {
+      "password": "Wrong current password.",
+      "confirmDelete": "Tick the box to confirm the deletion."
+    },
+    "notices": {
+      "nameSaved": "First name saved.",
+      "emailPending": "If this address can be used, a confirmation link has just been sent to it. Your address only changes once confirmed.",
+      "passwordChanged": "Password changed. Your other devices have been logged out.",
+      "devicesRemoved": "Device logged out."
+    },
+    "events": {
+      "signup": "Account created",
+      "signup-existing": "Attempt to create an account with your address",
+      "email-verified": "Address confirmed",
+      "login": "Logged in",
+      "login-failure": "Failed login",
+      "login-locked": "Login refused (account locked)",
+      "logout": "Logged out",
+      "password-reset-requested": "New password requested",
+      "password-reset": "Password reset",
+      "password-changed": "Password changed",
+      "email-change-requested": "Address change requested",
+      "email-changed": "Address changed",
+      "devices-removed": "Other devices logged out",
+      "device-removed": "Device logged out",
+      "data-exported": "Data exported",
+      "reauth-failure": "Wrong current password",
+      "account-deleted": "Account deleted"
     }
   }
 }

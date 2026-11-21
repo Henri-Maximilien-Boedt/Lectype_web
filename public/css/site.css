@@ -59,3 +59,14 @@ p.problem { padding: 10px 14px; border-radius: 10px; background: color-mix(in sr
 .small { font-size: 14px; }
 form.inline { display: inline; }
 .auth-form .button { align-self: flex-start; }
+.account { max-width: 720px; }
+.account-section { padding: 20px 24px; margin: 18px 0; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); }
+.account-section h2 { margin-top: 0; font-size: 22px; }
+.account-section .auth-form { margin: 12px 0 0; max-width: 420px; }
+.account-section.danger { border-color: color-mix(in srgb, var(--error) 50%, transparent); }
+.button.danger { background: var(--error); color: #fff; border-color: transparent; }
+.notice { padding: 10px 14px; border-radius: 10px; background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.device-list, .event-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.device-list li { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.event-list li { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--accent); color: var(--on-accent); }

@@ -1,0 +1,88 @@
+<%- include('../partials/head', { title: t('account.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="account">
+  <h1><%= t('account.title') %></h1>
+  <% if (notice) { %><p class="notice" role="status"><%= t(notice) %></p><% } %>
+
+  <section class="account-section">
+    <h2><%= t('account.profile') %></h2>
+    <p class="muted"><%= user.email %> · <%= t('account.since', { date: user.createdAt.slice(0, 10) }) %></p>
+    <form method="post" action="/account/name" class="auth-form">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <%- include('../auth/field', { label: 'auth.firstName', name: 'firstName', type: 'text', autocomplete: 'given-name', value: user.firstName, maxlength: 60, problem: problems.firstName }) %>
+      <button class="button" type="submit"><%= t('account.save') %></button>
+    </form>
+  </section>
+
+  <section class="account-section">
+    <h2><%= t('account.changeEmail') %></h2>
+    <p class="muted"><%= t('account.changeEmailHint') %></p>
+    <form method="post" action="/account/email" class="auth-form">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <%- include('../auth/field', { label: 'account.newEmail', name: 'email', type: 'email', autocomplete: 'email', maxlength: 254, problem: problems.email }) %>
+      <%- include('../auth/field', { label: 'account.currentPassword', name: 'currentPassword', type: 'password', autocomplete: 'current-password', problem: problems.emailPassword }) %>
+      <button class="button" type="submit"><%= t('account.sendConfirmation') %></button>
+    </form>
+  </section>
+
+  <section class="account-section">
+    <h2><%= t('account.changePassword') %></h2>
+    <form method="post" action="/account/password" class="auth-form">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <%- include('../auth/field', { label: 'account.currentPassword', name: 'currentPassword', type: 'password', autocomplete: 'current-password', problem: problems.currentPassword }) %>
+      <%- include('../auth/field', { label: 'auth.newPassword', name: 'password', type: 'password', autocomplete: 'new-password', hint: 'auth.passwordHint', problem: problems.password }) %>
+      <%- include('../auth/field', { label: 'auth.confirm', name: 'confirm', type: 'password', autocomplete: 'new-password', problem: problems.confirm }) %>
+      <button class="button" type="submit"><%= t('account.savePassword') %></button>
+    </form>
+  </section>
+
+  <section class="account-section">
+    <h2><%= t('account.devices') %></h2>
+    <ul class="device-list">
+      <% devices.forEach(function (device) { %>
+        <li>
+          <span><strong><%= device.label || t('account.unknownDevice') %></strong><% if (device.isCurrent) { %> <span class="badge"><%= t('account.thisDevice') %></span><% } %>
+            <br><small class="muted"><%= t('account.lastSeen', { date: device.lastSeenAt.slice(0, 16) }) %></small></span>
+          <form method="post" action="/account/devices/<%= device.id %>">
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <button class="button" type="submit"><%= t('nav.logout') %></button>
+          </form>
+        </li>
+      <% }) %>
+    </ul>
+    <% if (devices.length > 1) { %>
+      <form method="post" action="/account/devices/others">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <button class="button" type="submit"><%= t('account.logoutOthers') %></button>
+      </form>
+    <% } %>
+  </section>
+
+  <section class="account-section">
+    <h2><%= t('account.activity') %></h2>
+    <ul class="event-list">
+      <% events.forEach(function (event) { %>
+        <li><span><%= t('account.events.' + event.event.replace(/\./g, '-')) %></span> <small class="muted"><%= event.createdAt.slice(0, 16) %> UTC</small></li>
+      <% }) %>
+    </ul>
+  </section>
+
+  <section class="account-section">
+    <h2><%= t('account.data') %></h2>
+    <p class="muted"><%= t('account.exportHint') %></p>
+    <p><a class="button" href="/account/export"><%= t('account.export') %></a></p>
+  </section>
+
+  <section class="account-section danger">
+    <h2><%= t('account.delete') %></h2>
+    <p class="muted"><%= t('account.deleteHint') %></p>
+    <form method="post" action="/account/delete" class="auth-form">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <%- include('../auth/field', { label: 'account.currentPassword', name: 'currentPassword', type: 'password', autocomplete: 'current-password', problem: problems.deletePassword }) %>
+      <label class="choice"><input type="checkbox" name="confirmDelete" required> <%= t('account.deleteConfirm') %></label>
+      <% if (problems.confirmDelete) { %><small class="problem"><%= t(problems.confirmDelete) %></small><% } %>
+      <button class="button danger" type="submit"><%= t('account.deleteButton') %></button>
+    </form>
+  </section>
+</main>
+<%- include('../partials/footer') %>

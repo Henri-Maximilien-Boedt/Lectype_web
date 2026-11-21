@@ -279,6 +279,18 @@
       "passwordReset": {
         "title": "Mot de passe changé",
         "body": "Ton nouveau mot de passe est enregistré. Tous tes appareils ont été déconnectés."
+      },
+      "emailTaken": {
+        "title": "Adresse déjà utilisée",
+        "body": "Cette adresse est déjà liée à un autre compte. Ton adresse n'a pas changé."
+      },
+      "emailChanged": {
+        "title": "Adresse changée",
+        "body": "Ta nouvelle adresse e-mail est enregistrée."
+      },
+      "accountDeleted": {
+        "title": "Compte supprimé",
+        "body": "Ton compte et toutes ses données ont été supprimés. Merci d'avoir utilisé Lectype."
       }
     }
   },
@@ -298,7 +310,78 @@
     },
     "passwordChanged": {
       "subject": "Ton mot de passe a été changé",
-      "body": "Bonjour {firstName},\n\nLe mot de passe de ton compte Lectype vient d'être changé et tous tes appareils ont été déconnectés.\n\nSi ce n'était pas toi, change-le tout de suite : {forgot}"
+      "body": "Bonjour {firstName},\n\nLe mot de passe de ton compte Lectype vient d'être changé et tes autres appareils ont été déconnectés.\n\nSi ce n'était pas toi, change-le tout de suite : {forgot}"
+    },
+    "confirmNewEmail": {
+      "subject": "Confirme ta nouvelle adresse",
+      "body": "Bonjour {firstName},\n\nPour utiliser cette adresse avec ton compte Lectype, ouvre ce lien (valable 24 heures) :\n{link}\n\nSi tu n'as rien demandé, ignore cet e-mail."
+    },
+    "emailChangeRequested": {
+      "subject": "Changement d'adresse demandé",
+      "body": "Bonjour {firstName},\n\nUn changement d'adresse vers {newEmail} a été demandé pour ton compte Lectype. Il ne sera fait qu'après confirmation depuis la nouvelle adresse.\n\nSi ce n'était pas toi, change ton mot de passe tout de suite."
+    },
+    "emailChanged": {
+      "subject": "Ton adresse a été changée",
+      "body": "Bonjour {firstName},\n\nL'adresse de ton compte Lectype est maintenant {newEmail}. Cette adresse-ci n'est plus utilisée.\n\nSi ce n'était pas toi, réponds à cet e-mail pour nous prévenir."
+    },
+    "accountDeleted": {
+      "subject": "Ton compte a été supprimé",
+      "body": "Bonjour {firstName},\n\nTon compte Lectype et toutes ses données ont été supprimés."
+    }
+  },
+  "account": {
+    "title": "Mon compte",
+    "profile": "Profil",
+    "since": "membre depuis le {date}",
+    "save": "Enregistrer",
+    "changeEmail": "Changer d'adresse e-mail",
+    "changeEmailHint": "Un lien de confirmation sera envoyé à la nouvelle adresse. Ton ancienne adresse sera prévenue.",
+    "newEmail": "Nouvelle adresse e-mail",
+    "currentPassword": "Mot de passe actuel",
+    "sendConfirmation": "Envoyer la confirmation",
+    "changePassword": "Changer de mot de passe",
+    "savePassword": "Changer le mot de passe",
+    "devices": "Appareils connectés",
+    "thisDevice": "cet appareil",
+    "unknownDevice": "Appareil inconnu",
+    "lastSeen": "Dernière activité : {date} UTC",
+    "logoutOthers": "Déconnecter tous les autres appareils",
+    "activity": "Activité récente du compte",
+    "data": "Tes données",
+    "exportHint": "Télécharge toutes les données de ton compte au format JSON : profil, progression, séances, appareils et journal de sécurité.",
+    "export": "Exporter mes données",
+    "delete": "Supprimer mon compte",
+    "deleteHint": "La suppression est immédiate et définitive : ton compte, ta progression et tes statistiques sont effacés. Rien ne peut être récupéré.",
+    "deleteConfirm": "Je comprends que mon compte et toutes mes données seront supprimés définitivement.",
+    "deleteButton": "Supprimer définitivement mon compte",
+    "problems": {
+      "password": "Mot de passe actuel incorrect.",
+      "confirmDelete": "Coche la case pour confirmer la suppression."
+    },
+    "notices": {
+      "nameSaved": "Prénom enregistré.",
+      "emailPending": "Si cette adresse peut être utilisée, un lien de confirmation vient d'y être envoyé. Ton adresse ne change qu'après confirmation.",
+      "passwordChanged": "Mot de passe changé. Tes autres appareils ont été déconnectés.",
+      "devicesRemoved": "Appareil déconnecté."
+    },
+    "events": {
+      "signup": "Création du compte",
+      "signup-existing": "Tentative de création d'un compte avec ton adresse",
+      "email-verified": "Adresse confirmée",
+      "login": "Connexion",
+      "login-failure": "Échec de connexion",
+      "login-locked": "Connexion refusée (compte verrouillé)",
+      "logout": "Déconnexion",
+      "password-reset-requested": "Demande de nouveau mot de passe",
+      "password-reset": "Mot de passe réinitialisé",
+      "password-changed": "Mot de passe changé",
+      "email-change-requested": "Demande de changement d'adresse",
+      "email-changed": "Adresse changée",
+      "devices-removed": "Autres appareils déconnectés",
+      "device-removed": "Appareil déconnecté",
+      "data-exported": "Données exportées",
+      "reauth-failure": "Mot de passe actuel incorrect",
+      "account-deleted": "Compte supprimé"
     }
   }
 }

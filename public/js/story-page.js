@@ -67,7 +67,7 @@ function renderChoices() {
   const leading = engine.candidates.findIndex((candidate, index) => engine.alive[index]);
   choiceList.replaceChildren(...engine.candidates.map((candidate, index) => {
     const item = document.createElement('li');
-    item.className = engine.alive[index] ? 'choice' : 'choice dead';
+    item.className = engine.alive[index] ? 'story-option' : 'story-option dead';
     item.append(...characterSpans(candidate, { cursor: index === leading }));
     return item;
   }));

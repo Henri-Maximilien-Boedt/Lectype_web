@@ -8,7 +8,7 @@
     <a href="/app/settings"><%= t('nav.settings') %></a>
     <% if (currentUser) { %>
       <a href="/account"><%= currentUser.firstName %></a>
-      <form method="post" action="/logout" class="inline">
+      <form method="post" action="/logout" class="inline" data-logout>
         <input type="hidden" name="_csrf" value="<%= csrfToken %>">
         <button type="submit" class="link"><%= t('nav.logout') %></button>
       </form>

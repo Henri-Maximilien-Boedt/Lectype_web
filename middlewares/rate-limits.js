@@ -12,7 +12,7 @@ function limiter(windowMs, limit) {
   });
 }
 
-const DEFAULT_LIMITS = { login: 10, signup: 5, emails: 5, reset: 10 };
+const DEFAULT_LIMITS = { login: 10, signup: 5, emails: 5, reset: 10, sensitive: 10 };
 
 function createRateLimits(limits = {}) {
   const chosen = { ...DEFAULT_LIMITS, ...limits };
@@ -21,6 +21,7 @@ function createRateLimits(limits = {}) {
     signup: limiter(60 * MINUTE, chosen.signup),
     emails: limiter(60 * MINUTE, chosen.emails),
     reset: limiter(15 * MINUTE, chosen.reset),
+    sensitive: limiter(15 * MINUTE, chosen.sensitive),
   };
 }
 
