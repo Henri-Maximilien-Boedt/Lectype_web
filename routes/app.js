@@ -32,4 +32,18 @@ router.get('/type/:id', (req, res, next) => {
   });
 });
 
+router.get('/read/:id', (req, res, next) => {
+  const book = content.book(req.params.id);
+  if (!book) return next();
+  res.render('app/read', { book });
+});
+
+router.get('/settings', (req, res) => {
+  res.render('app/settings');
+});
+
+router.get('/stats', (req, res) => {
+  res.render('app/stats');
+});
+
 module.exports = router;

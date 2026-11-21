@@ -79,5 +79,51 @@
     "missed": "Most missed keys",
     "noMissed": "No missed keys",
     "theEnd": "The End"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "themes": {
+      "vibrant": "Vibrant Night",
+      "paper": "Paper",
+      "minimal": "Minimal"
+    },
+    "keyboard": "Keyboard layout",
+    "layouts": {
+      "auto": "Automatic",
+      "azerty": "AZERTY (French)",
+      "qwerty": "QWERTY (English)",
+      "qwertz": "QWERTZ (German)"
+    },
+    "autoHint": "Automatic works in Chrome and Edge. In other browsers, choose your layout.",
+    "strict": "Strict mode",
+    "strictHint": "Only the exact character is accepted.",
+    "showKeyboard": "Show keyboard",
+    "textSize": "Text size",
+    "sizes": {
+      "small": "Small",
+      "normal": "Normal",
+      "large": "Large"
+    },
+    "saved": "Settings saved in this browser."
+  },
+  "reader": {
+    "previous": "Previous page",
+    "next": "Next page",
+    "typeHere": "Type from here",
+    "back": "Back to the book"
+  },
+  "stats": {
+    "title": "Statistics",
+    "empty": "Type a page, a story chapter or a lesson: your progress will show here.",
+    "time": "time typing",
+    "sessions": "sessions",
+    "average": "average wpm",
+    "best": "best wpm",
+    "accuracy": "accuracy",
+    "streak": "day streak",
+    "perDay": "Speed per day",
+    "recent": "Recent sessions",
+    "localNote": "Without an account, your statistics stay in this browser."
   }
 }

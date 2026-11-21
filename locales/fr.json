@@ -79,5 +79,51 @@
     "missed": "Touches les plus ratées",
     "noMissed": "Aucune touche ratée",
     "theEnd": "Fin"
+  },
+  "settings": {
+    "title": "Réglages",
+    "theme": "Thème",
+    "themes": {
+      "vibrant": "Nuit vibrante",
+      "paper": "Papier",
+      "minimal": "Minimaliste"
+    },
+    "keyboard": "Disposition du clavier",
+    "layouts": {
+      "auto": "Automatique",
+      "azerty": "AZERTY (français)",
+      "qwerty": "QWERTY (anglais)",
+      "qwertz": "QWERTZ (allemand)"
+    },
+    "autoHint": "Automatique fonctionne dans Chrome et Edge. Dans les autres navigateurs, choisis ta disposition.",
+    "strict": "Mode strict",
+    "strictHint": "Seul le caractère exact est accepté.",
+    "showKeyboard": "Afficher le clavier",
+    "textSize": "Taille du texte",
+    "sizes": {
+      "small": "Petite",
+      "normal": "Normale",
+      "large": "Grande"
+    },
+    "saved": "Réglages enregistrés dans ce navigateur."
+  },
+  "reader": {
+    "previous": "Page précédente",
+    "next": "Page suivante",
+    "typeHere": "Taper à partir d'ici",
+    "back": "Retour au livre"
+  },
+  "stats": {
+    "title": "Statistiques",
+    "empty": "Tape une page, un chapitre d'histoire ou une leçon : ta progression s'affichera ici.",
+    "time": "temps de frappe",
+    "sessions": "séances",
+    "average": "mots/min en moyenne",
+    "best": "meilleur mots/min",
+    "accuracy": "précision",
+    "streak": "jours d'affilée",
+    "perDay": "Vitesse par jour",
+    "recent": "Séances récentes",
+    "localNote": "Sans compte, tes statistiques restent dans ce navigateur."
   }
 }

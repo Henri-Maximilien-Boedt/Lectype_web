@@ -76,3 +76,26 @@ main.typing { max-width: 1000px; display: flex; flex-direction: column; gap: 18p
 .speed-chart .average { stroke: var(--text-3); stroke-dasharray: 4 6; }
 .speed-chart .error { fill: var(--error); }
 @media (max-width: 700px) { .page-text { font-size: 22px; } .key { height: 34px; font-size: 12px; } main { padding: 16px; } }
+[data-text-size="small"] .page-text { font-size: 24px; }
+[data-text-size="large"] .page-text { font-size: 38px; }
+.settings, .stats-page { max-width: 900px; margin: 0 auto; padding: 0 32px 48px; width: 100%; }
+.settings-form { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
+.settings-form fieldset { border: 1px solid var(--line); border-radius: 12px; padding: 12px 18px; display: flex; gap: 18px; flex-wrap: wrap; }
+.settings-form label { display: flex; gap: 10px; align-items: center; }
+.settings-form select { background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; font: inherit; }
+.settings-form .muted { margin: -8px 0 0; font-size: 14px; }
+.reader { max-width: 1200px; margin: 0 auto; padding: 18px 32px 32px; width: 100%; display: flex; flex-direction: column; gap: 18px; }
+.spread { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px; }
+.reader-page { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 36px 40px; font: 19px/1.65 var(--title-font); min-height: 560px; display: flex; flex-direction: column; }
+.reader-page h2 { margin-top: 0; font-size: 26px; }
+.reader-page p { margin: 0 0 .7em; }
+.reader-page footer { margin-top: auto; text-align: center; color: var(--text-3); font-size: 14px; }
+.reader-nav { display: flex; justify-content: center; align-items: center; gap: 18px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
+.tile b { font-size: 28px; color: var(--accent); }
+.tile span { color: var(--text-2); font-size: 14px; }
+.bars { width: 100%; height: auto; }
+.bars rect { fill: var(--accent); }
+.recent-sessions { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.recent-sessions li { display: grid; grid-template-columns: 1fr auto auto; gap: 16px; padding: 10px 14px; background: var(--surface); border-radius: 10px; }

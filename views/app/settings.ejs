@@ -1,0 +1,33 @@
+<%- include('../partials/head', { title: t('settings.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="settings">
+  <h1><%= t('settings.title') %></h1>
+  <form id="settings-form" class="settings-form">
+    <fieldset>
+      <legend><%= t('settings.theme') %></legend>
+      <% ['vibrant', 'paper', 'minimal'].forEach(function (name) { %>
+        <label class="choice"><input type="radio" name="theme" value="<%= name %>"> <%= t('settings.themes.' + name) %></label>
+      <% }) %>
+    </fieldset>
+    <label><%= t('settings.keyboard') %>
+      <select name="keyboardLayout">
+        <% ['auto', 'azerty', 'qwerty', 'qwertz'].forEach(function (name) { %>
+          <option value="<%= name %>"><%= t('settings.layouts.' + name) %></option>
+        <% }) %>
+      </select>
+    </label>
+    <p class="muted"><%= t('settings.autoHint') %></p>
+    <label><%= t('settings.textSize') %>
+      <select name="textSize">
+        <% ['small', 'normal', 'large'].forEach(function (name) { %>
+          <option value="<%= name %>"><%= t('settings.sizes.' + name) %></option>
+        <% }) %>
+      </select>
+    </label>
+    <label class="choice"><input type="checkbox" name="strict"> <%= t('settings.strict') %> <span class="muted">— <%= t('settings.strictHint') %></span></label>
+    <label class="choice"><input type="checkbox" name="showKeyboard"> <%= t('settings.showKeyboard') %></label>
+    <p class="muted" id="saved" hidden><%= t('settings.saved') %></p>
+  </form>
+</main>
+<%- include('../partials/app-scripts', { script: 'settings.js' }) %>
+<%- include('../partials/footer') %>

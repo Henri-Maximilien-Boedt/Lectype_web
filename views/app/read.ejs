@@ -1,0 +1,20 @@
+<%- include('../partials/head', { title: book.title + ' — Lectype' }) %>
+<main id="main" class="reader" data-book-id="<%= book.id %>">
+  <header class="typing-head">
+    <a class="button icon" href="/app/book/<%= book.id %>" aria-label="<%= t('reader.back') %>" title="<%= t('reader.back') %>">←</a>
+    <div class="typing-title">
+      <strong><%= book.title %></strong>
+      <span id="chapter-title"></span>
+    </div>
+    <a class="button primary" id="type-here" href="/app/type/<%= book.id %>"><%= t('reader.typeHere') %></a>
+  </header>
+  <section class="spread" id="spread" aria-live="polite"></section>
+  <nav class="reader-nav">
+    <button class="button icon" id="previous" type="button" aria-label="<%= t('reader.previous') %>" title="<%= t('reader.previous') %>">‹</button>
+    <span id="position" class="muted"></span>
+    <button class="button icon" id="next" type="button" aria-label="<%= t('reader.next') %>" title="<%= t('reader.next') %>">›</button>
+  </nav>
+</main>
+<%- include('../partials/app-scripts', { script: 'reader.js' }) %>
+</body>
+</html>

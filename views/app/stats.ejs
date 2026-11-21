@@ -1,0 +1,23 @@
+<%- include('../partials/head', { title: t('stats.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="stats-page">
+  <h1><%= t('stats.title') %></h1>
+  <p class="empty" id="stats-empty" hidden><%= t('stats.empty') %></p>
+  <div id="stats-content" hidden>
+    <div class="tiles">
+      <div class="tile"><b id="total-time"></b><span><%= t('stats.time') %></span></div>
+      <div class="tile"><b id="session-count"></b><span><%= t('stats.sessions') %></span></div>
+      <div class="tile"><b id="average-wpm"></b><span><%= t('stats.average') %></span></div>
+      <div class="tile"><b id="best-wpm"></b><span><%= t('stats.best') %></span></div>
+      <div class="tile"><b id="accuracy"></b><span><%= t('stats.accuracy') %></span></div>
+      <div class="tile"><b id="streak"></b><span><%= t('stats.streak') %></span></div>
+    </div>
+    <h2><%= t('stats.perDay') %></h2>
+    <div class="day-chart" id="day-chart"></div>
+    <h2><%= t('stats.recent') %></h2>
+    <ol class="recent-sessions" id="recent-sessions"></ol>
+  </div>
+  <% if (!currentUser) { %><p class="muted"><%= t('stats.localNote') %></p><% } %>
+</main>
+<%- include('../partials/app-scripts', { script: 'stats.js' }) %>
+<%- include('../partials/footer') %>
