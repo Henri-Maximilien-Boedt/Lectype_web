@@ -1,0 +1,26 @@
+<%- include('../partials/head', { title: t('stories.title') + ' — Lectype' }) %>
+<%- include('../partials/header') %>
+<main id="main" class="library">
+  <div class="library-head"><h1><%= t('stories.title') %></h1></div>
+  <% sections.forEach(function (section) { if (!section.stories.length) return; %>
+    <section class="story-section">
+      <h2><%= t('stories.' + section.kind) %></h2>
+      <p class="muted"><%= t('stories.' + section.kind + 'Subtitle') %></p>
+      <div class="story-grid">
+        <% section.stories.forEach(function (item) { %>
+          <a class="story-card" href="/app/story/<%= item.id %>" data-story-id="<%= item.id %>" data-chapters="<%= item.chapterCount %>">
+            <% if (item.cover) { %><img src="/content/stories/images/<%= item.cover %>" alt="" loading="lazy"><% } %>
+            <span class="lang"><%= item.language.toUpperCase() %></span>
+            <span class="story-info">
+              <strong><%= item.title %></strong>
+              <span class="muted"><%= item.audience %> · <%= item.duration %> · <%= t('stories.chapters', { count: item.chapterCount }) %></span>
+              <span class="progress"><span class="bar"></span></span>
+            </span>
+          </a>
+        <% }) %>
+      </div>
+    </section>
+  <% }) %>
+</main>
+<%- include('../partials/app-scripts', { script: 'stories.js' }) %>
+<%- include('../partials/footer') %>

@@ -125,5 +125,27 @@
     "perDay": "Speed per day",
     "recent": "Recent sessions",
     "localNote": "Without an account, your statistics stay in this browser."
+  },
+  "stories": {
+    "title": "Stories",
+    "interactive": "Interactive Stories",
+    "interactiveSubtitle": "Every choice is typed on the keyboard.",
+    "original": "Original Stories",
+    "originalSubtitle": "Stories written for Lectype.",
+    "chapters": "{count} chapters",
+    "start": "Start",
+    "resume": "Resume",
+    "restart": "Start over",
+    "chapterLabel": "Chapter {number}",
+    "chapterComplete": "Chapter complete",
+    "nextChapter": "Next chapter",
+    "theEnd": "The End",
+    "choicesMade": "Your choices",
+    "chooseHint": "Type one of the sentences to choose.",
+    "back": "Back to stories",
+    "chapterPicker": "Go to chapter",
+    "finish": "Finish",
+    "averageSpeed": "average speed",
+    "restartConfirm": "Start the story over? Your progress and choices will be erased."
   }
 }

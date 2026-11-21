@@ -5,6 +5,7 @@ import { makeSession } from './core/session-summary.js';
 import { settings, bookmarks, sessions } from './storage.js';
 import { loadLayout, OnScreenKeyboard } from './keyboard.js';
 import { speedChart } from './speed-chart.js';
+import { attachTypingInput } from './typing-input.js';
 
 const main = document.querySelector('main.typing');
 const strings = JSON.parse(document.getElementById('typing-strings').textContent);
@@ -179,32 +180,20 @@ function jump(target) {
   input.focus();
 }
 
-input.addEventListener('input', (event) => {
-  if (event.isComposing || event.inputType === 'insertCompositionText') return;
-  const isLineBreak = event.inputType === 'insertLineBreak' || (event.inputType === 'insertText' && event.data === null);
-  const text = isLineBreak ? '\n' : (event.data ?? input.value);
-  input.value = '';
-  if (text) receive(text);
-});
-input.addEventListener('compositionupdate', (event) => {
-  pendingDeadKey = event.data ?? '';
-  const indicator = document.getElementById('dead-key');
-  indicator.textContent = pendingDeadKey;
-  indicator.hidden = !pendingDeadKey;
-  refresh();
-});
-input.addEventListener('compositionend', (event) => {
-  pendingDeadKey = '';
-  document.getElementById('dead-key').hidden = true;
-  input.value = '';
-  if (event.data) receive(event.data);
-});
-input.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') window.location.href = `/app/book/${book.id}`;
-  if (event.key === 'Enter' && !event.isComposing) { event.preventDefault(); receive('\n'); }
-  if (event.ctrlKey && event.key === 'ArrowLeft') { event.preventDefault(); jump(Book.previous(book, position)); }
-  if (event.ctrlKey && event.key === 'ArrowRight') { event.preventDefault(); jump(Book.next(book, position)); }
-  if (event.key === 'Tab') event.preventDefault();
+attachTypingInput(input, {
+  onText: receive,
+  onDeadKey(text) {
+    pendingDeadKey = text;
+    const indicator = document.getElementById('dead-key');
+    indicator.textContent = text;
+    indicator.hidden = !text;
+    refresh();
+  },
+  onKey(event) {
+    if (event.key === 'Escape') window.location.href = `/app/book/${book.id}`;
+    if (event.ctrlKey && event.key === 'ArrowLeft') { event.preventDefault(); jump(Book.previous(book, position)); }
+    if (event.ctrlKey && event.key === 'ArrowRight') { event.preventDefault(); jump(Book.next(book, position)); }
+  },
 });
 document.getElementById('previous-page').addEventListener('click', () => jump(Book.previous(book, position)));
 document.getElementById('next-page').addEventListener('click', () => jump(Book.next(book, position)));

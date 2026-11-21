@@ -32,6 +32,19 @@ router.get('/type/:id', (req, res, next) => {
   });
 });
 
+router.get('/stories', (req, res) => {
+  const stories = content.index().stories;
+  res.render('app/stories', {
+    sections: ['interactive', 'original'].map((kind) => ({ kind, stories: stories.filter((item) => (item.kind ?? 'interactive') === kind) })),
+  });
+});
+
+router.get('/story/:id', (req, res, next) => {
+  const story = content.story(req.params.id);
+  if (!story) return next();
+  res.render('app/story', { story });
+});
+
 router.get('/read/:id', (req, res, next) => {
   const book = content.book(req.params.id);
   if (!book) return next();

@@ -125,5 +125,27 @@
     "perDay": "Vitesse par jour",
     "recent": "Séances récentes",
     "localNote": "Sans compte, tes statistiques restent dans ce navigateur."
+  },
+  "stories": {
+    "title": "Histoires",
+    "interactive": "Histoires interactives",
+    "interactiveSubtitle": "Chaque choix se tape au clavier.",
+    "original": "Histoires originales",
+    "originalSubtitle": "Des histoires écrites pour Lectype.",
+    "chapters": "{count} chapitres",
+    "start": "Commencer",
+    "resume": "Reprendre",
+    "restart": "Recommencer depuis le début",
+    "chapterLabel": "Chapitre {number}",
+    "chapterComplete": "Chapitre terminé",
+    "nextChapter": "Chapitre suivant",
+    "theEnd": "Fin de l'histoire",
+    "choicesMade": "Tes choix",
+    "chooseHint": "Tape l'une des phrases pour choisir.",
+    "back": "Retour aux histoires",
+    "chapterPicker": "Aller au chapitre",
+    "finish": "Terminer",
+    "averageSpeed": "vitesse moyenne",
+    "restartConfirm": "Recommencer l'histoire ? Ta progression et tes choix seront effacés."
   }
 }
