@@ -1,0 +1,15 @@
+[
+  { "name": "exact text", "text": "Le chat", "mode": "tolerant", "inputs": ["L", "e", " ", "c", "h", "a", "t"], "index": 7, "errors": 0, "complete": true },
+  { "name": "straight apostrophe for a curly one", "text": "l’un", "mode": "tolerant", "inputs": ["l", "'", "u", "n"], "index": 4, "errors": 0, "complete": true },
+  { "name": "strict mode refuses the straight apostrophe", "text": "l’un", "mode": "strict", "inputs": ["l", "'"], "index": 1, "errors": 1, "complete": false },
+  { "name": "straight quotes for guillemets", "text": "«a»", "mode": "tolerant", "inputs": ["\"", "a", "\""], "index": 3, "errors": 0, "complete": true },
+  { "name": "hyphen for a dash", "text": "a—b", "mode": "tolerant", "inputs": ["a", "-", "b"], "index": 3, "errors": 0, "complete": true },
+  { "name": "three dots for an ellipsis", "text": "…", "mode": "tolerant", "inputs": [".", ".", "."], "index": 1, "errors": 0, "complete": true },
+  { "name": "oe for the ligature", "text": "cœur", "mode": "tolerant", "inputs": ["c", "o", "e", "u", "r"], "index": 4, "errors": 0, "complete": true },
+  { "name": "accents are always required", "text": "été", "mode": "tolerant", "inputs": ["e"], "index": 0, "errors": 1, "complete": false },
+  { "name": "capitals are always required", "text": "Alice", "mode": "tolerant", "inputs": ["a"], "index": 0, "errors": 1, "complete": false },
+  { "name": "an error does not move the cursor", "text": "ab", "mode": "tolerant", "inputs": ["a", "x", "b"], "index": 2, "errors": 1, "complete": true },
+  { "name": "space for a new line when tolerant", "text": "a\nb", "mode": "tolerant", "inputs": ["a", " ", "b"], "index": 3, "errors": 0, "complete": true },
+  { "name": "stanza break takes one Enter", "text": "a\n\nb", "mode": "strict", "inputs": ["a", "\n", "b"], "index": 3, "errors": 0, "complete": true },
+  { "name": "a second Enter on a stanza break is an error", "text": "a\n\nb", "mode": "tolerant", "inputs": ["a", "\n", "\n"], "index": 2, "errors": 1, "complete": false }
+]

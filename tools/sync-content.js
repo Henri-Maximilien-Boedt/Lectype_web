@@ -4,6 +4,8 @@ const path = require('path');
 const SOURCE = process.env.LECTYPE_CONTENT_DIR || path.join(__dirname, '..', '..', 'Lectype', 'Content');
 const TARGET = path.join(__dirname, '..', 'content');
 const FOLDERS = ['Books', 'Covers', 'Stories'];
+const SHARED_CASES = path.join(SOURCE, '..', 'Lectype', 'LectypeTests', 'typing-cases.json');
+const CASES_TARGET = path.join(__dirname, '..', 'test', 'fixtures', 'typing-cases.json');
 
 function copyFolder(name) {
   const from = path.join(SOURCE, name);
@@ -40,6 +42,9 @@ function main() {
   for (const name of FOLDERS) {
     console.log(`${name} : ${copyFolder(name)} éléments`);
   }
+  fs.mkdirSync(path.dirname(CASES_TARGET), { recursive: true });
+  fs.copyFileSync(SHARED_CASES, CASES_TARGET);
+  console.log('Cas de test partagés copiés');
   const counts = buildIndex();
   console.log(`Index : ${counts.books} livres, ${counts.stories} histoires`);
 }
