@@ -1,16 +1,16 @@
 process.env.DATABASE_URL ??= ':memory:';
 
-const session = require('express-session');
 const { createApp } = require('../../app');
 const db = require('../../tools/db');
 const mailer = require('../../tools/mailer');
+const { LibsqlSessionStore } = require('../../tools/session-store');
 
 const outbox = [];
 mailer.useTransport(async (message) => { outbox.push(message); });
 
 async function startTestServer(options = {}) {
   await db.ensureSchema();
-  const store = new session.MemoryStore();
+  const store = new LibsqlSessionStore();
   const relaxed = { login: 1000, signup: 1000, emails: 1000, reset: 1000, sensitive: 1000 };
   const app = createApp({ sessionStore: store, authDelayMs: 1, rateLimits: options.realLimits ? {} : relaxed });
   const server = await new Promise((resolve) => {

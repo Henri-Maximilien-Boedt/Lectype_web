@@ -4,11 +4,11 @@ const crypto = require('crypto');
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
-const SQLiteStore = require('connect-sqlite3')(session);
 const compression = require('compression');
 
 const db = require('./tools/db');
 const { purgeOldEvents } = require('./tools/security-log');
+const { LibsqlSessionStore } = require('./tools/session-store');
 const securityHeaders = require('./middlewares/security-headers');
 const canonicalHost = require('./middlewares/canonical-host');
 const language = require('./middlewares/language');
@@ -46,7 +46,7 @@ function createApp({ sessionStore, authDelayMs, rateLimits } = {}) {
   app.use(session({
     name: 'lectype.sid',
     secret: sessionSecret(),
-    store: sessionStore ?? new SQLiteStore({ db: 'sessions.db', dir: db.DATA_DIR }),
+    store: sessionStore ?? new LibsqlSessionStore(),
     resave: false,
     saveUninitialized: false,
     rolling: false,
@@ -85,7 +85,10 @@ async function start() {
   await purgeOldEvents();
   setInterval(() => purgeOldEvents().catch((error) => console.error(error)), 24 * 3600 * 1000).unref();
   const port = Number(process.env.PORT) || 3000;
-  const app = createApp();
+  const sessionStore = new LibsqlSessionStore();
+  await sessionStore.removeExpired();
+  sessionStore.startCleanup();
+  const app = createApp({ sessionStore });
   const announce = () => console.log(`Lectype web sur le port ${port}`);
   if (process.env.IP) app.listen(port, process.env.IP, announce);
   else app.listen(port, announce);

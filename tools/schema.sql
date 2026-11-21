@@ -75,3 +75,11 @@ CREATE INDEX IF NOT EXISTS idx_devices_user ON devices(user_id);
 CREATE INDEX IF NOT EXISTS idx_profiles_user ON profiles(user_id);
 CREATE INDEX IF NOT EXISTS idx_sessions_profile ON typing_sessions(profile_id, started_at);
 CREATE INDEX IF NOT EXISTS idx_security_events_user ON security_events(user_id);
+
+CREATE TABLE IF NOT EXISTS sessions (
+  sid TEXT PRIMARY KEY,
+  data TEXT NOT NULL,
+  expires_at INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_sessions_expiry ON sessions(expires_at);

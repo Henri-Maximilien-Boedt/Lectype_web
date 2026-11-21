@@ -56,9 +56,7 @@ Ensuite, redémarre le site dans l'administration. Les livres et histoires sont 
 
 ## Sauvegardes
 
-Les seules données à sauvegarder sont dans `DATA_DIR` :
-- `lectype.db` : les comptes et la progression ;
-- `sessions.db` : les sessions, qu'on peut perdre sans dommage.
+Les seules données à sauvegarder sont dans `DATA_DIR` : le fichier `lectype.db`, qui contient les comptes, la progression et les sessions.
 
 AlwaysData fait des sauvegardes quotidiennes du compte. Pour une copie à la main, sans arrêter le site :
 
