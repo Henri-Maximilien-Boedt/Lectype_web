@@ -1,13 +1,36 @@
 const express = require('express');
 const { LANGUAGES, section } = require('../tools/i18n');
+const content = require('../tools/content');
 
 const LEGAL_UPDATED = '2026-11-21';
 const DEFAULT_MAC_DOWNLOAD_URL = 'https://github.com/Henri-Maximilien-Boedt/Lectype_web/releases/latest/download/Lectype.dmg';
 
 const router = express.Router();
 
+const SHELF = ['alice-adventures-in-wonderland', 'le-tour-du-monde-en-80-jours', 'household-tales', 'just-so-stories', 'poe-short-fiction', 'wilde-childrens-stories'];
+const SAMPLE_BOOK = 'contes-perrault';
+
+function homeData() {
+  const index = content.index();
+  const sample = content.book(SAMPLE_BOOK);
+  return {
+    totals: {
+      books: index.books.length,
+      pages: index.books.reduce((sum, book) => sum + book.pageCount, 0),
+      stories: index.stories.length,
+    },
+    shelf: SHELF.map((id) => index.books.find((book) => book.id === id)).filter(Boolean),
+    sample: sample && {
+      author: sample.author,
+      title: sample.chapters[0].title,
+      pageCount: sample.chapters[0].pages.length,
+      text: sample.chapters[0].pages[0].text.split('\n')[0],
+    },
+  };
+}
+
 router.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', homeData());
 });
 
 router.get('/download', (req, res) => {

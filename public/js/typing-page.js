@@ -4,7 +4,7 @@ import * as Book from './core/book.js';
 import { makeSession } from './core/session-summary.js';
 import { settings, bookmarks, sessions } from './storage.js';
 import { loadLayout, OnScreenKeyboard } from './keyboard.js';
-import { speedChart } from './speed-chart.js';
+import { summaryCard, percent, duration } from './summary-card.js';
 import { attachTypingInput } from './typing-input.js';
 
 const main = document.querySelector('main.typing');
@@ -19,8 +19,9 @@ const LINES_ABOVE = 2;
 const preferences = settings.get();
 const mode = preferences.strict ? 'strict' : 'tolerant';
 const book = await (await fetch(`/content/books/${main.dataset.bookId}.json`)).json();
-const keyboard = new OnScreenKeyboard(document.getElementById('keyboard'), await loadLayout(preferences.keyboardLayout));
-document.getElementById('keyboard').hidden = !preferences.showKeyboard;
+const keyboardElement = document.getElementById('keyboard');
+const keyboard = new OnScreenKeyboard(keyboardElement, await loadLayout(preferences.keyboardLayout));
+keyboardElement.hidden = !preferences.showKeyboard;
 
 let position = startPosition();
 let engine;
@@ -50,7 +51,7 @@ function loadPage() {
   });
   pageText.replaceChildren(...spans);
   const chapter = Book.chapterOf(book, position);
-  document.getElementById('chapter-title').textContent = Book.isCollection(book) ? chapter.title : `${strings.chapter} ${chapter.label} — ${chapter.title}`;
+  document.getElementById('chapter-title').textContent = Book.isCollection(book) ? chapter.title : `${strings.chapter} ${chapter.label} · ${chapter.title}`;
   document.getElementById('page-label').textContent = format(strings.page, { page: position.page, count: chapter.pages.length });
   document.getElementById('previous-page').disabled = !Book.previous(book, position);
   document.getElementById('next-page').disabled = !Book.next(book, position);
@@ -72,7 +73,8 @@ function refresh() {
 
 function followCursor() {
   const lineHeight = parseFloat(getComputedStyle(pageText).lineHeight);
-  const available = pageWindow.parentElement.clientHeight - 320;
+  const reserved = keyboardElement.hidden ? 360 : 600;
+  const available = window.innerHeight - reserved;
   const visible = Math.max(3, Math.min(MAX_LINES, Math.floor(available / lineHeight)));
   pageWindow.style.height = `${visible * lineHeight}px`;
   const current = spans[Math.min(engine.index, spans.length - 1)];
@@ -134,43 +136,30 @@ function endSegment() {
 
 function showSummary(chapter, following) {
   const chapterMetrics = endSegment();
-  const card = document.createElement('div');
-  card.className = 'summary-card';
-  const heading = document.createElement('h2');
-  heading.textContent = Book.isCollection(book) ? strings.textComplete : strings.complete;
-  const title = document.createElement('p');
-  title.className = 'muted';
-  title.textContent = chapter.title;
-  const stats = document.createElement('div');
-  stats.className = 'stats';
-  for (const [value, label] of [[Math.round(chapterMetrics.finalWordsPerMinute), strings.wpm], [`${Math.round(chapterMetrics.accuracy * 100)} %`, strings.accuracy]]) {
-    const tile = document.createElement('div');
-    const number = document.createElement('b');
-    number.textContent = value;
-    const caption = document.createElement('span');
-    caption.textContent = label;
-    tile.append(number, caption);
-    stats.append(tile);
-  }
-  const missed = document.createElement('p');
-  const keys = chapterMetrics.mostMissedCharacters(3);
-  missed.textContent = keys.length ? `${strings.missed} : ${keys.join('  ')}` : strings.noMissed;
-  const button = document.createElement('button');
-  button.className = 'button primary';
-  button.type = 'button';
-  button.textContent = !following ? strings.finish : Book.isCollection(book) ? strings.nextText : strings.nextChapter;
-  button.addEventListener('click', () => {
-    summary.hidden = true;
-    if (!following) window.location.href = `/app/book/${book.id}`;
-    input.focus();
+  const collection = Book.isCollection(book);
+  const nextChapter = following ? Book.chapterOf(book, following) : null;
+  const card = summaryCard({
+    eyebrow: collection ? strings.textComplete : strings.complete,
+    heading: chapter.title,
+    subtitle: format(strings.pagesTyped, { count: chapter.pages.length }),
+    tiles: [
+      [String(Math.round(chapterMetrics.finalWordsPerMinute)), strings.wpm],
+      [percent(chapterMetrics.accuracy), strings.accuracy],
+      [duration(chapterMetrics.activeDuration), strings.timeTyped],
+    ],
+    missed: chapterMetrics.mostMissedCharacters(3),
+    timeline: chapterMetrics.timeline,
+    strings,
+    actions: [
+      nextChapter
+        ? { label: format(strings.nextLabel, { label: collection ? strings.nextText : strings.nextChapter, title: nextChapter.title }), primary: true, run: () => { summary.hidden = true; input.focus(); } }
+        : { label: strings.finish, primary: true, run: () => { window.location.href = `/app/book/${book.id}`; } },
+      { label: strings.backToBook, run: () => { window.location.href = `/app/book/${book.id}`; } },
+    ],
   });
-  card.append(heading, title, stats);
-  const chart = speedChart(chapterMetrics.timeline);
-  if (chart) card.append(chart);
-  card.append(missed, button);
   summary.replaceChildren(card);
   summary.hidden = false;
-  button.focus();
+  card.querySelector('button').focus();
 }
 
 function jump(target) {

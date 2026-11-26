@@ -1,22 +1,38 @@
 <%- include('../partials/head', { title: t('learn.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="learn">
-  <div class="learn-head">
-    <h1><%= t('learn.title') %></h1>
-    <div class="learn-options">
-      <span class="muted"><%= t('learn.keyboard') %> <b id="layout-name"></b></span>
+<main id="main" class="page learn">
+  <div class="page-head">
+    <div>
+      <h1><%= t('learn.title') %></h1>
+      <p><%= t('learn.intro') %></p>
+    </div>
+    <div class="learn-tools">
+      <a class="select layout-link" href="/app/settings" title="<%= t('learn.layoutHint') %>"><%= t('learn.keyboard') %>&nbsp;<b id="layout-name"></b></a>
       <label><%= t('learn.words') %>
-        <select id="word-language">
+        <select id="word-language" class="select">
           <option value="fr">Français</option>
           <option value="en">English</option>
         </select>
       </label>
     </div>
   </div>
-  <div class="learn-summary">
-    <p class="learn-count"><b id="done-count">0</b><span id="total-count"></span> <span class="muted"><%= t('learn.lessonsDone') %></span></p>
-    <a class="next-lesson button primary" id="next-lesson" hidden></a>
-    <a class="weak-keys" id="weak-keys" hidden><span class="muted"><%= t('learn.weakKeys') %></span> <span id="weak-list"></span> <b><%= t('learn.practice') %> →</b></a>
+  <div class="learn-cards">
+    <a class="next-lesson-card" id="next-lesson" hidden>
+      <span class="eyebrow" id="next-eyebrow"></span>
+      <strong id="next-title"></strong>
+      <span class="key-chips" id="next-keys" aria-hidden="true"></span>
+      <span class="cta"><%= t('learn.start') %></span>
+    </a>
+    <a class="card weak-card" id="weak-keys" hidden>
+      <span class="eyebrow"><%= t('learn.weakEyebrow') %></span>
+      <strong><%= t('learn.weakTitle') %></strong>
+      <span class="key-chips" id="weak-list" aria-hidden="true"></span>
+      <span class="text-link"><%= t('learn.practice') %> →</span>
+    </a>
+    <div class="card weak-card" id="progress-card">
+      <span class="eyebrow"><%= t('learn.progressEyebrow') %></span>
+      <p class="learn-count"><b id="done-count">0</b><span id="total-count"></span></p>
+    </div>
   </div>
   <div id="stages" class="stages"></div>
 </main>

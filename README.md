@@ -15,7 +15,7 @@ Sans `.env`, le serveur utilise une clé de session aléatoire, il garde la base
 
 ## Ce qu'il y a dedans
 
-- **Sans compte** : bibliothèque, frappe avec clavier à l'écran, histoires interactives et originales, parcours Apprendre, mode lecture, statistiques, réglages et trois thèmes. La progression reste dans le navigateur.
+- **Sans compte** : bibliothèque, frappe avec clavier à l'écran, histoires interactives et originales, parcours Apprendre, mode lecture, statistiques et réglages, avec une apparence de jour et une apparence du soir. La progression reste dans le navigateur.
 - **Avec un compte** (e-mail et mot de passe) : la progression est transférée sur le compte à la première connexion, puis synchronisée. « Mon compte » permet de modifier ses informations, de voir et déconnecter ses appareils, d'exporter ses données et de supprimer son compte.
 
 ## Stack

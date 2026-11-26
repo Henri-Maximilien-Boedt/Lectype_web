@@ -35,3 +35,13 @@ test('streak counts consecutive days ending today or yesterday', () => {
   assert.equal(streak(sessions, new Date('2026-11-22T20:00:00')), 2);
   assert.equal(streak(sessions, new Date('2026-11-23T20:00:00')), 0);
 });
+
+test('minutes typed today and the last days include empty days', async () => {
+  const { minutesOn, lastDays } = await import('../public/js/core/statistics.js');
+  const sessions = [session('2026-11-21T09:00:00', 240, 100), session('2026-11-21T18:00:00', 120, 100), session('2026-11-19T09:00:00', 60, 200)];
+  assert.equal(minutesOn(sessions, new Date('2026-11-21T20:00:00')), 6);
+  const days = lastDays(sessions, 3, new Date('2026-11-21T20:00:00'));
+  assert.deepEqual(days.map((day) => day.day), ['2026-11-19', '2026-11-20', '2026-11-21']);
+  assert.equal(days[0].wpm, 40);
+  assert.equal(days[1].wpm, 0);
+});

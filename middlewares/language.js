@@ -13,6 +13,7 @@ function language(req, res, next) {
   const lang = pickLanguage(readCookie(req, 'lang'), req.headers['accept-language']);
   req.lang = lang;
   res.locals.lang = lang;
+  res.locals.currentPath = req.path;
   res.locals.t = (key, values) => translate(lang, key, values);
   res.locals.section = (key) => section(lang, key);
   next();

@@ -1,12 +1,16 @@
 <%- include('../partials/head', { title: t('auth.forgot.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="auth">
+<main id="main">
+<div class="auth-narrow">
   <h1><%= t('auth.forgot.title') %></h1>
   <p class="muted"><%= t('auth.forgot.intro') %></p>
+  <div class="card">
   <form method="post" action="/forgot" class="auth-form">
     <input type="hidden" name="_csrf" value="<%= csrfToken %>">
     <%- include('field', { label: 'auth.email', name: 'email', type: 'email', autocomplete: 'email', value: values.email, maxlength: 254 }) %>
     <button class="button primary" type="submit"><%= t('auth.forgot.submit') %></button>
   </form>
+  </div>
+</div>
 </main>
 <%- include('../partials/footer') %>

@@ -24,6 +24,13 @@ const words = await (await fetch(`/content/words/${context.language}.json`)).jso
 const keyboardElement = document.getElementById('keyboard');
 const keyboard = new OnScreenKeyboard(keyboardElement, context.layout);
 keyboardElement.hidden = !settings.get().showKeyboard;
+const lessonCharacters = new Set(lesson.newCharacters.map((character) => character.toLowerCase()));
+const knownCharacters = new Set(lesson.knownCharacters.map((character) => character.toLowerCase()));
+for (const key of keyboardElement.querySelectorAll('.key:not(.symbol)')) {
+  const label = key.textContent.toLowerCase();
+  if (lessonCharacters.has(label)) key.classList.add('lesson-key');
+  else if (!knownCharacters.has(label)) key.classList.add('unknown-key');
+}
 
 const exercises = exercisesFor(lesson, words, (Date.now() ^ (Math.random() * 0x100000000)) >>> 0);
 let exerciseIndex = 0;
@@ -120,8 +127,8 @@ function finish() {
   actions.push({ label: strings.back, run: () => { window.location.href = '/app/learn'; } });
   if (earned && !following && lesson.id !== 'review') extra.push(element('p', '', strings.allDone));
   const card = summaryCard({
-    heading: earned ? strings.lessonComplete : strings.lessonFailed,
-    subtitle: strings.lessons[lesson.id],
+    eyebrow: earned ? strings.lessonComplete : strings.lessonFailed,
+    heading: strings.lessons[lesson.id] ?? lesson.id,
     tiles: [[String(Math.round(result.wordsPerMinute)), strings.wpm], [percent(result.accuracy), strings.accuracy]],
     missed: metrics.mostMissedCharacters(3),
     timeline: metrics.timeline,

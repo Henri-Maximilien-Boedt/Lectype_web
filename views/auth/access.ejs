@@ -1,42 +1,54 @@
 <% const isSignup = tab === 'signup'; %>
 <%- include('../partials/head', { title: t(isSignup ? 'auth.signup.title' : 'auth.login.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="auth">
-  <div class="access-card">
-    <nav class="access-tabs" aria-label="<%= t('auth.tabs') %>">
-      <a href="/login"<% if (!isSignup) { %> aria-current="page"<% } %>><%= t('auth.login.title') %></a>
-      <a href="/signup"<% if (isSignup) { %> aria-current="page"<% } %>><%= t('auth.signup.title') %></a>
-    </nav>
-    <h1 class="visually-hidden"><%= t(isSignup ? 'auth.signup.title' : 'auth.login.title') %></h1>
-    <% if (isSignup) { %>
-      <p class="muted"><%= t('auth.signup.intro') %></p>
-      <form method="post" action="/signup" class="auth-form" novalidate>
-        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-        <%- include('field', { label: 'auth.firstName', name: 'firstName', type: 'text', autocomplete: 'given-name', value: values.firstName, maxlength: 60, problem: problems.firstName }) %>
-        <%- include('field', { label: 'auth.email', name: 'email', type: 'email', autocomplete: 'email', value: values.email, maxlength: 254, problem: problems.email }) %>
-        <%- include('field', { label: 'auth.password', name: 'password', type: 'password', autocomplete: 'new-password', hint: 'auth.passwordHint', problem: problems.password }) %>
-        <%- include('field', { label: 'auth.confirm', name: 'confirm', type: 'password', autocomplete: 'new-password', problem: problems.confirm }) %>
-        <p class="muted small"><a href="/privacy"><%= t('auth.signup.privacy') %></a></p>
-        <button class="button primary" type="submit"><%= t('auth.signup.submit') %></button>
-      </form>
-    <% } else { %>
-      <% if (problem) { %><p class="problem" role="alert"><%= t(problem) %></p><% } %>
-      <% if (typeof resend !== 'undefined' && resend) { %>
-        <form method="post" action="/verify/resend">
-          <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-          <input type="hidden" name="email" value="<%= values.email %>">
-          <button class="button" type="submit"><%= t('auth.login.resend') %></button>
-        </form>
-      <% } %>
-      <form method="post" action="/login" class="auth-form">
-        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-        <%- include('field', { label: 'auth.email', name: 'email', type: 'email', autocomplete: 'username', value: values.email, maxlength: 254 }) %>
-        <%- include('field', { label: 'auth.password', name: 'password', type: 'password', autocomplete: 'current-password' }) %>
-        <label class="choice"><input type="checkbox" name="remember"> <%= t('auth.login.remember') %></label>
-        <button class="button primary" type="submit"><%= t('auth.login.submit') %></button>
-      </form>
-      <p><a href="/forgot"><%= t('auth.login.forgot') %></a></p>
-    <% } %>
+<main id="main">
+  <div class="access">
+    <div class="access-pitch">
+      <h1><%= t('auth.pitchTitle') %></h1>
+      <ul>
+        <li><%= t('auth.pitch1') %></li>
+        <li><%= t('auth.pitch2') %></li>
+        <li><%= t('auth.pitch3') %></li>
+      </ul>
+    </div>
+    <section class="access-card" aria-labelledby="access-title">
+      <nav class="access-tabs" aria-label="<%= t('auth.tabs') %>">
+        <a href="/login"<% if (!isSignup) { %> aria-current="page"<% } %>><%= t('auth.login.title') %></a>
+        <a href="/signup"<% if (isSignup) { %> aria-current="page"<% } %>><%= t('auth.signup.title') %></a>
+      </nav>
+      <div class="access-body">
+        <h2 class="visually-hidden" id="access-title"><%= t(isSignup ? 'auth.signup.title' : 'auth.login.title') %></h2>
+        <% if (isSignup) { %>
+          <p class="small muted"><%= t('auth.signup.intro') %></p>
+          <form method="post" action="/signup" class="auth-form" novalidate>
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <%- include('field', { label: 'auth.firstName', name: 'firstName', type: 'text', autocomplete: 'given-name', value: values.firstName, maxlength: 60, problem: problems.firstName }) %>
+            <%- include('field', { label: 'auth.email', name: 'email', type: 'email', autocomplete: 'email', value: values.email, maxlength: 254, problem: problems.email }) %>
+            <%- include('field', { label: 'auth.password', name: 'password', type: 'password', autocomplete: 'new-password', hint: 'auth.passwordHint', problem: problems.password }) %>
+            <%- include('field', { label: 'auth.confirm', name: 'confirm', type: 'password', autocomplete: 'new-password', problem: problems.confirm }) %>
+            <p class="small muted"><a href="/privacy"><%= t('auth.signup.privacy') %></a></p>
+            <button class="button primary" type="submit"><%= t('auth.signup.submit') %></button>
+          </form>
+        <% } else { %>
+          <% if (problem) { %><p class="problem" role="alert"><%= t(problem) %></p><% } %>
+          <% if (typeof resend !== 'undefined' && resend) { %>
+            <form method="post" action="/verify/resend">
+              <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+              <input type="hidden" name="email" value="<%= values.email %>">
+              <button class="button small" type="submit"><%= t('auth.login.resend') %></button>
+            </form>
+          <% } %>
+          <form method="post" action="/login" class="auth-form">
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <%- include('field', { label: 'auth.email', name: 'email', type: 'email', autocomplete: 'username', value: values.email, maxlength: 254 }) %>
+            <%- include('field', { label: 'auth.password', name: 'password', type: 'password', autocomplete: 'current-password' }) %>
+            <label class="choice small"><input type="checkbox" name="remember"> <%= t('auth.login.remember') %></label>
+            <button class="button primary" type="submit"><%= t('auth.login.submit') %></button>
+          </form>
+          <p class="auth-links"><a href="/forgot"><%= t('auth.login.forgot') %></a></p>
+        <% } %>
+      </div>
+    </section>
   </div>
 </main>
 <%- include('../partials/footer') %>

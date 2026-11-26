@@ -1,36 +1,47 @@
 <%- include('../partials/head', { title: book.title + ' — Lectype' }) %>
 <main id="main" class="typing" data-book-id="<%= book.id %>"<% if (start) { %> data-start-chapter="<%= start.chapter %>" data-start-page="<%= start.page %>"<% } %>>
   <header class="typing-head">
-    <a class="button icon" href="/app/book/<%= book.id %>" aria-label="<%= t('typing.back') %>">←</a>
+    <a class="icon-button" href="/app/book/<%= book.id %>" aria-label="<%= t('typing.back') %>" title="<%= t('typing.back') %>"><%- include('../partials/icons', { name: 'back' }) %></a>
     <div class="typing-title">
-      <strong><%= book.title %></strong>
-      <span id="chapter-title"></span>
-      <span id="page-label" class="muted"></span>
+      <strong id="chapter-title"></strong>
+      <span><%= book.author %> · <%= book.title %> · <span id="page-label"></span></span>
     </div>
-    <button class="button icon" id="previous-page" type="button" aria-label="<%= t('typing.previous') %>" title="<%= t('typing.previous') %>">‹</button>
-    <button class="button icon" id="restart-page" type="button" aria-label="<%= t('typing.restart') %>" title="<%= t('typing.restart') %>">↺</button>
-    <button class="button icon" id="next-page" type="button" aria-label="<%= t('typing.next') %>" title="<%= t('typing.next') %>">›</button>
+    <div class="typing-controls needs-keyboard">
+      <button class="icon-button" id="previous-page" type="button" aria-label="<%= t('typing.previous') %>" title="<%= t('typing.previous') %>"><%- include('../partials/icons', { name: 'back' }) %></button>
+      <button class="icon-button" id="restart-page" type="button" aria-label="<%= t('typing.restart') %>" title="<%= t('typing.restart') %>"><%- include('../partials/icons', { name: 'restart' }) %></button>
+      <button class="icon-button" id="next-page" type="button" aria-label="<%= t('typing.next') %>" title="<%= t('typing.next') %>"><%- include('../partials/icons', { name: 'next' }) %></button>
+    </div>
   </header>
-  <div class="progress chapter-progress"><span class="bar" id="chapter-progress"></span></div>
-  <section class="page-window" id="page-window" aria-live="off">
-    <div class="page-text" id="page-text"></div>
+  <div class="typing-progress"><div class="progress"><span class="bar" id="chapter-progress"></span></div></div>
+  <%- include('../partials/no-keyboard', { readHref: '/app/read/' + book.id }) %>
+  <section class="typing-body needs-keyboard">
+    <div class="page-sheet">
+      <div class="page-window" id="page-window" aria-live="off">
+        <div class="page-text" id="page-text"></div>
+      </div>
+    </div>
+    <div class="metrics" id="metrics" aria-live="polite">
+      <span><b id="wpm">0</b><%= t('typing.wpm') %></span>
+      <span><b id="accuracy">100 %</b><%= t('typing.accuracy') %></span>
+      <span id="elapsed" class="elapsed">0:00</span>
+      <span id="dead-key" class="dead-key" hidden></span>
+    </div>
+    <div class="keyboard" id="keyboard" aria-hidden="true"></div>
   </section>
-  <div class="metrics" id="metrics" aria-live="polite">
-    <span><b id="wpm">0</b> <%= t('typing.wpm') %></span>
-    <span><b id="accuracy">100 %</b> <%= t('typing.accuracy') %></span>
-    <span id="elapsed" class="muted">0:00</span>
-    <span id="dead-key" class="dead-key" hidden></span>
-  </div>
-  <div class="keyboard" id="keyboard" aria-hidden="true"></div>
+  <footer class="typing-foot needs-keyboard">
+    <span><kbd>Échap</kbd> <%= t('typing.escape') %></span>
+    <span><kbd>Ctrl ←</kbd> <kbd>Ctrl →</kbd> <%= t('typing.changePage') %></span>
+  </footer>
   <textarea id="typing-input" class="typing-input" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="<%= t('typing.input') %>"></textarea>
   <div class="overlay" id="summary" hidden></div>
-  <p class="hint muted"><%= t('typing.hint') %></p>
 </main>
 <script type="application/json" id="typing-strings"><%- JSON.stringify({
   chapter: t('typing.chapter'), page: t('typing.page'), complete: t('typing.complete'), textComplete: t('typing.textComplete'),
   nextChapter: t('typing.nextChapter'), nextText: t('typing.nextText'), finish: t('typing.finish'), wpm: t('typing.wpm'),
-  accuracy: t('typing.accuracy'), missed: t('typing.missed'), noMissed: t('typing.noMissed'), theEnd: t('typing.theEnd')
+  accuracy: t('typing.accuracy'), missed: t('typing.missedShort'), noMissed: t('typing.noMissed'), theEnd: t('typing.theEnd'),
+  pagesTyped: t('typing.pagesTyped'), timeTyped: t('typing.timeTyped'), backToBook: t('typing.backToBook'), nextLabel: t('typing.nextLabel')
 }).replace(/</g, '\\u003c') %></script>
+<script type="module" src="/js/keyboard-check.js"></script>
 <%- include('../partials/app-scripts', { script: 'typing-page.js' }) %>
 </body>
 </html>

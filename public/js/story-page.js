@@ -75,7 +75,7 @@ function renderChoices() {
 
 function renderHeader() {
   const chapter = session.chapter;
-  document.getElementById('chapter-title').textContent = `${format(strings.chapterLabel, { number: chapter.number })} — ${chapter.title}`;
+  document.getElementById('chapter-title').textContent = `${format(strings.chapterLabel, { number: chapter.number })} · ${chapter.title}`;
   const image = document.getElementById('story-image');
   const illustration = session.illustration;
   image.hidden = !illustration;
@@ -104,7 +104,7 @@ function render() {
 function followCursor() {
   const scroller = document.getElementById('story-scroll');
   const current = main.querySelector('.current');
-  const top = current ? current.offsetTop - scroller.clientHeight / 2 : 0;
+  const top = current ? current.offsetTop - scroller.clientHeight * 0.65 : 0;
   scroller.scrollTo({ top: Math.max(top, 0), behavior: 'smooth' });
 }
 
@@ -146,8 +146,8 @@ function showChapterSummary() {
   const result = session.lastResult;
   const isLast = !story.chapters[session.chapterIndex + 1];
   const card = summaryCard({
-    heading: strings.chapterComplete,
-    subtitle: session.chapter.title,
+    eyebrow: strings.chapterComplete,
+    heading: session.chapter.title,
     tiles: [[String(Math.round(result.wordsPerMinute)), strings.wpm], [percent(result.accuracy), strings.accuracy]],
     missed: result.missedCharacters,
     timeline: session.metrics.timeline,
@@ -193,8 +193,8 @@ function showEnd() {
     extra.push(heading, chosenTexts());
   }
   const card = summaryCard({
-    heading: strings.theEnd,
-    subtitle: story.title,
+    eyebrow: strings.theEnd,
+    heading: story.title,
     tiles: [[String(Math.round(average('wordsPerMinute'))), strings.averageSpeed], [percent(average('accuracy')), strings.accuracy]],
     strings,
     extra,

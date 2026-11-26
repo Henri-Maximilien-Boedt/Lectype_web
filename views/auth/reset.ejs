@@ -1,7 +1,9 @@
 <%- include('../partials/head', { title: t('auth.reset.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="auth">
+<main id="main">
+<div class="auth-narrow">
   <h1><%= t('auth.reset.title') %></h1>
+  <div class="card">
   <form method="post" action="/reset" class="auth-form" novalidate>
     <input type="hidden" name="_csrf" value="<%= csrfToken %>">
     <input type="hidden" name="token" value="<%= token %>">
@@ -9,5 +11,7 @@
     <%- include('field', { label: 'auth.confirm', name: 'confirm', type: 'password', autocomplete: 'new-password', problem: problems.confirm }) %>
     <button class="button primary" type="submit"><%= t('auth.reset.submit') %></button>
   </form>
+  </div>
+</div>
 </main>
 <%- include('../partials/footer') %>

@@ -18,7 +18,7 @@ export function write(key, value) {
 
 export const settings = {
   get() {
-    return { theme: 'vibrant', keyboardLayout: 'auto', strict: false, showKeyboard: true, textSize: 'normal', sound: 'none', ...read('settings', {}) };
+    return { appearance: 'auto', keyboardLayout: 'auto', strict: false, showKeyboard: true, fingerColors: false, textSize: 'normal', ...read('settings', {}) };
   },
   set(changes) {
     write('settings', { ...settings.get(), ...changes });

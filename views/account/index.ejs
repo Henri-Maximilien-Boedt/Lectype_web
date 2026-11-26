@@ -1,42 +1,59 @@
 <%- include('../partials/head', { title: t('account.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="account">
-  <h1><%= t('account.title') %></h1>
+<main id="main" class="page account">
+  <div class="account-layout">
+  <aside class="account-aside">
+    <h1><%= t('account.title') %></h1>
+    <nav aria-label="<%= t('account.sections') %>">
+      <a href="#profile"><%= t('account.profile') %></a>
+      <a href="#email"><%= t('account.changeEmail') %></a>
+      <a href="#password"><%= t('account.changePassword') %></a>
+      <a href="#devices"><%= t('account.devices') %></a>
+      <a href="#activity"><%= t('account.activity') %></a>
+      <a href="#data"><%= t('account.data') %></a>
+      <a class="danger-link" href="#delete"><%= t('account.delete') %></a>
+    </nav>
+    <form method="post" action="/logout" data-logout>
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <button class="button small" type="submit"><%= t('nav.logout') %></button>
+    </form>
+  </aside>
+  <div class="account-main">
   <% if (notice) { %><p class="notice" role="status"><%= t(notice) %></p><% } %>
 
-  <section class="account-section">
+  <section class="card account-section" id="profile">
     <h2><%= t('account.profile') %></h2>
     <p class="muted"><%= user.email %> · <%= t('account.since', { date: user.createdAt.slice(0, 10) }) %></p>
     <form method="post" action="/account/name" class="auth-form">
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <%- include('../auth/field', { label: 'auth.firstName', name: 'firstName', type: 'text', autocomplete: 'given-name', value: user.firstName, maxlength: 60, problem: problems.firstName }) %>
-      <button class="button" type="submit"><%= t('account.save') %></button>
+      <button class="button small" type="submit"><%= t('account.save') %></button>
     </form>
   </section>
 
-  <section class="account-section">
+  <section class="card account-section" id="email">
     <h2><%= t('account.changeEmail') %></h2>
     <p class="muted"><%= t('account.changeEmailHint') %></p>
     <form method="post" action="/account/email" class="auth-form">
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <%- include('../auth/field', { label: 'account.newEmail', name: 'email', type: 'email', autocomplete: 'email', maxlength: 254, problem: problems.email }) %>
       <%- include('../auth/field', { label: 'account.currentPassword', name: 'currentPassword', type: 'password', autocomplete: 'current-password', problem: problems.emailPassword }) %>
-      <button class="button" type="submit"><%= t('account.sendConfirmation') %></button>
+      <button class="button small" type="submit"><%= t('account.sendConfirmation') %></button>
     </form>
   </section>
 
-  <section class="account-section">
+  <section class="card account-section" id="password">
     <h2><%= t('account.changePassword') %></h2>
     <form method="post" action="/account/password" class="auth-form">
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <%- include('../auth/field', { label: 'account.currentPassword', name: 'currentPassword', type: 'password', autocomplete: 'current-password', problem: problems.currentPassword }) %>
       <%- include('../auth/field', { label: 'auth.newPassword', name: 'password', type: 'password', autocomplete: 'new-password', hint: 'auth.passwordHint', problem: problems.password }) %>
       <%- include('../auth/field', { label: 'auth.confirm', name: 'confirm', type: 'password', autocomplete: 'new-password', problem: problems.confirm }) %>
-      <button class="button" type="submit"><%= t('account.savePassword') %></button>
+      <button class="button small" type="submit"><%= t('account.savePassword') %></button>
     </form>
   </section>
 
-  <section class="account-section">
+  <section class="card account-section" id="devices">
     <h2><%= t('account.devices') %></h2>
     <ul class="device-list">
       <% devices.forEach(function (device) { %>
@@ -45,7 +62,7 @@
             <br><small class="muted"><%= t('account.lastSeen', { date: device.lastSeenAt.slice(0, 16) }) %></small></span>
           <form method="post" action="/account/devices/<%= device.id %>">
             <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-            <button class="button" type="submit"><%= t('nav.logout') %></button>
+            <button class="button small" type="submit"><%= t('nav.logout') %></button>
           </form>
         </li>
       <% }) %>
@@ -53,12 +70,12 @@
     <% if (devices.length > 1) { %>
       <form method="post" action="/account/devices/others">
         <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-        <button class="button" type="submit"><%= t('account.logoutOthers') %></button>
+        <button class="button small" type="submit"><%= t('account.logoutOthers') %></button>
       </form>
     <% } %>
   </section>
 
-  <section class="account-section">
+  <section class="card account-section" id="activity">
     <h2><%= t('account.activity') %></h2>
     <ul class="event-list">
       <% events.forEach(function (event) { %>
@@ -67,13 +84,13 @@
     </ul>
   </section>
 
-  <section class="account-section">
+  <section class="card account-section" id="data">
     <h2><%= t('account.data') %></h2>
     <p class="muted"><%= t('account.exportHint') %></p>
-    <p><a class="button" href="/account/export"><%= t('account.export') %></a></p>
+    <p><a class="button small" href="/account/export"><%= t('account.export') %></a></p>
   </section>
 
-  <section class="account-section danger">
+  <section class="card account-section danger" id="delete">
     <h2><%= t('account.delete') %></h2>
     <p class="muted"><%= t('account.deleteHint') %></p>
     <form method="post" action="/account/delete" class="auth-form">
@@ -81,8 +98,10 @@
       <%- include('../auth/field', { label: 'account.currentPassword', name: 'currentPassword', type: 'password', autocomplete: 'current-password', problem: problems.deletePassword }) %>
       <label class="choice"><input type="checkbox" name="confirmDelete" required> <%= t('account.deleteConfirm') %></label>
       <% if (problems.confirmDelete) { %><small class="problem"><%= t(problems.confirmDelete) %></small><% } %>
-      <button class="button danger" type="submit"><%= t('account.deleteButton') %></button>
+      <button class="button danger small" type="submit"><%= t('account.deleteButton') %></button>
     </form>
   </section>
+  </div>
+  </div>
 </main>
 <%- include('../partials/footer') %>

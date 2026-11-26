@@ -12,16 +12,46 @@
     "login": "Log in",
     "signup": "Sign up",
     "logout": "Log out",
-    "settings": "Settings"
+    "settings": "Settings",
+    "label": "Main navigation",
+    "menu": "Menu"
   },
   "home": {
-    "title": "Lectype — learn to type by copying real stories",
-    "headline": "Learn to touch type by copying real books.",
-    "intro": "Fables, tales, novels and interactive stories, an on-screen keyboard that matches yours, and your speed growing page after page.",
+    "title": "Lectype — learn to type by copying real books",
+    "eyebrow": "Touch typing · children, teens, adults",
+    "headline": "Learn to type by copying real books.",
+    "intro": "Carroll, Kipling, Poe, Perrault… Pick a work, type it page after page with an on-screen keyboard that matches yours, and watch your speed grow.",
     "start": "Start typing",
-    "learn": "Learn the keys",
-    "free": "Free, no ads.",
-    "mac": "Download for Mac"
+    "learn": "Learn touch typing",
+    "free": "Free, no ads. Without an account, your progress stays in your browser.",
+    "mac": "Download for Mac",
+    "sampleWpm": "wpm",
+    "sampleAccuracy": "accuracy",
+    "samplePage": "page 1 / {count}",
+    "factBooks": "books",
+    "factPages": "pages to type",
+    "factStories": "stories",
+    "factLanguages": "French and English",
+    "factLayouts": "AZERTY, QWERTY, QWERTZ",
+    "howTitle": "How it works",
+    "step1Title": "Pick a book",
+    "step1": "Public domain novels, tales, fables, short stories and poems, in French and English.",
+    "step2Title": "Type page after page",
+    "step2": "The on-screen keyboard lights up the next key and the finger to use. A mistake doesn't move you forward.",
+    "step3Title": "Watch your progress",
+    "step3": "A summary after each chapter: speed, accuracy and the keys that trip you up.",
+    "shelfTitle": "On the shelves",
+    "shelfAll": "See the whole library →",
+    "learnEyebrow": "Learn",
+    "learnTitle": "Ten fingers, key by key.",
+    "learnText": "From the home row to accents and numbers. Lessons follow your keyboard layout, and exercises use real words from the books.",
+    "learnLink": "Start the path →",
+    "storiesEyebrow": "Interactive stories",
+    "storiesTitle": "Every choice is typed.",
+    "storiesText": "In “Oscar et la capsule silencieuse”, type one of the sentences offered to decide what happens next.",
+    "storiesLink": "Read the stories →",
+    "macTitle": "Lectype is also on the Mac.",
+    "macText": "The same books, a keyboard that follows your exact layout, and typewriter sounds. macOS 26 or later."
   },
   "footer": {
     "privacy": "Privacy",
@@ -37,15 +67,21 @@
     "tooMany": "Too many attempts. Try again in a few minutes."
   },
   "library": {
-    "title": "Library",
-    "search": "Search titles and authors",
+    "title": "The library",
+    "summary": "{books} books · {pages} pages to type",
+    "search": "Search a title, an author, a tale…",
+    "searchLabel": "Search the library",
     "categories": "Categories",
+    "languages": "Book language",
+    "allLanguages": "All",
     "all": "All",
     "texts": "Texts",
-    "noResults": "No results.",
-    "continue": "Continue reading",
-    "start": "Start",
-    "read": "read"
+    "noResults": "No book matches.",
+    "continueEyebrow": "Continue",
+    "continueButton": "Continue",
+    "position": "Chapter {chapter} · page {page}",
+    "positionText": "Text {chapter} · page {page}",
+    "started": "in progress"
   },
   "kinds": {
     "novel": "Novels",
@@ -55,12 +91,19 @@
     "poem": "Poems"
   },
   "book": {
-    "type": "Type",
+    "type": "Start typing",
+    "continue": "Continue typing",
     "read": "Read",
     "chapters": "Chapters",
-    "texts": "Texts",
+    "texts": "The texts",
     "pages": "{count} pages",
-    "continue": "Continue"
+    "chapterCount": "{count} chapters",
+    "textCount": "{count} texts",
+    "pageCount": "{count} pages",
+    "notStarted": "Not started yet",
+    "inProgress": "In progress: {position}",
+    "back": "← Library",
+    "source": "Text"
   },
   "typing": {
     "back": "Back to the book",
@@ -80,52 +123,86 @@
     "finish": "Finish",
     "missed": "Most missed keys",
     "noMissed": "No missed keys",
-    "theEnd": "The End"
+    "theEnd": "The End",
+    "noKeyboardTitle": "Typing needs a real keyboard.",
+    "noKeyboardText": "Lectype teaches you to type without looking, with all ten fingers. Open this text on a computer, or on a tablet with a keyboard.",
+    "noKeyboardRead": "Read it meanwhile",
+    "noKeyboardForce": "I have a keyboard connected",
+    "noKeyboardAccount": "Log in to find your progress again on your computer.",
+    "escape": "back",
+    "changePage": "change page",
+    "pagesTyped": "{count} pages",
+    "timeTyped": "typing",
+    "missedShort": "Keys to practise",
+    "backToBook": "Back to the book",
+    "nextLabel": "{label}: {title}"
   },
   "settings": {
     "title": "Settings",
-    "theme": "Theme",
-    "themes": {
-      "vibrant": "Vibrant Night",
-      "paper": "Paper",
-      "minimal": "Minimal"
-    },
-    "keyboard": "Keyboard layout",
+    "keyboard": "Layout",
     "layouts": {
       "auto": "Automatic",
       "azerty": "AZERTY (French)",
       "qwerty": "QWERTY (English)",
       "qwertz": "QWERTZ (German)"
     },
-    "autoHint": "Automatic works in Chrome and Edge. In other browsers, choose your layout.",
+    "autoHint": "Automatic in Chrome and Edge. Elsewhere, choose yours.",
     "strict": "Strict mode",
-    "strictHint": "Only the exact character is accepted.",
-    "showKeyboard": "Show keyboard",
-    "textSize": "Text size",
+    "strictHint": "Only the exact character is accepted: ’ no longer accepts ', « no longer accepts \".",
+    "showKeyboard": "Show the on-screen keyboard",
+    "textSize": "Size",
     "sizes": {
       "small": "Small",
       "normal": "Normal",
       "large": "Large"
     },
-    "saved": "Settings saved in this browser."
+    "saved": "Saved.",
+    "intro": "Saved in this browser.",
+    "appearance": "Appearance",
+    "appearances": {
+      "day": "Day",
+      "evening": "Evening",
+      "auto": "Same as the device"
+    },
+    "textSection": "Text to type",
+    "keyboardSection": "Keyboard",
+    "fingerColors": "Colour keys by finger",
+    "languageSection": "Language",
+    "siteLanguage": "Site language"
   },
   "reader": {
     "previous": "Previous page",
     "next": "Next page",
     "typeHere": "Type from here",
-    "back": "Back to the book"
+    "back": "Back to the book",
+    "pages": "Pages"
   },
   "stats": {
     "title": "Statistics",
     "empty": "Type a page, a story chapter or a lesson: your progress will show here.",
-    "time": "time typing",
-    "sessions": "sessions",
-    "average": "average wpm",
-    "best": "best wpm",
-    "accuracy": "accuracy",
-    "streak": "day streak",
+    "emptyTitle": "Your first page is waiting.",
+    "emptyText": "As soon as you type a page, a story or a lesson, you'll see your speed, your accuracy and your progress day after day.",
+    "emptyAction": "Pick a book",
+    "today": "Today",
+    "goalLeft": "{minutes} more min to reach the goal",
+    "goalDone": "Daily goal reached",
+    "streakDays": "{count}-day streak",
+    "streakOne": "1 day",
+    "streakNone": "No streak yet",
+    "goalLabel": "Daily goal: {done} of {goal} minutes",
+    "time": "Time typing",
+    "sessions": "Sessions",
+    "average": "Average speed",
+    "best": "Best speed",
+    "accuracy": "Accuracy",
     "perDay": "Speed per day",
+    "perDayHint": "Last 30 days · words per minute",
     "recent": "Recent sessions",
+    "columnText": "Text",
+    "columnDate": "Date",
+    "columnDuration": "Duration",
+    "columnSpeed": "Speed",
+    "columnAccuracy": "Accuracy",
     "localNote": "Without an account, your statistics stay in this browser."
   },
   "stories": {
@@ -133,7 +210,7 @@
     "interactive": "Interactive Stories",
     "interactiveSubtitle": "Every choice is typed on the keyboard.",
     "original": "Original Stories",
-    "originalSubtitle": "Stories written for Lectype.",
+    "originalSubtitle": "Written for Lectype. One continuous story, no choices.",
     "chapters": "{count} chapters",
     "start": "Start",
     "resume": "Resume",
@@ -143,12 +220,18 @@
     "nextChapter": "Next chapter",
     "theEnd": "The End",
     "choicesMade": "Your choices",
-    "chooseHint": "Type one of the sentences to choose.",
+    "chooseHint": "Your turn: type one of the sentences.",
     "back": "Back to stories",
     "chapterPicker": "Go to chapter",
     "finish": "Finish",
     "averageSpeed": "average speed",
-    "restartConfirm": "Start the story over? Your progress and choices will be erased."
+    "restartConfirm": "Start the story over? Your progress and choices will be erased.",
+    "intro": "Stories to type sentence by sentence. In interactive stories, you choose what happens next by typing the sentence you pick.",
+    "language": {
+      "fr": "Français",
+      "en": "English"
+    },
+    "escape": "Escape: back to the stories"
   },
   "learn": {
     "title": "Learn",
@@ -215,7 +298,18 @@
     "retry": "Try again",
     "nextLesson": "Next lesson",
     "back": "Back to the path",
-    "allDone": "Well done, you finished the whole path!"
+    "allDone": "Well done, you finished the whole path!",
+    "intro": "Touch typing, one row after the other. One star (90% accuracy) unlocks the next lesson.",
+    "nextEyebrow": "Next lesson · {number} of {total}",
+    "start": "Start",
+    "weakEyebrow": "Weak keys",
+    "weakTitle": "A session on your mistakes",
+    "progressEyebrow": "Your progress",
+    "progressText": "{done} of {total} lessons passed",
+    "lockedLabel": "locked",
+    "layoutHint": "Change the layout in Settings.",
+    "keyboardHint": "The lesson's keys are underlined on the keyboard.",
+    "nextTitle": "{stage}: {lesson}"
   },
   "auth": {
     "email": "Email address",
@@ -295,7 +389,11 @@
         "body": "Your account and all its data have been deleted. Thank you for using Lectype."
       }
     },
-    "tabs": "Log in or create an account"
+    "tabs": "Log in or create an account",
+    "pitchTitle": "Your progress, on all your computers.",
+    "pitch1": "Your bookmarks, lessons and statistics follow you.",
+    "pitch2": "What you typed without an account is kept at your first login.",
+    "pitch3": "An account is optional: everything works without one too."
   },
   "emails": {
     "signature": "— Lectype",
@@ -385,7 +483,8 @@
       "data-exported": "Data exported",
       "reauth-failure": "Wrong current password",
       "account-deleted": "Account deleted"
-    }
+    },
+    "sections": "Account sections"
   },
   "legal": {
     "privacyTitle": "Privacy policy",
@@ -444,6 +543,17 @@
     "why": "Lectype is not yet verified by Apple (“notarization” requires a paid membership), so macOS asks for your confirmation once. The app sends no data and works offline.",
     "otherTitle": "No Mac?",
     "other": "The web version works in any browser, on Windows, Linux or a tablet.",
-    "openWeb": "Open the web version"
+    "openWeb": "Open the web version",
+    "eyebrow": "Mac app",
+    "requirementsShort": "macOS 26 or later · Mac with Apple silicon or Intel · free",
+    "stepTitles": [
+      "Open the file",
+      "Drag to Applications",
+      "First launch",
+      "Open Anyway"
+    ],
+    "windowAlt": "Illustration of a Lectype window on the Mac",
+    "windowChapter": "Jules Verne · chapter I",
+    "openLibrary": "Open the library →"
   }
 }

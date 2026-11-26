@@ -1,0 +1,8 @@
+<section class="no-keyboard" aria-labelledby="no-keyboard-title">
+  <%- include('icons', { name: 'keyboard' }) %>
+  <h1 id="no-keyboard-title"><%= t('typing.noKeyboardTitle') %></h1>
+  <p><%= t('typing.noKeyboardText') %></p>
+  <% if (typeof readHref !== 'undefined' && readHref) { %><a class="button primary" href="<%= readHref %>"><%= t('typing.noKeyboardRead') %></a><% } %>
+  <button class="button" type="button" data-force-keyboard><%= t('typing.noKeyboardForce') %></button>
+  <% if (!currentUser) { %><p class="small muted"><%= t('typing.noKeyboardAccount') %></p><% } %>
+</section>

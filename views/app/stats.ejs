@@ -1,23 +1,62 @@
 <%- include('../partials/head', { title: t('stats.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="stats-page">
-  <h1><%= t('stats.title') %></h1>
-  <p class="empty" id="stats-empty" hidden><%= t('stats.empty') %></p>
-  <div id="stats-content" hidden>
-    <div class="tiles">
-      <div class="tile"><b id="total-time"></b><span><%= t('stats.time') %></span></div>
-      <div class="tile"><b id="session-count"></b><span><%= t('stats.sessions') %></span></div>
-      <div class="tile"><b id="average-wpm"></b><span><%= t('stats.average') %></span></div>
-      <div class="tile"><b id="best-wpm"></b><span><%= t('stats.best') %></span></div>
-      <div class="tile"><b id="accuracy"></b><span><%= t('stats.accuracy') %></span></div>
-      <div class="tile"><b id="streak"></b><span><%= t('stats.streak') %></span></div>
-    </div>
-    <h2><%= t('stats.perDay') %></h2>
-    <div class="day-chart" id="day-chart"></div>
-    <h2><%= t('stats.recent') %></h2>
-    <ol class="recent-sessions" id="recent-sessions"></ol>
+<main id="main" class="page stats-page">
+  <div class="page-head"><h1><%= t('stats.title') %></h1></div>
+
+  <section class="card stats-empty" id="stats-empty" hidden>
+    <h2><%= t('stats.emptyTitle') %></h2>
+    <p><%= t('stats.emptyText') %></p>
+    <a class="button primary" href="/app/library"><%= t('stats.emptyAction') %></a>
+  </section>
+
+  <div id="stats-content" class="page-flow" hidden>
+    <section class="goal-row">
+      <div class="card goal-card">
+        <svg width="112" height="112" viewBox="0 0 112 112" role="img" id="goal-ring">
+          <circle class="goal-ring-track" cx="56" cy="56" r="46" fill="none" stroke-width="10"></circle>
+          <circle class="goal-ring-fill" id="goal-fill" cx="56" cy="56" r="46" fill="none" stroke-width="10" stroke-linecap="round" stroke-dasharray="0 289" transform="rotate(-90 56 56)"></circle>
+          <text class="goal-ring-text" id="goal-text" x="56" y="63" text-anchor="middle" font-size="26"></text>
+        </svg>
+        <div class="goal-text">
+          <span class="eyebrow"><%= t('stats.today') %></span>
+          <strong id="goal-message"></strong>
+          <span class="muted" id="streak"></span>
+        </div>
+      </div>
+      <dl class="card tiles">
+        <div class="tile"><dt><span><%= t('stats.time') %></span></dt><dd><b id="total-time"></b></dd></div>
+        <div class="tile"><dt><span><%= t('stats.average') %></span></dt><dd><b id="average-wpm"></b></dd></div>
+        <div class="tile"><dt><span><%= t('stats.best') %></span></dt><dd><b id="best-wpm"></b></dd></div>
+        <div class="tile"><dt><span><%= t('stats.accuracy') %></span></dt><dd><b id="accuracy"></b></dd></div>
+      </dl>
+    </section>
+
+    <section class="stats-section">
+      <div class="section-head">
+        <h2 class="section-title"><%= t('stats.perDay') %></h2>
+        <span><%= t('stats.perDayHint') %></span>
+      </div>
+      <div class="card day-chart">
+        <div id="day-chart"></div>
+        <div class="chart-range"><span id="range-start"></span><span id="range-end"></span></div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <h2 class="section-title"><%= t('stats.recent') %></h2>
+      <div class="card table-box">
+        <table class="sessions-table">
+          <thead><tr><th><%= t('stats.columnText') %></th><th><%= t('stats.columnDate') %></th><th><%= t('stats.columnDuration') %></th><th class="number"><%= t('stats.columnSpeed') %></th><th class="number"><%= t('stats.columnAccuracy') %></th></tr></thead>
+          <tbody id="recent-sessions"></tbody>
+        </table>
+      </div>
+    </section>
   </div>
-  <% if (!currentUser) { %><p class="muted"><%= t('stats.localNote') %></p><% } %>
+  <% if (!currentUser) { %><p class="small muted"><%= t('stats.localNote') %></p><% } %>
 </main>
+<script type="application/json" id="stats-strings"><%- JSON.stringify({
+  goalLeft: t('stats.goalLeft'), goalDone: t('stats.goalDone'), streakDays: t('stats.streakDays'), streakOne: t('stats.streakOne'),
+  streakNone: t('stats.streakNone'), goalLabel: t('stats.goalLabel')
+}).replace(/</g, '\\u003c') %></script>
 <%- include('../partials/app-scripts', { script: 'stats.js' }) %>
 <%- include('../partials/footer') %>

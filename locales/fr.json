@@ -12,16 +12,46 @@
     "login": "Se connecter",
     "signup": "Créer un compte",
     "logout": "Se déconnecter",
-    "settings": "Réglages"
+    "settings": "Réglages",
+    "label": "Navigation principale",
+    "menu": "Menu"
   },
   "home": {
-    "title": "Lectype — apprendre à taper en recopiant de vraies histoires",
-    "headline": "Apprends à taper avec dix doigts, en recopiant de vrais livres.",
-    "intro": "Des fables, des contes, des romans et des histoires interactives, un clavier à l'écran fidèle au tien, et ta vitesse qui progresse page après page.",
+    "title": "Lectype — apprendre à taper en recopiant de vrais livres",
+    "eyebrow": "Dactylographie · enfants, ados, adultes",
+    "headline": "Apprends à taper en recopiant de vrais livres.",
+    "intro": "Perrault, Verne, Carroll, La Fontaine… Choisis une œuvre, tape-la page après page avec un clavier à l'écran qui suit le tien, et regarde ta vitesse monter.",
     "start": "Commencer à taper",
-    "learn": "Apprendre les touches",
-    "free": "Gratuit, sans publicité.",
-    "mac": "Télécharger pour Mac"
+    "learn": "Apprendre les dix doigts",
+    "free": "Gratuit, sans publicité. Sans compte, ta progression reste dans ton navigateur.",
+    "mac": "Télécharger pour Mac",
+    "sampleWpm": "mots/min",
+    "sampleAccuracy": "précision",
+    "samplePage": "page 1 / {count}",
+    "factBooks": "livres",
+    "factPages": "pages à taper",
+    "factStories": "histoires",
+    "factLanguages": "français et anglais",
+    "factLayouts": "AZERTY, QWERTY, QWERTZ",
+    "howTitle": "Comment ça marche",
+    "step1Title": "Choisis un livre",
+    "step1": "Romans, contes, fables, nouvelles et poèmes du domaine public, en français et en anglais.",
+    "step2Title": "Tape page après page",
+    "step2": "Le clavier à l'écran éclaire la prochaine touche et le doigt à utiliser. Une erreur ne fait pas avancer.",
+    "step3Title": "Regarde tes progrès",
+    "step3": "Un bilan à chaque chapitre : vitesse, précision et les touches qui te résistent.",
+    "shelfTitle": "Sur les étagères",
+    "shelfAll": "Voir toute la bibliothèque →",
+    "learnEyebrow": "Apprendre",
+    "learnTitle": "Les dix doigts, touche par touche.",
+    "learnText": "De la rangée de repos aux accents et aux chiffres. Les leçons suivent la disposition de ton clavier, et les exercices utilisent de vrais mots tirés des livres.",
+    "learnLink": "Commencer le parcours →",
+    "storiesEyebrow": "Histoires interactives",
+    "storiesTitle": "Chaque choix se tape au clavier.",
+    "storiesText": "Dans « Oscar et la capsule silencieuse », pour décider de la suite, tape l'une des phrases proposées.",
+    "storiesLink": "Lire les histoires →",
+    "macTitle": "Lectype existe aussi pour Mac.",
+    "macText": "Les mêmes livres, un clavier qui suit exactement ta disposition, et des sons de machine à écrire. macOS 26 ou plus récent."
   },
   "footer": {
     "privacy": "Confidentialité",
@@ -37,15 +67,21 @@
     "tooMany": "Trop de tentatives. Réessaie dans quelques minutes."
   },
   "library": {
-    "title": "Bibliothèque",
-    "search": "Rechercher un titre ou un auteur",
+    "title": "La bibliothèque",
+    "summary": "{books} livres · {pages} pages à taper",
+    "search": "Chercher un titre, un auteur, un conte…",
+    "searchLabel": "Chercher dans la bibliothèque",
     "categories": "Catégories",
+    "languages": "Langue des livres",
+    "allLanguages": "Toutes",
     "all": "Tout",
     "texts": "Textes",
-    "noResults": "Aucun résultat.",
-    "continue": "Reprendre la lecture",
-    "start": "Commencer",
-    "read": "lu"
+    "noResults": "Aucun livre ne correspond.",
+    "continueEyebrow": "Reprendre",
+    "continueButton": "Continuer",
+    "position": "Chapitre {chapter} · page {page}",
+    "positionText": "Texte {chapter} · page {page}",
+    "started": "en cours"
   },
   "kinds": {
     "novel": "Romans",
@@ -55,12 +91,19 @@
     "poem": "Poèmes"
   },
   "book": {
-    "type": "Taper",
+    "type": "Commencer à taper",
+    "continue": "Continuer à taper",
     "read": "Lire",
     "chapters": "Chapitres",
-    "texts": "Textes",
+    "texts": "Les textes",
     "pages": "{count} pages",
-    "continue": "Continuer"
+    "chapterCount": "{count} chapitres",
+    "textCount": "{count} textes",
+    "pageCount": "{count} pages",
+    "notStarted": "Pas encore commencé",
+    "inProgress": "En cours : {position}",
+    "back": "← Bibliothèque",
+    "source": "Texte"
   },
   "typing": {
     "back": "Retour au livre",
@@ -80,52 +123,86 @@
     "finish": "Terminer",
     "missed": "Touches les plus ratées",
     "noMissed": "Aucune touche ratée",
-    "theEnd": "Fin"
+    "theEnd": "Fin",
+    "noKeyboardTitle": "Pour taper, il faut un vrai clavier.",
+    "noKeyboardText": "Lectype t'apprend à taper sans regarder, avec tes dix doigts. Ouvre ce texte sur un ordinateur, ou sur une tablette avec un clavier.",
+    "noKeyboardRead": "Lire en attendant",
+    "noKeyboardForce": "J'ai un clavier branché",
+    "noKeyboardAccount": "Connecte-toi pour retrouver ta progression sur ton ordinateur.",
+    "escape": "retour",
+    "changePage": "changer de page",
+    "pagesTyped": "{count} pages",
+    "timeTyped": "de frappe",
+    "missedShort": "Touches à travailler",
+    "backToBook": "Retour au livre",
+    "nextLabel": "{label} : {title}"
   },
   "settings": {
     "title": "Réglages",
-    "theme": "Thème",
-    "themes": {
-      "vibrant": "Nuit vibrante",
-      "paper": "Papier",
-      "minimal": "Minimaliste"
-    },
-    "keyboard": "Disposition du clavier",
+    "keyboard": "Disposition",
     "layouts": {
       "auto": "Automatique",
       "azerty": "AZERTY (français)",
       "qwerty": "QWERTY (anglais)",
       "qwertz": "QWERTZ (allemand)"
     },
-    "autoHint": "Automatique fonctionne dans Chrome et Edge. Dans les autres navigateurs, choisis ta disposition.",
+    "autoHint": "Automatique dans Chrome et Edge. Ailleurs, choisis la tienne.",
     "strict": "Mode strict",
-    "strictHint": "Seul le caractère exact est accepté.",
-    "showKeyboard": "Afficher le clavier",
-    "textSize": "Taille du texte",
+    "strictHint": "Seul le caractère exact est accepté : ’ n'accepte plus ', ni « n'accepte \".",
+    "showKeyboard": "Afficher le clavier à l'écran",
+    "textSize": "Taille",
     "sizes": {
       "small": "Petite",
       "normal": "Normale",
       "large": "Grande"
     },
-    "saved": "Réglages enregistrés dans ce navigateur."
+    "saved": "Enregistré.",
+    "intro": "Enregistrés dans ce navigateur.",
+    "appearance": "Apparence",
+    "appearances": {
+      "day": "Jour",
+      "evening": "Soir",
+      "auto": "Comme l'appareil"
+    },
+    "textSection": "Texte à taper",
+    "keyboardSection": "Clavier",
+    "fingerColors": "Colorer les touches selon le doigt",
+    "languageSection": "Langue",
+    "siteLanguage": "Langue du site"
   },
   "reader": {
     "previous": "Page précédente",
     "next": "Page suivante",
     "typeHere": "Taper à partir d'ici",
-    "back": "Retour au livre"
+    "back": "Retour au livre",
+    "pages": "Pages"
   },
   "stats": {
     "title": "Statistiques",
     "empty": "Tape une page, un chapitre d'histoire ou une leçon : ta progression s'affichera ici.",
-    "time": "temps de frappe",
-    "sessions": "séances",
-    "average": "mots/min en moyenne",
-    "best": "meilleur mots/min",
-    "accuracy": "précision",
-    "streak": "jours d'affilée",
+    "emptyTitle": "Ta première page t'attend.",
+    "emptyText": "Dès que tu auras tapé une page, une histoire ou une leçon, tu verras ici ta vitesse, ta précision et ta progression jour après jour.",
+    "emptyAction": "Choisir un livre",
+    "today": "Aujourd'hui",
+    "goalLeft": "Encore {minutes} min pour l'objectif",
+    "goalDone": "Objectif du jour atteint",
+    "streakDays": "{count} jours d'affilée",
+    "streakOne": "1 jour",
+    "streakNone": "Pas encore de série",
+    "goalLabel": "Objectif du jour : {done} minutes sur {goal}",
+    "time": "Temps de frappe",
+    "sessions": "Séances",
+    "average": "Vitesse moyenne",
+    "best": "Meilleure vitesse",
+    "accuracy": "Précision",
     "perDay": "Vitesse par jour",
+    "perDayHint": "30 derniers jours · mots par minute",
     "recent": "Séances récentes",
+    "columnText": "Texte",
+    "columnDate": "Date",
+    "columnDuration": "Durée",
+    "columnSpeed": "Vitesse",
+    "columnAccuracy": "Précision",
     "localNote": "Sans compte, tes statistiques restent dans ce navigateur."
   },
   "stories": {
@@ -133,7 +210,7 @@
     "interactive": "Histoires interactives",
     "interactiveSubtitle": "Chaque choix se tape au clavier.",
     "original": "Histoires originales",
-    "originalSubtitle": "Des histoires écrites pour Lectype.",
+    "originalSubtitle": "Écrites pour Lectype. Un récit continu, sans choix.",
     "chapters": "{count} chapitres",
     "start": "Commencer",
     "resume": "Reprendre",
@@ -143,12 +220,18 @@
     "nextChapter": "Chapitre suivant",
     "theEnd": "Fin de l'histoire",
     "choicesMade": "Tes choix",
-    "chooseHint": "Tape l'une des phrases pour choisir.",
+    "chooseHint": "À toi de choisir : tape l'une des phrases.",
     "back": "Retour aux histoires",
     "chapterPicker": "Aller au chapitre",
     "finish": "Terminer",
     "averageSpeed": "vitesse moyenne",
-    "restartConfirm": "Recommencer l'histoire ? Ta progression et tes choix seront effacés."
+    "restartConfirm": "Recommencer l'histoire ? Ta progression et tes choix seront effacés.",
+    "intro": "Des récits à taper phrase par phrase. Dans les histoires interactives, c'est toi qui choisis la suite, en tapant la phrase de ton choix.",
+    "language": {
+      "fr": "Français",
+      "en": "English"
+    },
+    "escape": "Échap : retour aux histoires"
   },
   "learn": {
     "title": "Apprendre",
@@ -215,7 +298,18 @@
     "retry": "Recommencer",
     "nextLesson": "Leçon suivante",
     "back": "Retour au parcours",
-    "allDone": "Bravo, tu as terminé tout le parcours !"
+    "allDone": "Bravo, tu as terminé tout le parcours !",
+    "intro": "La méthode des dix doigts, une rangée après l'autre. Une étoile (90 % de précision) débloque la leçon suivante.",
+    "nextEyebrow": "Prochaine leçon · {number} sur {total}",
+    "start": "Commencer",
+    "weakEyebrow": "Touches faibles",
+    "weakTitle": "Une séance sur tes erreurs",
+    "progressEyebrow": "Ta progression",
+    "progressText": "{done} leçons réussies sur {total}",
+    "lockedLabel": "verrouillée",
+    "layoutHint": "Change de disposition dans les Réglages.",
+    "keyboardHint": "Les touches de la leçon sont soulignées sur le clavier.",
+    "nextTitle": "{stage} : {lesson}"
   },
   "auth": {
     "email": "Adresse e-mail",
@@ -295,7 +389,11 @@
         "body": "Ton compte et toutes ses données ont été supprimés. Merci d'avoir utilisé Lectype."
       }
     },
-    "tabs": "Connexion ou création de compte"
+    "tabs": "Connexion ou création de compte",
+    "pitchTitle": "Ta progression, sur tous tes ordinateurs.",
+    "pitch1": "Tes marque-pages, tes leçons et tes statistiques te suivent.",
+    "pitch2": "Ce que tu as déjà tapé sans compte est gardé à la première connexion.",
+    "pitch3": "Un compte reste facultatif : tout marche aussi sans."
   },
   "emails": {
     "signature": "— Lectype",
@@ -385,7 +483,8 @@
       "data-exported": "Données exportées",
       "reauth-failure": "Mot de passe actuel incorrect",
       "account-deleted": "Compte supprimé"
-    }
+    },
+    "sections": "Sections du compte"
   },
   "legal": {
     "privacyTitle": "Politique de confidentialité",
@@ -444,6 +543,17 @@
     "why": "Lectype n'est pas encore vérifiée par Apple (la « notarisation » demande un abonnement payant). macOS demande donc ta confirmation une fois. L'app n'envoie aucune donnée et fonctionne sans connexion.",
     "otherTitle": "Pas de Mac ?",
     "other": "La version web marche dans n'importe quel navigateur, sur Windows, Linux ou une tablette.",
-    "openWeb": "Ouvrir la version web"
+    "openWeb": "Ouvrir la version web",
+    "eyebrow": "Application Mac",
+    "requirementsShort": "macOS 26 ou plus récent · Mac avec puce Apple ou Intel · gratuit",
+    "stepTitles": [
+      "Ouvre le fichier",
+      "Glisse dans Applications",
+      "Premier lancement",
+      "Ouvrir quand même"
+    ],
+    "windowAlt": "Illustration d'une fenêtre de Lectype sur Mac",
+    "windowChapter": "Jules Verne · chapitre I",
+    "openLibrary": "Ouvrir la bibliothèque →"
   }
 }

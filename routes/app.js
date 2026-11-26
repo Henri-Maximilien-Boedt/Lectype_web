@@ -6,13 +6,16 @@ const router = express.Router();
 
 router.get('/library', (req, res) => {
   const kind = content.KINDS.includes(req.query.kind) ? req.query.kind : null;
+  const language = ['fr', 'en'].includes(req.query.lang) ? req.query.lang : null;
   const query = typeof req.query.q === 'string' ? req.query.q.slice(0, 80) : '';
-  const shelf = content.index().books.filter((item) => !kind || item.kind === kind);
+  const all = content.index().books;
+  const shelf = all.filter((item) => (!kind || item.kind === kind) && (!language || item.language === language));
   res.render('app/library', {
-    kind, query, kinds: content.KINDS,
+    kind, language, query, kinds: content.KINDS,
     books: content.searchBooks(shelf, query),
     texts: query ? content.searchTexts(query) : [],
-    counts: Object.fromEntries(content.KINDS.map((name) => [name, content.index().books.filter((item) => item.kind === name).length])),
+    totals: { books: all.length, pages: all.reduce((sum, item) => sum + item.pageCount, 0) },
+    counts: Object.fromEntries(content.KINDS.map((name) => [name, all.filter((item) => item.kind === name).length])),
   });
 });
 
@@ -50,12 +53,16 @@ function learnStrings(lang, t) {
     stageSubtitles: section(lang, 'learn.stageSubtitles'), exercises: section(lang, 'learn.exercises'),
     lessonComplete: t('learn.lessonComplete'), lessonFailed: t('learn.lessonFailed'), failedHint: t('learn.failedHint'),
     retry: t('learn.retry'), nextLesson: t('learn.nextLesson'), back: t('learn.back'), allDone: t('learn.allDone'),
+    nextEyebrow: t('learn.nextEyebrow'), nextTitle: t('learn.nextTitle'), progressText: t('learn.progressText'), lockedLabel: t('learn.lockedLabel'),
     wpm: t('typing.wpm'), accuracy: t('typing.accuracy'), missed: t('typing.missed'), noMissed: t('typing.noMissed'),
   };
 }
 
 router.get('/stories', (req, res) => {
-  const stories = content.index().stories;
+  const stories = content.index().stories.map((item) => ({
+    ...item,
+    chapterTitles: (content.story(item.id)?.chapters ?? []).map((chapter) => chapter.title),
+  }));
   res.render('app/stories', {
     sections: ['interactive', 'original'].map((kind) => ({ kind, stories: stories.filter((item) => (item.kind ?? 'interactive') === kind) })),
   });

@@ -1,26 +1,53 @@
 <%- include('../partials/head', { title: t('stories.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="library">
-  <div class="library-head"><h1><%= t('stories.title') %></h1></div>
+<main id="main" class="page stories">
+  <div class="page-head">
+    <div>
+      <h1><%= t('stories.title') %></h1>
+      <p><%= t('stories.intro') %></p>
+    </div>
+  </div>
   <% sections.forEach(function (section) { if (!section.stories.length) return; %>
     <section class="story-section">
-      <h2><%= t('stories.' + section.kind) %></h2>
-      <p class="muted"><%= t('stories.' + section.kind + 'Subtitle') %></p>
-      <div class="story-grid">
-        <% section.stories.forEach(function (item) { %>
-          <a class="story-card" href="/app/story/<%= item.id %>" data-story-id="<%= item.id %>" data-chapters="<%= item.chapterCount %>">
-            <% if (item.cover) { %><img src="/content/stories/images/<%= item.cover %>" alt="" loading="lazy"><% } %>
-            <span class="lang"><%= item.language.toUpperCase() %></span>
-            <span class="story-info">
-              <strong><%= item.title %></strong>
-              <span class="muted"><%= item.audience %> · <%= item.duration %> · <%= t('stories.chapters', { count: item.chapterCount }) %></span>
-              <span class="progress"><span class="bar"></span></span>
-            </span>
-          </a>
-        <% }) %>
+      <div>
+        <h2 class="section-title"><%= t('stories.' + section.kind) %></h2>
+        <% if (section.kind === 'original') { %><p class="section-subtitle"><%= t('stories.originalSubtitle') %></p><% } %>
       </div>
+      <% if (section.kind === 'interactive') { %>
+        <% section.stories.forEach(function (item) { %>
+          <article class="card story-feature story-card-data" data-story-id="<%= item.id %>" data-chapters="<%= item.chapterCount %>">
+            <% if (item.cover) { %><img src="/content/stories/images/<%= item.cover %>" alt="" loading="lazy"><% } %>
+            <div class="story-feature-text">
+              <h3><%= item.title %></h3>
+              <p class="story-meta"><span><%= item.audience %></span><span><%= item.duration %></span><span><%= t('stories.chapters', { count: item.chapterCount }) %></span><span><%= t('stories.language.' + item.language) %></span></p>
+              <ol class="story-chapters">
+                <% item.chapterTitles.forEach(function (title, index) { %><li><span><%= index + 1 %></span><%= title %></li><% }) %>
+              </ol>
+              <div class="progress"><span class="bar"></span></div>
+              <div class="actions">
+                <a class="button primary" href="/app/story/<%= item.id %>"><%= t('stories.start') %></a>
+              </div>
+            </div>
+          </article>
+        <% }) %>
+      <% } else { %>
+        <div class="story-grid">
+          <% section.stories.forEach(function (item) { %>
+            <a class="card story-card story-card-data" href="/app/story/<%= item.id %>" data-story-id="<%= item.id %>" data-chapters="<%= item.chapterCount %>">
+              <% if (item.cover) { %><img src="/content/stories/images/<%= item.cover %>" alt="" loading="lazy"><% } %>
+              <span class="story-info">
+                <span class="eyebrow"><%= t('stories.language.' + item.language) %></span>
+                <strong><%= item.title %></strong>
+                <span class="small"><%= item.audience %> · <%= item.duration %> · <%= t('stories.chapters', { count: item.chapterCount }) %></span>
+                <span class="progress"><span class="bar"></span></span>
+              </span>
+            </a>
+          <% }) %>
+        </div>
+      <% } %>
     </section>
   <% }) %>
 </main>
+<script type="application/json" id="stories-strings"><%- JSON.stringify({ resume: t('stories.resume') }).replace(/</g, '\\u003c') %></script>
 <%- include('../partials/app-scripts', { script: 'stories.js' }) %>
 <%- include('../partials/footer') %>

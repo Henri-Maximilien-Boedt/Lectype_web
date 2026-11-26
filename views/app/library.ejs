@@ -1,41 +1,68 @@
 <%- include('../partials/head', { title: t('library.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="library">
-  <div class="library-head">
-    <h1><%= kind ? t('kinds.' + kind) : t('library.title') %></h1>
-    <form class="search" method="get" action="/app/library" role="search">
+<% const filterURL = function (changes) { const params = new URLSearchParams(); const next = Object.assign({ kind: kind, lang: language, q: query }, changes); Object.keys(next).forEach(function (key) { if (next[key]) params.set(key, next[key]); }); const text = params.toString(); return '/app/library' + (text ? '?' + text : ''); }; %>
+<main id="main" class="page library">
+  <div class="page-head">
+    <div>
+      <h1><%= kind ? t('kinds.' + kind) : t('library.title') %></h1>
+      <p><%= t('library.summary', { books: totals.books, pages: totals.pages.toLocaleString(lang === 'fr' ? 'fr-FR' : 'en-US') }) %></p>
+    </div>
+    <form class="library-search" method="get" action="/app/library" role="search">
       <% if (kind) { %><input type="hidden" name="kind" value="<%= kind %>"><% } %>
-      <label class="visually-hidden" for="q"><%= t('library.search') %></label>
-      <input id="q" name="q" type="search" value="<%= query %>" placeholder="<%= t('library.search') %>" maxlength="80">
+      <% if (language) { %><input type="hidden" name="lang" value="<%= language %>"><% } %>
+      <label class="visually-hidden" for="q"><%= t('library.searchLabel') %></label>
+      <input class="search-input" id="q" name="q" type="search" value="<%= query %>" placeholder="<%= t('library.search') %>" maxlength="80">
     </form>
   </div>
-  <nav class="filters" aria-label="<%= t('library.categories') %>">
-    <a href="/app/library" class="<%= kind ? '' : 'active' %>"><%= t('library.all') %></a>
-    <% kinds.forEach(function (name) { %>
-      <a href="/app/library?kind=<%= name %>" class="<%= kind === name ? 'active' : '' %>"><%= t('kinds.' + name) %> <small><%= counts[name] %></small></a>
-    <% }) %>
-  </nav>
-  <section id="continue" class="continue" hidden></section>
-  <section class="book-grid">
-    <% books.forEach(function (item) { %>
-      <a class="book-card" href="/app/book/<%= item.id %>" data-book-id="<%= item.id %>" data-pages="<%= item.pageCount %>">
-        <%- include('../partials/cover', { item: item }) %>
-        <span class="lang"><%= item.language.toUpperCase() %></span>
-        <strong><%= item.title %></strong>
-        <span class="author"><%= item.author %></span>
-        <span class="progress"><span class="bar"></span></span>
-      </a>
-    <% }) %>
-  </section>
-  <% if (texts.length) { %>
-    <h2><%= t('library.texts') %></h2>
-    <ul class="text-results">
-      <% texts.forEach(function (match) { %>
-        <li><a href="/app/type/<%= match.bookID %>?chapter=<%= match.chapterNumber %>&page=1"><strong><%= match.title %></strong> <span><%= match.bookTitle %></span></a></li>
+
+  <div class="filters">
+    <nav class="pills" aria-label="<%= t('library.categories') %>">
+      <a class="pill" href="<%= filterURL({ kind: null }) %>"<% if (!kind) { %> aria-current="page"<% } %>><%= t('library.all') %> <span class="count"><%= totals.books %></span></a>
+      <% kinds.forEach(function (name) { %>
+        <a class="pill" href="<%= filterURL({ kind: name }) %>"<% if (kind === name) { %> aria-current="page"<% } %>><%= t('kinds.' + name) %> <span class="count"><%= counts[name] %></span></a>
       <% }) %>
-    </ul>
+    </nav>
+    <nav class="pills" aria-label="<%= t('library.languages') %>">
+      <a class="pill" href="<%= filterURL({ lang: null }) %>"<% if (!language) { %> aria-current="page"<% } %>><%= t('library.allLanguages') %></a>
+      <a class="pill" href="<%= filterURL({ lang: 'fr' }) %>"<% if (language === 'fr') { %> aria-current="page"<% } %>>Français</a>
+      <a class="pill" href="<%= filterURL({ lang: 'en' }) %>"<% if (language === 'en') { %> aria-current="page"<% } %>>English</a>
+    </nav>
+  </div>
+
+  <a class="card continue-card" id="continue" href="#" hidden>
+    <span class="continue-cover" id="continue-cover"></span>
+    <span class="continue-text">
+      <span class="eyebrow"><%= t('library.continueEyebrow') %></span>
+      <span class="continue-title" id="continue-title"></span>
+      <span class="small muted" id="continue-position"></span>
+    </span>
+    <span class="button primary small"><%= t('library.continueButton') %></span>
+  </a>
+
+  <% if (books.length) { %>
+    <section class="book-grid" aria-label="<%= t('library.title') %>">
+      <% books.forEach(function (item) { %>
+        <a class="book-card" href="/app/book/<%= item.id %>" data-book-id="<%= item.id %>" data-collection="<%= item.kind !== 'novel' %>">
+          <%- include('../partials/cover', { item: item }) %>
+          <strong><%= item.title %></strong>
+          <span class="author"><%= item.author %> · <%= item.language.toUpperCase() %></span>
+          <span class="started-label" hidden><%= t('library.started') %></span>
+        </a>
+      <% }) %>
+    </section>
+  <% } %>
+  <% if (texts.length) { %>
+    <section class="text-results-section">
+      <h2 class="section-title"><%= t('library.texts') %></h2>
+      <ul class="text-results">
+        <% texts.forEach(function (match) { %>
+          <li><a href="/app/type/<%= match.bookID %>?chapter=<%= match.chapterNumber %>&page=1"><strong><%= match.title %></strong> <span><%= match.bookTitle %></span><span aria-hidden="true">→</span></a></li>
+        <% }) %>
+      </ul>
+    </section>
   <% } %>
   <% if (!books.length && !texts.length) { %><p class="empty"><%= t('library.noResults') %></p><% } %>
 </main>
+<script type="application/json" id="library-strings"><%- JSON.stringify({ position: t('library.position'), positionText: t('library.positionText') }).replace(/</g, '\\u003c') %></script>
 <%- include('../partials/app-scripts', { script: 'library.js' }) %>
 <%- include('../partials/footer') %>

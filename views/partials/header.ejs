@@ -1,19 +1,38 @@
+<% const navItems = [['/app/library', 'nav.library'], ['/app/learn', 'nav.learn'], ['/app/stories', 'nav.stories'], ['/app/stats', 'nav.stats']]; %>
+<% const isActive = function (href) { return currentPath === href || (href === '/app/library' && (currentPath.startsWith('/app/book') || currentPath.startsWith('/app/read'))) || (href === '/app/stories' && currentPath.startsWith('/app/story')) || (href === '/app/learn' && currentPath.startsWith('/app/lesson')); }; %>
 <header class="site-header">
-  <a class="brand" href="/"><img src="/img/brand-mark.png" alt="" width="32" height="32"> Lectype</a>
-  <nav aria-label="Navigation">
-    <a href="/app/library"><%= t('nav.library') %></a>
-    <a href="/app/learn"><%= t('nav.learn') %></a>
-    <a href="/app/stories"><%= t('nav.stories') %></a>
-    <a href="/app/stats"><%= t('nav.stats') %></a>
-    <a href="/app/settings"><%= t('nav.settings') %></a>
-    <% if (currentUser) { %>
-      <a href="/account"><%= currentUser.firstName %></a>
-      <form method="post" action="/logout" class="inline" data-logout>
-        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-        <button type="submit" class="link"><%= t('nav.logout') %></button>
-      </form>
-    <% } else { %>
-      <a class="button" href="/login"><%= t('nav.login') %></a>
-    <% } %>
-  </nav>
+  <div class="wrap">
+    <a class="brand" href="/">Lectype</a>
+    <nav class="main-nav" aria-label="<%= t('nav.label') %>">
+      <% navItems.forEach(function (item) { %>
+        <a href="<%= item[0] %>"<% if (isActive(item[0])) { %> aria-current="page"<% } %>><%= t(item[1]) %></a>
+      <% }) %>
+    </nav>
+    <div class="header-actions">
+      <% if (currentUser) { %>
+        <a class="user-link hide-small" href="/account"><span class="avatar" aria-hidden="true"><%= currentUser.firstName.slice(0, 1).toUpperCase() %></span><%= currentUser.firstName %></a>
+      <% } else { %>
+        <a class="hide-small" href="/login"><%= t('nav.login') %></a>
+      <% } %>
+      <a class="icon-button hide-small" href="/app/settings" aria-label="<%= t('nav.settings') %>" title="<%= t('nav.settings') %>"<% if (currentPath === '/app/settings') { %> aria-current="page"<% } %>>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"></path></svg>
+      </a>
+      <details class="menu">
+        <summary class="icon-button" aria-label="<%= t('nav.menu') %>">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
+        </summary>
+        <nav class="menu-panel" aria-label="<%= t('nav.label') %>">
+          <% navItems.forEach(function (item) { %>
+            <a href="<%= item[0] %>"<% if (isActive(item[0])) { %> aria-current="page"<% } %>><%= t(item[1]) %></a>
+          <% }) %>
+          <a href="/app/settings"<% if (currentPath === '/app/settings') { %> aria-current="page"<% } %>><%= t('nav.settings') %></a>
+          <% if (currentUser) { %>
+            <a href="/account"<% if (currentPath === '/account') { %> aria-current="page"<% } %>><%= t('nav.account') %></a>
+          <% } else { %>
+            <a href="/login"><%= t('nav.login') %></a>
+          <% } %>
+        </nav>
+      </details>
+    </div>
+  </div>
 </header>

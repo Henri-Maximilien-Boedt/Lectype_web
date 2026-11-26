@@ -1,21 +1,25 @@
 import { bookmarks, currentBook } from './storage.js';
 
-const strings = { continue: document.documentElement.lang === 'fr' ? 'Reprendre la lecture' : 'Continue reading' };
+const strings = JSON.parse(document.getElementById('library-strings').textContent);
+
+function format(template, values) {
+  return template.replace(/\{(\w+)\}/g, (match, name) => values[name] ?? match);
+}
 
 for (const card of document.querySelectorAll('.book-card')) {
-  const saved = bookmarks.get('book', card.dataset.bookId);
-  if (!saved) continue;
+  if (!bookmarks.get('book', card.dataset.bookId)) continue;
   card.classList.add('started');
+  card.querySelector('.started-label').hidden = false;
 }
 
 const latest = currentBook();
-const section = document.getElementById('continue');
 const card = latest && document.querySelector(`.book-card[data-book-id="${CSS.escape(latest.id)}"]`);
+const section = document.getElementById('continue');
 if (section && card) {
-  const link = document.createElement('a');
-  link.className = 'button primary';
-  link.href = `/app/type/${encodeURIComponent(latest.id)}`;
-  link.textContent = `${strings.continue} — ${card.querySelector('strong').textContent}`;
-  section.append(link);
+  section.href = `/app/type/${encodeURIComponent(latest.id)}?chapter=${latest.chapter}&page=${latest.page}`;
+  document.getElementById('continue-cover').append(card.querySelector('.cover').cloneNode(true));
+  document.getElementById('continue-title').textContent = card.querySelector('strong').textContent;
+  const template = card.dataset.collection === 'true' ? strings.positionText : strings.position;
+  document.getElementById('continue-position').textContent = format(template, { chapter: latest.chapter, page: latest.page });
   section.hidden = false;
 }

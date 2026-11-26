@@ -1,32 +1,87 @@
 <%- include('../partials/head', { title: t('settings.title') + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="settings">
-  <h1><%= t('settings.title') %></h1>
+<main id="main" class="page narrow settings">
+  <div class="page-head">
+    <div>
+      <h1><%= t('settings.title') %></h1>
+      <p><%= t('settings.intro') %> <span class="saved-note" id="saved" hidden role="status"><%= t('settings.saved') %></span></p>
+    </div>
+  </div>
   <form id="settings-form" class="settings-form">
     <fieldset>
-      <legend><%= t('settings.theme') %></legend>
-      <% ['vibrant', 'paper', 'minimal'].forEach(function (name) { %>
-        <label class="choice"><input type="radio" name="theme" value="<%= name %>"> <%= t('settings.themes.' + name) %></label>
-      <% }) %>
+      <legend><%= t('settings.appearance') %></legend>
+      <div class="appearance-options">
+        <label class="appearance-option">
+          <span class="appearance-preview day" aria-hidden="true"><span class="preview-line strong"></span><span class="preview-line"></span><span class="preview-line"></span></span>
+          <span class="choice"><input type="radio" name="appearance" value="day"> <%= t('settings.appearances.day') %></span>
+        </label>
+        <label class="appearance-option">
+          <span class="appearance-preview evening" aria-hidden="true"><span class="preview-line strong"></span><span class="preview-line"></span><span class="preview-line"></span></span>
+          <span class="choice"><input type="radio" name="appearance" value="evening"> <%= t('settings.appearances.evening') %></span>
+        </label>
+        <label class="appearance-option">
+          <span class="appearance-preview auto" aria-hidden="true"><span></span><span></span></span>
+          <span class="choice"><input type="radio" name="appearance" value="auto"> <%= t('settings.appearances.auto') %></span>
+        </label>
+      </div>
     </fieldset>
-    <label><%= t('settings.keyboard') %>
-      <select name="keyboardLayout">
-        <% ['auto', 'azerty', 'qwerty', 'qwertz'].forEach(function (name) { %>
-          <option value="<%= name %>"><%= t('settings.layouts.' + name) %></option>
-        <% }) %>
-      </select>
-    </label>
-    <p class="muted"><%= t('settings.autoHint') %></p>
-    <label><%= t('settings.textSize') %>
-      <select name="textSize">
-        <% ['small', 'normal', 'large'].forEach(function (name) { %>
-          <option value="<%= name %>"><%= t('settings.sizes.' + name) %></option>
-        <% }) %>
-      </select>
-    </label>
-    <label class="choice"><input type="checkbox" name="strict"> <%= t('settings.strict') %> <span class="muted">— <%= t('settings.strictHint') %></span></label>
-    <label class="choice"><input type="checkbox" name="showKeyboard"> <%= t('settings.showKeyboard') %></label>
-    <p class="muted" id="saved" hidden><%= t('settings.saved') %></p>
+
+    <fieldset>
+      <legend><%= t('settings.textSection') %></legend>
+      <div class="setting-rows">
+        <div class="setting-row">
+          <span id="text-size-label"><%= t('settings.textSize') %></span>
+          <span class="segmented" role="radiogroup" aria-labelledby="text-size-label">
+            <% ['small', 'normal', 'large'].forEach(function (name) { %>
+              <label><input type="radio" name="textSize" value="<%= name %>"><%= t('settings.sizes.' + name) %></label>
+            <% }) %>
+          </span>
+        </div>
+        <label class="setting-row">
+          <span><%= t('settings.strict') %><small><%= t('settings.strictHint') %></small></span>
+          <input type="checkbox" name="strict">
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend><%= t('settings.keyboardSection') %></legend>
+      <div class="setting-rows">
+        <label class="setting-row">
+          <span><%= t('settings.keyboard') %><small><%= t('settings.autoHint') %></small></span>
+          <select class="select" name="keyboardLayout">
+            <% ['auto', 'azerty', 'qwerty', 'qwertz'].forEach(function (name) { %>
+              <option value="<%= name %>"><%= t('settings.layouts.' + name) %></option>
+            <% }) %>
+          </select>
+        </label>
+        <label class="setting-row">
+          <span><%= t('settings.showKeyboard') %></span>
+          <input type="checkbox" name="showKeyboard">
+        </label>
+        <label class="setting-row">
+          <span><%= t('settings.fingerColors') %></span>
+          <input type="checkbox" name="fingerColors">
+        </label>
+      </div>
+    </fieldset>
+  </form>
+
+  <form method="post" action="/language" class="settings-form" id="language-form">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <fieldset>
+      <legend><%= t('settings.languageSection') %></legend>
+      <div class="setting-rows">
+        <label class="setting-row">
+          <span><%= t('settings.siteLanguage') %></span>
+          <select class="select" name="lang">
+            <option value="fr"<% if (lang === 'fr') { %> selected<% } %>>Français</option>
+            <option value="en"<% if (lang === 'en') { %> selected<% } %>>English</option>
+          </select>
+        </label>
+      </div>
+    </fieldset>
+    <noscript><button class="button small" type="submit">OK</button></noscript>
   </form>
 </main>
 <%- include('../partials/app-scripts', { script: 'settings.js' }) %>

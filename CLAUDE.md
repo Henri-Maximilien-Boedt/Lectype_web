@@ -1,6 +1,6 @@
 # Lectype web — instructions pour Claude Code
 
-Version web de Lectype (app Mac dans le dépôt voisin `../Lectype`, dont `CLAUDE.md` et `docs/CONCEPT.md` décrivent le produit). Même concept, mêmes règles de frappe, mêmes thèmes. Déployée sur AlwaysData avec `git pull` + `npm install` + `npm start` (voir `workflows/deploy.md`).
+Version web de Lectype (app Mac dans le dépôt voisin `../Lectype`, dont `CLAUDE.md` et `docs/CONCEPT.md` décrivent le produit). Même concept et mêmes règles de frappe. L'apparence est propre au web : la direction « Bibliothèque » (papier crème, serif, bleu encre), en version jour et soir. Déployée sur AlwaysData avec `git pull` + `npm install` + `npm start` (voir `workflows/deploy.md`).
 
 ## Règles de travail
 
@@ -27,16 +27,25 @@ middlewares/          en-têtes de sécurité, CSRF, langue, utilisateur courant
 tools/                base (db.js, schema.sql), comptes (users, passwords, tokens, devices, security-log), e-mails, progression, contenu
 views/                pages EJS ; partials/ communs
 public/js/            pages du navigateur ; core/ = logique pure ; storage.js = localStorage ; account-sync.js = synchro avec le compte
-public/css/           site.css (thèmes Nuit vibrante, Papier, Minimaliste, en variables CSS) et app.css
+public/css/           site.css (jetons de design jour et soir, composants communs) et app.css (écrans)
+public/fonts/         Newsreader et Inter hébergées sur le site (licence SIL dans OFL.txt)
 content/              livres, couvertures, histoires, listes de mots (générés)
 test/                 node --test ; helpers/server.js lance un serveur en mémoire et simule un navigateur
 ```
+
+## Apparence
+
+- Maquettes de référence : canvas « Lectype — refonte du site » (page « Bibliothèque — tous les écrans »).
+- Les couleurs passent toujours par les variables de `site.css` (`--bg`, `--sheet`, `--ink`, `--accent`…), définies pour `data-theme="day"` et `data-theme="evening"`. Aucune couleur en dur dans les vues ni dans le JavaScript.
+- Titres et texte à taper en Newsreader (`--serif`), interface en Inter (`--sans`). Les polices sont servies par le site : jamais de Google Fonts ni d'autre CDN.
+- `theme-boot.js` applique l'apparence avant l'affichage (réglage « Jour », « Soir » ou « Comme l'appareil »).
+- Sur téléphone (écran étroit ou tactile sans souris), les pages de frappe montrent `partials/no-keyboard.ejs` ; le bouton « J'ai un clavier branché » force la frappe pour la session.
 
 ## Sécurité (à respecter dans toute modification)
 
 - **SQL** : toujours des requêtes paramétrées (`args`), jamais de concaténation de valeurs.
 - **Vues** : `<%= %>` (échappé) partout ; `<%- %>` seulement pour inclure un partial ou un JSON passé par `JSON.stringify(...).replace(/</g, '\\u003c')`.
-- **CSP stricte** : aucun script ni style en ligne, aucun attribut `on…`. Tout JavaScript va dans `public/js`.
+- **CSP stricte** : aucun script ni style en ligne, ni attribut `style="…"`, ni attribut `on…`. Tout JavaScript va dans `public/js`.
 - **CSRF** : chaque formulaire POST contient `_csrf`, chaque `fetch` qui modifie envoie `x-csrf-token` (balise `meta name="csrf-token"`).
 - **Mots de passe** : bcrypt coût 12, 12 caractères minimum, liste locale de mots de passe courants (`tools/data/common-passwords.txt`), 72 octets maximum.
 - **Jetons d'e-mail** : à usage unique, seule l'empreinte SHA-256 est stockée ; 24 h pour confirmer, 1 h pour réinitialiser.

@@ -52,3 +52,19 @@ export function streak(sessions, now = new Date()) {
   }
   return count;
 }
+
+export const DAILY_GOAL_MINUTES = 10;
+
+export function minutesOn(sessions, date = new Date()) {
+  const key = dayKey(date);
+  return sessions.filter((session) => dayKey(session.startedAt) === key).reduce((sum, session) => sum + session.activeDuration, 0) / 60;
+}
+
+export function lastDays(sessions, count = 30, now = new Date()) {
+  const byDay = new Map(perDay(sessions).map((day) => [day.day, day]));
+  return Array.from({ length: count }, (unused, index) => {
+    const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() - (count - 1 - index));
+    const key = dayKey(date);
+    return { day: key, date, wpm: byDay.get(key)?.wpm ?? 0 };
+  });
+}

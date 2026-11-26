@@ -1,38 +1,47 @@
 <%- include('../partials/head', { title: story.title + ' — Lectype' }) %>
 <main id="main" class="typing story" data-story-id="<%= story.id %>">
   <header class="typing-head">
-    <a class="button icon" href="/app/stories" aria-label="<%= t('stories.back') %>" title="<%= t('stories.back') %>">←</a>
+    <a class="icon-button" href="/app/stories" aria-label="<%= t('stories.back') %>" title="<%= t('stories.back') %>"><%- include('../partials/icons', { name: 'back' }) %></a>
     <div class="typing-title">
-      <strong><%= story.title %></strong>
-      <span id="chapter-title"></span>
+      <strong id="chapter-title"></strong>
+      <span><%= story.title %></span>
     </div>
-    <label class="visually-hidden" for="chapter-picker"><%= t('stories.chapterPicker') %></label>
-    <select id="chapter-picker" class="chapter-picker"></select>
-    <button class="button icon" id="restart-story" type="button" aria-label="<%= t('stories.restart') %>" title="<%= t('stories.restart') %>">↺</button>
+    <div class="typing-controls needs-keyboard">
+      <label class="visually-hidden" for="chapter-picker"><%= t('stories.chapterPicker') %></label>
+      <select id="chapter-picker" class="select chapter-picker"></select>
+      <button class="icon-button" id="restart-story" type="button" aria-label="<%= t('stories.restart') %>" title="<%= t('stories.restart') %>"><%- include('../partials/icons', { name: 'restart' }) %></button>
+    </div>
   </header>
-  <div class="progress chapter-progress"><span class="bar" id="chapter-progress"></span></div>
-  <section class="story-scroll" id="story-scroll">
+  <div class="typing-progress"><div class="progress"><span class="bar" id="chapter-progress"></span></div></div>
+  <%- include('../partials/no-keyboard', { readHref: null }) %>
+  <section class="story-scroll needs-keyboard" id="story-scroll">
     <figure class="story-hero"><img id="story-image" alt=""><figcaption id="story-place"></figcaption></figure>
     <div class="story-transcript" id="story-transcript"></div>
     <div class="choices" id="choices" hidden>
-      <p class="muted"><%= t('stories.chooseHint') %></p>
+      <p class="small muted"><%= t('stories.chooseHint') %></p>
       <ol id="choice-list"></ol>
     </div>
   </section>
-  <div class="metrics" aria-live="polite">
-    <span><b id="wpm">0</b> <%= t('typing.wpm') %></span>
-    <span><b id="accuracy">100 %</b> <%= t('typing.accuracy') %></span>
-    <span id="dead-key" class="dead-key" hidden></span>
-  </div>
-  <div class="keyboard" id="keyboard" aria-hidden="true"></div>
+  <footer class="story-foot needs-keyboard">
+    <div class="typing-foot">
+      <span class="metrics" aria-live="polite">
+        <span><b id="wpm">0</b><%= t('typing.wpm') %></span>
+        <span><b id="accuracy">100 %</b><%= t('typing.accuracy') %></span>
+        <span id="dead-key" class="dead-key" hidden></span>
+      </span>
+      <span><%= t('stories.escape') %></span>
+    </div>
+    <div class="keyboard" id="keyboard" aria-hidden="true"></div>
+  </footer>
   <textarea id="typing-input" class="typing-input" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="<%= t('typing.input') %>"></textarea>
   <div class="overlay" id="summary" hidden></div>
 </main>
 <script type="application/json" id="story-strings"><%- JSON.stringify({
   chapterLabel: t('stories.chapterLabel'), chapterComplete: t('stories.chapterComplete'), nextChapter: t('stories.nextChapter'),
   theEnd: t('stories.theEnd'), choicesMade: t('stories.choicesMade'), finish: t('stories.finish'), restartConfirm: t('stories.restartConfirm'),
-  averageSpeed: t('stories.averageSpeed'), wpm: t('typing.wpm'), accuracy: t('typing.accuracy'), missed: t('typing.missed'), noMissed: t('typing.noMissed')
+  averageSpeed: t('stories.averageSpeed'), wpm: t('typing.wpm'), accuracy: t('typing.accuracy'), missed: t('typing.missedShort'), noMissed: t('typing.noMissed')
 }).replace(/</g, '\\u003c') %></script>
+<script type="module" src="/js/keyboard-check.js"></script>
 <%- include('../partials/app-scripts', { script: 'story-page.js' }) %>
 </body>
 </html>

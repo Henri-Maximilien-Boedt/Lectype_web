@@ -1,18 +1,18 @@
 <%- include('../partials/head', { title: book.title + ' — Lectype' }) %>
 <main id="main" class="reader" data-book-id="<%= book.id %>">
   <header class="typing-head">
-    <a class="button icon" href="/app/book/<%= book.id %>" aria-label="<%= t('reader.back') %>" title="<%= t('reader.back') %>">←</a>
+    <a class="icon-button" href="/app/book/<%= book.id %>" aria-label="<%= t('reader.back') %>" title="<%= t('reader.back') %>"><%- include('../partials/icons', { name: 'back' }) %></a>
     <div class="typing-title">
-      <strong><%= book.title %></strong>
-      <span id="chapter-title"></span>
+      <strong id="chapter-title"></strong>
+      <span><%= book.author %> · <%= book.title %></span>
     </div>
-    <a class="button primary" id="type-here" href="/app/type/<%= book.id %>"><%= t('reader.typeHere') %></a>
+    <a class="button primary small needs-keyboard" id="type-here" href="/app/type/<%= book.id %>"><%= t('reader.typeHere') %></a>
   </header>
   <section class="spread" id="spread" aria-live="polite"></section>
-  <nav class="reader-nav">
-    <button class="button icon" id="previous" type="button" aria-label="<%= t('reader.previous') %>" title="<%= t('reader.previous') %>">‹</button>
-    <span id="position" class="muted"></span>
-    <button class="button icon" id="next" type="button" aria-label="<%= t('reader.next') %>" title="<%= t('reader.next') %>">›</button>
+  <nav class="reader-nav" aria-label="<%= t('reader.pages') %>">
+    <button class="icon-button" id="previous" type="button" aria-label="<%= t('reader.previous') %>" title="<%= t('reader.previous') %>"><%- include('../partials/icons', { name: 'back' }) %></button>
+    <span id="position"></span>
+    <button class="icon-button" id="next" type="button" aria-label="<%= t('reader.next') %>" title="<%= t('reader.next') %>"><%- include('../partials/icons', { name: 'next' }) %></button>
   </nav>
 </main>
 <%- include('../partials/app-scripts', { script: 'reader.js' }) %>

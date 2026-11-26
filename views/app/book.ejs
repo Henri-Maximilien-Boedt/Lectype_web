@@ -1,31 +1,42 @@
 <%- include('../partials/head', { title: book.title + ' — Lectype' }) %>
 <%- include('../partials/header') %>
-<main id="main" class="book-detail" data-book-id="<%= book.id %>">
-  <div class="book-head">
-    <%- include('../partials/cover', { item: { cover: book.cover, kind: book.kind || 'novel', title: book.title } }) %>
-    <div>
-      <p class="lang"><%= book.language.toUpperCase() %></p>
+<% const isCollection = book.kind && book.kind !== 'novel'; %>
+<main id="main" class="page book-detail" data-book-id="<%= book.id %>">
+  <a class="back-link" href="/app/library"><%= t('book.back') %></a>
+  <section class="book-head">
+    <div class="book-cover"><%- include('../partials/cover', { item: { id: book.id, cover: book.cover, title: book.title, author: book.author } }) %></div>
+    <div class="book-info">
+      <p class="eyebrow"><%= t('kinds.' + (book.kind || 'novel')) %> · <%= book.language === 'fr' ? 'Français' : 'English' %></p>
       <h1><%= book.title %></h1>
-      <p class="author"><%= book.author %><% if (book.year) { %> · <%= book.year %><% } %></p>
-      <p class="actions">
+      <p class="book-author"><%= book.author %><% if (book.year) { %>, <%= book.year %><% } %></p>
+      <p class="book-facts">
+        <span><%= t(isCollection ? 'book.textCount' : 'book.chapterCount', { count: book.chapters.length }) %></span>
+        <span><%= t('book.pageCount', { count: book.chapters.reduce(function (sum, chapter) { return sum + chapter.pages.length; }, 0) }) %></span>
+        <span id="book-status"><%= t('book.notStarted') %></span>
+      </p>
+      <div class="actions">
         <a class="button primary" id="type-link" href="/app/type/<%= book.id %>"><%= t('book.type') %></a>
         <a class="button" href="/app/read/<%= book.id %>"><%= t('book.read') %></a>
-      </p>
+      </div>
     </div>
-  </div>
-  <h2><%= (book.kind && book.kind !== 'novel') ? t('book.texts') : t('book.chapters') %></h2>
-  <ol class="chapter-list">
-    <% book.chapters.forEach(function (chapter) { %>
-      <li>
-        <a href="/app/type/<%= book.id %>?chapter=<%= chapter.number %>&page=<%= chapter.pages[0].number %>">
-          <span class="label"><%= chapter.label %></span>
-          <span class="title"><%= chapter.title %><% if (chapter.author) { %> <small><%= chapter.author %></small><% } %></span>
-          <span class="pages"><%= t('book.pages', { count: chapter.pages.length }) %></span>
-        </a>
-      </li>
-    <% }) %>
-  </ol>
-  <p class="source"><a href="<%= book.source.url %>" rel="noopener"><%= book.source.name %></a> · <%= book.source.license %></p>
+  </section>
+  <section>
+    <h2 class="section-title"><%= isCollection ? t('book.texts') : t('book.chapters') %></h2>
+    <ol class="chapter-list">
+      <% book.chapters.forEach(function (chapter) { %>
+        <li>
+          <a href="/app/type/<%= book.id %>?chapter=<%= chapter.number %>&page=<%= chapter.pages[0].number %>">
+            <span class="label"><%= chapter.label %></span>
+            <span class="title"><%= chapter.title %><% if (chapter.author) { %> <small><%= chapter.author %></small><% } %></span>
+            <span class="pages"><%= t('book.pages', { count: chapter.pages.length }) %></span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      <% }) %>
+    </ol>
+    <p class="source small muted"><%= t('book.source') %> : <a href="<%= book.source.url %>" rel="noopener"><%= book.source.name %></a> · <%= book.source.license %></p>
+  </section>
 </main>
+<script type="application/json" id="book-strings"><%- JSON.stringify({ continue: t('book.continue'), inProgress: t('book.inProgress'), position: t(isCollection ? 'library.positionText' : 'library.position') }).replace(/</g, '\\u003c') %></script>
 <%- include('../partials/app-scripts', { script: 'book.js' }) %>
 <%- include('../partials/footer') %>

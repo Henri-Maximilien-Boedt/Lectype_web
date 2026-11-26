@@ -1,13 +1,93 @@
 <%- include('partials/head', { title: t('home.title') }) %>
 <%- include('partials/header') %>
 <main id="main" class="home">
-  <h1><%= t('home.headline') %></h1>
-  <p class="lead"><%= t('home.intro') %></p>
-  <p class="actions">
-    <a class="button primary" href="/app/library"><%= t('home.start') %></a>
-    <a class="button" href="/app/learn"><%= t('home.learn') %></a>
-    <a class="button" href="/download"><%= t('home.mac') %></a>
-  </p>
-  <p class="note"><%= t('home.free') %></p>
+  <section class="wrap hero">
+    <div class="hero-text">
+      <p class="eyebrow"><%= t('home.eyebrow') %></p>
+      <h1><%= t('home.headline') %></h1>
+      <p class="lead"><%= t('home.intro') %></p>
+      <div class="actions">
+        <a class="button primary" href="/app/library"><%= t('home.start') %></a>
+        <a class="button" href="/app/learn"><%= t('home.learn') %></a>
+      </div>
+      <p class="small muted"><%= t('home.free') %></p>
+    </div>
+    <% if (sample) { %>
+      <figure class="sample-page">
+        <figcaption><span><%= sample.author %> · <%= sample.title %></span><span><%= t('home.samplePage', { count: sample.pageCount }) %></span></figcaption>
+        <p class="sample-text"><span class="typed"><%= sample.text.slice(0, 56) %></span><span class="current"><%= sample.text.slice(56, 57) %></span><span class="upcoming"><%= sample.text.slice(57, 150) %>…</span></p>
+        <div class="sample-metrics" aria-hidden="true">
+          <span><strong>34</strong> <%= t('home.sampleWpm') %></span>
+          <span><strong>98 %</strong> <%= t('home.sampleAccuracy') %></span>
+        </div>
+      </figure>
+    <% } %>
+  </section>
+
+  <div class="wrap">
+    <p class="facts">
+      <span><strong><%= totals.books %></strong> <%= t('home.factBooks') %></span>
+      <span><strong><%= totals.pages.toLocaleString(lang === 'fr' ? 'fr-FR' : 'en-US') %></strong> <%= t('home.factPages') %></span>
+      <span><strong><%= totals.stories %></strong> <%= t('home.factStories') %></span>
+      <span><%= t('home.factLanguages') %></span>
+      <span><%= t('home.factLayouts') %></span>
+    </p>
+  </div>
+
+  <section class="wrap home-section">
+    <h2 class="section-title big"><%= t('home.howTitle') %></h2>
+    <ol class="steps">
+      <% [1, 2, 3].forEach(function (number) { %>
+        <li><span class="step-number"><%= number %></span><strong><%= t('home.step' + number + 'Title') %></strong><span><%= t('home.step' + number) %></span></li>
+      <% }) %>
+    </ol>
+  </section>
+
+  <section class="wrap home-section">
+    <div class="section-head">
+      <h2 class="section-title big"><%= t('home.shelfTitle') %></h2>
+      <a class="text-link" href="/app/library"><%= t('home.shelfAll') %></a>
+    </div>
+    <div class="shelf">
+      <% shelf.forEach(function (book) { %>
+        <a class="book-card" href="/app/book/<%= book.id %>">
+          <%- include('partials/cover', { item: book }) %>
+          <strong><%= book.title %></strong>
+          <span class="author"><%= book.author %></span>
+        </a>
+      <% }) %>
+    </div>
+  </section>
+
+  <section class="wrap home-section feature-grid">
+    <article class="card feature">
+      <p class="eyebrow"><%= t('home.learnEyebrow') %></p>
+      <h3><%= t('home.learnTitle') %></h3>
+      <p><%= t('home.learnText') %></p>
+      <p class="key-chips" aria-hidden="true">
+        <% ['q', 's', 'd', 'f', 'j', 'k', 'l', 'm'].forEach(function (key) { %><span class="key-chip"><%= key %></span><% }) %>
+      </p>
+      <a class="text-link" href="/app/learn"><%= t('home.learnLink') %></a>
+    </article>
+    <article class="card feature with-cover">
+      <img src="/content/stories/images/oscar-et-la-capsule-silencieuse-cover.jpg" alt="" loading="lazy">
+      <div>
+        <p class="eyebrow"><%= t('home.storiesEyebrow') %></p>
+        <h3><%= t('home.storiesTitle') %></h3>
+        <p><%= t('home.storiesText') %></p>
+        <a class="text-link" href="/app/stories"><%= t('home.storiesLink') %></a>
+      </div>
+    </article>
+  </section>
+
+  <section class="wrap home-section">
+    <div class="mac-band">
+      <div>
+        <h2><%= t('home.macTitle') %></h2>
+        <p><%= t('home.macText') %></p>
+      </div>
+      <a class="button" href="/download"><%= t('home.mac') %></a>
+    </div>
+  </section>
 </main>
 <%- include('partials/footer') %>

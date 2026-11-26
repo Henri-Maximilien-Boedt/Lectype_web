@@ -1,29 +1,48 @@
-<%- include('partials/head', { title: t('download.title') }) %>
+<%- include('partials/head', { title: t('download.title') + ' — Lectype' }) %>
 <%- include('partials/header') %>
-<main id="main" class="download">
-  <h1><%= t('download.title') %></h1>
-  <p class="lead"><%= t('download.intro') %></p>
-  <p class="actions"><a class="button primary" href="<%= downloadURL %>" rel="noopener"><%= t('download.button') %></a></p>
-  <p class="note"><%= t('download.requirements') %></p>
+<main id="main" class="page download">
+  <section class="download-hero">
+    <div>
+      <p class="eyebrow"><%= t('download.eyebrow') %></p>
+      <h1><%= t('download.title') %></h1>
+      <p class="lead"><%= t('download.intro') %></p>
+      <div class="actions">
+        <a class="button primary" href="<%= downloadURL %>" rel="noopener"><%= t('download.button') %></a>
+      </div>
+      <p class="small muted"><%= t('download.requirementsShort') %></p>
+    </div>
+    <figure class="mac-window" aria-label="<%= t('download.windowAlt') %>">
+      <div class="mac-window-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="mac-window-body">
+        <img src="/content/covers/le-tour-du-monde-en-80-jours.jpg" alt="">
+        <div>
+          <strong>Le Tour du monde en quatre-vingts jours</strong>
+          <span class="small muted"><%= t('download.windowChapter') %></span>
+          <span class="progress"><span class="bar bar-30"></span></span>
+        </div>
+      </div>
+    </figure>
+  </section>
 
-  <section class="download-section">
-    <h2><%= t('download.installTitle') %></h2>
+  <section class="stats-section">
+    <h2 class="section-title"><%= t('download.installTitle') %></h2>
     <ol class="install-steps">
-      <% Object.values(section('download.steps')).forEach(function (step) { %>
-        <li><%= step %></li>
+      <% const titles = section('download.stepTitles'); Object.values(section('download.steps')).forEach(function (step, index) { %>
+        <li><strong><%= titles[index] %></strong><span><%= step %></span></li>
       <% }) %>
     </ol>
   </section>
 
-  <section class="download-section">
-    <h2><%= t('download.whyTitle') %></h2>
-    <p><%= t('download.why') %></p>
-  </section>
-
-  <section class="download-section">
-    <h2><%= t('download.otherTitle') %></h2>
-    <p><%= t('download.other') %></p>
-    <p><a class="button" href="/app/library"><%= t('download.openWeb') %></a></p>
+  <section class="info-grid">
+    <article class="card">
+      <h3><%= t('download.whyTitle') %></h3>
+      <p><%= t('download.why') %></p>
+    </article>
+    <article class="card">
+      <h3><%= t('download.otherTitle') %></h3>
+      <p><%= t('download.other') %></p>
+      <a class="text-link" href="/app/library"><%= t('download.openLibrary') %></a>
+    </article>
   </section>
 </main>
 <%- include('partials/footer') %>
